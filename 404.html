@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel='shortcut icon' href='favicon.ico' type='image/x-icon' />
     <link rel='icon' href='https://github.com/DarwinOnLine.png' type='image/png' />
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
     <title>404 - Darwin On Line</title>
     <style>
         * {
@@ -16,7 +17,7 @@
         body {
             background: #000;
             overflow: hidden;
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            font-family: 'Space Grotesk', -apple-system, BlinkMacSystemFont, sans-serif;
         }
 
         #space {
@@ -36,174 +37,263 @@
             z-index: 2;
             text-align: center;
             color: #fff;
+            transition: opacity 0.8s ease-out;
         }
 
         .lost-text {
-            font-size: 3rem;
-            font-weight: 300;
-            margin: 0 0 1rem 0;
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 5rem;
+            font-weight: 700;
+            margin: 0 0 0.5rem 0;
             color: #fff;
-            text-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+            letter-spacing: -2px;
+            line-height: 1;
+            text-shadow: 0 0 15px #ff333322, 0 0 40px #ff333311;
+        }
+
+        .lost-text .dot {
+            color: #ff3333;
+            text-shadow: 0 0 10px #ff333388, 0 0 30px #ff333344;
+        }
+
+        .lost-code {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.85rem;
+            font-weight: 700;
+            color: #555;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            margin-bottom: 2.5rem;
+        }
+
+        .lost-code::before {
+            content: '// ';
+            color: #ff333366;
         }
 
         #warp {
             display: inline-block;
-            padding: 1rem 3rem;
-            font-size: 1.2rem;
-            font-weight: 600;
+            padding: 0.8rem 2.5rem;
+            font-size: 0.9rem;
+            font-weight: 700;
             color: #fff;
-            background: rgba(255, 255, 255, 0.05);
-            border: 2px solid rgba(255, 255, 255, 0.2);
-            border-radius: 50px;
-            text-decoration: none;
-            transition: all 0.3s ease;
-            backdrop-filter: blur(10px);
+            background: transparent;
+            border: 3px solid #fff;
             cursor: pointer;
             text-transform: uppercase;
-            letter-spacing: 2px;
+            letter-spacing: 3px;
+            font-family: 'Space Grotesk', sans-serif;
+            text-decoration: none;
+            transition: none;
         }
 
         #warp:hover {
-            background: rgba(255, 255, 255, 0.1);
-            border-color: rgba(255, 255, 255, 0.4);
-            transform: scale(1.05);
-            box-shadow: 0 0 30px rgba(209, 255, 255, 0.3);
+            background: #ff3333;
+            border-color: #ff3333;
+            box-shadow: 0 0 20px #ff333344;
+        }
+
+        /* Cursor dot */
+        .cursor-dot {
+            width: 12px;
+            height: 12px;
+            background: #ff3333;
+            border-radius: 50%;
+            position: fixed;
+            pointer-events: none;
+            z-index: 9999;
+            transition: transform 0.1s;
+            mix-blend-mode: difference;
+        }
+
+        ::selection {
+            background: #ff3333;
+            color: #fff;
         }
 
         @media (max-width: 768px) {
             .lost-text {
-                font-size: 2rem;
+                font-size: 3.5rem;
             }
 
             #warp {
-                padding: 0.8rem 2rem;
-                font-size: 1rem;
+                padding: 0.6rem 1.8rem;
+                font-size: 0.85rem;
+            }
+
+            .cursor-dot {
+                display: none;
             }
         }
     </style>
 </head>
 <body>
+    <div class="cursor-dot" id="cursorDot"></div>
     <canvas id="space"></canvas>
 
-    <div class="content">
-        <p class="lost-text">Lost ?</p>
+    <div class="content" id="content404">
+        <p class="lost-text">Lost<span class="dot">?</span></p>
+        <p class="lost-code">error 404 — page not found</p>
         <span id="warp">Back home</span>
     </div>
 
     <script type="text/javascript">
-        // Based on an example by @curran
-        window.requestAnimFrame = (function(){
-            return window.requestAnimationFrame ||
-                   window.webkitRequestAnimationFrame ||
-                   window.mozRequestAnimationFrame ||
-                   function(callback){ window.setTimeout(callback, 1000 / 60); };
-        })();
+        // Cursor dot
+        var dot = document.getElementById('cursorDot');
+        document.addEventListener('mousemove', function(e) {
+            dot.style.left = e.clientX - 6 + 'px';
+            dot.style.top = e.clientY - 6 + 'px';
+        });
+        document.addEventListener('mousedown', function() {
+            dot.style.transform = 'scale(2)';
+        });
+        document.addEventListener('mouseup', function() {
+            dot.style.transform = 'scale(1)';
+        });
 
+        // Stars animation
         var canvas = document.getElementById("space");
         var c = canvas.getContext("2d");
 
         var numStars = 1900;
         var radius = '0.' + Math.floor(Math.random() * 9) + 1;
         var focalLength = canvas.width * 2;
-        var warp = 0;
         var centerX, centerY;
-
-        var stars = [], star;
-        var i;
-
+        var stars = [];
         var animate = true;
 
         initializeStars();
 
-        function executeFrame(){
-            if(animate)
-                requestAnimFrame(executeFrame);
+        function executeFrame() {
+            if (animate) requestAnimationFrame(executeFrame);
             moveStars();
             drawStars();
         }
 
-        function initializeStars(){
+        function initializeStars() {
             centerX = canvas.width / 2;
             centerY = canvas.height / 2;
 
             stars = [];
-            for(i = 0; i < numStars; i++){
-                star = {
+            for (var i = 0; i < numStars; i++) {
+                stars.push({
                     x: Math.random() * canvas.width,
                     y: Math.random() * canvas.height,
                     z: Math.random() * canvas.width,
                     o: '0.' + Math.floor(Math.random() * 99) + 1
-                };
-                stars.push(star);
+                });
             }
         }
 
-        function moveStars(){
-            for(i = 0; i < numStars; i++){
-                star = stars[i];
-                star.z--;
-
-                if(star.z <= 0){
-                    star.z = canvas.width;
-                }
+        function moveStars() {
+            for (var i = 0; i < numStars; i++) {
+                stars[i].z--;
+                if (stars[i].z <= 0) stars[i].z = canvas.width;
             }
         }
 
-        function drawStars(){
-            var pixelX, pixelY, pixelRadius;
-
-            // Resize to the screen
-            if(canvas.width != window.innerWidth || canvas.height != window.innerHeight){
+        function drawStars() {
+            if (canvas.width != window.innerWidth || canvas.height != window.innerHeight) {
                 canvas.width = window.innerWidth;
                 canvas.height = window.innerHeight;
                 initializeStars();
             }
 
-            if(warp == 0){
-                c.fillStyle = "rgba(0,10,20,1)";
-                c.fillRect(0, 0, canvas.width, canvas.height);
-            }
+            c.fillStyle = "rgba(0,10,20,1)";
+            c.fillRect(0, 0, canvas.width, canvas.height);
 
             c.fillStyle = "rgba(209, 255, 255, " + radius + ")";
-            for(i = 0; i < numStars; i++){
-                star = stars[i];
-
-                pixelX = (star.x - centerX) * (focalLength / star.z);
-                pixelX += centerX;
-                pixelY = (star.y - centerY) * (focalLength / star.z);
-                pixelY += centerY;
-                pixelRadius = 1 * (focalLength / star.z);
+            for (var i = 0; i < numStars; i++) {
+                var star = stars[i];
+                var pixelX = (star.x - centerX) * (focalLength / star.z) + centerX;
+                var pixelY = (star.y - centerY) * (focalLength / star.z) + centerY;
+                var pixelRadius = 1 * (focalLength / star.z);
 
                 c.fillRect(pixelX, pixelY, pixelRadius, pixelRadius);
                 c.fillStyle = "rgba(209, 255, 255, " + star.o + ")";
             }
         }
 
-        // Warp effect on click
-        document.getElementById('warp').addEventListener("click", function(e){
-            warp = warp == 1 ? 0 : 1;
+        // Lightspeed warp effect
+        var warpSpeed = 0;
+        var warping = false;
 
-            // Activate hyperspace effect
-            if(warp == 1){
-                // Speed up stars movement
-                var interval = setInterval(function(){
-                    for(i = 0; i < numStars; i++){
-                        stars[i].z -= 50;
-                        if(stars[i].z <= 0){
-                            stars[i].z = canvas.width;
-                        }
-                    }
-                }, 10);
+        document.getElementById('warp').addEventListener("click", function() {
+            if (warping) return;
+            warping = true;
 
-                setTimeout(function(){
-                    clearInterval(interval);
+            // Fade out text
+            var content = document.getElementById('content404');
+            content.style.opacity = '0';
+
+            // Start accelerating
+            var accel = setInterval(function() {
+                warpSpeed = Math.min(warpSpeed + 2, 120);
+            }, 30);
+
+            // Flash white then redirect
+            setTimeout(function() {
+                clearInterval(accel);
+                // Flash overlay
+                var flash = document.createElement('div');
+                flash.style.cssText = 'position:fixed;inset:0;background:#fff;z-index:100;opacity:0;transition:opacity 0.15s';
+                document.body.appendChild(flash);
+                requestAnimationFrame(function() {
+                    flash.style.opacity = '1';
+                });
+                setTimeout(function() {
                     window.location.href = '/';
-                }, 1000);
-            }
+                }, 200);
+            }, 1200);
         });
 
-        // Window resize handler
-        window.addEventListener('resize', function(){
+        // Override drawStars to support streaks during warp
+        var originalDrawStars = drawStars;
+        drawStars = function() {
+            if (canvas.width != window.innerWidth || canvas.height != window.innerHeight) {
+                canvas.width = window.innerWidth;
+                canvas.height = window.innerHeight;
+                initializeStars();
+            }
+
+            if (!warping) {
+                originalDrawStars();
+                return;
+            }
+
+            // Move stars at warp speed
+            for (var i = 0; i < numStars; i++) {
+                stars[i].z -= warpSpeed;
+                if (stars[i].z <= 0) stars[i].z = canvas.width;
+            }
+
+            // Slight trail effect
+            c.fillStyle = "rgba(0, 10, 20, 0.15)";
+            c.fillRect(0, 0, canvas.width, canvas.height);
+
+            for (var i = 0; i < numStars; i++) {
+                var star = stars[i];
+                var x = (star.x - centerX) * (focalLength / star.z) + centerX;
+                var y = (star.y - centerY) * (focalLength / star.z) + centerY;
+
+                // Previous position (further away = streak origin)
+                var prevZ = star.z + warpSpeed * 0.6;
+                var px = (star.x - centerX) * (focalLength / prevZ) + centerX;
+                var py = (star.y - centerY) * (focalLength / prevZ) + centerY;
+
+                var brightness = Math.min(1, warpSpeed / 40);
+                var alpha = parseFloat(star.o) * (0.5 + brightness * 0.5);
+
+                c.strokeStyle = "rgba(209, 255, 255, " + alpha + ")";
+                c.lineWidth = Math.max(1, 2 * (focalLength / star.z / 100));
+                c.beginPath();
+                c.moveTo(px, py);
+                c.lineTo(x, y);
+                c.stroke();
+            }
+        };
+
+        window.addEventListener('resize', function() {
             canvas.width = window.innerWidth;
             canvas.height = window.innerHeight;
             initializeStars();

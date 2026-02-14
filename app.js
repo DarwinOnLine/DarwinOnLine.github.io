@@ -6,6 +6,7 @@ class Blog {
     this.contentContainer = document.getElementById('content');
     this.postsPerPage = 10;
     this.currentLang = this.detectLanguage();
+    this.initCursorDot();
     this.init();
   }
 
@@ -13,6 +14,21 @@ class Blog {
     await this.loadPostsIndex();
     this.setupRouting();
     this.handleRoute();
+  }
+
+  initCursorDot() {
+    const dot = document.getElementById('cursorDot');
+    if (!dot) return;
+    document.addEventListener('mousemove', (e) => {
+      dot.style.left = e.clientX - 6 + 'px';
+      dot.style.top = e.clientY - 6 + 'px';
+    });
+    document.addEventListener('mousedown', () => {
+      dot.style.transform = 'scale(2)';
+    });
+    document.addEventListener('mouseup', () => {
+      dot.style.transform = 'scale(1)';
+    });
   }
 
   detectLanguage() {
@@ -34,8 +50,21 @@ class Blog {
   }
 
   setupRouting() {
-    window.addEventListener('hashchange', () => this.handleRoute());
-    window.addEventListener('popstate', () => this.handleRoute());
+    window.addEventListener('hashchange', () => {
+      this.stopActiveAnimations();
+      this.handleRoute();
+    });
+    window.addEventListener('popstate', () => {
+      this.stopActiveAnimations();
+      this.handleRoute();
+    });
+  }
+
+  stopActiveAnimations() {
+    if (this._animationId) {
+      cancelAnimationFrame(this._animationId);
+      this._animationId = null;
+    }
   }
 
   handleRoute() {
@@ -79,10 +108,10 @@ class Blog {
 
     return `
       <div class="lang-switcher">
-        <button class="lang-btn ${this.currentLang === 'en' ? 'active' : ''}"
-                onclick="window.location.hash = '${enPath}'">EN</button>
         <button class="lang-btn ${this.currentLang === 'fr' ? 'active' : ''}"
                 onclick="window.location.hash = '${frPath}'">FR</button>
+        <button class="lang-btn ${this.currentLang === 'en' ? 'active' : ''}"
+                onclick="window.location.hash = '${enPath}'">EN</button>
       </div>
     `;
   }
@@ -90,7 +119,7 @@ class Blog {
 
   async showHome() {
     try {
-      const response = await fetch(`home-${this.currentLang}.md`);
+      const response = await fetch(`home-${this.currentLang}.md?t=` + Date.now());
       if (!response.ok) throw new Error('Home page not found');
 
       const markdown = await response.text();
@@ -102,6 +131,12 @@ class Blog {
             ${this.getLanguageSwitcher()}
             <a href="#/${this.currentLang}/blog">${this.t('nav.blog')}</a>
           </nav>
+          <div class="home-header">
+            <h1>Darwin<br>On Line<span class="dot">.</span><span class="cursor"></span></h1>
+            <div class="avatar-wrapper">
+              <img src="https://github.com/DarwinOnLine.png" alt="Darwin On Line" />
+            </div>
+          </div>
           <div class="home-content">
             ${html}
           </div>
@@ -116,8 +151,13 @@ class Blog {
             ${this.getLanguageSwitcher()}
             <a href="#/${this.currentLang}/blog">${this.t('nav.blog')}</a>
           </nav>
+          <div class="home-header">
+            <h1>Darwin<br>On Line<span class="dot">.</span><span class="cursor"></span></h1>
+            <div class="avatar-wrapper">
+              <img src="https://github.com/DarwinOnLine.png" alt="Darwin On Line" />
+            </div>
+          </div>
           <div class="home-content">
-            <h1>Darwin On Line 🦉</h1>
             <p>Welcome to my website!</p>
           </div>
         </div>
@@ -134,13 +174,21 @@ class Blog {
     const postsToShow = sortedPosts.slice(startIndex, endIndex);
 
     const postsHTML = postsToShow
-      .map(post => `
-        <article class="post-preview">
-          <h2><a href="#/${this.currentLang}/blog/${post.slug}">${post.title}</a></h2>
-          <p class="post-meta">${this.formatDate(post.date)}</p>
-          <p>${post.description}</p>
-        </article>
-      `)
+      .map((post, index) => {
+        const num = String(startIndex + index + 1).padStart(2, '0');
+        const tagsHTML = (post.tags || [])
+          .map(tag => `<span class="post-tag">${tag}</span>`)
+          .join('');
+        return `
+          <article class="post-preview" onclick="window.location.hash='/${this.currentLang}/blog/${post.slug}'" style="cursor:pointer;">
+            <div class="post-number">${num}</div>
+            <h2>${post.title}</h2>
+            <p class="post-meta">${this.formatDate(post.date)}</p>
+            <p class="post-description">${post.description}</p>
+            ${tagsHTML ? `<div class="post-tags">${tagsHTML}</div>` : ''}
+          </article>
+        `;
+      })
       .join('');
 
     const paginationHTML = this.generatePagination(page, totalPages);
@@ -151,7 +199,7 @@ class Blog {
           ${this.getLanguageSwitcher()}
           <a href="#/${this.currentLang}">${this.t('nav.home')}</a>
         </nav>
-        <h1>${this.t('blog.title')}</h1>
+        <h1>${this.t('blog.title')}<span class="dot">.</span></h1>
         <div class="posts-list">
           ${postsHTML || `<p>${this.t('blog.noPosts')}</p>`}
         </div>
@@ -207,18 +255,18 @@ class Blog {
     }
 
     try {
-      const response = await fetch(`posts/${this.currentLang}/${slug}.md`);
+      const response = await fetch(`posts/${this.currentLang}/${slug}.md?t=` + Date.now());
       if (!response.ok) throw new Error('Post not found');
 
       const markdown = await response.text();
       const html = marked.parse(markdown);
 
       this.contentContainer.innerHTML = `
-        <div class="post">
-          <nav class="post-nav">
+        <div class="post-page">
+          <nav class="main-nav">
             ${post.i18nSlug ? this.getLanguageSwitcher(post.i18nSlug) : ''}
-            <a href="#/${this.currentLang}">&larr; ${this.t('post.backToHome')}</a>
-            <a href="#/${this.currentLang}/blog">${this.t('post.backToBlog')}</a>
+            <a href="#/${this.currentLang}">${this.t('nav.home')}</a>
+            <a href="#/${this.currentLang}/blog">${this.t('nav.blog')}</a>
           </nav>
           <article>
             <div class="post-meta">${this.formatDate(post.date)}</div>
@@ -237,71 +285,12 @@ class Blog {
   }
 
   async show404() {
-    // Display 404 page with stars animation inline
     this.contentContainer.innerHTML = `
-      <style>
-        .error-404-page {
-          position: fixed;
-          top: 0;
-          left: 0;
-          width: 100%;
-          height: 100vh;
-          z-index: 9999;
-          background: #000;
-        }
-        #space-404 {
-          position: absolute;
-          top: 0;
-          left: 0;
-          width: 100%;
-          height: 100%;
-        }
-        .content-404 {
-          position: absolute;
-          top: 50%;
-          left: 50%;
-          transform: translate(-50%, -50%);
-          text-align: center;
-          color: #fff;
-          z-index: 2;
-        }
-        .lost-text-404 {
-          font-size: 3rem;
-          font-weight: 300;
-          margin: 0 0 1rem 0;
-          color: #fff;
-          text-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
-        }
-        #warp-404 {
-          display: inline-block;
-          padding: 1rem 3rem;
-          font-size: 1.2rem;
-          font-weight: 600;
-          color: #fff;
-          background: rgba(255, 255, 255, 0.05);
-          border: 2px solid rgba(255, 255, 255, 0.2);
-          border-radius: 50px;
-          transition: all 0.3s ease;
-          backdrop-filter: blur(10px);
-          cursor: pointer;
-          text-transform: uppercase;
-          letter-spacing: 2px;
-        }
-        #warp-404:hover {
-          background: rgba(255, 255, 255, 0.1);
-          border-color: rgba(255, 255, 255, 0.4);
-          transform: scale(1.05);
-          box-shadow: 0 0 30px rgba(209, 255, 255, 0.3);
-        }
-        @media (max-width: 768px) {
-          .lost-text-404 { font-size: 2rem; }
-          #warp-404 { padding: 0.8rem 2rem; font-size: 1rem; }
-        }
-      </style>
       <div class="error-404-page">
         <canvas id="space-404"></canvas>
         <div class="content-404">
-          <p class="lost-text-404">Lost ?</p>
+          <p class="lost-text-404">Lost<span class="dot">?</span></p>
+          <p class="lost-code-404">error 404 — page not found</p>
           <span id="warp-404">Back home</span>
         </div>
       </div>
@@ -316,7 +305,6 @@ class Blog {
       const numStars = 1900;
       const radius = '0.' + Math.floor(Math.random() * 9) + 1;
       let focalLength = canvas.width * 2;
-      let warp = 0;
       let centerX, centerY;
       let stars = [];
       let animate = true;
@@ -372,7 +360,7 @@ class Blog {
 
       const executeFrame = () => {
         if(animate){
-          requestAnimationFrame(executeFrame);
+          this._animationId = requestAnimationFrame(executeFrame);
         }
         moveStars();
         drawStars();
@@ -381,22 +369,73 @@ class Blog {
       initializeStars();
       executeFrame();
 
-      // Warp effect
-      document.getElementById('warp-404').addEventListener("click", () => {
-        warp = 1;
-        const interval = setInterval(() => {
-          for(let i = 0; i < numStars; i++){
-            stars[i].z -= 50;
-            if(stars[i].z <= 0){
-              stars[i].z = canvas.width;
-            }
-          }
-        }, 10);
+      // Lightspeed warp effect
+      let warpSpeed = 0;
+      let warping = false;
 
+      document.getElementById('warp-404').addEventListener("click", () => {
+        if (warping) return;
+        warping = true;
+
+        // Fade out text
+        const content404 = document.querySelector('.content-404');
+        content404.style.transition = 'opacity 0.4s';
+        content404.style.opacity = '0';
+
+        // Accelerate
+        const accel = setInterval(() => {
+          warpSpeed = Math.min(warpSpeed + 2, 120);
+        }, 30);
+
+        // Override draw to render streaks
+        const warpDraw = () => {
+          if (!warping) return;
+          this._animationId = requestAnimationFrame(warpDraw);
+
+          // Move stars at warp speed
+          for (let j = 0; j < numStars; j++) {
+            stars[j].z -= warpSpeed;
+            if (stars[j].z <= 0) stars[j].z = canvas.width;
+          }
+
+          c.fillStyle = "rgba(0, 10, 20, 0.15)";
+          c.fillRect(0, 0, canvas.width, canvas.height);
+
+          for (let j = 0; j < numStars; j++) {
+            const s = stars[j];
+            const x = (s.x - centerX) * (focalLength / s.z) + centerX;
+            const y = (s.y - centerY) * (focalLength / s.z) + centerY;
+            const prevZ = s.z + warpSpeed * 0.6;
+            const px = (s.x - centerX) * (focalLength / prevZ) + centerX;
+            const py = (s.y - centerY) * (focalLength / prevZ) + centerY;
+            const brightness = Math.min(1, warpSpeed / 40);
+            const alpha = parseFloat(s.o) * (0.5 + brightness * 0.5);
+
+            c.strokeStyle = "rgba(209, 255, 255, " + alpha + ")";
+            c.lineWidth = Math.max(1, 2 * (focalLength / s.z / 100));
+            c.beginPath();
+            c.moveTo(px, py);
+            c.lineTo(x, y);
+            c.stroke();
+          }
+        };
+
+        animate = false; // Stop normal animation
+        warpDraw(); // Start warp animation
+
+        // Flash white then navigate
         setTimeout(() => {
-          clearInterval(interval);
-          window.location.hash = `/${this.currentLang}`;
-        }, 1000);
+          clearInterval(accel);
+          const flash = document.createElement('div');
+          flash.style.cssText = 'position:fixed;inset:0;background:#fff;z-index:10000;opacity:0;transition:opacity 0.15s';
+          document.body.appendChild(flash);
+          requestAnimationFrame(() => { flash.style.opacity = '1'; });
+          setTimeout(() => {
+            warping = false;
+            flash.remove();
+            window.location.replace(`#/${this.currentLang}`);
+          }, 200);
+        }, 1200);
       });
     }, 100);
   }
