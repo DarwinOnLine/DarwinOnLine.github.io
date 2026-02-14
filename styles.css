@@ -538,7 +538,7 @@ body::before {
 .post-content p {
     margin: 1rem 0;
     font-size: 1.05rem;
-    max-width: 680px;
+    text-align: justify;
 }
 
 .post-content a {

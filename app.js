@@ -162,6 +162,7 @@ class Blog {
           </div>
         </div>
       `;
+      this.updateMetaTags();
     }
   }
 
@@ -278,9 +279,35 @@ class Blog {
       `;
       this.highlightCode();
       this.executeEmbeddedScripts();
+      this.updateMetaTags(post);
     } catch (error) {
       console.error('Failed to load post:', error);
       this.show404();
+    }
+  }
+
+  updateMetaTags(post) {
+    const baseUrl = 'https://darwinonline.github.io';
+    const defaultImage = `${baseUrl}/assets/images/default-og.png`;
+    const title = post ? post.title : 'Darwin On Line';
+    const description = post ? post.description : 'Blog';
+    const image = post && post.image ? `${baseUrl}/${post.image}` : defaultImage;
+
+    document.title = post ? `${post.title} - Darwin On Line` : 'Darwin On Line';
+
+    const metaMap = {
+      'og:title': title,
+      'og:description': description,
+      'og:image': image,
+      'og:url': window.location.href,
+      'twitter:title': title,
+      'twitter:description': description,
+      'twitter:image': image,
+    };
+
+    for (const [property, content] of Object.entries(metaMap)) {
+      const meta = document.querySelector(`meta[property="${property}"], meta[name="${property}"]`);
+      if (meta) meta.setAttribute('content', content);
     }
   }
 

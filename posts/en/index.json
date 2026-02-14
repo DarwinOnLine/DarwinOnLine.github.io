@@ -3,8 +3,9 @@
     "slug": "what-being-a-developer-has-taught-me",
     "title": "What being a developer has taught me",
     "date": "2026-02-13",
-    "description": "This article is a free adaptation of Henrik Warne's post that I read with great interest. He shares his experience as a developer and provides a relevant analysis of the profession. I complemented and illustrated each point with my own experience and additional thoughts.",
+    "description": "This article started as a free adaptation of Henrik Warne's post that I read with great interest back in 2015. Years have passed, experiences have piled up, and I've ended up with my own convictions to share. What follows is a blend of his ideas, my own, and everything the job has taught me in between.",
     "i18nSlug": "ce-que-le-metier-de-developpeur-ma-appris",
-    "tags": ["Development"]
+    "tags": ["Development"],
+    "image": "assets/images/posts/ce-que-le-metier-de-developpeur-ma-appris/learn.jpg"
   }
 ]
