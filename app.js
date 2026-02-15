@@ -6,6 +6,7 @@ class Blog {
     this.contentContainer = document.getElementById('content');
     this.postsPerPage = 10;
     this.currentLang = this.detectLanguage();
+    this._routeId = 0;
     this.initCursorDot();
     this.init();
   }
@@ -54,10 +55,6 @@ class Blog {
       this.stopActiveAnimations();
       this.handleRoute();
     });
-    window.addEventListener('popstate', () => {
-      this.stopActiveAnimations();
-      this.handleRoute();
-    });
   }
 
   stopActiveAnimations() {
@@ -65,9 +62,23 @@ class Blog {
       cancelAnimationFrame(this._animationId);
       this._animationId = null;
     }
+    document.body.style.overflow = '';
+  }
+
+  showLoading() {
+    this.contentContainer.innerHTML = `
+      <div class="loading-page">
+        <div class="loading-dots">
+          <div class="loading-dot"></div>
+          <div class="loading-dot"></div>
+          <div class="loading-dot"></div>
+        </div>
+      </div>
+    `;
   }
 
   handleRoute() {
+    const routeId = ++this._routeId;
     const hash = window.location.hash.slice(1);
     let path = hash || '/';
 
@@ -77,21 +88,24 @@ class Blog {
       const newLang = langMatch[1];
       if (newLang !== this.currentLang) {
         this.currentLang = newLang;
-        this.loadPostsIndex().then(() => this.handleRoute());
+        this.showLoading();
+        this.loadPostsIndex().then(() => {
+          if (this._routeId === routeId) this.handleRoute();
+        });
         return;
       }
       path = path.replace(/^\/(en|fr)/, '') || '/';
     }
 
     if (path === '/' || path === '') {
-      this.showHome();
+      this.showHome(routeId);
     } else if (path === '/blog' || path.startsWith('/blog?')) {
       const urlParams = new URLSearchParams(path.split('?')[1]);
       const page = parseInt(urlParams.get('page')) || 1;
       this.showBlog(page);
     } else if (path.startsWith('/blog/')) {
       const slug = path.split('/blog/')[1];
-      this.showPost(slug);
+      this.showPost(slug, routeId);
     } else {
       this.show404();
     }
@@ -117,10 +131,12 @@ class Blog {
   }
 
 
-  async showHome() {
+  async showHome(routeId) {
+    this.showLoading();
     try {
       const response = await fetch(`home-${this.currentLang}.md?t=` + Date.now());
       if (!response.ok) throw new Error('Home page not found');
+      if (this._routeId !== routeId) return;
 
       const markdown = await response.text();
       const html = marked.parse(markdown);
@@ -247,7 +263,7 @@ class Blog {
     return paginationHTML;
   }
 
-  async showPost(slug) {
+  async showPost(slug, routeId) {
     const post = this.postsIndex.find(p => p.slug === slug);
 
     if (!post) {
@@ -255,9 +271,11 @@ class Blog {
       return;
     }
 
+    this.showLoading();
     try {
       const response = await fetch(`posts/${this.currentLang}/${slug}.md?t=` + Date.now());
       if (!response.ok) throw new Error('Post not found');
+      if (this._routeId !== routeId) return;
 
       const markdown = await response.text();
       const html = marked.parse(markdown);
@@ -323,6 +341,9 @@ class Blog {
       </div>
     `;
 
+    // Hide body background and prevent scroll
+    document.body.style.overflow = 'hidden';
+
     // Initialize stars animation
     setTimeout(() => {
       const canvas = document.getElementById("space-404");
@@ -335,6 +356,7 @@ class Blog {
       let centerX, centerY;
       let stars = [];
       let animate = true;
+      let warpSpeed = 0;
 
       const initializeStars = () => {
         canvas.width = window.innerWidth;
@@ -368,10 +390,8 @@ class Blog {
           initializeStars();
         }
 
-        if(warp === 0){
-          c.fillStyle = "rgba(0,10,20,1)";
-          c.fillRect(0, 0, canvas.width, canvas.height);
-        }
+        c.fillStyle = "rgba(0,10,20,1)";
+        c.fillRect(0, 0, canvas.width, canvas.height);
 
         c.fillStyle = "rgba(209, 255, 255, " + radius + ")";
         for(let i = 0; i < numStars; i++){
@@ -397,7 +417,6 @@ class Blog {
       executeFrame();
 
       // Lightspeed warp effect
-      let warpSpeed = 0;
       let warping = false;
 
       document.getElementById('warp-404').addEventListener("click", () => {
