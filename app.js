@@ -33,9 +33,9 @@ class Blog {
   }
 
   detectLanguage() {
-    const hash = window.location.hash.slice(1);
-    if (hash.startsWith('/en') || hash.startsWith('en')) return 'en';
-    if (hash.startsWith('/fr') || hash.startsWith('fr')) return 'fr';
+    const path = window.location.pathname;
+    if (path.startsWith('/en')) return 'en';
+    if (path.startsWith('/fr')) return 'fr';
     return detectLanguage(); // From i18n.js
   }
 
@@ -51,10 +51,27 @@ class Blog {
   }
 
   setupRouting() {
-    window.addEventListener('hashchange', () => {
+    window.addEventListener('popstate', () => {
       this.stopActiveAnimations();
       this.handleRoute();
     });
+
+    // Intercept internal link clicks for SPA navigation
+    document.addEventListener('click', (e) => {
+      const link = e.target.closest('a[href]');
+      if (!link) return;
+      const href = link.getAttribute('href');
+      if (href && href.startsWith('/') && !href.startsWith('//')) {
+        e.preventDefault();
+        this.navigateTo(href);
+      }
+    });
+  }
+
+  navigateTo(path) {
+    this.stopActiveAnimations();
+    history.pushState(null, '', path);
+    this.handleRoute();
   }
 
   stopActiveAnimations() {
@@ -79,8 +96,7 @@ class Blog {
 
   handleRoute() {
     const routeId = ++this._routeId;
-    const hash = window.location.hash.slice(1);
-    let path = hash || '/';
+    let path = window.location.pathname || '/';
 
     // Extract language from path
     const langMatch = path.match(/^\/(en|fr)(\/|$)/);
@@ -97,14 +113,17 @@ class Blog {
       path = path.replace(/^\/(en|fr)/, '') || '/';
     }
 
+    // Remove trailing slash
+    path = path.replace(/\/$/, '') || '/';
+
     if (path === '/' || path === '') {
       this.showHome(routeId);
-    } else if (path === '/blog' || path.startsWith('/blog?')) {
-      const urlParams = new URLSearchParams(path.split('?')[1]);
+    } else if (path === '/blog') {
+      const urlParams = new URLSearchParams(window.location.search);
       const page = parseInt(urlParams.get('page')) || 1;
       this.showBlog(page);
     } else if (path.startsWith('/blog/')) {
-      const slug = path.split('/blog/')[1];
+      const slug = path.split('/blog/')[1].replace(/\/$/, '');
       this.showPost(slug, routeId);
     } else {
       this.show404();
@@ -116,16 +135,16 @@ class Blog {
   }
 
   getLanguageSwitcher(otherLangPath = null) {
-    const currentPath = window.location.hash.slice(1).replace(/^\/(en|fr)/, '') || '/';
+    const currentPath = window.location.pathname.replace(/^\/(en|fr)/, '') || '/';
     const enPath = otherLangPath !== null && this.currentLang === 'fr' ? `/en/blog/${otherLangPath}` : `/en${currentPath}`;
     const frPath = otherLangPath !== null && this.currentLang === 'en' ? `/fr/blog/${otherLangPath}` : `/fr${currentPath}`;
 
     return `
       <div class="lang-switcher">
         <button class="lang-btn ${this.currentLang === 'fr' ? 'active' : ''}"
-                onclick="window.location.hash = '${frPath}'">FR</button>
+                onclick="window._blog.navigateTo('${frPath}')">FR</button>
         <button class="lang-btn ${this.currentLang === 'en' ? 'active' : ''}"
-                onclick="window.location.hash = '${enPath}'">EN</button>
+                onclick="window._blog.navigateTo('${enPath}')">EN</button>
       </div>
     `;
   }
@@ -145,7 +164,7 @@ class Blog {
         <div class="home-page">
           <nav class="main-nav">
             ${this.getLanguageSwitcher()}
-            <a href="#/${this.currentLang}/blog">${this.t('nav.blog')}</a>
+            <a href="/${this.currentLang}/blog">${this.t('nav.blog')}</a>
           </nav>
           <div class="home-header">
             <h1>Darwin<br>On Line<span class="dot">.</span><span class="cursor"></span></h1>
@@ -165,7 +184,7 @@ class Blog {
         <div class="home-page">
           <nav class="main-nav">
             ${this.getLanguageSwitcher()}
-            <a href="#/${this.currentLang}/blog">${this.t('nav.blog')}</a>
+            <a href="/${this.currentLang}/blog">${this.t('nav.blog')}</a>
           </nav>
           <div class="home-header">
             <h1>Darwin<br>On Line<span class="dot">.</span><span class="cursor"></span></h1>
@@ -197,7 +216,7 @@ class Blog {
           .map(tag => `<span class="post-tag">${tag}</span>`)
           .join('');
         return `
-          <article class="post-preview" onclick="window.location.hash='/${this.currentLang}/blog/${post.slug}'" style="cursor:pointer;">
+          <article class="post-preview" onclick="event.preventDefault(); window._blog.navigateTo('/${this.currentLang}/blog/${post.slug}')" style="cursor:pointer;">
             <div class="post-number">${num}</div>
             <h2>${post.title}</h2>
             <p class="post-meta">${this.formatDate(post.date)}</p>
@@ -214,7 +233,7 @@ class Blog {
       <div class="blog-page">
         <nav class="main-nav">
           ${this.getLanguageSwitcher()}
-          <a href="#/${this.currentLang}">${this.t('nav.home')}</a>
+          <a href="/${this.currentLang}">${this.t('nav.home')}</a>
         </nav>
         <h1>${this.t('blog.title')}<span class="dot">.</span></h1>
         <div class="posts-list">
@@ -232,7 +251,7 @@ class Blog {
 
     // Previous button
     if (currentPage > 1) {
-      paginationHTML += `<a href="#/${this.currentLang}/blog?page=${currentPage - 1}" class="page-link">&laquo; ${this.t('pagination.previous')}</a>`;
+      paginationHTML += `<a href="/${this.currentLang}/blog?page=${currentPage - 1}" class="page-link">&laquo; ${this.t('pagination.previous')}</a>`;
     } else {
       paginationHTML += `<span class="page-link disabled">&laquo; ${this.t('pagination.previous')}</span>`;
     }
@@ -246,7 +265,7 @@ class Blog {
         i === totalPages ||
         (i >= currentPage - 2 && i <= currentPage + 2)
       ) {
-        paginationHTML += `<a href="#/${this.currentLang}/blog?page=${i}" class="page-link">${i}</a>`;
+        paginationHTML += `<a href="/${this.currentLang}/blog?page=${i}" class="page-link">${i}</a>`;
       } else if (i === currentPage - 3 || i === currentPage + 3) {
         paginationHTML += `<span class="page-link dots">...</span>`;
       }
@@ -254,7 +273,7 @@ class Blog {
 
     // Next button
     if (currentPage < totalPages) {
-      paginationHTML += `<a href="#/${this.currentLang}/blog?page=${currentPage + 1}" class="page-link">${this.t('pagination.next')} &raquo;</a>`;
+      paginationHTML += `<a href="/${this.currentLang}/blog?page=${currentPage + 1}" class="page-link">${this.t('pagination.next')} &raquo;</a>`;
     } else {
       paginationHTML += `<span class="page-link disabled">${this.t('pagination.next')} &raquo;</span>`;
     }
@@ -284,8 +303,8 @@ class Blog {
         <div class="post-page">
           <nav class="main-nav">
             ${post.i18nSlug ? this.getLanguageSwitcher(post.i18nSlug) : ''}
-            <a href="#/${this.currentLang}">${this.t('nav.home')}</a>
-            <a href="#/${this.currentLang}/blog">${this.t('nav.blog')}</a>
+            <a href="/${this.currentLang}">${this.t('nav.home')}</a>
+            <a href="/${this.currentLang}/blog">${this.t('nav.blog')}</a>
           </nav>
           <article>
             <div class="post-meta">${this.formatDate(post.date)}</div>
@@ -479,7 +498,7 @@ class Blog {
           setTimeout(() => {
             warping = false;
             flash.remove();
-            window.location.replace(`#/${this.currentLang}`);
+            window._blog.navigateTo(`/${this.currentLang}`);
           }, 200);
         }, 1200);
       });
@@ -524,5 +543,5 @@ class Blog {
 
 // Initialize the blog when DOM is ready
 document.addEventListener('DOMContentLoaded', () => {
-  new Blog();
+  window._blog = new Blog();
 });
