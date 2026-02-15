@@ -189,7 +189,7 @@ body::before {
 }
 
 @keyframes avatarGradient {
-    0%, 100% { background-position: center, 0% 50%; }
+    0%, 100% { background-position: center, 0 50%; }
     50% { background-position: center, 100% 50%; }
 }
 
@@ -618,7 +618,7 @@ body::before {
 .post-content blockquote {
     border: none;
     margin: 2rem 0;
-    padding: 1.2rem 1.5rem;
+    padding: 0.2rem 1.5rem;
     background: #ff3333;
     color: #fff;
     font-style: normal;

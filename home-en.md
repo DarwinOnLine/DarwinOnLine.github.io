@@ -6,7 +6,7 @@ I'm a developer passionate about web technologies, open source, and sharing know
 
 ## What You'll Find Here
 
-On this site, I share my thoughts, projects, and experiences through [my blog](#/en/blog).
+On this site, I share my thoughts, projects, and experiences through [my blog](/en/blog).
 
 ### My Interests
 

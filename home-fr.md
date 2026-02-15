@@ -6,7 +6,7 @@ Je suis développeur passionné par les technologies web, l'open source et le pa
 
 ## Ce que vous trouverez ici
 
-Sur ce site, je partage mes réflexions, projets et expériences à travers [mon blog](#/fr/blog).
+Sur ce site, je partage mes réflexions, projets et expériences à travers [mon blog](/fr/blog).
 
 ### Mes centres d'intérêt
 
