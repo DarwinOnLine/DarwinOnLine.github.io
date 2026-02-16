@@ -1,6 +1,6 @@
 ## À propos
 
-Bienvenue sur mon site personnel !
+Bienvenue sur ma page personnelle 👋
 
 Je suis développeur passionné par les technologies web, l'open source et le partage de connaissances.
 
@@ -13,6 +13,8 @@ Sur ce site, je partage mes réflexions, projets et expériences à travers [mon
 - 💻 Développement
 - 🌍 Open Source
 - 📮 Philatélie <small style="color:#888;font-weight:400;text-transform:none;letter-spacing:0">— j'ai des loisirs de vieux</small>
+- 💬 Bande dessinée
+- 🤡 Stephen King
 - ☢️ Post-apo
 
 ---

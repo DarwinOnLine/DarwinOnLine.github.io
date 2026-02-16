@@ -4,8 +4,8 @@ A simple, multilingual static blog powered by Markdown, marked.js, and GitHub Pa
 
 ## 🌍 Languages
 
-- **English** (`#/en`)
-- **French** (`#/fr`)
+- **English** (`/en`)
+- **French** (`/fr`)
 - Auto-detection based on browser language (fallback: English)
 
 ## 📁 Project Structure
@@ -148,21 +148,20 @@ const ctx = canvas.getContext('2d');
 
 ## 🚀 URLs & Routing
 
-The site uses hash-based routing:
+The site uses clean URLs with the History API:
 
-- `#/` - Home (auto-detects language)
-- `#/en` - English home page
-- `#/fr` - French home page
-- `#/en/blog` - English blog list with pagination
-- `#/fr/blog` - French blog list with pagination
-- `#/en/blog/article-slug` - English article
-- `#/fr/blog/article-slug` - French article
+- `/` - Home (auto-detects language)
+- `/en` - English home page
+- `/fr` - French home page
+- `/en/blog` - English blog list with pagination
+- `/fr/blog` - French blog list with pagination
+- `/en/blog/article-slug` - English article
+- `/fr/blog/article-slug` - French article
 
 ## 🎭 404 Page
 
 The 404 page features a stunning stars animation with hyperspace effect:
-- **Static URLs**: `/any-invalid-url` → serves `404.html`
-- **Hash routes**: `#/invalid-route` → inline 404 with stars animation
+- Invalid URLs → serves `404.html` with stars animation
 - Click "BACK HOME" for hyperspace warp effect
 
 ## 🧪 Local Development
@@ -241,7 +240,7 @@ git push origin main
 
 - **marked.js**: Markdown to HTML conversion
 - **Highlight.js**: Syntax highlighting with line numbers support
-- **Hash routing**: Client-side navigation without server config
+- **History API**: Clean URLs with client-side navigation
 - **i18n**: Language detection and translations
 - **Canvas API**: 404 stars animation
 
