@@ -52,11 +52,11 @@ Edit `posts/{lang}/index.json`:
   "date": "2026-02-04",
   "description": "Short description",
   "tags": ["Tech"],
-  "i18nSlug": "mon-nouvel-article"
+  "i18nSlugs": { "fr": "mon-nouvel-article" }
 }
 ```
 
-The `i18nSlug` field links translated versions of the same article.
+The `i18nSlugs` field maps each translated language to its corresponding slug.
 
 ## Local Development
 

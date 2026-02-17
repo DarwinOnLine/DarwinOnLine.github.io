@@ -4,7 +4,7 @@
     "title": "Ce que le métier de développeur m'a appris",
     "date": "2026-02-13",
     "description": "Cet article est né d'une adaptation libre du post de Henrik Warne que j'avais lu avec intérêt en 2015. Les années ont passé, les expériences se sont enchaînées, et j'ai fini par avoir mes propres convictions à partager. Ce qui suit est un mélange de ses idées, des miennes, et de tout ce que ce métier m'a appris entre-temps.",
-    "i18nSlug": "what-being-a-developer-has-taught-me",
+    "i18nSlugs": { "en": "what-being-a-developer-has-taught-me" },
     "tags": ["Développement"],
     "image": "assets/images/posts/ce-que-le-metier-de-developpeur-ma-appris/learn.jpg"
   }
