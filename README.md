@@ -63,9 +63,24 @@ The `i18nSlugs` field maps each translated language to its corresponding slug.
 
 ## Local Development
 
+**Recommended:** Have [Node.js](https://nodejs.org/) installed.
+
 ```bash
+# Start the dev server (default: port 8080)
+npx http-server
+
+# Or specify a custom port
+npx http-server -p 3000
+```
+
+**Alternative (Python):** If you can't or don't want to install Node.js:
+
+```bash
+# Start the dev server (default: port 8000)
 python3 server.py
-# → http://localhost:8000
+
+# Or specify a custom port
+python3 server.py 3000
 ```
 
 ## Git Hooks
