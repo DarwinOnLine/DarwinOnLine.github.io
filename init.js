@@ -9,6 +9,7 @@
         defaultImage: 'assets/images/default-og.png',
         cursorDot: true,
         starfield404: true,
+        feedFileName: 'feed.xml',
         translations: {
             en: {
                 nav: { home: 'Home', blog: 'Blog' },

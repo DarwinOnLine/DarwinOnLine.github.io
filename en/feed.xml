@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Darwin On Line</title>
+    <link>https://darwinonline.github.io/en</link>
+    <description>Blog personnel de Darwin - Développement, Tech et Réflexions</description>
+    <language>en</language>
+    <lastBuildDate>Thu, 19 Feb 2026 10:38:28 GMT</lastBuildDate>
+    <atom:link href="https://darwinonline.github.io/en/feed.xml" rel="self" type="application/rss+xml" />
+    <image>
+      <url>https://darwinonline.github.io/assets/images/default-og.png</url>
+      <title>Darwin On Line</title>
+      <link>https://darwinonline.github.io/en</link>
+    </image>
+    <item>
+      <title>What being a developer has taught me</title>
+      <link>https://darwinonline.github.io/en/blog/what-being-a-developer-has-taught-me</link>
+      <guid isPermaLink="true">https://darwinonline.github.io/en/blog/what-being-a-developer-has-taught-me</guid>
+      <pubDate>Fri, 13 Feb 2026 12:00:00 GMT</pubDate>
+      <description>This article started as a free adaptation of Henrik Warne&apos;s post that I read with great interest back in 2015. Years have passed, experiences have piled up, and I&apos;ve ended up with my own convictions to share. What follows is a blend of his ideas, my own, and everything the job has taught me in between.</description>
+      <category>Development</category>
+      <enclosure url="https://darwinonline.github.io/assets/images/posts/ce-que-le-metier-de-developpeur-ma-appris/learn.jpg" type="image/jpeg" length="0" />
+    </item>
+  </channel>
+</rss>

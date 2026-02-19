@@ -17,7 +17,10 @@ A multilingual static blog powered by [Quarkdown](https://github.com/DarwinOnLin
 ├── init.js                 # Quarkdown configuration & custom renderHome
 ├── styles.css              # Site-specific styles (imports Quarkdown theme)
 ├── build-og.js             # OG meta pages generator
+├── build-rss.js            # RSS feed generator
 ├── server.py               # Custom dev server with 404 support
+├── hooks/
+│   └── pre-commit          # Git hook (builds OG pages & RSS feeds)
 ├── home-en.md              # English home page
 ├── home-fr.md              # French home page
 ├── src/                    # Quarkdown engine (copied from Quarkdown repo)
@@ -65,6 +68,16 @@ python3 server.py
 # → http://localhost:8000
 ```
 
+## Git Hooks
+
+Hooks are stored in `hooks/` and need to be enabled after cloning:
+
+```bash
+git config core.hooksPath hooks
+```
+
+The pre-commit hook automatically rebuilds OG pages and RSS feeds before each commit.
+
 ## OG Meta Pages
 
 OG pages are rebuilt automatically on each commit via a pre-commit hook.
@@ -73,6 +86,21 @@ To rebuild manually:
 
 ```bash
 node build-og.js
+```
+
+## RSS Feeds
+
+RSS feeds are generated for each language:
+
+- **French**: `/fr/feed.xml`
+- **English**: `/en/feed.xml`
+
+RSS feeds are rebuilt automatically on each commit via the pre-commit hook.
+
+To rebuild manually:
+
+```bash
+node build-rss.js
 ```
 
 ## Customization
