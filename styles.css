@@ -148,3 +148,40 @@
         height: 2rem;
     }
 }
+
+/* Anchor highlight */
+
+.anchor-highlight.anchor-flash {
+    animation: anchor-flash 2s ease;
+}
+
+@keyframes anchor-flash {
+    0%, 20%, 40% { background: var(--qd-accent); color: var(--qd-bg); border-radius: 3px; padding: 0 4px; }
+    10%, 30% { background: transparent; color: inherit; }
+    100% { background: transparent; color: inherit; }
+}
+
+/* Tables */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 2rem 0;
+    font-size: 0.95rem;
+}
+
+th, td {
+    padding: 0.6rem 1rem;
+    text-align: left;
+    border-bottom: 1px solid var(--qd-border);
+}
+
+th {
+    color: var(--qd-heading);
+    font-weight: 700;
+    border-bottom: 2px solid var(--qd-accent);
+}
+
+tr:hover {
+    background: rgba(255, 255, 255, 0.03);
+}
