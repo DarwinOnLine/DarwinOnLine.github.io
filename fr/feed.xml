@@ -5,13 +5,24 @@
     <link>https://darwinonline.github.io/fr</link>
     <description>Blog personnel de Darwin - Développement, Tech et Réflexions</description>
     <language>fr</language>
-    <lastBuildDate>Fri, 20 Feb 2026 12:17:38 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 20 Feb 2026 17:40:34 GMT</lastBuildDate>
     <atom:link href="https://darwinonline.github.io/fr/feed.xml" rel="self" type="application/rss+xml" />
     <image>
       <url>https://darwinonline.github.io/assets/images/default-og.png</url>
       <title>Darwin On Line</title>
       <link>https://darwinonline.github.io/fr</link>
     </image>
+    <item>
+      <title>Quand ma passion pour les timbres rencontre l&apos;IA : l&apos;expérience Mancolister</title>
+      <link>https://darwinonline.github.io/fr/blog/l-experience-mancolister</link>
+      <guid isPermaLink="true">https://darwinonline.github.io/fr/blog/l-experience-mancolister</guid>
+      <pubDate>Fri, 20 Feb 2026 12:00:00 GMT</pubDate>
+      <description>Ou comment j&apos;ai laissé Claude écrire presque 20 000 lignes de code pendant que je jouais au client relou</description>
+      <category>Développement</category>
+      <category>Philatélie</category>
+      <category>IA</category>
+      <enclosure url="https://darwinonline.github.io/assets/images/posts/l-experience-mancolister/collection.jpg" type="image/jpeg" length="0" />
+    </item>
     <item>
       <title>Ce que le métier de développeur m&apos;a appris</title>
       <link>https://darwinonline.github.io/fr/blog/ce-que-le-metier-de-developpeur-ma-appris</link>

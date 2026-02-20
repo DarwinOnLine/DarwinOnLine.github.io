@@ -5,13 +5,24 @@
     <link>https://darwinonline.github.io/en</link>
     <description>Darwin&apos;s personal blog - Development, Tech and Thoughts</description>
     <language>en</language>
-    <lastBuildDate>Fri, 20 Feb 2026 12:17:38 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 20 Feb 2026 17:40:34 GMT</lastBuildDate>
     <atom:link href="https://darwinonline.github.io/en/feed.xml" rel="self" type="application/rss+xml" />
     <image>
       <url>https://darwinonline.github.io/assets/images/default-og.png</url>
       <title>Darwin On Line</title>
       <link>https://darwinonline.github.io/en</link>
     </image>
+    <item>
+      <title>When my stamp collecting hobby meets AI: the Mancolister experience</title>
+      <link>https://darwinonline.github.io/en/blog/the-mancolister-experience</link>
+      <guid isPermaLink="true">https://darwinonline.github.io/en/blog/the-mancolister-experience</guid>
+      <pubDate>Fri, 20 Feb 2026 12:00:00 GMT</pubDate>
+      <description>Or how I let Claude write nearly 20,000 lines of code while I played the annoying client</description>
+      <category>Development</category>
+      <category>Philately</category>
+      <category>AI</category>
+      <enclosure url="https://darwinonline.github.io/assets/images/posts/l-experience-mancolister/collection.jpg" type="image/jpeg" length="0" />
+    </item>
     <item>
       <title>What being a developer has taught me</title>
       <link>https://darwinonline.github.io/en/blog/what-being-a-developer-has-taught-me</link>
