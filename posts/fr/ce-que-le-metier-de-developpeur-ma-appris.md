@@ -390,8 +390,8 @@ autoproclamés pullulent, les avis définitifs aussi, et on a vite la sensation 
 Respirez.
 
 Tout n'est pas à prendre, tout n'est pas à jeter. Ce qui compte, c'est d'entretenir une veille
-régulière : suivre quelques sources de confiance, tester ce qui vous semble pertinent, ignorer le
-bruit. Savoir distinguer une évolution de fond d'un effet de mode, c'est aussi une compétence qui
+régulière : suivre quelques sources de confiance, tester ce qui vous semble pertinent, <span id="ignorer-le-bruit" class="anchor-highlight">ignorer le
+bruit</span>. Savoir distinguer une évolution de fond d'un effet de mode, c'est aussi une compétence qui
 s'apprend. Et elle vous évitera le burnout d'apprentissage.
 
 ## Détendez-vous

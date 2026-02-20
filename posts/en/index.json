@@ -7,5 +7,14 @@
     "i18nSlugs": { "fr": "ce-que-le-metier-de-developpeur-ma-appris" },
     "tags": ["Development"],
     "image": "assets/images/posts/ce-que-le-metier-de-developpeur-ma-appris/learn.jpg"
+  },
+  {
+    "slug": "the-mancolister-experience",
+    "title": "When my stamp collecting hobby meets AI: the Mancolister experience",
+    "date": "2026-02-20",
+    "description": "Or how I let Claude write nearly 20,000 lines of code while I played the annoying client",
+    "i18nSlugs": { "fr": "l-experience-mancolister" },
+    "tags": ["Development", "Philately", "AI"],
+    "image": "assets/images/posts/l-experience-mancolister/collection.jpg"
   }
 ]

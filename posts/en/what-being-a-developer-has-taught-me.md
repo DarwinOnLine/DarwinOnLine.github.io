@@ -365,7 +365,7 @@ opinions, and you quickly feel like you're drowning.
 Breathe.
 
 Not everything is worth adopting, not everything is worth discarding. What matters is maintaining
-a regular watch — follow a few trusted sources, try out what seems relevant, ignore the noise.
+a regular watch — follow a few trusted sources, try out what seems relevant, <span id="ignore-the-noise" class="anchor-highlight">ignore the noise</span>.
 Knowing how to tell a lasting shift from a passing fad is itself a skill worth learning. And it'll
 save you from learning burnout.
 

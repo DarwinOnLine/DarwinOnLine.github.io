@@ -7,5 +7,14 @@
     "i18nSlugs": { "en": "what-being-a-developer-has-taught-me" },
     "tags": ["Développement"],
     "image": "assets/images/posts/ce-que-le-metier-de-developpeur-ma-appris/learn.jpg"
+  },
+  {
+    "slug": "l-experience-mancolister",
+    "title": "Quand ma passion pour les timbres rencontre l'IA : l'expérience Mancolister",
+    "date": "2026-02-20",
+    "description": "Ou comment j'ai laissé Claude écrire presque 20 000 lignes de code pendant que je jouais au client relou",
+    "i18nSlugs": { "en": "the-mancolister-experience" },
+    "tags": ["Développement", "Philatélie", "IA"],
+    "image": "assets/images/posts/l-experience-mancolister/collection.jpg"
   }
 ]
