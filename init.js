@@ -24,6 +24,10 @@
                 date: { locale: 'fr-FR' }
             }
         },
+        analytics: {
+            provider: 'umami',
+            websiteId: 'c9b3d661-b931-412b-a358-cf555b2239ce',
+        },
         renderHome(html, ctx) {
             return `
                 <div class="home-page">

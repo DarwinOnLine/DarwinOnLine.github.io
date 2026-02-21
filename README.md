@@ -118,6 +118,39 @@ To rebuild manually:
 node build-rss.js
 ```
 
+## Analytics
+
+Analytics are handled by Quarkdown's built-in provider-agnostic module. Page views are tracked automatically on every SPA route change.
+
+Currently configured with **Umami** in `init.js`:
+
+```javascript
+analytics: {
+    provider: 'umami',
+    websiteId: 'c9b3d661-b931-412b-a358-cf555b2239ce',
+},
+```
+
+### Switching Provider
+
+Replace the `analytics` object in `init.js`. Examples:
+
+```javascript
+// Plausible
+analytics: { provider: 'plausible', domain: 'darwinonline.github.io' },
+
+// Fathom
+analytics: { provider: 'fathom', siteId: 'YOUR_SITE_ID' },
+
+// Google Analytics 4
+analytics: { provider: 'gtag', measurementId: 'G-XXXXXXXXXX' },
+
+// Custom
+analytics: { provider: 'custom', trackPageView: (url) => { /* ... */ } },
+```
+
+See the [Quarkdown documentation](https://github.com/DarwinOnLine/quarkdown#analytics) for full details on supported providers.
+
 ## Customization
 
 ### Theme
