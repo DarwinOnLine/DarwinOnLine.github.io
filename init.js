@@ -10,18 +10,37 @@
         cursorDot: true,
         starfield404: true,
         feedFileName: 'feed.xml',
+        toc: true,
+        search: true,
+        themeToggle: true,
         translations: {
             en: {
                 nav: { home: 'Home', blog: 'Blog' },
-                blog: { title: 'Blog', noPosts: 'No posts yet.', readMore: 'Read more' },
+                blog: {
+                    title: 'Blog',
+                    noPosts: 'No posts yet.',
+                    readMore: 'Read more',
+                    readingTime: '{min} min read',
+                    toc: 'Table of contents',
+                    tagTitle: 'Tag: {tag}',
+                },
                 pagination: { previous: 'Previous', next: 'Next' },
-                date: { locale: 'en-US' }
+                date: { locale: 'en-US' },
+                search: { placeholder: 'Search articles...', noResults: 'No results found.' },
             },
             fr: {
                 nav: { home: 'Accueil', blog: 'Blog' },
-                blog: { title: 'Blog', noPosts: 'Aucun article pour le moment.', readMore: 'Lire la suite' },
+                blog: {
+                    title: 'Blog',
+                    noPosts: 'Aucun article pour le moment.',
+                    readMore: 'Lire la suite',
+                    readingTime: '{min} min de lecture',
+                    toc: 'Sommaire',
+                    tagTitle: 'Tag\u00a0: {tag}',
+                },
                 pagination: { previous: 'Précédent', next: 'Suivant' },
-                date: { locale: 'fr-FR' }
+                date: { locale: 'fr-FR' },
+                search: { placeholder: 'Rechercher un article...', noResults: 'Aucun résultat.' },
             }
         },
         analytics: {

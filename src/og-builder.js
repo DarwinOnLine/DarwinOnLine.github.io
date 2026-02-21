@@ -3,7 +3,7 @@
 // Open Graph static page builder for GitHub Pages
 // Generates index.html files with proper OG meta tags for each route
 //
-// Usage: node og-builder.js --config quarkdown.og.json
+// Usage: node og-builder.js --config quarkdown.json
 // Or import and use programmatically
 
 import { readFileSync, writeFileSync, mkdirSync } from 'fs';
@@ -108,6 +108,7 @@ ${scriptTags}
     }));
 
     // Article pages
+    const tags = new Set();
     for (const post of posts) {
       writeOGFile(
         join(rootDir, lang, 'blog', post.slug, 'index.html'),
@@ -117,6 +118,21 @@ ${scriptTags}
           description: post.description,
           image: post.image ? `${baseUrl}/${post.image}` : defaultImg,
           url: `${baseUrl}/${lang}/blog/${post.slug}`,
+        })
+      );
+      (post.tags || []).forEach(tag => tags.add(tag));
+    }
+
+    // Tag pages
+    for (const tag of tags) {
+      writeOGFile(
+        join(rootDir, lang, 'blog', 'tag', encodeURIComponent(tag), 'index.html'),
+        spaPage({
+          ogType: 'website',
+          title: `Tag: ${tag} - ${langSiteName}`,
+          description: `Posts tagged "${tag}"`,
+          image: defaultImg,
+          url: `${baseUrl}/${lang}/blog/tag/${encodeURIComponent(tag)}`,
         })
       );
     }
