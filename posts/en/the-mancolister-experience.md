@@ -192,7 +192,7 @@ Claude has this reflex I don't always have: testing edge cases, errors, impossib
 reviews without ego too — he self-criticizes and course-corrects.
 
 **Exploring alternatives.** "What if we used X instead of Y?"
-Claude can argue both sides without ego. Handy for architecture decisions.
+Claude can argue both sides without bias. Handy for architecture decisions.
 
 ### What requires vigilance
 

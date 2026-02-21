@@ -192,7 +192,7 @@ Claude a ce réflexe que je n'ai pas toujours : tester les cas limites, les erre
 les reviews sans ego également, il s'auto-critique et corrige le tir.
 
 **L'exploration d'alternatives.** "Et si on utilisait X plutôt que Y ?" 
-Claude peut argumenter les deux côtés sans ego. Pratique pour les choix d'architecture.
+Claude peut argumenter les deux côtés sans parti pris. Pratique pour les choix d'architecture.
 
 ### Ce qui demande de la vigilance
 
