@@ -2,12 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://darwinonline.github.io/fr</loc>
-    <lastmod>2026-02-21</lastmod>
+    <lastmod>2026-02-22</lastmod>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://darwinonline.github.io/fr/blog</loc>
-    <lastmod>2026-02-21</lastmod>
+    <lastmod>2026-02-22</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
@@ -22,27 +22,27 @@
   </url>
   <url>
     <loc>https://darwinonline.github.io/fr/blog/tag/D%C3%A9veloppement</loc>
-    <lastmod>2026-02-21</lastmod>
+    <lastmod>2026-02-22</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://darwinonline.github.io/fr/blog/tag/Philat%C3%A9lie</loc>
-    <lastmod>2026-02-21</lastmod>
+    <lastmod>2026-02-22</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://darwinonline.github.io/fr/blog/tag/IA</loc>
-    <lastmod>2026-02-21</lastmod>
+    <lastmod>2026-02-22</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://darwinonline.github.io/en</loc>
-    <lastmod>2026-02-21</lastmod>
+    <lastmod>2026-02-22</lastmod>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://darwinonline.github.io/en/blog</loc>
-    <lastmod>2026-02-21</lastmod>
+    <lastmod>2026-02-22</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
@@ -57,17 +57,17 @@
   </url>
   <url>
     <loc>https://darwinonline.github.io/en/blog/tag/Development</loc>
-    <lastmod>2026-02-21</lastmod>
+    <lastmod>2026-02-22</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://darwinonline.github.io/en/blog/tag/Philately</loc>
-    <lastmod>2026-02-21</lastmod>
+    <lastmod>2026-02-22</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://darwinonline.github.io/en/blog/tag/AI</loc>
-    <lastmod>2026-02-21</lastmod>
+    <lastmod>2026-02-22</lastmod>
     <priority>0.5</priority>
   </url>
 </urlset>
