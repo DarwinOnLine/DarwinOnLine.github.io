@@ -30,7 +30,7 @@ mais globalement, les listes philatéliques par année et avec cote ne sont pas 
 Donc mon rêve depuis des années était d'avoir mon appli simple, consultable hors-ligne sur mon téléphone,
 avec les ~10 000 timbres français et ma collection personnelle synchronisée.
 
-Et puis j'avais envie de tester quelque chose : [BMAD](https://github.com/bmad-code-org/BMAD-METHOD) —
+Et puis j'avais envie de tester quelque chose : [BMAD](https://github.com/bmad-code-org/BMAD-METHOD),
 une méthodologie pour structurer un projet de A à Z avec une IA comme développeur. L'occasion parfaite.
 
 J'avais vu cette vidéo de [Benjamin Code](https://www.youtube.com/watch?v=-aUFe2r9fpE) qui m'avait un peu hypé,
@@ -44,7 +44,7 @@ Je me suis fixé trois contraintes :
 
 ### 1. Claude écrit TOUT le code
 
-Pas une ligne de ma main. Je valide, je questionne, je refuse parfois — mais je ne code pas.
+Pas une ligne de ma main. Je valide, je questionne, je refuse parfois, mais je ne code pas.
 Mon rôle : Product Owner avec une casquette technique. Je connais Symfony, React, Docker...
 donc je peux challenger les choix architecturaux. Mais l'implémentation, c'est Claude,
 ou plutôt Charlie, ou plutôt Elena, enfin vous allez comprendre.
@@ -78,14 +78,14 @@ PAGE à la main, c'était en tout cas le cas il y a quelques années quand j'ava
 
 BMAD découpe le projet en phases distinctes :
 
-**1. Analysis** — Brainstorming, étude de faisabilité, recherche technique.
+**1. Analysis** : Brainstorming, étude de faisabilité, recherche technique.
 
-**2. Planning** — Rédaction du PRD, identification des requirements fonctionnels et non-fonctionnels.
+**2. Planning** : Rédaction du PRD, identification des requirements fonctionnels et non-fonctionnels.
 Découpage en épics et stories.
 
-**3. Solutioning** — Architecture détaillée, choix technologiques justifiés, spécifications UX.
+**3. Solutioning** : Architecture détaillée, choix technologiques justifiés, spécifications UX.
 
-**4. Implementation** — Développement story par story, avec rétrospective après chaque épic.
+**4. Implementation** : Développement story par story, avec rétrospective après chaque épic.
 
 <figure style="text-align: center;">
   <img src="/assets/images/posts/l-experience-mancolister/bmad.png"
@@ -97,12 +97,12 @@ Le tout génère des artefacts traçables. Chaque décision est documentée avec
 
 Pour m'accompagner, je peux compter sur mon équipe virtuelle :
 
-- **Alice**, Product Owner — elle porte la vision produit et priorise le backlog
-- **Bob**, Scrum Master — il facilite les cérémonies et veille au bon déroulement des sprints
-- **Charlie**, Senior Dev — il challenge l'architecture et les choix techniques
-- **Dana**, QA Engineer — elle traque les bugs et valide la qualité
-- **Elena**, Junior Dev — elle monte en compétences et apporte un regard neuf
-- ... et moi, **Darwin**, Project Lead — Le client quoi
+- **Alice**, Product Owner : elle porte la vision produit et priorise le backlog
+- **Bob**, Scrum Master : il facilite les cérémonies et veille au bon déroulement des sprints
+- **Charlie**, Senior Dev : il challenge l'architecture et les choix techniques
+- **Dana**, QA Engineer : elle traque les bugs et valide la qualité
+- **Elena**, Junior Dev : elle monte en compétences et apporte un regard neuf
+- ... et moi, **Darwin**, Project Lead : Le client quoi
 
 ## L'architecture finale
 
@@ -167,9 +167,9 @@ En brocante, pas de WiFi. L'app doit fonctionner **complètement** hors-ligne.
 
 **La stack offline :**
 
-1. **Service Worker** (Workbox) — Cache les assets statiques
-2. **IndexedDB** (Dexie) — Stocke le catalogue complet localement
-3. **Sync Queue** — Les modifications offline s'accumulent et se synchronisent au retour du réseau
+1. **Service Worker** (Workbox) : Cache les assets statiques
+2. **IndexedDB** (Dexie) : Stocke le catalogue complet localement
+3. **Sync Queue** : Les modifications offline s'accumulent et se synchronisent au retour du réseau
 
 Résultat : je lance l'app, je cherche "Marianne rouge 1960", j'ai ma réponse en 500ms.
 Même au milieu de nulle part sans réseau (si j'avais synchronisé mes données en amont).
@@ -198,7 +198,7 @@ Claude peut argumenter les deux côtés sans parti pris. Pratique pour les choix
 
 **La sur-ingénierie.** Claude adore les abstractions. Parfois trop. 
 <small>(Sans doute un syndrome de l'imposteur caché ? 😏)</small>
-"On pourrait créer une factory qui..." — Non, on fait simple d'abord.
+"On pourrait créer une factory qui..." Non, on fait simple d'abord.
 
 **Les hallucinations techniques.** Rare, mais ça arrive.
 Une API qui n'existe pas, une option de config inventée. D'où l'importance de la casquette technique du PO.
@@ -232,11 +232,11 @@ malgré la cible de déploiement est tenue.
 Je l'utilise. Elle fait ce que je voulais qu'elle fasse.
 
 Pour la suite, la V2, quelques idées :
-- **Améliorer le scrapping** — J'ai synchronisé la période 1849-2026, ça a pris 7h, j'ai repéré des incohérences,
+- **Améliorer le scrapping** : J'ai synchronisé la période 1849-2026, ça a pris 7h, j'ai repéré des incohérences,
 des manques, la promesse de quelques itérations futures. je vais essayer de trouver de nouvelles sources et faire
 faire un refacto complet de `CatalogSyncService` qui est une horreur à maintenir apparemment (Charlie était pas content)
-- **Prix conseillé** — Suggérer un prix de vente pour mes doublons
-- **Panier d'achat** — Lister les timbres à chercher en brocante
+- **Prix conseillé** : Suggérer un prix de vente pour mes doublons
+- **Panier d'achat** : Lister les timbres à chercher en brocante
 
 Mais surtout, l'expérience BMAD m'a convaincu. Ce n'est pas "l'IA qui code à ma place",
 c'est une collaboration structurée où chacun joue son rôle.
@@ -259,12 +259,12 @@ prendre forme.
 ## Le mot de la fin
 
 Ce projet, c'est la preuve que sur un projet perso où l'on serait habituellement seul à bricoler dans son coin,
-l'IA permet de poser un vrai cadre professionnel — PRD, stories, reviews, tests, rétros — là où on aurait
+l'IA permet de poser un vrai cadre professionnel (PRD, stories, reviews, tests, rétros) là où on aurait
 d'ordinaire tout fait à l'arrache.
 
 Le plus surprenant au final ? Ce n'est pas le code que Claude a produit. C'est ce que le projet m'a appris
 sur ma propre façon de travailler. Formuler un besoin précis, savoir dire non à une solution trop complexe,
-accepter qu'un premier jet soit imparfait — paradoxalement, c'est en lâchant le clavier
+accepter qu'un premier jet soit imparfait, paradoxalement, c'est en lâchant le clavier
 que j'ai le plus exercé mon métier de développeur.
 
 Maintenant, à vous d'imaginer ce que *vous* pourriez faire avec votre idée, c'est quoi votre hobby de vieux ?

@@ -343,7 +343,7 @@ mauvais interlocuteurs, mais pas de mauvaise question. Personne n'est là pour v
 tu casses les couilles avec tes questions ». Vous aurez bien l'occasion de croiser ce genre de
 personne, mais vous comprendrez aussi rapidement qu'il est inutile de les consulter.
 
-Ayez un rubber ducky. Autrement dit une personne, un objet, si possible sans compétence pour
+<span id="ayez-un-rubber-ducky" class="anchor-highlight">Ayez un rubber ducky.</span> Autrement dit une personne, un objet, si possible sans compétence pour
 résoudre ledit problème, et expliquez-lui par le menu ce qui ne va pas. Et bien ça va vous
 sembler magique, mais souvent la solution apparaît rien qu'en énonçant le problème. Oui comme
 dans 99% des épisodes de Docteur House.
