@@ -16,5 +16,14 @@
     "i18nSlugs": { "fr": "l-experience-mancolister" },
     "tags": ["Development", "Philately", "AI"],
     "image": "assets/images/posts/l-experience-mancolister/collection.jpg"
+  },
+  {
+    "slug": "stephen-king-and-debugging",
+    "title": "Stephen King and debugging",
+    "date": "2026-02-28",
+    "description": "Or how \"On Writing: A Memoir of the Craft\" made me a better bug hunter",
+    "i18nSlugs": { "fr": "stephen-king-et-le-debugging" },
+    "tags": ["Development", "Debugging", "Stephen King"],
+    "image": "assets/images/posts/stephen-king-et-le-debugging/king-matrix.jpg"
   }
 ]

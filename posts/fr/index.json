@@ -16,5 +16,14 @@
     "i18nSlugs": { "en": "the-mancolister-experience" },
     "tags": ["Développement", "Philatélie", "IA"],
     "image": "assets/images/posts/l-experience-mancolister/collection.jpg"
+  },
+  {
+    "slug": "stephen-king-et-le-debugging",
+    "title": "Stephen King et le debugging",
+    "date": "2026-02-28",
+    "description": "Ou comment « Écriture : Mémoires d'un métier » m'a rendu meilleur chasseur de bugs",
+    "tags": ["Développement", "Debugging", "Stephen King"],
+    "i18nSlugs": { "en": "stephen-king-and-debugging" },
+    "image": "assets/images/posts/stephen-king-et-le-debugging/king-matrix.jpg"
   }
 ]
