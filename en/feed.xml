@@ -5,13 +5,23 @@
     <link>https://darwinonline.github.io/en</link>
     <description>Darwin&apos;s personal blog - Development, Tech and Thoughts</description>
     <language>en</language>
-    <lastBuildDate>Sat, 28 Feb 2026 22:43:32 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 03 Mar 2026 11:05:31 GMT</lastBuildDate>
     <atom:link href="https://darwinonline.github.io/en/feed.xml" rel="self" type="application/rss+xml" />
     <image>
       <url>https://darwinonline.github.io/assets/images/default-og.png</url>
       <title>Darwin On Line</title>
       <link>https://darwinonline.github.io/en</link>
     </image>
+    <item>
+      <title>Developer in the age of AI: between vertigo and lucidity</title>
+      <link>https://darwinonline.github.io/en/blog/developer-in-the-age-of-ai-between-vertigo-and-lucidity</link>
+      <guid isPermaLink="true">https://darwinonline.github.io/en/blog/developer-in-the-age-of-ai-between-vertigo-and-lucidity</guid>
+      <pubDate>Mon, 02 Mar 2026 12:00:00 GMT</pubDate>
+      <description>When your job evolves faster than your ability to process it.</description>
+      <category>Development</category>
+      <category>AI</category>
+      <enclosure url="https://darwinonline.github.io/assets/images/posts/developpeur-a-l-ere-de-l-ia-entre-vertige-et-lucidite/cover.jpg" type="image/jpeg" length="0" />
+    </item>
     <item>
       <title>Stephen King and debugging</title>
       <link>https://darwinonline.github.io/en/blog/stephen-king-and-debugging</link>

@@ -25,5 +25,14 @@
     "i18nSlugs": { "fr": "stephen-king-et-le-debugging" },
     "tags": ["Development", "Debugging", "Stephen King"],
     "image": "assets/images/posts/stephen-king-et-le-debugging/king-matrix.jpg"
+  },
+  {
+    "slug": "developer-in-the-age-of-ai-between-vertigo-and-lucidity",
+    "title": "Developer in the age of AI: between vertigo and lucidity",
+    "date": "2026-03-02",
+    "description": "When your job evolves faster than your ability to process it.",
+    "i18nSlugs": { "fr": "developpeur-a-l-ere-de-l-ia-entre-vertige-et-lucidite" },
+    "tags": ["Development", "AI"],
+    "image": "assets/images/posts/developpeur-a-l-ere-de-l-ia-entre-vertige-et-lucidite/cover.jpg"
   }
 ]
