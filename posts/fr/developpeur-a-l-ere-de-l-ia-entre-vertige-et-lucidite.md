@@ -217,7 +217,7 @@ tendance, se réinventer toutes les six semaines. C'est le chemin le plus court 
 Quelques principes qui m'aident à naviguer dans ce brouillard :
 
 **Choisis tes batailles.** Tu ne peux pas tout suivre. Personne ne le peut. Identifie ce qui est pertinent pour
-*ton* contexte (ton stack, ton domaine, tes projets) et ignore le reste sans culpabilité.
+*ton* contexte (ta stack, ton domaine, tes projets) et ignore le reste sans culpabilité.
 
 <p style="text-align: center;">
 <img src="/assets/images/posts/developpeur-a-l-ere-de-l-ia-entre-vertige-et-lucidite/calm-cat.jpg"
