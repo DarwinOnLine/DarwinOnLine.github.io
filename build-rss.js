@@ -6,7 +6,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 
 buildRSSFeeds({
     baseUrl: 'https://darwinonline.github.io',
-    siteName: { fr: 'Darwin On Line', en: 'Darwin On Line' },
+    siteName: { fr: 'Darwin On Line (FR)', en: 'Darwin On Line (EN)' },
     siteDescription: { fr: 'Blog personnel de Darwin - Développement, Tech et Réflexions', en: "Darwin's personal blog - Development, Tech and Thoughts" },
     languages: ['fr', 'en'],
     postsDir: 'posts',
