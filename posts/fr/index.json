@@ -34,5 +34,14 @@
     "i18nSlugs": { "en": "developer-in-the-age-of-ai-between-vertigo-and-lucidity" },
     "tags": ["Développement", "IA"],
     "image": "assets/images/posts/developpeur-a-l-ere-de-l-ia-entre-vertige-et-lucidite/this-is-fine.jpg"
+  },
+  {
+    "slug": "apprendre-tous-les-jours-la-veille-techno-sans-se-noyer",
+    "title": "Apprendre tous les jours : la veille techno sans se noyer",
+    "date": "2026-03-08",
+    "description": "Parce que dans ce métier, ce que tu sais aujourd'hui sera périmé demain. Mes sources, mes méthodes, et pourquoi la veille est une compétence, pas un hobby.",
+    "i18nSlugs": { "en": "learning-every-day-tech-watch-without-drowning" },
+    "tags": ["Développement"],
+    "image": "assets/images/posts/apprendre-tous-les-jours-la-veille-techno-sans-se-noyer/this-is-fine.jpg"
   }
 ]
