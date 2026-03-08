@@ -15,6 +15,7 @@ On this site, I share my thoughts, projects, and experiences through [my blog](/
 - 📮 Philately <small style="color:#888;font-weight:400;text-transform:none;letter-spacing:0">— old man's hobby, I know</small>
 - 💬 Comics
 - 🤡 Stephen King
+- 🎬 Movies / TV Shows
 - ☢️ Post-apo
 
 ---

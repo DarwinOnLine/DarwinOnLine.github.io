@@ -15,6 +15,7 @@ Sur ce site, je partage mes réflexions, projets et expériences à travers [mon
 - 📮 Philatélie <small style="color:#888;font-weight:400;text-transform:none;letter-spacing:0">— j'ai des loisirs de vieux</small>
 - 💬 Bande dessinée
 - 🤡 Stephen King
+- 🎬 Cinéma / Séries
 - ☢️ Post-apo
 
 ---
