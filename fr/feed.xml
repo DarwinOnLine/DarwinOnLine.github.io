@@ -5,7 +5,7 @@
     <link>https://darwinonline.github.io/fr</link>
     <description>Blog personnel de Darwin - Développement, Tech et Réflexions</description>
     <language>fr</language>
-    <lastBuildDate>Sun, 08 Mar 2026 18:40:40 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 10 Mar 2026 14:39:50 GMT</lastBuildDate>
     <atom:link href="https://darwinonline.github.io/fr/feed.xml" rel="self" type="application/rss+xml" />
     <image>
       <url>https://darwinonline.github.io/assets/images/default-og.png</url>
@@ -19,7 +19,9 @@
       <pubDate>Sun, 08 Mar 2026 12:00:00 GMT</pubDate>
       <description>Parce que dans ce métier, ce que tu sais aujourd&apos;hui sera périmé demain. Mes sources, mes méthodes, et pourquoi la veille est une compétence, pas un hobby.</description>
       <category>Développement</category>
-      <enclosure url="https://darwinonline.github.io/assets/images/posts/apprendre-tous-les-jours-la-veille-techno-sans-se-noyer/this-is-fine.jpg" type="image/jpeg" length="0" />
+      <category>Veille</category>
+      <category>Carrière</category>
+      <enclosure url="https://darwinonline.github.io/assets/images/posts/apprendre-tous-les-jours-la-veille-techno-sans-se-noyer/me-dette.jpg" type="image/jpeg" length="0" />
     </item>
     <item>
       <title>Développeur à l&apos;ère de l&apos;IA : entre vertige et lucidité</title>
@@ -29,6 +31,7 @@
       <description>Quand ton métier avance plus vite que ta capacité à le digérer.</description>
       <category>Développement</category>
       <category>IA</category>
+      <category>Carrière</category>
       <enclosure url="https://darwinonline.github.io/assets/images/posts/developpeur-a-l-ere-de-l-ia-entre-vertige-et-lucidite/this-is-fine.jpg" type="image/jpeg" length="0" />
     </item>
     <item>
@@ -60,6 +63,7 @@
       <pubDate>Fri, 13 Feb 2026 12:00:00 GMT</pubDate>
       <description>Cet article est né d&apos;une adaptation libre du post de Henrik Warne que j&apos;avais lu avec intérêt en 2015. Les années ont passé, les expériences se sont enchaînées, et j&apos;ai fini par avoir mes propres convictions à partager. Ce qui suit est un mélange de ses idées, des miennes, et de tout ce que ce métier m&apos;a appris entre-temps.</description>
       <category>Développement</category>
+      <category>Carrière</category>
       <enclosure url="https://darwinonline.github.io/assets/images/posts/ce-que-le-metier-de-developpeur-ma-appris/learn.jpg" type="image/jpeg" length="0" />
     </item>
   </channel>

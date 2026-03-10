@@ -5,13 +5,13 @@
 Tous les métiers exigent de se tenir à jour. Un médecin suit les avancées de la recherche. Un avocat surveille
 l'évolution des lois et de la jurisprudence. Un plombier, un électricien, un boulanger, chacun voit son métier
 évoluer et doit s'adapter, selon de nouvelles normes, de nouvelles pratiques ou façon de faire.
-Aucune profession sérieuse ne permet de s'arrêter d'apprendre après la formation et/ou le diplôme.
+Peu de professions permettent de s'arrêter d'apprendre après la formation et/ou le diplôme.
 
 Le développement informatique n'échappe pas à la règle, mais il a une particularité : la vitesse. Un framework
-populaire aujourd'hui sera "legacy" dans trois ans. Une bonne pratique unanime deviendra un antipattern quand un
-nouveau paradigme émergera. Le langage que tu maîtrises verra sa syntaxe évoluer, ses outils changer, sa
-communauté se diviser sur la bonne façon de faire les choses. Et pendant ce temps, de nouveaux langages, de
-nouveaux outils, de nouvelles façons de penser apparaissent. Tous les jours.
+populaire aujourd'hui sera "legacy" dans trois ans, du moins dans sa version actuelle. Une bonne pratique unanime
+deviendra un antipattern quand un nouveau paradigme émergera. Le langage que tu maîtrises verra sa syntaxe évoluer,
+ses outils changer, sa communauté se diviser sur la bonne façon de faire les choses. Et pendant ce temps, de nouveaux
+langages, de nouveaux outils, de nouvelles façons de penser apparaissent. Tous les jours.
 
 Ce rythme-là est propre à notre industrie. Et si tu ne t'y adaptes pas, tu ne deviens pas mauvais du jour au
 lendemain. Tu deviens lentement, silencieusement, décalé.
@@ -19,15 +19,17 @@ lendemain. Tu deviens lentement, silencieusement, décalé.
 La veille technologique, c'est ce qui empêche ce décalage. Pas une corvée en plus, pas un luxe pour les passionnés
 qui n'ont rien d'autre à faire le soir : un outil de survie professionnelle.
 
-<!-- 🖼️ IMAGE : Meme "Skeleton waiting" (squelette assis sur un banc).
-Caption : "Me waiting for my tech stack to stop evolving"
-Alt: "Skeleton waiting on a bench" -->
+<figure style="text-align: center;">
+<img src="/assets/images/posts/apprendre-tous-les-jours-la-veille-techno-sans-se-noyer/me-dette.jpg"
+  alt="Mother ignoring drowning kid in pool meme - Drowning kid: My tech watch, Mother: Me,
+Kid being carried: Coding the same feature for the 12th time" style="max-width: 100%;" />
+</figure>
 
 ## Pourquoi se tenir au courant (au-delà de l'évidence)
 
 "Pour ne pas être largué", oui. Mais c'est plus subtil que ça.
 
-**Pour ne pas réinventer la roue.** Le nombre de fois où j'ai vu (ou fait) quelqu'un coder une solution maison
+**Pour ne pas réinventer la roue.** Le nombre de fois où j'ai vu quelqu'un coder une solution maison
 pour un problème qu'une librairie résolvait déjà, mieux, en trois lignes. Pas par incompétence, par
 méconnaissance. Tu ne peux pas utiliser un outil dont tu ignores l'existence. La veille, c'est élargir ton champ
 de vision pour que quand un problème arrive, tu aies plus de solutions dans ta boîte à outils.
@@ -51,12 +53,11 @@ aimes comprendre comment les choses fonctionnent. La veille, c'est du carburant 
 tomber sur un article qui t'explique un concept que tu n'avais jamais rencontré et sentir cette petite
 excitation du "ah, je ne savais pas que c'était possible".
 
-<!-- 🖼️ IMAGE : Meme "Galaxy brain" (les 4 niveaux d'illumination).
-Panel 1 (petit cerveau) : "I know my framework"
-Panel 2 : "I follow tech news"
-Panel 3 : "I read source code of libraries I use"
-Panel 4 (cerveau cosmique) : "I read changelogs for fun"
-Alt: "Galaxy brain meme - expanding brain" -->
+<figure style="text-align: center;">
+<img src="/assets/images/posts/apprendre-tous-les-jours-la-veille-techno-sans-se-noyer/galaxy-brain.jpg"
+  alt="Expanding brain meme - Level 1: I know my framework, Level 2: I follow tech news,
+Level 3: I read source code of libraries I use, Level 4: I read changelogs for fun" style="max-width: 100%;" />
+</figure>
 
 ## Mes sources : ce qui marche pour moi
 
@@ -101,10 +102,11 @@ articles des gens que tu as choisi de suivre, dans l'ordre chronologique.
 
 D'ailleurs, ce blog a son propre flux RSS ([ici](/fr/feed.xml)). Si ce que tu lis te plaît, tu sais quoi faire. 😉
 
-<!-- 🖼️ IMAGE : Meme "Drake approving/disapproving".
-Panel du haut (disapproving) : "Checking 15 bookmarks manually every morning"
-Panel du bas (approving) : "RSS feed with everything in one place"
-Alt: "Drake meme - disapproving vs approving" -->
+<figure style="text-align: center;">
+<img src="/assets/images/posts/apprendre-tous-les-jours-la-veille-techno-sans-se-noyer/bad-good-veille.jpg"
+  alt="Tuxedo Winnie the Pooh meme - Regular Pooh: Checking 15 bookmarks manually every morning,
+Fancy Pooh: RSS feed with everything in one place" style="max-width: 100%;" />
+</figure>
 
 ## D'autres sources à explorer
 
@@ -134,18 +136,19 @@ gratuitement sur YouTube après l'événement. C'est de la veille "passive", tu 
 que tu fais autre chose, et tu absorbes. Idéal les jours où tu n'as pas envie de lire.
 
 **Les podcasts tech**, pour ceux qui préfèrent l'audio. En français, *Artisan Développeur* est une bonne
-pioche. En anglais, *Syntax* ou *The Changelog* couvrent bien l'écosystème web et open source.
+pioche. En anglais, *Syntax* ou *The Changelog* couvrent bien l'écosystème web et open source. Mais pour être
+parfaitement honnête, je ne consomme pas ces canaux.
 
 ## Comment ne pas se noyer
 
 Parce que c'est le vrai sujet. Les sources ne manquent pas. Ce qui manque, c'est une méthode pour ne pas
 transformer la veille en source d'anxiété.
 
-<!-- 🖼️ IMAGE : Meme "Panik / Kalm / Panik".
-Panel 1 (Panik) : "I'm mass behind on tech trends"
-Panel 2 (Kalm) : "I set up an RSS reader and curated my sources"
-Panel 3 (Panik) : "847 unread articles"
-Alt: "Panik Kalm Panik meme" -->
+<figure style="text-align: center;">
+<img src="/assets/images/posts/apprendre-tous-les-jours-la-veille-techno-sans-se-noyer/panik-kalm-panik.jpg"
+  alt="Panik Kalm Panik meme - Panik: I'm mass behind on tech trends, Kalm: I set up an RSS reader and curated my
+sources, Panik: 847 unread articles" style="max-width: 100%;" />
+</figure>
 
 ### La règle des 15 minutes
 
@@ -189,10 +192,10 @@ projet perso. C'est le sonar.
 Les deux sont complémentaires. Le radar te dit "ce truc existe". Le sonar te dit "ce truc fonctionne comme ça".
 Ne fais pas que du radar (tu restes superficiel), ne fais pas que du sonar (tu rates le reste).
 
-<!-- 🖼️ IMAGE : Meme "Two buttons" (le gars qui transpire devant deux boutons).
-Bouton 1 : "Skim 20 articles to stay broad"
-Bouton 2 : "Deep dive into one topic for 3 hours"
-Alt: "Two buttons meme - sweating guy choosing between breadth and depth" -->
+<figure style="text-align: center;">
+<img src="/assets/images/posts/apprendre-tous-les-jours-la-veille-techno-sans-se-noyer/dilemma.jpg"
+  alt="Two buttons meme - Sweating guy choosing between: Skim 20 articles to stay broad, and: Deep dive into one topic for 3 hours" style="max-width: 100%;" />
+</figure>
 
 ## La veille comme hygiène professionnelle
 
@@ -209,7 +212,10 @@ où chercher, et tu auras peut-être même lu un retour d'expérience qui t'évi
 
 C'est ça, la veille. Pas une encyclopédie dans la tête. Un radar allumé.
 
----
+<figure style="text-align: center;">
+<img src="/assets/images/posts/apprendre-tous-les-jours-la-veille-techno-sans-se-noyer/gigachad.jpg"
+  alt="Gigachad meme - Reads 2 articles a day, mass-marks the rest as read" style="max-width: 100%;" />
+</figure>
 
 Trouve tes sources, définis ton rythme, accepte de ne pas tout lire. Et si tu cherches un point de départ,
 tu es déjà au bon endroit. [Abonne-toi au flux RSS de ce blog](/fr/feed.xml) et commence ta liste.

@@ -5,7 +5,7 @@
     "date": "2026-02-13",
     "description": "Cet article est né d'une adaptation libre du post de Henrik Warne que j'avais lu avec intérêt en 2015. Les années ont passé, les expériences se sont enchaînées, et j'ai fini par avoir mes propres convictions à partager. Ce qui suit est un mélange de ses idées, des miennes, et de tout ce que ce métier m'a appris entre-temps.",
     "i18nSlugs": { "en": "what-being-a-developer-has-taught-me" },
-    "tags": ["Développement"],
+    "tags": ["Développement", "Carrière"],
     "image": "assets/images/posts/ce-que-le-metier-de-developpeur-ma-appris/learn.jpg"
   },
   {
@@ -32,7 +32,7 @@
     "date": "2026-03-02",
     "description": "Quand ton métier avance plus vite que ta capacité à le digérer.",
     "i18nSlugs": { "en": "developer-in-the-age-of-ai-between-vertigo-and-lucidity" },
-    "tags": ["Développement", "IA"],
+    "tags": ["Développement", "IA", "Carrière"],
     "image": "assets/images/posts/developpeur-a-l-ere-de-l-ia-entre-vertige-et-lucidite/this-is-fine.jpg"
   },
   {
@@ -41,7 +41,7 @@
     "date": "2026-03-08",
     "description": "Parce que dans ce métier, ce que tu sais aujourd'hui sera périmé demain. Mes sources, mes méthodes, et pourquoi la veille est une compétence, pas un hobby.",
     "i18nSlugs": { "en": "learning-every-day-tech-watch-without-drowning" },
-    "tags": ["Développement"],
-    "image": "assets/images/posts/apprendre-tous-les-jours-la-veille-techno-sans-se-noyer/this-is-fine.jpg"
+    "tags": ["Développement", "Veille", "Carrière"],
+    "image": "assets/images/posts/apprendre-tous-les-jours-la-veille-techno-sans-se-noyer/me-dette.jpg"
   }
 ]

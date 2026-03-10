@@ -5,7 +5,7 @@
     "date": "2026-02-13",
     "description": "This article started as a free adaptation of Henrik Warne's post that I read with great interest back in 2015. Years have passed, experiences have piled up, and I've ended up with my own convictions to share. What follows is a blend of his ideas, my own, and everything the job has taught me in between.",
     "i18nSlugs": { "fr": "ce-que-le-metier-de-developpeur-ma-appris" },
-    "tags": ["Development"],
+    "tags": ["Development", "Career"],
     "image": "assets/images/posts/ce-que-le-metier-de-developpeur-ma-appris/learn.jpg"
   },
   {
@@ -32,7 +32,16 @@
     "date": "2026-03-02",
     "description": "When your job evolves faster than your ability to process it.",
     "i18nSlugs": { "fr": "developpeur-a-l-ere-de-l-ia-entre-vertige-et-lucidite" },
-    "tags": ["Development", "AI"],
+    "tags": ["Development", "AI", "Career"],
     "image": "assets/images/posts/developpeur-a-l-ere-de-l-ia-entre-vertige-et-lucidite/this-is-fine.jpg"
+  },
+  {
+    "slug": "learning-every-day-tech-watch-without-drowning",
+    "title": "Learning every day: tech watch without drowning",
+    "date": "2026-03-08",
+    "description": "Because in this job, what you know today will be obsolete tomorrow. My sources, my methods, and why tech watch is a skill, not a hobby.",
+    "i18nSlugs": { "fr": "apprendre-tous-les-jours-la-veille-techno-sans-se-noyer" },
+    "tags": ["Development", "Tech Watch", "Career"],
+    "image": "assets/images/posts/apprendre-tous-les-jours-la-veille-techno-sans-se-noyer/me-dette.jpg"
   }
 ]
