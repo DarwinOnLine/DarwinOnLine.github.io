@@ -43,5 +43,14 @@
     "i18nSlugs": { "en": "learning-every-day-tech-watch-without-drowning" },
     "tags": ["Développement", "Veille", "Carrière"],
     "image": "assets/images/posts/apprendre-tous-les-jours-la-veille-techno-sans-se-noyer/me-dette.jpg"
+  },
+  {
+    "slug": "le-vrai-cout-de-l-ia-quand-la-facture-arrivera",
+    "title": "Le vrai coût de l'IA : quand la facture arrivera",
+    "date": "2026-03-15",
+    "description": "$200 par mois, c'est cher. Mais c'est probablement pas assez.",
+    "i18nSlugs": { "en": "the-real-cost-of-ai-when-the-bill-comes-due" },
+    "tags": ["Développement", "IA", "Carrière"],
+    "image": "assets/images/posts/le-vrai-cout-de-l-ia-quand-la-facture-arrivera/free-real-estate.jpg"
   }
 ]

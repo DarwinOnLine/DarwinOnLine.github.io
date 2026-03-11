@@ -2,12 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://darwinonline.github.io/fr</loc>
-    <lastmod>2026-03-10</lastmod>
+    <lastmod>2026-03-11</lastmod>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://darwinonline.github.io/fr/blog</loc>
-    <lastmod>2026-03-08</lastmod>
+    <lastmod>2026-03-15</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
@@ -36,13 +36,18 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://darwinonline.github.io/fr/blog/le-vrai-cout-de-l-ia-quand-la-facture-arrivera</loc>
+    <lastmod>2026-03-15</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://darwinonline.github.io/fr/blog/tag/D%C3%A9veloppement</loc>
-    <lastmod>2026-03-08</lastmod>
+    <lastmod>2026-03-15</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://darwinonline.github.io/fr/blog/tag/Carri%C3%A8re</loc>
-    <lastmod>2026-03-08</lastmod>
+    <lastmod>2026-03-15</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -52,7 +57,7 @@
   </url>
   <url>
     <loc>https://darwinonline.github.io/fr/blog/tag/IA</loc>
-    <lastmod>2026-03-02</lastmod>
+    <lastmod>2026-03-15</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -72,12 +77,12 @@
   </url>
   <url>
     <loc>https://darwinonline.github.io/en</loc>
-    <lastmod>2026-03-10</lastmod>
+    <lastmod>2026-03-11</lastmod>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://darwinonline.github.io/en/blog</loc>
-    <lastmod>2026-03-08</lastmod>
+    <lastmod>2026-03-15</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
@@ -106,13 +111,18 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://darwinonline.github.io/en/blog/the-real-cost-of-ai-when-the-bill-comes-due</loc>
+    <lastmod>2026-03-15</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://darwinonline.github.io/en/blog/tag/Development</loc>
-    <lastmod>2026-03-08</lastmod>
+    <lastmod>2026-03-15</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://darwinonline.github.io/en/blog/tag/Career</loc>
-    <lastmod>2026-03-08</lastmod>
+    <lastmod>2026-03-15</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -122,7 +132,7 @@
   </url>
   <url>
     <loc>https://darwinonline.github.io/en/blog/tag/AI</loc>
-    <lastmod>2026-03-02</lastmod>
+    <lastmod>2026-03-15</lastmod>
     <priority>0.5</priority>
   </url>
   <url>

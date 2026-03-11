@@ -30,10 +30,10 @@ de notions, d'algos ou d'outils, est démarré de tout de front directement, il 
 dur à maintenir.
 
 Il existe une règle empirique pour résumer cette notion, la
-[Loi de Gall](https://fr.wikipedia.org/wiki/Loi_de_Gall) :
+[Loi de Gall](https://fr.wikipedia.org/wiki/Loi_de_Gall) :
 
 > Un système complexe qui fonctionne se trouve invariablement avoir évolué depuis un système
-> simple qui fonctionnait. La proposition inverse se révèle également exacte : un système complexe
+> simple qui fonctionnait. La proposition inverse se révèle également exacte : un système complexe
 > développé de A à Z ne fonctionne jamais et vous n'arriverez jamais à le faire fonctionner. Vous
 > devez recommencer depuis le début, en commençant par un système simple.
 
@@ -91,7 +91,7 @@ Et bien évidemment, même si la plupart des systèmes de log le font, horodatez
 
 Cela semble tomber sous le sens. On peut se dire que les tests unitaires et tests d'intégration
 sont là pour vérifier chaque ligne écrite, ce qui est vrai (à condition de les écrire
-évidemment !), mais on peut parfois écrire quelques lignes de code qui ne seront, a priori, jamais
+évidemment !), mais on peut parfois écrire quelques lignes de code qui ne seront, a priori, jamais
 exécutées. Par exemple, gérer le fait que la colonne `my_column` n'est pas présente en base. Vous
 vous dites que vous aurez fait attention à votre structure, et que ça n'arrivera jamais. Cependant
 si vous vous mettez une protection contre cela, il est bon de vérifier que cette protection
@@ -102,13 +102,13 @@ on teste, pour attester que cette fois-ci c'était bien géré.
 ## Les choses prennent (toujours) plus de temps que prévu
 
 Un poncif chez quiconque a mené un projet avec des délais à tenir. « Combien de temps tu penses
-que ça va prendre ? » Cette question vous n'y répondez jamais avec certitude, ou alors vous avez
+que ça va prendre ? » Cette question vous n'y répondez jamais avec certitude, ou alors vous avez
 déjà mené cette exacte tâche récemment (et du coup vous savez). Partez du principe que ce que vous
 entreprenez ne se déroulera pratiquement jamais sans embûche. Vous aurez un accident de merge,
 vous aurez un bug à la con qui vous mobilisera 2h, vous aurez à mettre à jour un framework et
 découvrir avec horreur que la moitié de votre code est deprecated… Tous ces paramètres et même
 plus sont prévus dans la
-[loi de Hofstadter](https://fr.wikipedia.org/wiki/Loi_de_Hofstadter) :
+[loi de Hofstadter](https://fr.wikipedia.org/wiki/Loi_de_Hofstadter) :
 
 > Il faut toujours plus de temps que prévu, même en tenant compte de la Loi de Hofstadter.
 
@@ -127,16 +127,16 @@ d'équipe sera plus fiable qu'une estimation individuelle. À l'opposé, le mouv
 [#NoEstimates](https://ronjeffries.com/xprog/articles/the-noestimates-movement/) suggère
 carrément de ne plus estimer, et de plutôt découper le travail en incréments suffisamment petits
 pour que l'estimation devienne superflue. Entre les deux, il y a la bonne vieille règle
-officieuse : « multipliez votre estimation par pi ». Ce n'est qu'à moitié une blague.
+officieuse : « multipliez votre estimation par pi ». Ce n'est qu'à moitié une blague.
 
 ## La dette technique existe, et elle a des intérêts
 
 Quand les délais se resserrent ou que la pression monte, on prend des raccourcis. Un bout de code
 « temporaire » qui fait le job, un contournement vite fait qu'on se promet de reprendre plus tard.
 C'est la [dette technique](https://fr.wikipedia.org/wiki/Dette_technique), un concept formulé par
-Ward Cunningham en 1992. Comme une dette financière, elle n'est pas forcément mauvaise en soi :
+Ward Cunningham en 1992. Comme une dette financière, elle n'est pas forcément mauvaise en soi :
 emprunter pour avancer plus vite peut être un choix conscient et raisonnable. Le problème, c'est
-quand on arrête de la rembourser. Les intérêts s'accumulent : chaque nouvelle fonctionnalité prend
+quand on arrête de la rembourser. Les intérêts s'accumulent : chaque nouvelle fonctionnalité prend
 plus de temps, chaque correction en entraîne une autre, et un jour vous passez plus de temps à
 contourner les problèmes qu'à en résoudre. Alors notez-la, assumez-la, et surtout planifiez son
 remboursement. Un `TODO` dans le code, c'est une reconnaissance de dette. Si personne ne le traite
@@ -150,18 +150,18 @@ jamais, c'est de la faillite qui s'organise.
 
 ## Savoir dire non
 
-« On pourrait pas aussi ajouter ça ? » Si. On pourrait toujours. Et c'est bien le problème.
-Chaque « petit ajout » qui s'invite en cours de route a un nom : le
+« On pourrait pas aussi ajouter ça ? » Si. On pourrait toujours. Et c'est bien le problème.
+Chaque « petit ajout » qui s'invite en cours de route a un nom : le
 [scope creep](https://fr.wikipedia.org/wiki/D%C3%A9rive_des_objectifs). Un périmètre qui gonfle
 insidieusement, une fonctionnalité par-ci, un « tant qu'on y est » par-là, et au bout du compte
 un projet qui ne ressemble plus à ce qui était prévu, livré en retard et à moitié fini.
 Dire non, ce n'est pas être difficile, c'est protéger le projet. Un bon développeur ne dit pas
 juste « non », il dit « pas maintenant » ou « à quel prix ». Chaque ajout a un coût, en temps, en
 complexité, en dette technique. Et ce n'est pas parce qu'une IA vous génère du code en 10 secondes
-que ce code est gratuit : il faudra le comprendre, le maintenir, le tester, le débuguer.
+que ce code est gratuit : il faudra le comprendre, le maintenir, le tester, le débuguer.
 L'illusion du « ça coûte rien, on peut rajouter » est encore plus tentante quand le code semble
 tomber du ciel. Le fameux triangle qualité / coût / délai n'est pas qu'un slide de présentation
-PowerPoint : si vous ajoutez du périmètre sans toucher aux délais ni au budget, c'est la qualité
+PowerPoint : si vous ajoutez du périmètre sans toucher aux délais ni au budget, c'est la qualité
 qui trinque. Et c'est vous qui la porterez.
 
 <figure style="text-align: center;">
@@ -190,7 +190,7 @@ importance, s'ils sont complets, vous laissez une chance à votre successeur de 
 ce que vous avez fait. Lisez mais surtout exécutez le code, faites une application bac à sable au
 besoin, jouez avec le projet, éprouvez-le.
 
-Et pensez-y dans l'autre sens : si vous voulez que votre successeur comprenne votre code,
+Et pensez-y dans l'autre sens : si vous voulez que votre successeur comprenne votre code,
 écrivez-le pour lui. Le code est lu infiniment plus souvent qu'il n'est écrit. Vous écrirez une
 fonction une fois, elle sera relue des dizaines de fois, par vos collègues, par vous-même, par le
 stagiaire de l'année prochaine qui essaiera de comprendre pourquoi ça marche. Chaque raccourci que
@@ -198,7 +198,7 @@ vous prenez en écriture, c'est une taxe que vous imposez à chaque future lectu
 que vous seriez capable de relire un dimanche soir sans café.
 
 Et documentez. Pas tout, pas partout, mais les décisions, les « pourquoi », les pièges non
-évidents. [Damian Conway](https://fr.wikipedia.org/wiki/Damian_Conway) le résumait bien :
+évidents. [Damian Conway](https://fr.wikipedia.org/wiki/Damian_Conway) le résumait bien :
 
 > La documentation est une lettre d'amour que vous écrivez à votre futur vous-même.
 
@@ -206,7 +206,7 @@ Un README à jour, un commentaire qui explique *pourquoi* plutôt que *quoi*, un
 d'architecture griffonné dans un wiki, c'est peu de travail sur le moment et une bouée de
 sauvetage six mois plus tard. Et à l'heure où l'IA devient un coéquipier à part entière, un code
 lisible et une documentation à jour, c'est aussi ce qui lui permettra de vous assister
-efficacement. Une IA qui travaille sur un projet bien documenté vous fera gagner du temps ; sur un
+efficacement. Une IA qui travaille sur un projet bien documenté vous fera gagner du temps ; sur un
 projet opaque, elle ne fera que reproduire le chaos.
 
 ## Il y aura toujours des bugs
@@ -249,9 +249,9 @@ subsiste et recommencez au besoin.
 ## Nommez les choses
 
 Il y a une citation célèbre attribuée à
-[Phil Karlton](https://www.karlton.org/2017/12/naming-things-hard/) :
+[Phil Karlton](https://www.karlton.org/2017/12/naming-things-hard/) :
 
-> Il n'y a que deux choses difficiles en informatique : l'invalidation du cache et nommer les
+> Il n'y a que deux choses difficiles en informatique : l'invalidation du cache et nommer les
 > choses.
 
 C'est drôle parce que c'est vrai. Un nom de variable, de fonction, de classe, c'est un contrat
@@ -262,7 +262,7 @@ commentaires superflus, un mauvais nommage rend le code opaque même avec des co
 
 `remainingRetryCount` sera toujours plus clair que `cnt`. Et si vous n'arrivez pas à nommer
 clairement une fonction, c'est peut-être qu'elle fait trop de choses, c'est d'ailleurs l'exacte
-définition du **S** de [SOLID](https://fr.wikipedia.org/wiki/SOLID_(informatique)) : une
+définition du **S** de [SOLID](https://fr.wikipedia.org/wiki/SOLID_(informatique)) : une
 responsabilité unique. Si vous ne savez pas la nommer simplement, découpez-la.
 
 <figure style="text-align: center;">
@@ -276,7 +276,7 @@ responsabilité unique. Si vous ne savez pas la nommer simplement, découpez-la.
 Vous connaissez sûrement l'acronyme KISS, *Keep It Simple, Stupid*. Son compagnon, moins connu
 mais tout aussi crucial, c'est YAGNI,
 [*You Aren't Gonna Need It*](https://fr.wikipedia.org/wiki/YAGNI). Ensemble, ils tiennent en une
-phrase : ne codez que ce dont vous avez besoin, et faites-le simplement.
+phrase : ne codez que ce dont vous avez besoin, et faites-le simplement.
 
 <p style="text-align: center;">
   <img src="/assets/images/posts/ce-que-le-metier-de-developpeur-ma-appris/kiss-yagni.jpg"
@@ -297,16 +297,16 @@ facile, parce que le code sera resté simple.
     alt="Coincidence" style="max-width: 100%;" />
 </p>
 
-Jamais. La règle est simple : si vous avez créé une fonctionnalité A et que désormais la
+Jamais. La règle est simple : si vous avez créé une fonctionnalité A et que désormais la
 fonctionnalité B est buguée, pas de coïncidence. Si suite à l'ajout de votre nouveau module, le
 système semble plus lent, pas de coïncidence. Ne vous remettez pas à une quelconque divinité du
 hasard, investiguez. Souvent il apparaîtra que VOUS êtes le paramètre aléatoire.
 
 Et méfiez-vous de vous-même dans l'investigation. Le
 [biais de confirmation](https://fr.wikipedia.org/wiki/Biais_de_confirmation) est votre pire
-ennemi : quand on est convaincu que le problème ne vient pas de soi, on cherche (inconsciemment)
+ennemi : quand on est convaincu que le problème ne vient pas de soi, on cherche (inconsciemment)
 des preuves que ça vient d'ailleurs. « C'est sûrement un bug du framework », « Ça marchait avant,
-ça doit être le serveur ». Résistez à ce réflexe. Isolez le problème méthodiquement : un
+ça doit être le serveur ». Résistez à ce réflexe. Isolez le problème méthodiquement : un
 [`git bisect`](https://git-scm.com/docs/git-bisect) pour identifier le commit fautif, un
 `git stash` pour vérifier que vos modifications locales sont en cause, un environnement vierge
 pour éliminer les variables. Les outils existent pour remplacer l'intuition par des faits.
@@ -323,11 +323,11 @@ Le télétravail s'est généralisé, les équipes sont distribuées, et parfois
 communiquer, c'est d'écrire. Un message bien rédigé dans une PR, une
 [RFC](https://fr.wikipedia.org/wiki/Request_for_comments) ou un document d'architecture (ADR), ça
 vaut souvent mieux qu'une réunion de 45 minutes dont personne ne retiendra rien. La communication
-asynchrone a un avantage énorme : elle laisse le temps de réfléchir avant de répondre, et elle
+asynchrone a un avantage énorme : elle laisse le temps de réfléchir avant de répondre, et elle
 produit une trace écrite. À l'inverse, méfiez-vous de la réunionite. Paul Graham parlait du
-[« maker's schedule »](https://www.paulgraham.com/makersschedule.html) : un développeur a besoin
+[« maker's schedule »](https://www.paulgraham.com/makersschedule.html) : un développeur a besoin
 de plages de concentration longues et ininterrompues. Chaque réunion mal placée coupe cet élan et
-coûte bien plus que sa durée affichée. Et rappelez-vous :
+coûte bien plus que sa durée affichée. Et rappelez-vous :
 
 <p style="text-align: center;">
   <img src="/assets/images/posts/ce-que-le-metier-de-developpeur-ma-appris/meeting-email.jpg"
@@ -335,9 +335,9 @@ coûte bien plus que sa durée affichée. Et rappelez-vous :
     style="max-width: 100%;" />
 </p>
 
-## Poser des questions != être con
+## Poser des questions != être con
 
-Autre poncif du travail collaboratif, et même si vous avez lu ceci mille fois avant cet article :
+Autre poncif du travail collaboratif, et même si vous avez lu ceci mille fois avant cet article :
 n'ayez pas peur de poser des questions. Il n'y a pas de mauvaise question, éventuellement des
 mauvais interlocuteurs, mais pas de mauvaise question. Personne n'est là pour vous dire « Putain
 tu casses les couilles avec tes questions ». Vous aurez bien l'occasion de croiser ce genre de
@@ -355,7 +355,7 @@ dans 99% des épisodes de Docteur House.
 </figure>
 
 Enfin, une fois votre problème résolu, rendez à César ce qui appartient à César. Michel a mis en
-évidence la honteuse boucle infinie qui plantait votre programme ? Mentionnez-le quand vous devrez
+évidence la honteuse boucle infinie qui plantait votre programme ? Mentionnez-le quand vous devrez
 rendre compte du problème. Au-delà de la politesse de base, c'est aussi un excellent moyen pour
 vous de lui renvoyer l'ascenseur et de continuer à mener une vie de développeur intègre. Encore
 une fois, vous ne penserez pas toujours à tout. Vous ferez des erreurs.
@@ -382,7 +382,7 @@ Déléguer sans comprendre, ce n'est pas de l'efficacité, c'est de l'abandon.
 
 Cela dit, apprendre ne veut pas dire courir après tout. Chaque semaine un nouveau framework
 JavaScript, chaque mois un nouvel outil « qui va tout changer ». L'arrivée de l'IA dans notre
-quotidien a amplifié ce phénomène de manière vertigineuse : les outils se multiplient, les usages
+quotidien a amplifié ce phénomène de manière vertigineuse : les outils se multiplient, les usages
 se réinventent, et avec eux les injonctions. « Si tu n'utilises pas l'IA tu seras remplacé »,
 « l'IA va tuer le métier de développeur », « il faut tout réapprendre »… Les experts
 autoproclamés pullulent, les avis définitifs aussi, et on a vite la sensation de se noyer.
@@ -390,7 +390,7 @@ autoproclamés pullulent, les avis définitifs aussi, et on a vite la sensation 
 Respirez.
 
 Tout n'est pas à prendre, tout n'est pas à jeter. Ce qui compte, c'est d'entretenir une veille
-régulière : suivre quelques sources de confiance, tester ce qui vous semble pertinent, <span id="ignorer-le-bruit" class="anchor-highlight">ignorer le
+régulière : suivre quelques sources de confiance, tester ce qui vous semble pertinent, <span id="ignorer-le-bruit" class="anchor-highlight">ignorer le
 bruit</span>. Savoir distinguer une évolution de fond d'un effet de mode, c'est aussi une compétence qui
 s'apprend. Et elle vous évitera le burnout d'apprentissage.
 
@@ -410,18 +410,18 @@ alors relax. Attention, je ne dis pas que vous devez vous en foutre, mais que ç
 même si c'est votre passion. Vous avez mille choses plus importantes dans votre vie que le build
 de votre projet et le bonheur sur le visage de vos clients (même si c'est cool).
 
-Et tant qu'on parle de se détendre, parlons de ce truc qui vous ronge en silence : le
+Et tant qu'on parle de se détendre, parlons de ce truc qui vous ronge en silence : le
 [syndrome de l'imposteur](https://fr.wikipedia.org/wiki/Syndrome_de_l%27imposteur). Ce sentiment
 que vous n'êtes pas à votre place. Que vos collègues sont meilleurs. Que si on vous a embauché,
 c'est qu'on ne s'est pas encore rendu compte. Que le jour où on découvrira que vous googlez des
 trucs basiques, ce sera terminé.
 
-Spoiler : tout le monde google des trucs basiques. Tout le monde.
+Spoiler : tout le monde google des trucs basiques. Tout le monde.
 
 Le [syndrome de l'imposteur](https://www.jesuisundev.com/syndrome-imposteur) touche massivement
 notre profession, et souvent les profils les plus compétents, parce que plus vous en savez, plus
-vous mesurez ce que vous ne savez pas. C'est un biais cruel : ceux qui doutent le plus sont
-rarement ceux qui devraient, ça porte même un nom :
+vous mesurez ce que vous ne savez pas. C'est un biais cruel : ceux qui doutent le plus sont
+rarement ceux qui devraient, ça porte même un nom :
 [l'Effet Dunning-Kruger](https://fr.wikipedia.org/wiki/Effet_Dunning-Kruger). Pendant ce temps,
 ceux qui ne doutent jamais commettent les pires trucs en toute confiance.
 
