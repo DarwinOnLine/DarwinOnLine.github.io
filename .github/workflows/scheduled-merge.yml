@@ -1,0 +1,113 @@
+name: Scheduled Branch Merge
+
+on:
+  schedule:
+    - cron: '0 * * * *' # Check every hour
+  workflow_dispatch:
+    inputs:
+      branch:
+        description: 'Branch to merge into main'
+        required: true
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  scheduled-merge:
+    if: github.event_name == 'schedule'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Fetch all remote branches
+        run: git fetch origin
+
+      - name: Check and perform scheduled merges
+        run: |
+          CONFIG=".github/scheduled-merges.json"
+          if [ ! -f "$CONFIG" ] || [ "$(jq length "$CONFIG")" -eq 0 ]; then
+            echo "No scheduled merges pending."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          MERGED=false
+          REMAINING=$(jq '.' "$CONFIG")
+
+          while IFS= read -r row; do
+            BRANCH=$(echo "$row" | jq -r '.branch')
+            DATE=$(echo "$row" | jq -r '.date')
+            TIMEZONE=$(echo "$row" | jq -r '.timezone // "UTC"')
+            DELETE_BRANCH=$(echo "$row" | jq -r '.delete_branch // false')
+
+            SCHEDULED=$(TZ="$TIMEZONE" date -d "$DATE" +%s 2>/dev/null || echo "0")
+            NOW=$(date +%s)
+
+            if [ "$SCHEDULED" -eq "0" ]; then
+              echo "::warning::Invalid date '$DATE' for branch '$BRANCH', skipping."
+              continue
+            fi
+
+            if [ "$SCHEDULED" -le "$NOW" ]; then
+              echo "::notice::Merging '$BRANCH' (scheduled: $DATE $TIMEZONE)"
+
+              if ! git rev-parse --verify "origin/$BRANCH" >/dev/null 2>&1; then
+                echo "::error::Branch '$BRANCH' not found on remote."
+                continue
+              fi
+
+              if ! git merge "origin/$BRANCH" --no-ff -m "Merge branch '$BRANCH' into main (scheduled merge)"; then
+                echo "::error::Merge conflict on '$BRANCH'. Manual intervention required."
+                continue
+              fi
+
+              if [ "$DELETE_BRANCH" = "true" ]; then
+                git push origin --delete "$BRANCH" || echo "::warning::Could not delete branch '$BRANCH'."
+              fi
+
+              MERGED=true
+              REMAINING=$(echo "$REMAINING" | jq --arg b "$BRANCH" --arg d "$DATE" \
+                'del(.[] | select(.branch == $b and .date == $d))')
+            else
+              echo "Not yet time for '$BRANCH' (scheduled: $DATE $TIMEZONE)"
+            fi
+          done < <(jq -c '.[]' "$CONFIG")
+
+          if [ "$MERGED" = true ]; then
+            echo "$REMAINING" | jq '.' > "$CONFIG"
+            git add "$CONFIG"
+            git commit -m "🔧 Update scheduled merges after auto-merge"
+            git push origin main
+          fi
+
+  manual-merge:
+    if: github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Fetch all remote branches
+        run: git fetch origin
+
+      - name: Merge branch into main
+        env:
+          BRANCH: ${{ inputs.branch }}
+        run: |
+          if ! git rev-parse --verify "origin/$BRANCH" >/dev/null 2>&1; then
+            echo "::error::Branch '$BRANCH' not found on remote."
+            exit 1
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git merge "origin/$BRANCH" --no-ff -m "Merge branch '$BRANCH' into main"
+          git push origin main
