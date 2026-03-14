@@ -95,18 +95,19 @@ les investisseurs voudront voir un retour, la facture sera pour toi.
 ### Le fantôme de la bulle dotcom
 
 Le parallèle avec Uber est parlant, mais celui avec la
-[bulle Internet de 2000](https://en.wikipedia.org/wiki/Dot-com_bubble) est peut-être encore plus pertinent.
+[bulle Internet de 2000](https://fr.wikipedia.org/wiki/Bulle_Internet) est peut-être encore plus pertinent.
 À l'époque, le Nasdaq avait perdu 78 % de sa valeur, effaçant environ 5 000 milliards de dollars de
-capitalisation. Les télécoms avaient posé plus de 80 millions de miles de fibre optique, dont
-[85 à 95 % est restée inutilisée](https://internationalbanker.com/history-of-financial-crises/the-dotcom-bubble-burst-2000/)
+capitalisation. Les télécoms avaient posé plus de
+[129 millions de kilomètres de fibre optique](https://ideas.ted.com/an-eye-opening-look-at-the-dot-com-bubble-of-2000-and-how-it-shapes-our-lives-today/),
+dont [85 à 95 % est restée inutilisée](https://archive.seattletimes.com/archive/?date=20020113&slug=darkfiber130)
 pendant des années.
 
 Les similitudes sont troublantes. [Sam Altman lui-même](https://www.cnbc.com/2025/10/21/are-we-in-an-ai-bubble.html)
 a admis qu'une bulle IA était probable. [Ray Dalio](https://www.cnbc.com/2025/10/21/are-we-in-an-ai-bubble.html)
 (Bridgewater Associates, accessoirement auteur de *Principles*, un livre qui a élevé l'enfonçage de portes
 ouvertes au rang de philosophie de vie) estime que les niveaux d'investissement actuels sont "très similaires" à
-ceux de l'ère dotcom. Et la part du PIB américain consacrée à l'IA (1,3 %, en route vers 1,6 % en 2026)
-[dépasse déjà d'un tiers](https://intuitionlabs.ai/articles/ai-bubble-vs-dot-com-comparison) celle consacrée à
+ceux de l'ère dotcom. Et la part du PIB américain consacrée à l'IA (1,3 %, en route vers 1,5 à 2 % en 2026)
+[dépasse déjà d'un tiers](https://www.cnbc.com/2025/10/21/are-we-in-an-ai-bubble.html) celle consacrée à
 internet pendant la bulle.
 
 Mais voilà la nuance cruciale : après le crash de 2000, Amazon est passée de 107 $ à 7 $ l'action, avant de
@@ -141,10 +142,11 @@ L'argent, c'est une chose. Mais derrière les dollars, il y a une réalité phys
 
 ### Des datacenters qui avalent des villes
 
-Selon l'[Agence Internationale de l'Énergie](https://www.iea.org/reports/energy-and-ai/energy-demand-from-ai), les
+Selon le [Lawrence Berkeley National Laboratory](https://newscenter.lbl.gov/2025/01/15/berkeley-lab-report-evaluates-increase-in-electricity-demand-from-data-centers/), les
 serveurs dédiés à l'IA ont consommé entre 53 et 76 TWh en 2024. La projection pour 2028 : **165 à 326 TWh**.
-En 2030, l'ensemble des datacenters mondiaux pourrait atteindre **945 TWh**, soit l'équivalent de la consommation
-électrique actuelle du Japon. Entier.
+En 2030, l'ensemble des datacenters mondiaux pourrait atteindre
+[**945 TWh**](https://www.iea.org/reports/energy-and-ai/energy-demand-from-ai), soit l'équivalent de la consommation
+électrique actuelle du Japon. En entier.
 
 Les prix de gros de l'électricité ont déjà
 [augmenté de 267 %](https://www.bloomberg.com/graphics/2025-ai-data-centers-electricity-prices/) près des zones de
@@ -153,7 +155,7 @@ concentration de datacenters, selon Bloomberg.
 ### L'eau qu'on ne voit pas
 
 Un datacenter hyperscale consomme jusqu'à
-[5 millions de gallons d'eau par jour](https://www.eesi.org/articles/view/data-centers-and-water-consumption) pour
+[5 millions de gallons d'eau par jour](https://www.eesi.org/articles/view/data-centers-and-water-consumption) (environ 19 millions de litres) pour
 son refroidissement, l'équivalent d'une ville de 50 000 habitants. L'empreinte eau de l'IA en 2025 est estimée
 entre [312 et 764 milliards de litres](https://www.sciencedirect.com/science/article/pii/S2666389925002788).
 
@@ -162,12 +164,12 @@ répondent.
 
 Et quelque part, c'est souvent dans des pays qui n'en ont déjà pas assez. En Amérique latine, les datacenters
 s'installent là où l'énergie est bon marché, sans trop se soucier de l'eau qu'ils pompent. Au Chili, en pleine
-[mégasécheresse depuis 2010](https://earth.org/chile-water-crisis/) (la pire en 1 000 ans), Google s'est fait
+[mégasécheresse depuis 2010](https://earth.org/chile-water-crisis/) ([la pire en 1 000 ans](https://www.downtoearth.org.in/climate-change/megadrought-in-chile-both-natural-climate-factors-human-induced-global-warming-to-blame-83947)), Google s'est fait
 [révoquer partiellement le permis](https://www.pbs.org/newshour/world/google-to-pause-plans-for-big-data-center-in-chile-over-water-worries)
 de son datacenter de Cerrillos, qui prévoyait d'extraire **7 milliards de litres d'eau par an** d'un aquifère
 déjà sous tension, l'équivalent de la consommation de 80 000 personnes. Son premier datacenter à Quilicura pompe
-déjà [plus d'un milliard de litres par an](https://algorithmwatch.org/en/protests-against-data-centers/) dans des
-nappes connectées à des zones humides qui s'assèchent.
+déjà [169 litres par seconde](https://algorithmwatch.org/en/protests-against-data-centers/) dans des nappes
+phréatiques en zone de sécheresse persistante.
 
 En Uruguay, un projet Google prévoyait de prélever
 [7,6 millions de litres d'eau potable par jour](https://www.onegreenplanet.org/environment/uruguayans-protest-googles-plan-use-water-drought/)
@@ -177,7 +179,7 @@ gérer la pire sécheresse en 74 ans. Au Mexique, les datacenters de Querétaro 
 pendant que 17 des 18 municipalités de la région sont en sécheresse.
 
 La solution proposée ? Passer au refroidissement par air. Ça réduit la consommation d'eau de 90 %, mais
-[augmente la facture électrique de 15 à 40 %](https://www.boydcorp.com/resources/resource-center/blog/liquid-vs-air-cooling-data-center-efficiency.html).
+[augmente la facture électrique de 10 à 18 %](https://www.vertiv.com/en-emea/about/news-and-insights/articles/blog-posts/quantifying-data-center-pue-when-introducing-liquid-cooling/).
 On ne résout pas le problème, on le déplace.
 
 ### Le talon d'Achille : les puces et les terres rares
@@ -190,15 +192,15 @@ fabriquer :
 qui produit environ 90 % des puces les plus avancées de la planète.
 
 Taïwan, une île que la Chine revendique comme son territoire. Bloomberg Economics estime l'impact d'un conflit
-à environ [10 000 milliards de dollars](https://www.stimson.org/2025/why-taiwan-fears-america-first-risks-eroding-its-silicon-shield/),
-soit 10 % du PIB mondial. L'usine TSMC en Arizona ? Elle [produit actuellement des puces 4 nm](https://spectrum.ieee.org/tsmc-arizona),
+à environ [10 000 milliards de dollars](https://www.bloomberg.com/news/features/2024-01-09/if-china-invades-taiwan-it-would-cost-world-economy-10-trillion),
+soit 10 % du PIB mondial. L'usine TSMC en Arizona ? Elle [produit actuellement des puces 4 nm](https://www.aztechcouncil.org/tsmc-arizona-fab21-already-making-4nm-chips/),
 alors que Taïwan passe déjà au 2 nm.
 
 Et les terres rares nécessaires à la fabrication de ces puces ? La Chine en
-[raffine 89 %](https://www.iea.org/commentaries/with-new-export-controls-on-critical-minerals-supply-concentration-risks-become-reality)
+[raffine 91 %](https://www.iea.org/commentaries/with-new-export-controls-on-critical-minerals-supply-concentration-risks-become-reality)
 de la production mondiale. En avril 2025, Pékin a imposé des restrictions à l'export sur 7 des 17 éléments
 de terres rares, provoquant une
-[chute de 93 % des exportations vers les États-Unis](https://www.china-briefing.com/news/chinas-rare-earth-export-controls-impacts-on-businesses/).
+[chute de 93 % des exportations d'aimants en terres rares vers les États-Unis](https://www.china-briefing.com/news/chinas-rare-earth-export-controls-impacts-on-businesses/).
 
 Toute la production de
 [mémoire HBM de 2026 est déjà vendue](https://www.artificialintelligence-news.com/news/ai-chip-shortage-enterprise-ctos-2025/),
@@ -241,7 +243,7 @@ On en est très loin. Ed Zitron, dans sa newsletter [Where's Your Ed At](https:/
 pousse le calcul plus loin : pour que les Big Tech rentabilisent leurs investissements IA d'ici 2030, il faudrait
 générer **2 000 milliards de dollars de revenus**. Rapporté aux 5 milliards d'internautes, ça fait
 l'équivalent de **100 $ par mois pour chaque habitant connecté de la planète**. On y est pas. Il parle d'une
-**["Subprime AI Crisis"](https://www.wheresyoured.at/oai_docs/)** : des milliers d'entreprises intègrent l'IA
+**["Subprime AI Crisis"](https://www.wheresyoured.at/anthropic-and-openai-have-begun-the-subprime-ai-crisis/)** : des milliers d'entreprises intègrent l'IA
 générative à des prix "bien loin d'être stables et encore plus loin d'être rentables". Le parallèle avec les
 subprimes n'est pas anodin.
 
@@ -297,10 +299,9 @@ mais la preuve est là : l'optimisation peut drastiquement réduire les coûts.
 
 ### L'open source comme échappatoire ?
 
-Et puis il y a l'open source. Llama 4 de Meta (Scout, Maverick, Behemoth) a dépassé le
-[milliard de téléchargements](https://ai.meta.com/blog/llama-4-multimodal-intelligence/), et plus de 50 % des
-entreprises du Fortune 500 l'utilisent. Mistral, côté européen, propose des modèles compétitifs avec une
-[levée de 11,7 milliards d'euros](https://mistral.ai/news/mistral-series-c/) pour tenir face aux géants
+Et puis il y a l'open source. Llama de Meta (Scout, Maverick, Behemoth) a dépassé le
+[milliard de téléchargements](https://about.fb.com/news/2025/03/celebrating-1-billion-downloads-llama/). Mistral, côté européen, propose des modèles compétitifs avec une
+[levée de 1,7 milliard d'euros](https://mistral.ai/news/mistral-ai-raises-1-7-b-to-accelerate-technological-progress-with-ai) pour tenir face aux géants
 américains.
 
 Le plus intéressant : ces modèles tournent en local. Un Mac M4 Max avec 128 Go de RAM fait tourner un modèle 70B
@@ -309,7 +310,7 @@ comme [Ollama](https://ollama.com/) ou [llama.cpp](https://github.com/ggml-org/l
 déploiement local accessible à n'importe quel développeur.
 
 L'écart de performance avec les modèles frontier se réduit : sur le benchmark MMLU, il ne reste
-[que 0,3 point](https://whatllm.org/blog/open-source-vs-proprietary-llms-2025) entre les meilleurs modèles open source et
+[que quelques points](https://whatllm.org/blog/open-source-vs-proprietary-llms-2025) entre les meilleurs modèles open source et
 les modèles propriétaires. Les modèles frontier gardent l'avantage sur les tâches de raisonnement les plus
 complexes, mais pour les usages courants (génération de code, résumé, traduction, rédaction), l'open source est
 devenu une alternative crédible.
@@ -341,7 +342,7 @@ de générer du texte mot à mot, ces modèles construisent des **représentatio
 de vidéos, d'environnements 3D et de données spatiales, un peu comme un modèle mental humain. Prédire dans un
 espace compact plutôt que dans l'espace brut des données.
 
-Et les premiers résultats sont prometteurs : [I-JEPA](https://ai.meta.com/blog/v-jepa-yann-lecun-ai-model-video-joint-embedding-predictive-architecture/)
+Et les premiers résultats sont prometteurs : [V-JEPA](https://ai.meta.com/blog/v-jepa-yann-lecun-ai-model-video-joint-embedding-predictive-architecture/)
 s'entraîne avec **1,5 à 6 fois moins de calcul** que les méthodes comparables en vision.
 [VL-JEPA](https://arxiv.org/abs/2512.10942) atteint des performances similaires avec **50 % moins de paramètres
 entraînables**. Et [Semantic Tube Prediction](https://arxiv.org/abs/2602.22617) (février 2026) permet d'atteindre
@@ -401,8 +402,7 @@ prix, ses conditions d'utilisation, ou déprécier ton modèle favori du jour au
 
 C'est déjà arrivé. OpenAI a
 [restreint ses conditions d'usage](https://community.openai.com/t/new-openai-services-agreement-effective-may-31-2025/1249405)
-en octobre 2025, interdisant les conseils médicaux, juridiques et financiers via ses services, cassant des
-centaines de CustomGPTs au passage. Et [45 % des entreprises](https://www.swfte.com/blog/avoid-ai-vendor-lock-in-enterprise-guide)
+en mai 2025, cassant des centaines de CustomGPTs au passage. Et [45 % des entreprises](https://www.swfte.com/blog/avoid-ai-vendor-lock-in-enterprise-guide)
 déclarent que le vendor lock-in freine déjà leur capacité à adopter de meilleurs outils.
 
 Le [Stigler Center](https://www.promarket.org/2025/11/21/preventing-ai-oligopoly-and-digital-enclosure-via-compulsory-access/)
