@@ -5,13 +5,24 @@
     <link>https://darwinonline.github.io/en</link>
     <description>Darwin&apos;s personal blog - Development, Tech and Thoughts</description>
     <language>en</language>
-    <lastBuildDate>Thu, 12 Mar 2026 10:11:32 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 15 Mar 2026 07:18:25 GMT</lastBuildDate>
     <atom:link href="https://darwinonline.github.io/en/feed.xml" rel="self" type="application/rss+xml" />
     <image>
       <url>https://darwinonline.github.io/assets/images/default-og.png</url>
       <title>Darwin On Line (EN)</title>
       <link>https://darwinonline.github.io/en</link>
     </image>
+    <item>
+      <title>The real cost of AI: when the bill comes due</title>
+      <link>https://darwinonline.github.io/en/blog/the-real-cost-of-ai-when-the-bill-comes-due</link>
+      <guid isPermaLink="true">https://darwinonline.github.io/en/blog/the-real-cost-of-ai-when-the-bill-comes-due</guid>
+      <pubDate>Sun, 15 Mar 2026 12:00:00 GMT</pubDate>
+      <description>$200 a month is expensive. But it&apos;s probably not enough.</description>
+      <category>Development</category>
+      <category>AI</category>
+      <category>Career</category>
+      <enclosure url="https://darwinonline.github.io/assets/images/posts/le-vrai-cout-de-l-ia-quand-la-facture-arrivera/free-real-estate.jpg" type="image/jpeg" length="0" />
+    </item>
     <item>
       <title>Learning every day: tech watch without drowning</title>
       <link>https://darwinonline.github.io/en/blog/learning-every-day-tech-watch-without-drowning</link>

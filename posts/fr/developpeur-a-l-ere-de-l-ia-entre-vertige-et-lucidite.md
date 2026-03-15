@@ -1,4 +1,4 @@
-# Développeur à l'ère de l'IA : entre vertige et lucidité
+# Développeur à l'ère de l'IA : entre vertige et lucidité
 
 *Quand ton métier avance plus vite que ta capacité à le digérer.*
 
@@ -48,7 +48,7 @@ visage enduit de jus de citron. Arrêté quelques heures plus tard grâce aux ca
 expliqua avec un aplomb désarmant qu'il avait pensé devenir invisible, selon le même principe que l'encre
 sympathique. Les psychologues David Dunning et Justin Kruger, intrigués par cette assurance inébranlable face à
 l'absurde, en firent le point de départ d'une étude qui allait donner naissance à
-l'[effet Dunning-Kruger](https://fr.wikipedia.org/wiki/Effet_Dunning-Kruger) : moins on est compétent dans un
+l'[effet Dunning-Kruger](https://fr.wikipedia.org/wiki/Effet_Dunning-Kruger) : moins on est compétent dans un
 domaine, plus on surestime ses capacités, précisément parce qu'on n'a pas les outils cognitifs pour mesurer sa
 propre incompétence.
 
@@ -71,7 +71,7 @@ passe sous le capot. Et cette personne va poster son résultat avec une assuranc
 likes, se faire inviter sur des podcasts, et devenir une référence pour des décideurs qui ne connaissent pas la
 différence.
 
-Ce n'est pas de la méchanceté. C'est l'effet Dunning-Kruger à l'échelle industrielle : tu ne sais pas ce que tu
+Ce n'est pas de la méchanceté. C'est l'effet Dunning-Kruger à l'échelle industrielle : tu ne sais pas ce que tu
 ne sais pas. Et quand l'outil masque les conséquences de ton ignorance (pendant un temps), tu es sincèrement
 convaincu de maîtriser le sujet.
 
@@ -79,7 +79,7 @@ Le problème, ce n'est pas ces personnes en elles-mêmes. C'est qu'**on les éco
 pression va préférer celui qui livre en deux jours avec Cursor à celui qui dit "il faut d'abord comprendre le
 domaine". C'est que le marché récompense la vélocité apparente.
 
-## "Pourquoi ça prend du temps si l'IA le fait en 2 secondes ?"
+## "Pourquoi ça prend du temps si l'IA le fait en 2 secondes ?"
 
 Si tu es développeur depuis plus de cinq ans, tu as probablement déjà entendu une variante de cette phrase. Elle
 cristallise toute la déconnexion entre ce que les non-techniques *voient* de l'IA et ce qu'elle *fait* réellement.
@@ -90,7 +90,7 @@ besoin, de le modéliser, de faire des choix d'architecture, de prévoir les cas
 dans le temps.
 
 Quand un manager demande pourquoi tu mets trois jours là où l'IA sort quelque chose en 30 secondes, la vraie
-réponse c'est : parce que les 30 secondes de l'IA ne couvrent que 20% du travail. Les 80% restants (validation,
+réponse c'est : parce que les 30 secondes de l'IA ne couvrent que 20% du travail. Les 80% restants (validation,
 intégration, edge cases, maintenabilité), c'est toujours toi.
 
 <figure style="text-align: center;">
@@ -108,7 +108,7 @@ Des entreprises réduisent leurs équipes de développement en pariant que l'IA 
 demandent des "10x developers powered by AI" comme si c'était un trait de personnalité. Des juniors ne trouvent
 plus de premiers postes parce que les tâches d'entrée (celles qui formaient) sont jugées "automatisables".
 
-Et les seniors se retrouvent dans une position paradoxale : leur expertise n'a jamais été aussi nécessaire
+Et les seniors se retrouvent dans une position paradoxale : leur expertise n'a jamais été aussi nécessaire
 (quelqu'un doit valider ce que l'IA produit), mais elle n'a jamais été aussi mal reconnue (puisque "l'IA fait la
 même chose").
 
@@ -124,25 +124,25 @@ juste mesure. Et entre les deux, un marché qui confond productivité et précip
 ## Ce que personne ne dit à voix haute
 
 Derrière les posts LinkedIn enthousiastes et les démos impressionnantes, il y a une réalité que beaucoup vivent
-sans oser l'exprimer :
+sans oser l'exprimer :
 
 - **La fatigue de la course.** Chaque semaine, un nouvel outil, un nouveau paradigme, une nouvelle façon
   "révolutionnaire" de coder. Tu n'as même pas fini d'explorer le précédent.
-- **Le syndrome du retardataire.** Tu n'as pas encore essayé le dernier framework agentique ? Tu es has-been.
-  Tu codes encore "à la main" certaines choses ? Tu perds du temps.
+- **Le syndrome du retardataire.** Tu n'as pas encore essayé le dernier framework agentique ? Tu es has-been.
+  Tu codes encore "à la main" certaines choses ? Tu perds du temps.
 - **La solitude.** Dans ton équipe, personne n'en parle. Chacun fait semblant que tout va bien et que c'est
   "excitant". Personne ne dit "en fait, je suis perdu".
-- **La culpabilité.** Tu te sens illégitime de ressentir ce malaise. Après tout, c'est du progrès, non ? Tu
+- **La culpabilité.** Tu te sens illégitime de ressentir ce malaise. Après tout, c'est du progrès, non ? Tu
   devrais être content. Tu devrais t'adapter. Tu devrais aller plus vite.
 
 Et puis il y a un malaise plus insidieux, que Benjamin Debon
 ([Benjamin Code](https://www.linkedin.com/feed/update/urn:li:activity:7433055093526257664/)) a formulé avec
-une justesse désarmante :
+une justesse désarmante :
 
 > *Avant on produisait jusqu'à la limite de nos capacités, on était satisfait du ratio effort/output, et on
 > était aussi épuisés. C'était trois conditions qui nous faisaient converger vers un arrêt naturel. Le
 > vibecoding a fait sauter les trois en même temps. Notre signal d'arrêt naturel a disparu. [...] Quand
-> continuer ne coûte plus rien, comment on mérite encore de s'arrêter ?*
+> continuer ne coûte plus rien, comment on mérite encore de s'arrêter ?*
 
 C'est exactement ça. L'IA n'a pas seulement changé ce qu'on produit, elle a brisé le mécanisme qui nous
 permettait de dire "c'est assez pour aujourd'hui". Quand lancer un agent prend trois minutes et que ne pas le
@@ -153,21 +153,21 @@ faire ressemble à du temps perdu, la frontière entre productivité et compulsi
   alt="I'm in this photo and I don't like it" style="max-width: 100%;" />
 </p>
 
-Si tu te reconnais dans un ou plusieurs de ces points : tu n'es pas seul. Et tu n'es pas en retard. Le rythme
+Si tu te reconnais dans un ou plusieurs de ces points : tu n'es pas seul. Et tu n'es pas en retard. Le rythme
 qu'on essaie de t'imposer n'est pas humain.
 
 ## Séparer le signal du bruit
 
 Maintenant que le malaise est posé, essayons d'y voir clair.
 
-**Le bruit**, c'est :
+**Le bruit**, c'est :
 - Les démos cherry-pickées qui montrent un cas idéal sans montrer les 47 tentatives avant
 - Les influenceurs qui n'ont jamais maintenu un système en production
 - Les prédictions catastrophistes sur la "fin des développeurs" ([on nous la promet depuis les années 60
   et COBOL](https://www.ivanturkovic.com/2026/01/22/history-software-simplification-cobol-ai-hype/))
 - Les entreprises qui vendent de l'IA en solution miracle à des problèmes organisationnels
 
-**Le signal**, c'est :
+**Le signal**, c'est :
 - L'IA est un outil puissant qui change réellement certaines parties du travail
 - Les tâches répétitives et le boilerplate sont effectivement en train de disparaître
 - La capacité à formuler un besoin clairement devient une compétence clé
@@ -186,7 +186,7 @@ compétence qui s'apprend.
 ## Ce qui fait toujours la différence
 
 Je ne vais pas te sortir la liste habituelle des "soft skills indémodables" (tu la connais déjà). Je vais plutôt
-te dire ce que j'observe concrètement, en travaillant avec l'IA tous les jours :
+te dire ce que j'observe concrètement, en travaillant avec l'IA tous les jours :
 
 **L'IA est brillante dans un couloir, aveugle à un carrefour.** Donne-lui un problème bien cadré, elle excelle.
 Confronte-la à un choix d'architecture avec des contraintes métier, des compromis de performance et une dette
@@ -214,7 +214,7 @@ lui-même.
 Le piège serait de répondre à l'anxiété par une course effrénée. Apprendre chaque nouvel outil, suivre chaque
 tendance, se réinventer toutes les six semaines. C'est le chemin le plus court vers le burnout.
 
-Quelques principes qui m'aident à naviguer dans ce brouillard :
+Quelques principes qui m'aident à naviguer dans ce brouillard :
 
 **Choisis tes batailles.** Tu ne peux pas tout suivre. Personne ne le peut. Identifie ce qui est pertinent pour
 *ton* contexte (ta stack, ton domaine, tes projets) et ignore le reste sans culpabilité.
@@ -237,7 +237,7 @@ facile à générer, plus le jugement sur *quel* code écrire prend de la valeur
 Le silence nourrit le syndrome de l'imposteur. La conversation le dissout. Certains vont même jusqu'à écrire
 des articles dessus, paraît-il.
 
-## Et maintenant ?
+## Et maintenant ?
 
 Ce que je ressens (et peut-être que toi aussi), ce n'est pas de la résistance au changement. C'est le besoin
 légitime de donner du sens à une transformation qui va plus vite que notre capacité collective à l'absorber.

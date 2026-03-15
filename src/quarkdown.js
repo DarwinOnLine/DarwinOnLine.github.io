@@ -173,6 +173,27 @@ export class Quarkdown {
     this.search.index(this.blog.posts, contents);
   }
 
+  _renderTagBadge(tag, ctx, count = null, extraClass = '') {
+    const href = `/${ctx.lang}/blog/tag/${encodeURIComponent(tag)}`;
+    const countHTML = count !== null ? ` <span class="tag-count">${count}</span>` : '';
+    const cls = `post-tag${extraClass ? ` ${extraClass}` : ''}`;
+    return `<a class="${cls}" href="${href}" onclick="event.stopPropagation(); window._quarkdown.navigateTo('${href}'); return false;">${esc(tag)}${countHTML}</a>`;
+  }
+
+  _renderPostPreview(post, index, startIndex, ctx, tagCounts) {
+    const num = String(startIndex + index + 1).padStart(2, '0');
+    const tagsHTML = (post.tags || []).map(tag => this._renderTagBadge(tag, ctx, tagCounts[tag] || 0)).join('');
+    return `
+      <article class="post-preview" onclick="event.preventDefault(); window._quarkdown.navigateTo('/${ctx.lang}/blog/${post.slug}')" style="cursor:pointer;">
+        <div class="post-number">${num}</div>
+        <h2>${esc(post.title)}</h2>
+        <p class="post-meta">${ctx.formatDate(post.date)}</p>
+        <p class="post-description">${esc(post.description)}</p>
+        ${tagsHTML ? `<div class="post-tags">${tagsHTML}</div>` : ''}
+      </article>
+    `;
+  }
+
   async _handleRoute({ path, lang, params, routeId }) {
     if (this.analytics) {
       this.analytics.trackPageView(window.location.pathname);
@@ -274,27 +295,6 @@ export class Quarkdown {
       console.error('Quarkdown: Failed to load home page:', error);
       this.container.innerHTML = '<div class="home-page"><p>Failed to load content.</p></div>';
     }
-  }
-
-  _renderTagBadge(tag, ctx, count = null, extraClass = '') {
-    const href = `/${ctx.lang}/blog/tag/${encodeURIComponent(tag)}`;
-    const countHTML = count !== null ? ` <span class="tag-count">${count}</span>` : '';
-    const cls = `post-tag${extraClass ? ` ${extraClass}` : ''}`;
-    return `<a class="${cls}" href="${href}" onclick="event.stopPropagation(); window._quarkdown.navigateTo('${href}'); return false;">${esc(tag)}${countHTML}</a>`;
-  }
-
-  _renderPostPreview(post, index, startIndex, ctx, tagCounts) {
-    const num = String(startIndex + index + 1).padStart(2, '0');
-    const tagsHTML = (post.tags || []).map(tag => this._renderTagBadge(tag, ctx, tagCounts[tag] || 0)).join('');
-    return `
-      <article class="post-preview" onclick="event.preventDefault(); window._quarkdown.navigateTo('/${ctx.lang}/blog/${post.slug}')" style="cursor:pointer;">
-        <div class="post-number">${num}</div>
-        <h2>${esc(post.title)}</h2>
-        <p class="post-meta">${ctx.formatDate(post.date)}</p>
-        <p class="post-description">${esc(post.description)}</p>
-        ${tagsHTML ? `<div class="post-tags">${tagsHTML}</div>` : ''}
-      </article>
-    `;
   }
 
   _showBlog(page = 1) {
@@ -458,9 +458,24 @@ export class Quarkdown {
       const readingTimeText = this.t('blog.readingTime').replace('{min}', readingTime);
       const tagsHTML = (post.tags || []).map(tag => this._renderTagBadge(tag, ctx)).join('');
 
+      const { prev, next } = this.blog.neighbors(slug);
+
       if (this.config.renderPost) {
-        this.container.innerHTML = this.config.renderPost(html, post, ctx, { readingTime });
+        this.container.innerHTML = this.config.renderPost(html, post, ctx, { readingTime, prev, next });
       } else {
+        const prevLink = prev
+          ? `<a class="post-nav-link post-nav-prev" href="/${ctx.lang}/blog/${prev.slug}" onclick="event.preventDefault(); window._quarkdown.navigateTo('/${ctx.lang}/blog/${prev.slug}')">
+              <span class="post-nav-label">&laquo; ${ctx.t('blog.prevPost')}</span>
+              <span class="post-nav-title">${esc(prev.title)}</span>
+            </a>`
+          : '<span></span>';
+        const nextLink = next
+          ? `<a class="post-nav-link post-nav-next" href="/${ctx.lang}/blog/${next.slug}" onclick="event.preventDefault(); window._quarkdown.navigateTo('/${ctx.lang}/blog/${next.slug}')">
+              <span class="post-nav-label">${ctx.t('blog.nextPost')} &raquo;</span>
+              <span class="post-nav-title">${esc(next.title)}</span>
+            </a>`
+          : '<span></span>';
+
         this.container.innerHTML = `
           <div class="post-page">
             <nav class="main-nav">
@@ -473,6 +488,7 @@ export class Quarkdown {
               ${tagsHTML ? `<div class="post-tags">${tagsHTML}</div>` : ''}
               <div class="post-content">${html}</div>
             </article>
+            <nav class="post-nav">${prevLink}${nextLink}</nav>
           </div>
         `;
       }

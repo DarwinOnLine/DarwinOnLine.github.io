@@ -4,7 +4,7 @@ Ce guide montre comment ajouter des images dans vos articles Markdown.
 
 ## Structure des dossiers
 
-Les images sont stockées dans `/assets/images/` :
+Les images sont stockées dans `/assets/images/` :
 
 ```
 /assets/
@@ -22,7 +22,7 @@ Les images sont stockées dans `/assets/images/` :
 ![Texte alternatif](/assets/images/banner-example.jpg)
 ```
 
-Résultat :
+Résultat :
 
 ![Exemple de bannière](/assets/images/banner-example.jpg)
 
@@ -42,25 +42,25 @@ Résultat :
 
 ## Bonnes pratiques
 
-1. **Noms de fichiers** : Utilisez des noms descriptifs en minuscules avec tirets
+1. **Noms de fichiers** : Utilisez des noms descriptifs en minuscules avec tirets
    - ✅ `mon-article-banniere.jpg`
    - ❌ `Image1.JPG`
 
-2. **Formats** :
-   - Photos : JPEG (`.jpg`)
-   - Graphiques/logos : PNG (`.png`) ou SVG (`.svg`)
-   - Animations : GIF (`.gif`) ou WebP
+2. **Formats** :
+   - Photos : JPEG (`.jpg`)
+   - Graphiques/logos : PNG (`.png`) ou SVG (`.svg`)
+   - Animations : GIF (`.gif`) ou WebP
 
-3. **Optimisation** : Compressez vos images avant de les uploader
-   - Outils : TinyPNG, ImageOptim, Squoosh
+3. **Optimisation** : Compressez vos images avant de les uploader
+   - Outils : TinyPNG, ImageOptim, Squoosh
 
-4. **Accessibilité** : Toujours ajouter un texte alternatif descriptif
+4. **Accessibilité** : Toujours ajouter un texte alternatif descriptif
 
 ## Exemples
 
 ### Image en ligne
 
-Vous pouvez aussi mettre du texte avec une petite icône ![🎨](/assets/images/icon-example.png) en ligne.
+Vous pouvez aussi mettre du texte avec une petite icône ![🎨](/assets/images/icon-example.png) en ligne.
 
 ### Galerie d'images
 
@@ -72,4 +72,4 @@ Vous pouvez aussi mettre du texte avec une petite icône ![🎨](/assets/images/
 
 ---
 
-C'est tout ! Les images rendent vos articles plus vivants 📸
+C'est tout ! Les images rendent vos articles plus vivants 📸

@@ -1,4 +1,4 @@
-# Apprendre tous les jours : la veille techno sans se noyer
+# Apprendre tous les jours : la veille techno sans se noyer
 
 *Parce que dans ce métier, ce que tu sais aujourd'hui sera périmé demain.*
 
@@ -7,7 +7,7 @@ l'évolution des lois et de la jurisprudence. Un plombier, un électricien, un b
 évoluer et doit s'adapter, selon de nouvelles normes, de nouvelles pratiques ou façon de faire.
 Peu de professions permettent de s'arrêter d'apprendre après la formation et/ou le diplôme.
 
-Le développement informatique n'échappe pas à la règle, mais il a une particularité : la vitesse. Un framework
+Le développement informatique n'échappe pas à la règle, mais il a une particularité : la vitesse. Un framework
 populaire aujourd'hui sera "legacy" dans trois ans, du moins dans sa version actuelle. Une bonne pratique unanime
 deviendra un antipattern quand un nouveau paradigme émergera. Le langage que tu maîtrises verra sa syntaxe évoluer,
 ses outils changer, sa communauté se diviser sur la bonne façon de faire les choses. Et pendant ce temps, de nouveaux
@@ -17,7 +17,7 @@ Ce rythme-là est propre à notre industrie. Et si tu ne t'y adaptes pas, tu ne 
 lendemain. Tu deviens lentement, silencieusement, décalé.
 
 La veille technologique, c'est ce qui empêche ce décalage. Pas une corvée en plus, pas un luxe pour les passionnés
-qui n'ont rien d'autre à faire le soir : un outil de survie professionnelle.
+qui n'ont rien d'autre à faire le soir : un outil de survie professionnelle.
 
 <figure style="text-align: center;">
 <img src="/assets/images/posts/apprendre-tous-les-jours-la-veille-techno-sans-se-noyer/me-dette.jpg"
@@ -36,19 +36,19 @@ de vision pour que quand un problème arrive, tu aies plus de solutions dans ta 
 
 **Pour anticiper les virages.** Quand l'écosystème JavaScript est passé de jQuery à Angular puis à React, ceux qui
 suivaient l'actualité ont vu venir la transition. Les autres se sont retrouvés avec des compétences qui ne
-matchaient plus les offres d'emploi. Même chose aujourd'hui avec l'IA : ceux qui comprennent ce que font les LLM
+matchaient plus les offres d'emploi. Même chose aujourd'hui avec l'IA : ceux qui comprennent ce que font les LLM
 et comment les intégrer ont une longueur d'avance sur ceux qui attendent que "ça se stabilise".
 
 **Pour avoir un avis éclairé.** En réunion, quand quelqu'un propose d'adopter une nouvelle techno, tu veux être
 celui qui dit "j'ai lu des retours d'expérience là-dessus, voici les avantages et les limites" plutôt que celui
 qui hausse les épaules. La veille te donne une voix légitime dans les décisions techniques.
 
-**Pour comprendre, pas forcément pour maîtriser.** Un point important : faire de la veille ne veut pas dire
+**Pour comprendre, pas forcément pour maîtriser.** Un point important : faire de la veille ne veut pas dire
 apprendre chaque nouvelle techno en profondeur. L'objectif, c'est de savoir que quelque chose existe et dans
 quel contexte l'utiliser. Le jour où tu en auras besoin, tu sauras où creuser. Personne ne peut tout maîtriser,
 et les meilleurs développeurs que je connais ne prétendent pas le contraire. Ils savent simplement où regarder.
 
-**Pour nourrir ta curiosité.** Soyons honnêtes : si tu es devenu développeur, c'est probablement parce que tu
+**Pour nourrir ta curiosité.** Soyons honnêtes : si tu es devenu développeur, c'est probablement parce que tu
 aimes comprendre comment les choses fonctionnent. La veille, c'est du carburant pour cette curiosité. C'est
 tomber sur un article qui t'explique un concept que tu n'avais jamais rencontré et sentir cette petite
 excitation du "ah, je ne savais pas que c'était possible".
@@ -59,7 +59,7 @@ excitation du "ah, je ne savais pas que c'était possible".
 Level 3: I read source code of libraries I use, Level 4: I read changelogs for fun" style="max-width: 100%;" />
 </figure>
 
-## Mes sources : ce qui marche pour moi
+## Mes sources : ce qui marche pour moi
 
 Je ne vais pas te donner une liste de 47 newsletters à suivre. Tu ne les liras pas, et moi non plus. Voici ce que
 j'utilise *vraiment*, au quotidien.
@@ -68,7 +68,7 @@ j'utilise *vraiment*, au quotidien.
 
 [Le Journal du Hacker](https://www.journalduhacker.net/), c'est un agrégateur communautaire francophone, dans
 l'esprit de Hacker News. Les articles sont soumis et votés par la communauté, ce qui fait un filtre naturel assez
-efficace. L'avantage : c'est en français, c'est varié (dev, sysadmin, sécu, vie du libre), et le niveau de
+efficace. L'avantage : c'est en français, c'est varié (dev, sysadmin, sécu, vie du libre), et le niveau de
 discussion dans les commentaires est généralement bon. C'est mon point d'entrée quotidien.
 
 ### Human Coders News
@@ -81,7 +81,7 @@ Human Coders News feraient une bonne paire.
 ### Developpez.com
 
 [Developpez.com](https://www.developpez.com/), c'est le vétéran. Le site existe depuis 1999, et il a
-cette vertu rare : des articles de fond, souvent longs, souvent techniques, souvent bien sourcés. Ce n'est pas du
+cette vertu rare : des articles de fond, souvent longs, souvent techniques, souvent bien sourcés. Ce n'est pas du
 buzz, ce n'est pas du "top 10 des trucs à savoir en 2026". C'est du contenu solide, avec des tutoriels, des cours,
 des FAQ. Le design n'a pas toujours suivi les tendances, mais le contenu, si.
 
@@ -91,12 +91,12 @@ Et puis il y a les blogs. Les blogs individuels de développeurs qui partagent l
 découvertes, leurs galères. C'est souvent là que tu trouves les contenus les plus authentiques, les moins
 formatés, les plus utiles.
 
-Pour les suivre, j'utilise des **flux RSS**. Si tu ne connais pas, le principe est simple : au lieu d'aller
+Pour les suivre, j'utilise des **flux RSS**. Si tu ne connais pas, le principe est simple : au lieu d'aller
 vérifier manuellement chaque site pour voir s'il y a du nouveau, tu t'abonnes à son flux RSS, et un lecteur
 (Feedly, Miniflux, FreshRSS, ou même Thunderbird) centralise tout pour toi. C'est comme une boîte aux lettres
 pour les sites web.
 
-Le gros avantage du RSS par rapport aux réseaux sociaux ou aux newsletters : **c'est toi qui choisis tes
+Le gros avantage du RSS par rapport aux réseaux sociaux ou aux newsletters : **c'est toi qui choisis tes
 sources**. Pas d'algorithme qui décide ce que tu devrais lire. Pas de contenu sponsorisé. Pas de bruit. Juste les
 articles des gens que tu as choisi de suivre, dans l'ordre chronologique.
 
@@ -125,13 +125,13 @@ le jeu), mais les pépites existent. Bon moyen de découvrir des perspectives di
 d'expérience concrets.
 
 **[Reddit r/programming](https://www.reddit.com/r/programming/)**, pour ceux qui aiment le format discussion.
-Les liens partagés sont souvent intéressants, mais c'est surtout dans les commentaires que ça se passe : débats,
+Les liens partagés sont souvent intéressants, mais c'est surtout dans les commentaires que ça se passe : débats,
 nuances, retours d'expérience contradictoires. Il faut aimer le bruit pour trouver le signal, mais quand on le
 trouve, ça vaut le détour.
 
 **Les conférences en replay** ([Devoxx France](https://www.youtube.com/@DevoxxFRvideos),
 [MiXiT](https://www.youtube.com/@mixitconf), [dotConferences](https://www.youtube.com/@dotconferences),
-[Volcamp](https://www.youtube.com/@volcamp8744)) : beaucoup de talks sont disponibles
+[Volcamp](https://www.youtube.com/@volcamp8744)) : beaucoup de talks sont disponibles
 gratuitement sur YouTube après l'événement. C'est de la veille "passive", tu lances une conf en fond pendant
 que tu fais autre chose, et tu absorbes. Idéal les jours où tu n'as pas envie de lire.
 
@@ -179,14 +179,14 @@ la veille, c'est de la culpabilité organisée.
 Un article que tu lis et que tu oublies n'a servi à rien. Un article que tu résumes à un collègue, que tu postes
 dans un channel Slack, ou que tu mentionnes dans une réunion, celui-là, tu le retiens. Partager, c'est ancrer.
 
-Et si tu veux aller plus loin : écrire. Un article de blog, un post, même un simple thread. Reformuler ce que tu
+Et si tu veux aller plus loin : écrire. Un article de blog, un post, même un simple thread. Reformuler ce que tu
 as appris t'oblige à le comprendre vraiment. C'est le niveau supérieur de la veille, celui où tu passes de
 consommateur à contributeur.
 
 ### Alterner profondeur et surface
 
-Tous les jours, tu fais de la veille de surface : titres, résumés, tendances. C'est le radar. De temps en temps,
-tu creuses un sujet en profondeur : tu lis la doc, tu testes un outil, tu suis un tutoriel, tu fais un petit
+Tous les jours, tu fais de la veille de surface : titres, résumés, tendances. C'est le radar. De temps en temps,
+tu creuses un sujet en profondeur : tu lis la doc, tu testes un outil, tu suis un tutoriel, tu fais un petit
 projet perso. C'est le sonar.
 
 Les deux sont complémentaires. Le radar te dit "ce truc existe". Le sonar te dit "ce truc fonctionne comme ça".

@@ -43,5 +43,14 @@
     "i18nSlugs": { "fr": "apprendre-tous-les-jours-la-veille-techno-sans-se-noyer" },
     "tags": ["Development", "Tech Watch", "Career"],
     "image": "assets/images/posts/apprendre-tous-les-jours-la-veille-techno-sans-se-noyer/me-dette.jpg"
+  },
+  {
+    "slug": "the-real-cost-of-ai-when-the-bill-comes-due",
+    "title": "The real cost of AI: when the bill comes due",
+    "date": "2026-03-15",
+    "description": "$200 a month is expensive. But it's probably not enough.",
+    "i18nSlugs": { "fr": "le-vrai-cout-de-l-ia-quand-la-facture-arrivera" },
+    "tags": ["Development", "AI", "Career"],
+    "image": "assets/images/posts/le-vrai-cout-de-l-ia-quand-la-facture-arrivera/free-real-estate.jpg"
   }
 ]

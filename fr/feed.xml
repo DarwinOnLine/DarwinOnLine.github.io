@@ -5,13 +5,24 @@
     <link>https://darwinonline.github.io/fr</link>
     <description>Blog personnel de Darwin - Développement, Tech et Réflexions</description>
     <language>fr</language>
-    <lastBuildDate>Thu, 12 Mar 2026 10:11:32 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 15 Mar 2026 07:18:25 GMT</lastBuildDate>
     <atom:link href="https://darwinonline.github.io/fr/feed.xml" rel="self" type="application/rss+xml" />
     <image>
       <url>https://darwinonline.github.io/assets/images/default-og.png</url>
       <title>Darwin On Line (FR)</title>
       <link>https://darwinonline.github.io/fr</link>
     </image>
+    <item>
+      <title>Le vrai coût de l&apos;IA : quand la facture arrivera</title>
+      <link>https://darwinonline.github.io/fr/blog/le-vrai-cout-de-l-ia-quand-la-facture-arrivera</link>
+      <guid isPermaLink="true">https://darwinonline.github.io/fr/blog/le-vrai-cout-de-l-ia-quand-la-facture-arrivera</guid>
+      <pubDate>Sun, 15 Mar 2026 12:00:00 GMT</pubDate>
+      <description>$200 par mois, c&apos;est cher. Mais c&apos;est probablement pas assez.</description>
+      <category>Développement</category>
+      <category>IA</category>
+      <category>Carrière</category>
+      <enclosure url="https://darwinonline.github.io/assets/images/posts/le-vrai-cout-de-l-ia-quand-la-facture-arrivera/free-real-estate.jpg" type="image/jpeg" length="0" />
+    </item>
     <item>
       <title>Apprendre tous les jours : la veille techno sans se noyer</title>
       <link>https://darwinonline.github.io/fr/blog/apprendre-tous-les-jours-la-veille-techno-sans-se-noyer</link>
