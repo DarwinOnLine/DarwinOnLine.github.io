@@ -52,5 +52,14 @@
     "i18nSlugs": { "fr": "le-vrai-cout-de-l-ia-quand-la-facture-arrivera" },
     "tags": ["Development", "AI", "Career"],
     "image": "assets/images/posts/le-vrai-cout-de-l-ia-quand-la-facture-arrivera/free-real-estate.jpg"
+  },
+  {
+    "slug": "my-job-explained-to-my-mom",
+    "title": "My job explained to my mom",
+    "date": "2026-03-22",
+    "description": "Or why \"I do stuff with computers\" doesn't cut it anymore.",
+    "i18nSlugs": { "fr": "mon-metier-explique-a-ma-mere" },
+    "tags": ["Development", "Career"],
+    "image": "assets/images/posts/mon-metier-explique-a-ma-mere/hero.jpg"
   }
 ]

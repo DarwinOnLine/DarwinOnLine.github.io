@@ -5,13 +5,23 @@
     <link>https://darwinonline.github.io/en</link>
     <description>Darwin&apos;s personal blog - Development, Tech and Thoughts</description>
     <language>en</language>
-    <lastBuildDate>Thu, 19 Mar 2026 23:07:30 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 17 Mar 2026 16:22:12 GMT</lastBuildDate>
     <atom:link href="https://darwinonline.github.io/en/feed.xml" rel="self" type="application/rss+xml" />
     <image>
       <url>https://darwinonline.github.io/assets/images/default-og.png</url>
       <title>Darwin On Line (EN)</title>
       <link>https://darwinonline.github.io/en</link>
     </image>
+    <item>
+      <title>My job explained to my mom</title>
+      <link>https://darwinonline.github.io/en/blog/my-job-explained-to-my-mom</link>
+      <guid isPermaLink="true">https://darwinonline.github.io/en/blog/my-job-explained-to-my-mom</guid>
+      <pubDate>Sun, 22 Mar 2026 12:00:00 GMT</pubDate>
+      <description>Or why &quot;I do stuff with computers&quot; doesn&apos;t cut it anymore.</description>
+      <category>Development</category>
+      <category>Career</category>
+      <enclosure url="https://darwinonline.github.io/assets/images/posts/mon-metier-explique-a-ma-mere/hero.jpg" type="image/jpeg" length="0" />
+    </item>
     <item>
       <title>The real cost of AI: when the bill comes due</title>
       <link>https://darwinonline.github.io/en/blog/the-real-cost-of-ai-when-the-bill-comes-due</link>
