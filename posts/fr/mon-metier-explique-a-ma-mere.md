@@ -2,17 +2,17 @@
 
 *Ou pourquoi « je fais des trucs avec des ordinateurs » ne suffit plus comme réponse*
 
-<figure style="text-align: center;">
-  <img src="/assets/images/posts/mon-metier-explique-a-ma-mere/hero.jpg"
-  alt="Un développeur essayant d'expliquer son métier" style="max-width: 100%;" />
-</figure>
-
 Ça commence toujours pareil. Une discussion informelle, quelqu'un me demande ce que je fais dans la vie,
 je réponds « développeur », et je vois le même enchaînement dans les yeux de mon interlocuteur : intérêt poli,
 effort de concentration, puis ce léger voile qui tombe quand je sors un mot trop technique ou du jargon.
 
 Et à chaque fois, je me dis que ça devrait pas être si compliqué à expliquer. Que je devrais avoir une réponse simple,
 limpide, prête à dégainer. Mais non. Quinze ans de métier et je bafouille encore.
+
+<figure style="text-align: center;">
+  <img src="/assets/images/posts/mon-metier-explique-a-ma-mere/hero.png"
+  alt="Un développeur essayant d'expliquer son métier" style="max-width: 100%;" />
+</figure>
 
 Alors voilà. Cet article, c'est ma tentative de réponse claire. Pour toi maman, pour toi mémé, pour vous les enfants,
 et tous ceux qui me voient taper sur un clavier toute la journée en se demandant si c'est vraiment *ça*, mon travail.

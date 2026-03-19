@@ -5,7 +5,7 @@
     <link>https://darwinonline.github.io/fr</link>
     <description>Blog personnel de Darwin - Développement, Tech et Réflexions</description>
     <language>fr</language>
-    <lastBuildDate>Tue, 17 Mar 2026 16:22:12 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 19 Mar 2026 18:03:14 GMT</lastBuildDate>
     <atom:link href="https://darwinonline.github.io/fr/feed.xml" rel="self" type="application/rss+xml" />
     <image>
       <url>https://darwinonline.github.io/assets/images/default-og.png</url>
@@ -20,7 +20,7 @@
       <description>Ou pourquoi « je fais des trucs avec des ordinateurs » ne suffit plus comme réponse.</description>
       <category>Développement</category>
       <category>Carrière</category>
-      <enclosure url="https://darwinonline.github.io/assets/images/posts/mon-metier-explique-a-ma-mere/hero.jpg" type="image/jpeg" length="0" />
+      <enclosure url="https://darwinonline.github.io/assets/images/posts/mon-metier-explique-a-ma-mere/hero.png" type="image/png" length="0" />
     </item>
     <item>
       <title>Le vrai coût de l&apos;IA : quand la facture arrivera</title>
