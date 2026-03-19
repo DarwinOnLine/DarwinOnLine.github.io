@@ -166,7 +166,7 @@ hochement de tête un peu trop poli. Et honnêtement, il m'arrive de me la poser
 
 Parce que si demain je disparais, personne ne meurt. Je ne suis pas un soignant qui tient une main à 3 heures du matin,
 ou un enseignant qui apprend à lire à un gamin de six ans.
-[On n'est pas soumis au même stress](/fr/blog/ce-que-le-metier-de-developpeur-ma-appris#détendez-vous),
+[On n'est pas soumis au même stress](/fr/blog/ce-que-le-metier-de-developpeur-ma-appris#detendez-vous),
 et c'est important de le garder en tête. Mon métier ne nourrit personne au sens propre.
 Il ne construit pas de routes qu'on peut montrer du doigt.
 
