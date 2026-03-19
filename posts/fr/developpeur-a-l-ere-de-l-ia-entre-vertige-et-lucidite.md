@@ -4,7 +4,7 @@
 
 <figure style="text-align: center;">
 <img src="/assets/images/posts/developpeur-a-l-ere-de-l-ia-entre-vertige-et-lucidite/this-is-fine.jpg"
-  alt="This is fine" style="max-width: 100%;" />
+  alt="This is fine" style="max-width: 100%;" loading="eager" />
 <figcaption>"This is Fine" © K.C. Green, Gunshow #648 (2013)</figcaption>
 </figure>
 
@@ -33,7 +33,7 @@ coup au plexus.
 
 <figure style="text-align: center;">
 <img src="/assets/images/posts/developpeur-a-l-ere-de-l-ia-entre-vertige-et-lucidite/fraction-of-our-power.jpg"
-  alt="Look what they need to mimic a fraction of our power" style="max-width: 100%;" />
+  alt="Look what they need to mimic a fraction of our power" style="max-width: 100%;" loading="lazy" />
 <figcaption>"Look what they need to mimic a fraction of our power" © Amazon / Invincible (2021)</figcaption>
 </figure>
 
@@ -54,7 +54,7 @@ propre incompétence.
 
 <figure style="text-align: center;">
 <img src="/assets/images/posts/developpeur-a-l-ere-de-l-ia-entre-vertige-et-lucidite/mcarthur-wheeler.jpg"
-  alt="McArthur Wheeler, photographié par les caméras de surveillance" style="max-width: 100%;" />
+  alt="McArthur Wheeler, photographié par les caméras de surveillance" style="max-width: 100%;" loading="lazy" />
 <figcaption>McArthur Wheeler, capturé par les caméras qu'il pensait tromper avec du jus de citron.</figcaption>
 </figure>
 
@@ -95,7 +95,7 @@ intégration, edge cases, maintenabilité), c'est toujours toi.
 
 <figure style="text-align: center;">
 <img src="/assets/images/posts/developpeur-a-l-ere-de-l-ia-entre-vertige-et-lucidite/iceberg.jpg"
-  alt="Iceberg: AI-generated code vs everything else" style="max-width: 100%;" />
+  alt="Iceberg: AI-generated code vs everything else" style="max-width: 100%;" loading="lazy" />
 <figcaption>Mais essaie d'expliquer ça dans un standup de 15 minutes.</figcaption>
 </figure>
 
@@ -117,7 +117,7 @@ juste mesure. Et entre les deux, un marché qui confond productivité et précip
 
 <figure style="text-align: center;">
 <img src="/assets/images/posts/developpeur-a-l-ere-de-l-ia-entre-vertige-et-lucidite/productivity-rushing.jpg"
-  alt="They're the same picture: Productivity vs Rushing" style="max-width: 100%;" />
+  alt="They're the same picture: Productivity vs Rushing" style="max-width: 100%;" loading="lazy" />
 <figcaption>"They're the same picture." © NBC / The Office (2005)</figcaption>
 </figure>
 
@@ -150,7 +150,7 @@ faire ressemble à du temps perdu, la frontière entre productivité et compulsi
 
 <p style="text-align: center;">
 <img src="/assets/images/posts/developpeur-a-l-ere-de-l-ia-entre-vertige-et-lucidite/im-in-this-photo.jpg"
-  alt="I'm in this photo and I don't like it" style="max-width: 100%;" />
+  alt="I'm in this photo and I don't like it" style="max-width: 100%;" loading="lazy" />
 </p>
 
 Si tu te reconnais dans un ou plusieurs de ces points : tu n'es pas seul. Et tu n'es pas en retard. Le rythme
@@ -175,7 +175,7 @@ Maintenant que le malaise est posé, essayons d'y voir clair.
 
 <p style="text-align: center;">
 <img src="/assets/images/posts/developpeur-a-l-ere-de-l-ia-entre-vertige-et-lucidite/lucidity.jpg"
-  alt="Barney Stinson ignoring the noise, staying focused on fundamentals" style="max-width: 100%;" />
+  alt="Barney Stinson ignoring the noise, staying focused on fundamentals" style="max-width: 100%;" loading="lazy" />
 </p>
 
 La différence entre le bruit et le signal, c'est le long terme. Le bruit s'évapore. Le signal se confirme avec
@@ -194,7 +194,7 @@ technique héritée, elle tourne en rond. Ce carrefour, c'est ton métier.
 
 <p style="text-align: center;">
 <img src="/assets/images/posts/developpeur-a-l-ere-de-l-ia-entre-vertige-et-lucidite/ai-generated-horse.jpg"
-  alt="AI-generated code in the demo vs in production" style="max-width: 100%;" />
+  alt="AI-generated code in the demo vs in production" style="max-width: 100%;" loading="lazy" />
 </p>
 
 **Le code facile est devenu gratuit. Le code juste reste cher.** N'importe qui peut générer un CRUD en
@@ -222,7 +222,7 @@ Quelques principes qui m'aident à naviguer dans ce brouillard :
 <p style="text-align: center;">
 <img src="/assets/images/posts/developpeur-a-l-ere-de-l-ia-entre-vertige-et-lucidite/calm-cat.jpg"
   alt="Everyone's panicking about AI replacing devs. I'm here wondering if I should upgrade to Node 54."
-  style="max-width: 100%;" />
+  style="max-width: 100%;" loading="lazy" />
 </p>
 
 **Utilise l'IA comme un outil, pas comme un juge.** Si tu te retrouves à mesurer ta valeur par rapport à ce
@@ -250,7 +250,7 @@ que tout va mal.
 
 <figure style="text-align: center;">
 <img src="/assets/images/posts/developpeur-a-l-ere-de-l-ia-entre-vertige-et-lucidite/first-time.jpg"
-  alt="First time?" style="max-width: 100%;" />
+  alt="First time?" style="max-width: 100%;" loading="lazy" />
 <figcaption>"First time?" © Netflix / The Ballad of Buster Scruggs (2018)</figcaption>
 </figure>
 

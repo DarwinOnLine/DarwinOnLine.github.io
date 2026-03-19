@@ -3,8 +3,8 @@
 *Or why "I do stuff with computers" doesn't cut it anymore*
 
 <figure style="text-align: center;">
-  <img src="/assets/images/posts/mon-metier-explique-a-ma-mere/hero.jpg"
-  alt="A developer trying to explain their job" style="max-width: 100%;" />
+  <img src="/assets/images/posts/mon-metier-explique-a-ma-mere/hero.webp"
+  alt="A developer trying to explain their job" style="max-width: 100%;" loading="eager" />
 </figure>
 
 It always starts the same way. A casual conversation, someone asks what I do for a living,
@@ -25,14 +25,14 @@ Spoiler: it does. And I'm going to explain why.
 ## I'm a builder, but without the hard hat
 
 Picture a city. Not a city of concrete and glass, a *digital* city. Every website you visit,
-every app on your phone, is a building in that city. Facebook is a massive shopping mall.
-Your weather app is a tiny shack on a street corner with a thermometer outside. The tax
-website... that's the government building with 47 doors, 46 of which are locked, and the
-last one opens to a form. Yes, like the house that drives you crazy.
+every app on your phone, is a building in that city. Netflix is a massive multiplex with thousands of screens. Your doctor's booking app is the
+reception desk that never closes. The tax website... that's the government building with
+47 doors, 46 of which are locked, and the last one opens to a form. Yes, like the house
+that drives you crazy.
 
 <figure style="text-align: center;">
-  <img src="/assets/images/posts/mon-metier-explique-a-ma-mere/la-maison-qui-rend-fou.jpg"
-  alt="The house that drives you crazy (The Twelve Tasks of Asterix)" style="max-width: 100%;" />
+  <img src="/assets/images/posts/mon-metier-explique-a-ma-mere/la-maison-qui-rend-fou.webp"
+  alt="The house that drives you crazy (The Twelve Tasks of Asterix)" style="max-width: 100%;" loading="lazy" />
 </figure>
 
 My job is to **build those buildings**. Not with bricks and mortar, but with instructions
@@ -43,14 +43,14 @@ are invisible.
 
 ## Code is a recipe
 
-The best analogy I've found is cooking. When I make my gratin dauphinois
+The best analogy for algorithms is cooking. When I make my gratin lyonnais
 (I love cooking), I follow specific steps:
 
-1. Peel the potatoes
+1. Peel the potatoes and onions
 2. Slice them thin
-3. Prepare the cream with garlic and nutmeg
-4. Alternate layers of potatoes and cream
-5. Bake for 1 hour at 350°F
+3. Prepare the sauce with mustard, cream, and stock
+4. Alternate layers of potatoes, onions, and cheese
+5. Bake for 1 hour at 210°C
 
 Well, code is exactly that. **A sequence of instructions, in a specific order**, to achieve
 a result. Except cooking feeds people, and code makes software work.
@@ -64,20 +64,25 @@ he won't give you a puzzled look, he'll try.
 And it'll crash (and not potatoes).
 
 <figure style="text-align: center;">
-  <img src="/assets/images/posts/mon-metier-explique-a-ma-mere/regis.jpg"
-  alt="A computer following a recipe to the letter" style="max-width: 100%;" />
+  <img src="/assets/images/posts/mon-metier-explique-a-ma-mere/regis.webp"
+  alt="A computer following a recipe to the letter" style="max-width: 100%;" loading="lazy" />
 <figcaption>Régis is an idiot</figcaption>
 </figure>
 
 ## Bugs, or when the gratin burns
 
-A bug is when the recipe doesn't produce the expected result. Maybe I wrote "180 minutes"
-instead of "350 degrees." Maybe I forgot a step. Maybe the recipe works perfectly with
+A bug is when the recipe doesn't produce the expected result. Maybe I wrote "210 minutes"
+instead of "210 degrees." Maybe I forgot a step. Maybe the recipe works perfectly with
 regular potatoes but someone tried it with sweet potatoes and everything fell apart.
 
 That's exactly what happens with code. We write instructions, we test them, they work.
 And then a user does something we didn't anticipate (some rogue customer puts their phone
 number in the "date of birth" field), and everything falls apart.
+
+<figure style="text-align: center;">
+  <img src="/assets/images/posts/mon-metier-explique-a-ma-mere/anakin-padme.webp"
+  alt="Anakin Padmé meme: I fixed the bug / Without creating a new one right?" style="max-width: 100%;" loading="lazy" />
+</figure>
 
 A good chunk of my time is spent hunting these bugs. It's a bit like being a detective:
 you have to find *where* things went wrong, *why*, and *how* to fix it without breaking
@@ -98,6 +103,11 @@ that never sleep), **cables** (sometimes at the bottom of the ocean, literally),
 **protocols** (rules so everyone understands each other, like traffic laws for data),
 and a whole bunch of software connecting your request to the response.
 
+<figure style="text-align: center;">
+  <img src="/assets/images/posts/mon-metier-explique-a-ma-mere/pipes.webp"
+  alt="The internet as plumbing" style="max-width: 100%;" loading="lazy" />
+</figure>
+
 When you tap "View my photos" on your phone, your request travels through this whole
 network, reaches a server somewhere (maybe Ireland, maybe Virginia), the server finds
 your photos, wraps them up neatly, and sends them back. All in under a second.
@@ -105,19 +115,15 @@ your photos, wraps them up neatly, and sends them back. All in under a second.
 My job is to build and maintain those digital pipes. Make sure the water flows, that
 it's clean, and that it gets to the right place.
 
-<figure style="text-align: center;">
-  <img src="/assets/images/posts/mon-metier-explique-a-ma-mere/plumbing.jpg"
-  alt="The internet as plumbing" style="max-width: 100%;" />
-</figure>
-
 ## "But it looks simple, why does it take so long?"
 
 I sometimes spend an entire day on a button. A single button. And no, I'm not exaggerating.
 The truth is, they're not telling you everything.
 
 <figure style="text-align: center;">
-  <img src="/assets/images/posts/mon-metier-explique-a-ma-mere/on-ne-nous-dit-pas-tout.jpg"
-  alt="They're not telling us everything" style="max-width: 100%;" />
+  <img src="/assets/images/posts/mon-metier-explique-a-ma-mere/roumanoff.webp"
+  alt="They're not telling us everything" style="max-width: 100%;" loading="lazy" />
+<figcaption>Do you really need a caption?</figcaption>
 </figure>
 
 Imagine I ask you to add a door to your house. "It's just a door, should be quick, right?"
@@ -151,6 +157,11 @@ Updates are for:
 - **Strengthening security** (because "bad guys" are always looking for new weaknesses, like burglars testing locks)
 - **Adapting** to new phone versions, browsers, and systems
 
+<figure style="text-align: center;">
+  <img src="/assets/images/posts/mon-metier-explique-a-ma-mere/update-later.webp"
+  alt="Update later" style="max-width: 100%;" loading="lazy" />
+</figure>
+
 So no, Grandma, "Later" is not the right answer. Please do your updates.
 
 ## "But is what you do actually useful?"
@@ -168,6 +179,11 @@ It's something I took a long time to accept, and even longer to put into words: 
 of what I do isn't always obvious, even to me.
 
 But it's there.
+
+<figure style="text-align: center;">
+  <img src="/assets/images/posts/mon-metier-explique-a-ma-mere/david-goodenough.webp"
+  alt="David Goodenough" style="max-width: 100%;" loading="lazy" />
+</figure>
 
 What I love about this job, what gets me out of bed in the morning, is this: **finding
 simple, smart solutions to problems that can be very complex**. Taking something that
@@ -197,6 +213,11 @@ recipes for you, very fast. That's impressive. But this assistant doesn't know i
 gratin tastes good. It doesn't taste. It doesn't know that your cousin is lactose intolerant
 or that Grandma's oven trips the breaker above thermostat 7.
 
+<figure style="text-align: center;">
+  <img src="/assets/images/posts/mon-metier-explique-a-ma-mere/doge-vs-cheems.webp"
+  alt="Doge vs Cheems" style="max-width: 100%;" loading="lazy" />
+</figure>
+
 My job is knowing **what to build**, **why**, and **making sure it works**. AI helps me
 go faster on some tasks. Let me say it again: an accountant doesn't feel threatened by a
 spreadsheet, they use it. Well, it's the same for me.
@@ -219,6 +240,6 @@ There. Now you know. And next time someone asks me "But what do you *actually* d
 I can just say: "Here, some good fellow wrote an article about it, read it."
 
 <figure style="text-align: center;">
-  <img src="/assets/images/posts/mon-metier-explique-a-ma-mere/drop-mic.jpg"
-  alt="Family dinner and job questions" style="max-width: 100%;" />
+  <img src="/assets/images/posts/mon-metier-explique-a-ma-mere/drop-mic.webp"
+  alt="Mic drop" style="max-width: 100%;" loading="lazy" />
 </figure>

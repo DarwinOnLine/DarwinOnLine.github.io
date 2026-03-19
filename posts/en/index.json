@@ -59,7 +59,7 @@
     "date": "2026-03-22",
     "description": "Or why \"I do stuff with computers\" doesn't cut it anymore.",
     "i18nSlugs": { "fr": "mon-metier-explique-a-ma-mere" },
-    "tags": ["Development", "Career"],
-    "image": "assets/images/posts/mon-metier-explique-a-ma-mere/hero.jpg"
+    "tags": ["Development", "Explainers", "Personal"],
+    "image": "assets/images/posts/mon-metier-explique-a-ma-mere/hero.webp"
   }
 ]

@@ -52,7 +52,7 @@
   </url>
   <url>
     <loc>https://darwinonline.github.io/fr/blog/tag/Carri%C3%A8re</loc>
-    <lastmod>2026-03-22</lastmod>
+    <lastmod>2026-03-15</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -78,6 +78,16 @@
   <url>
     <loc>https://darwinonline.github.io/fr/blog/tag/Veille</loc>
     <lastmod>2026-03-08</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://darwinonline.github.io/fr/blog/tag/Vulgarisation</loc>
+    <lastmod>2026-03-22</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://darwinonline.github.io/fr/blog/tag/Personnel</loc>
+    <lastmod>2026-03-22</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -132,7 +142,7 @@
   </url>
   <url>
     <loc>https://darwinonline.github.io/en/blog/tag/Career</loc>
-    <lastmod>2026-03-22</lastmod>
+    <lastmod>2026-03-15</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -158,6 +168,16 @@
   <url>
     <loc>https://darwinonline.github.io/en/blog/tag/Tech%20Watch</loc>
     <lastmod>2026-03-08</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://darwinonline.github.io/en/blog/tag/Explainers</loc>
+    <lastmod>2026-03-22</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://darwinonline.github.io/en/blog/tag/Personal</loc>
+    <lastmod>2026-03-22</lastmod>
     <priority>0.5</priority>
   </url>
 </urlset>

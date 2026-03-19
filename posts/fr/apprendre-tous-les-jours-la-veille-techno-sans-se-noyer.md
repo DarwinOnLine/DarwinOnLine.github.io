@@ -22,7 +22,7 @@ qui n'ont rien d'autre à faire le soir : un outil de survie professionnelle.
 <figure style="text-align: center;">
 <img src="/assets/images/posts/apprendre-tous-les-jours-la-veille-techno-sans-se-noyer/me-dette.jpg"
   alt="Mother ignoring drowning kid in pool meme - Drowning kid: My tech watch, Mother: Me,
-Kid being carried: Coding the same feature for the 12th time" style="max-width: 100%;" />
+Kid being carried: Coding the same feature for the 12th time" style="max-width: 100%;" loading="eager" />
 </figure>
 
 ## Pourquoi se tenir au courant (au-delà de l'évidence)
@@ -56,7 +56,7 @@ excitation du "ah, je ne savais pas que c'était possible".
 <figure style="text-align: center;">
 <img src="/assets/images/posts/apprendre-tous-les-jours-la-veille-techno-sans-se-noyer/galaxy-brain.jpg"
   alt="Expanding brain meme - Level 1: I know my framework, Level 2: I follow tech news,
-Level 3: I read source code of libraries I use, Level 4: I read changelogs for fun" style="max-width: 100%;" />
+Level 3: I read source code of libraries I use, Level 4: I read changelogs for fun" style="max-width: 100%;" loading="lazy" />
 </figure>
 
 ## Mes sources : ce qui marche pour moi
@@ -105,7 +105,7 @@ D'ailleurs, ce blog a son propre flux RSS ([ici](/fr/feed.xml)). Si ce que tu li
 <figure style="text-align: center;">
 <img src="/assets/images/posts/apprendre-tous-les-jours-la-veille-techno-sans-se-noyer/bad-good-veille.jpg"
   alt="Tuxedo Winnie the Pooh meme - Regular Pooh: Checking 15 bookmarks manually every morning,
-Fancy Pooh: RSS feed with everything in one place" style="max-width: 100%;" />
+Fancy Pooh: RSS feed with everything in one place" style="max-width: 100%;" loading="lazy" />
 </figure>
 
 ## D'autres sources à explorer
@@ -147,7 +147,7 @@ transformer la veille en source d'anxiété.
 <figure style="text-align: center;">
 <img src="/assets/images/posts/apprendre-tous-les-jours-la-veille-techno-sans-se-noyer/panik-kalm-panik.jpg"
   alt="Panik Kalm Panik meme - Panik: I'm mass behind on tech trends, Kalm: I set up an RSS reader and curated my
-sources, Panik: 847 unread articles" style="max-width: 100%;" />
+sources, Panik: 847 unread articles" style="max-width: 100%;" loading="lazy" />
 </figure>
 
 ### La règle des 15 minutes
@@ -170,7 +170,7 @@ la veille, c'est de la culpabilité organisée.
 
 <p style="text-align: center;">
   <img src="/assets/images/posts/apprendre-tous-les-jours-la-veille-techno-sans-se-noyer/dette-betaseries.png"
-    alt="Capture d'écran BetaSeries avec une longue liste d'épisodes à regarder" style="max-width: 100%;" />
+    alt="Capture d'écran BetaSeries avec une longue liste d'épisodes à regarder" style="max-width: 100%;" loading="lazy" />
   <br/><small style="color:#888;">C'est aussi un genre de culpabilité organisée.</small>
 </p>
 
@@ -194,7 +194,7 @@ Ne fais pas que du radar (tu restes superficiel), ne fais pas que du sonar (tu r
 
 <figure style="text-align: center;">
 <img src="/assets/images/posts/apprendre-tous-les-jours-la-veille-techno-sans-se-noyer/dilemma.jpg"
-  alt="Two buttons meme - Sweating guy choosing between: Skim 20 articles to stay broad, and: Deep dive into one topic for 3 hours" style="max-width: 100%;" />
+  alt="Two buttons meme - Sweating guy choosing between: Skim 20 articles to stay broad, and: Deep dive into one topic for 3 hours" style="max-width: 100%;" loading="lazy" />
 </figure>
 
 ## La veille comme hygiène professionnelle
@@ -214,7 +214,7 @@ C'est ça, la veille. Pas une encyclopédie dans la tête. Un radar allumé.
 
 <figure style="text-align: center;">
 <img src="/assets/images/posts/apprendre-tous-les-jours-la-veille-techno-sans-se-noyer/gigachad.jpg"
-  alt="Gigachad meme - Reads 2 articles a day, mass-marks the rest as read" style="max-width: 100%;" />
+  alt="Gigachad meme - Reads 2 articles a day, mass-marks the rest as read" style="max-width: 100%;" loading="lazy" />
 </figure>
 
 Trouve tes sources, définis ton rythme, accepte de ne pas tout lire. Et si tu cherches un point de départ,

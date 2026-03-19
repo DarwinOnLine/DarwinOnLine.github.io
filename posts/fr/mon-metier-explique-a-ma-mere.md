@@ -10,8 +10,8 @@ Et à chaque fois, je me dis que ça devrait pas être si compliqué à explique
 limpide, prête à dégainer. Mais non. Quinze ans de métier et je bafouille encore.
 
 <figure style="text-align: center;">
-  <img src="/assets/images/posts/mon-metier-explique-a-ma-mere/hero.png"
-  alt="Un développeur essayant d'expliquer son métier" style="max-width: 100%;" />
+  <img src="/assets/images/posts/mon-metier-explique-a-ma-mere/hero.webp"
+  alt="Un développeur essayant d'expliquer son métier" style="max-width: 100%;" loading="eager" />
 </figure>
 
 Alors voilà. Cet article, c'est ma tentative de réponse claire. Pour toi maman, pour toi mémé, pour vous les enfants,
@@ -23,14 +23,13 @@ Spoiler : oui. Et je vais vous expliquer pourquoi.
 
 Imaginez une ville. Pas une ville en béton et en verre, une ville *numérique*. Chaque site web que vous visitez,
 chaque application sur votre téléphone, c'est un bâtiment dans cette ville.
-Facebook, c'est un immense centre commercial. Votre application météo, c'est une petite cabane au coin de la rue avec
-un thermomètre dehors.
-Le site des impôts... c'est le bâtiment administratif avec 47 portes dont 46 sont fermées et la dernière ouvre sur un formulaire.
-Oui comme la maison qui rend fou.
+Netflix, c'est un multiplexe géant avec des milliers de salles. Doctolib, c'est le secrétariat médical qui ne ferme
+jamais. Le site des impôts... c'est le bâtiment administratif avec 47 portes dont 46 sont fermées et la dernière
+ouvre sur un formulaire. Oui, comme la maison qui rend fou.
 
 <figure style="text-align: center;">
-  <img src="/assets/images/posts/mon-metier-explique-a-ma-mere/la-maison-qui-rend-fou.jpg"
-  alt="La maison qui rend fou (Les douze travaux d'Astérix)" style="max-width: 100%;" />
+  <img src="/assets/images/posts/mon-metier-explique-a-ma-mere/la-maison-qui-rend-fou.webp"
+  alt="La maison qui rend fou (Les douze travaux d'Astérix)" style="max-width: 100%;" loading="lazy" />
 </figure>
 
 Mon métier, c'est de **construire ces bâtiments**. Pas avec des briques et du ciment, mais avec des instructions
@@ -40,14 +39,14 @@ Et comme un maçon a ses outils, moi j'ai les miens. Sauf que les miens sont inv
 
 ## Le code, c'est une recette de cuisine
 
-La meilleure analogie que j'ai trouvée, c'est la recette de cuisine. Quand je fais mon gratin dauphinois 
+La meilleure analogie pour l'algorithmique, c'est la recette de cuisine. Quand je fais mon gratin à la lyonnaise 
 (j'aime cuisiner), je suis des étapes précises :
 
-1. Éplucher les pommes de terre
+1. Éplucher les pommes de terre et les oignons
 2. Les couper en rondelles fines
-3. Préparer la crème avec l'ail et la muscade
-4. Alterner couches de patates et de crème
-5. Enfourner 1 heure à 180°C
+3. Préparer le jus avec la moutarde, la crème et le fond de veau
+4. Alterner couches de patates, oignons et gruyère
+5. Enfourner 1 heure à 210°C
 
 Eh bien le code, c'est exactement ça. **Une suite d'instructions, dans un ordre précis**, pour arriver à un résultat.
 Sauf que la cuisine, c'est pour nourrir des gens, et le code, c'est pour faire fonctionner des logiciels.
@@ -57,23 +56,28 @@ Appelons-le Régis. Régis fait **exactement** ce que tu lui dis. Pas plus, pas 
 d'allumer le four, Régis mettra le gratin dans un four froid et attendra sagement une heure. Si tu dis à Régis de
 couper les pommes de terre en rondelles de -3 millimètres, il ne te regardera pas d'un air perplexe, il essaiera.
 
-Et ça plantera (et pas patates).
+Et ça plantera (non pas des patates).
 
 <figure style="text-align: center;">
-  <img src="/assets/images/posts/mon-metier-explique-a-ma-mere/regis.jpg"
-  alt="Un ordinateur suivant une recette à la lettre" style="max-width: 100%;" />
+  <img src="/assets/images/posts/mon-metier-explique-a-ma-mere/regis.webp"
+  alt="Un ordinateur suivant une recette à la lettre" style="max-width: 100%;" loading="lazy" />
 <figcaption>Régis est un con</figcaption>
 </figure>
 
 ## Les bugs, ou quand le gratin crâme
 
-Un bug, c'est quand la recette ne donne pas le résultat attendu. Peut-être que j'ai écrit « 180 minutes » au lieu
-de « 180 degrés ». Peut-être que j'ai oublié une étape. Peut-être que la recette marche très bien avec des pommes de 
+Un bug, c'est quand la recette ne donne pas le résultat attendu. Peut-être que j'ai écrit « 210 minutes » au lieu
+de « 210 degrés ». Peut-être que j'ai oublié une étape. Peut-être que la recette marche très bien avec des pommes de 
 terre classiques mais que quelqu'un a essayé avec des patates douces et que tout est parti en sucette.
 
 C'est exactement ce qui arrive avec le code. On écrit des instructions, on teste, ça marche.
 Et puis un utilisateur fait quelque chose qu'on n'avait pas prévu (un Jean-Michel Client sauvage met son numéro de
 téléphone dans un champ prévu pour sa date de naissance), et tout se casse la figure.
+
+<figure style="text-align: center;">
+  <img src="/assets/images/posts/mon-metier-explique-a-ma-mere/anakin-padme.webp"
+  alt="Anakin Padmé meme: I fixed the bug / Without creating a new one right?" style="max-width: 100%;" loading="lazy" />
+</figure>
 
 Une bonne partie de mon temps, c'est traquer ces bugs. C'est un peu comme être détective : il faut trouver *où* ça a
 déraillé, *pourquoi*, et *comment* réparer sans casser autre chose.
@@ -94,6 +98,11 @@ des **câbles** (parfois au fond de l'océan, littéralement), des **protocoles*
 se comprenne, comme un code de la route mais pour les données) et tout un tas de logiciels qui font le lien entre
 ta demande et la réponse.
 
+<figure style="text-align: center;">
+  <img src="/assets/images/posts/mon-metier-explique-a-ma-mere/pipes.webp"
+  alt="Internet comme de la plomberie" style="max-width: 100%;" loading="lazy" />
+</figure>
+
 Quand tu cliques sur « Voir mes photos » sur ton téléphone, ta demande voyage à travers tout ce réseau, arrive sur
 un serveur quelque part (peut-être en France, peut-être aux États-Unis), le serveur cherche tes photos, les emballe
 proprement, et te les renvoie. Tout ça en moins d'une seconde (normalement).
@@ -101,31 +110,27 @@ proprement, et te les renvoie. Tout ça en moins d'une seconde (normalement).
 Mon travail, c'est de construire et d'entretenir ces tuyaux numériques. Que l'eau coule, qu'elle soit propre, et
 qu'elle arrive au bon endroit.
 
-<figure style="text-align: center;">
-  <img src="/assets/images/posts/mon-metier-explique-a-ma-mere/plumbing.jpg"
-  alt="Internet comme de la plomberie" style="max-width: 100%;" />
-</figure>
-
 ## « Mais ça a l'air simple, pourquoi ça prend autant de temps ? »
 
 Il m'arrive de passer une journée entière sur un bouton. Un seul bouton. Et non, je n'exagère pas. En fait je ne vous
 dis pas tout.
 
 <figure style="text-align: center;">
-  <img src="/assets/images/posts/mon-metier-explique-a-ma-mere/on-ne-nous-dit-pas-tout.jpg"
-  alt="On ne nous dit pas tout" style="max-width: 100%;" />
+  <img src="/assets/images/posts/mon-metier-explique-a-ma-mere/roumanoff.webp"
+  alt="On ne nous dit pas tout" style="max-width: 100%;" loading="lazy" />
+<figcaption>Vous avez vraiment besoin d'une légende ?</figcaption>
 </figure>
 
 Imaginez que je vous demande de rajouter une porte à votre maison. « C'est juste une porte, ça devrait être rapide,
 non ? » Sauf que pour cette porte, il faut :
 
-- Vérifier que le mur n'est pas porteur si je perce (sinon la maison s'écroule)
+- Vérifier que le mur n'est pas porteur si je perce (parole de daron)
 - Faire passer un électricien pour déplacer les fils qui sont dans le mur
 - S'assurer que la porte soit aux normes d'accessibilité
 - Qu'elle s'ouvre dans le bon sens
 - Qu'elle ne bloque pas une autre porte quand elle est ouverte
-- Qu'elle ferme correctement (sécurité)
-- Qu'elle soit assortie aux autres portes (cohérence visuelle)
+- Qu'elle ferme correctement
+- Qu'elle soit assortie aux autres portes
 - Et la tester : est-ce qu'elle grince ? Est-ce qu'elle tient quand il y a du vent ?
 
 Un « simple bouton » sur un site web, c'est exactement ça. Derrière l'apparente simplicité, il y a souvent un monde
@@ -147,6 +152,11 @@ Les mises à jour servent à :
 - **Renforcer la sécurité** (parce que les « méchants » cherchent toujours de nouvelles failles, comme des cambrioleurs qui testent les serrures)
 - **S'adapter** aux nouvelles versions des téléphones, des navigateurs, des systèmes
 
+<figure style="text-align: center;">
+  <img src="/assets/images/posts/mon-metier-explique-a-ma-mere/update-later.webp"
+  alt="Update later" style="max-width: 100%;" loading="lazy" />
+</figure>
+
 Donc non, Mémé, « Plus tard » n'est pas la bonne réponse. Fais tes mises à jour. S'il te plaît. Tu ne vas rien casser.
 
 ## « Mais c'est utile, ce que tu fais ? »
@@ -164,6 +174,11 @@ C'est un truc que j'ai mis du temps à accepter, et encore plus à formuler : le
 toujours évident, même pour moi.
 
 Mais il est là.
+
+<figure style="text-align: center;">
+  <img src="/assets/images/posts/mon-metier-explique-a-ma-mere/david-goodenough.webp"
+  alt="David Goodenough" style="max-width: 100%;" loading="lazy" />
+</figure>
 
 Ce que j'aime dans ce métier, ce qui me fait me lever le matin, c'est ça : **trouver des solutions simples et
 intelligentes à des problèmes qui peuvent être très complexes**. Prendre un truc qui ne marche pas, qui est bancal,
@@ -191,6 +206,11 @@ cuisine à votre place, très vite. C'est impressionnant. Mais cet assistant ne 
 Il ne goûte pas. Il ne sait pas que ta cousine est allergique au lactose ni que le four de Mémé fait sauter les plombs
 au-delà du thermostat 7.
 
+<figure style="text-align: center;">
+  <img src="/assets/images/posts/mon-metier-explique-a-ma-mere/doge-vs-cheems.webp"
+  alt="Doge vs Cheems" style="max-width: 100%;" loading="lazy" />
+</figure>
+
 Mon métier, c'est de savoir **quoi construire**, **pourquoi**, et de **vérifier que ça marche**.
 L'IA m'aide à aller plus vite sur certaines tâches. Je le redis : un comptable ne se sent pas menacé par un classeur
 Excel, il s'en sert. Eh bien c'est pareil pour moi.
@@ -212,6 +232,6 @@ Voilà. Maintenant vous savez. Et la prochaine fois qu'on me demandera « Mais c
 je pourrai juste dire : « Tiens, un gars bien a écrit un article, lis-le. »
 
 <figure style="text-align: center;">
-  <img src="/assets/images/posts/mon-metier-explique-a-ma-mere/drop-mic.jpg"
-  alt="Repas de famille et questions sur le métier" style="max-width: 100%;" />
+  <img src="/assets/images/posts/mon-metier-explique-a-ma-mere/drop-mic.webp"
+  alt="Et bam" style="max-width: 100%;" loading="lazy" />
 </figure>

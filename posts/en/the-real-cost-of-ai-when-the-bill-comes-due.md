@@ -8,7 +8,7 @@ What you use every day is funded by tens of billions of dollars in venture capit
 
 <p style="text-align: center;">
   <img src="/assets/images/posts/le-vrai-cout-de-l-ia-quand-la-facture-arrivera/free-real-estate.jpg"
-    alt="It's free real estate meme - Your $20/month AI subscription" style="max-width: 100%;" />
+    alt="It's free real estate meme - Your $20/month AI subscription" style="max-width: 100%;" loading="eager" />
 </p>
 
 Except this time, the amounts at stake make Uber look like a lemonade stand.
@@ -27,7 +27,7 @@ For a single model.
 
 <p style="text-align: center;">
   <img src="/assets/images/posts/le-vrai-cout-de-l-ia-quand-la-facture-arrivera/money-printer.gif"
-    alt="Money printer go brrr - Jerome Powell making it rain" style="max-width: 100%;" />
+    alt="Money printer go brrr - Jerome Powell making it rain" style="max-width: 100%;" loading="lazy" />
 </p>
 
 ### Inference: the silent money pit
@@ -40,7 +40,7 @@ And Sam Altman himself [confirmed in January 2025](https://fortune.com/2025/01/0
 
 <p style="text-align: center;">
   <img src="/assets/images/posts/le-vrai-cout-de-l-ia-quand-la-facture-arrivera/burning-money.jpg"
-    alt="Guy throwing money into fire meme" style="max-width: 100%;" />
+    alt="Guy throwing money into fire meme" style="max-width: 100%;" loading="lazy" />
 </p>
 
 ## Who's footing the bill today?
@@ -75,7 +75,7 @@ But here's the crucial nuance: after the 2000 crash, Amazon went from $107 to $7
 
 <p style="text-align: center;">
   <img src="/assets/images/posts/le-vrai-cout-de-l-ia-quand-la-facture-arrivera/clown.jpg"
-    alt="Clown applying makeup meme about AI business model" style="max-width: 100%;" />
+    alt="Clown applying makeup meme about AI business model" style="max-width: 100%;" loading="lazy" />
 </p>
 
 ### 95% freeloaders
@@ -120,7 +120,7 @@ AI doesn't just depend on money and energy. It depends on a geopolitically fragi
 
 <p style="text-align: center;">
   <img src="/assets/images/posts/le-vrai-cout-de-l-ia-quand-la-facture-arrivera/gun-point-church.jpg"
-    alt="Gun point church meme - Your AI subscription threatened by global chip supply chain threatened by one earthquake in Taiwan" style="max-width: 100%;" />
+    alt="Gun point church meme - Your AI subscription threatened by global chip supply chain threatened by one earthquake in Taiwan" style="max-width: 100%;" loading="lazy" />
 </p>
 
 ### The pharaonic investments
@@ -149,7 +149,7 @@ This is where the ROI math changes: if AI can replace an $80,000/year employee w
 
 <p style="text-align: center;">
   <img src="/assets/images/posts/le-vrai-cout-de-l-ia-quand-la-facture-arrivera/surprised-pikachu.jpg"
-    alt="Surprised Pikachu meme - Companies fire 50% of staff for AI, 56% report zero benefits" style="max-width: 100%;" />
+    alt="Surprised Pikachu meme - Companies fire 50% of staff for AI, 56% report zero benefits" style="max-width: 100%;" loading="lazy" />
 </p>
 
 ## What about tomorrow? The honest counterarguments
@@ -200,7 +200,7 @@ The result: we're spending exponentially more for increasingly marginal gains.
 
 <p style="text-align: center;">
   <img src="/assets/images/posts/le-vrai-cout-de-l-ia-quand-la-facture-arrivera/trade-offer.jpg"
-    alt="Trade offer meme - I receive: Your data + $200/month, You receive: Subsidized AI (for now)" style="max-width: 100%;" />
+    alt="Trade offer meme - I receive: Your data + $200/month, You receive: Subsidized AI (for now)" style="max-width: 100%;" loading="lazy" />
 </p>
 
 ## What this means for us, developers
@@ -231,7 +231,7 @@ AI is a tremendous lever. But a lever you rent, not one you own. And the landlor
 
 <p style="text-align: center;">
   <img src="/assets/images/posts/le-vrai-cout-de-l-ia-quand-la-facture-arrivera/distracted-boyfriend.jpg"
-    alt="Distracted boyfriend meme - Developers looking at AI doing everything for $20/month, ignoring actual coding skills" style="max-width: 100%;" />
+    alt="Distracted boyfriend meme - Developers looking at AI doing everything for $20/month, ignoring actual coding skills" style="max-width: 100%;" loading="lazy" />
 </p>
 
 ## TL;DR: nothing is free

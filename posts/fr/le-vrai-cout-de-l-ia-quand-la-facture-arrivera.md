@@ -13,7 +13,7 @@ compenser les pertes.
 
 <p style="text-align: center;">
   <img src="/assets/images/posts/le-vrai-cout-de-l-ia-quand-la-facture-arrivera/free-real-estate.jpg"
-    alt="Meme It's free real estate - Ton abonnement IA à 20 $/mois" style="max-width: 100%;" />
+    alt="Meme It's free real estate - Ton abonnement IA à 20 $/mois" style="max-width: 100%;" loading="eager" />
 </p>
 
 Sauf que cette fois, les montants en jeu font passer Uber pour un stand de limonade.
@@ -38,7 +38,7 @@ Pour un seul modèle.
 
 <p style="text-align: center;">
   <img src="/assets/images/posts/le-vrai-cout-de-l-ia-quand-la-facture-arrivera/money-printer.gif"
-    alt="Meme Money printer go brrr - Jerome Powell fait pleuvoir les billets" style="max-width: 100%;" />
+    alt="Meme Money printer go brrr - Jerome Powell fait pleuvoir les billets" style="max-width: 100%;" loading="lazy" />
 </p>
 
 ### L'inférence : le gouffre silencieux
@@ -57,7 +57,7 @@ prévu. Tu lis bien : même à 200 $ par mois, le compte n'y est pas.
 
 <p style="text-align: center;">
   <img src="/assets/images/posts/le-vrai-cout-de-l-ia-quand-la-facture-arrivera/burning-money.jpg"
-    alt="Meme d'un homme jetant de l'argent dans un feu" style="max-width: 100%;" />
+    alt="Meme d'un homme jetant de l'argent dans un feu" style="max-width: 100%;" loading="lazy" />
 </p>
 
 ## Qui paie la facture aujourd'hui ?
@@ -117,7 +117,7 @@ investisseurs d'aujourd'hui risquent de payer pour l'infrastructure que d'autres
 
 <p style="text-align: center;">
   <img src="/assets/images/posts/le-vrai-cout-de-l-ia-quand-la-facture-arrivera/clown.jpg"
-    alt="Meme du clown qui se maquille - Le business model de l'IA" style="max-width: 100%;" />
+    alt="Meme du clown qui se maquille - Le business model de l'IA" style="max-width: 100%;" loading="lazy" />
 </p>
 
 ### 95 % de passagers clandestins
@@ -211,7 +211,7 @@ géopolitiquement fragile, concentrée dans une poignée d'entreprises et de pay
 
 <p style="text-align: center;">
   <img src="/assets/images/posts/le-vrai-cout-de-l-ia-quand-la-facture-arrivera/gun-point-church.jpg"
-    alt="Meme des pistolets à l'église - Ton abonnement IA menacé par la chaîne d'approvisionnement mondiale menacée par un séisme à Taïwan" style="max-width: 100%;" />
+    alt="Meme des pistolets à l'église - Ton abonnement IA menacé par la chaîne d'approvisionnement mondiale menacée par un séisme à Taïwan" style="max-width: 100%;" loading="lazy" />
 </p>
 
 ### Les investissements pharaoniques
@@ -273,7 +273,7 @@ l'abonnement de 20 $ que tu paies, mais par les salaires que les entreprises n'a
 
 <p style="text-align: center;">
   <img src="/assets/images/posts/le-vrai-cout-de-l-ia-quand-la-facture-arrivera/surprised-pikachu.jpg"
-    alt="Meme Pikachu surpris - Les entreprises virent 50 % du personnel pour l'IA, 56 % ne constatent aucun bénéfice" style="max-width: 100%;" />
+    alt="Meme Pikachu surpris - Les entreprises virent 50 % du personnel pour l'IA, 56 % ne constatent aucun bénéfice" style="max-width: 100%;" loading="lazy" />
 </p>
 
 ## Et demain ? Les contre-arguments honnêtes
@@ -374,7 +374,7 @@ Résultat : on dépense exponentiellement plus pour des gains de plus en plus m
 
 <p style="text-align: center;">
   <img src="/assets/images/posts/le-vrai-cout-de-l-ia-quand-la-facture-arrivera/trade-offer.jpg"
-    alt="Meme Trade offer - Je reçois : tes données + 200 $/mois, Tu reçois : une IA subventionnée (pour l'instant)" style="max-width: 100%;" />
+    alt="Meme Trade offer - Je reçois : tes données + 200 $/mois, Tu reçois : une IA subventionnée (pour l'instant)" style="max-width: 100%;" loading="lazy" />
 </p>
 
 ## Ce que ça change pour nous, développeurs
@@ -423,7 +423,7 @@ ta proposition de valeur sur une API que tu ne contrôles pas.
 
 <p style="text-align: center;">
   <img src="/assets/images/posts/le-vrai-cout-de-l-ia-quand-la-facture-arrivera/distracted-boyfriend.jpg"
-    alt="Meme Distracted boyfriend - Les développeurs fascinés par l'IA qui fait tout pour 20 $/mois, ignorant leurs vraies compétences" style="max-width: 100%;" />
+    alt="Meme Distracted boyfriend - Les développeurs fascinés par l'IA qui fait tout pour 20 $/mois, ignorant leurs vraies compétences" style="max-width: 100%;" loading="lazy" />
 </p>
 
 ## TL;DR : rien n'est gratuit

@@ -13,7 +13,7 @@ Tech watch is what prevents that drift. Not an extra chore, not a luxury for ent
 <figure style="text-align: center;">
 <img src="/assets/images/posts/apprendre-tous-les-jours-la-veille-techno-sans-se-noyer/me-dette.jpg"
   alt="Mother ignoring drowning kid in pool meme - Drowning kid: My tech watch, Mother: Me,
-Kid being carried: Coding the same feature for the 12th time" style="max-width: 100%;" />
+Kid being carried: Coding the same feature for the 12th time" style="max-width: 100%;" loading="eager" />
 </figure>
 
 ## Why stay informed (beyond the obvious)
@@ -33,7 +33,7 @@ Kid being carried: Coding the same feature for the 12th time" style="max-width: 
 <figure style="text-align: center;">
 <img src="/assets/images/posts/apprendre-tous-les-jours-la-veille-techno-sans-se-noyer/galaxy-brain.jpg"
   alt="Expanding brain meme - Level 1: I know my framework, Level 2: I follow tech news,
-Level 3: I read source code of libraries I use, Level 4: I read changelogs for fun" style="max-width: 100%;" />
+Level 3: I read source code of libraries I use, Level 4: I read changelogs for fun" style="max-width: 100%;" loading="lazy" />
 </figure>
 
 ## My sources: what works for me
@@ -65,7 +65,7 @@ By the way, this blog has its own RSS feed ([here](/en/feed.xml)). If you like w
 <figure style="text-align: center;">
 <img src="/assets/images/posts/apprendre-tous-les-jours-la-veille-techno-sans-se-noyer/bad-good-veille.jpg"
   alt="Tuxedo Winnie the Pooh meme - Regular Pooh: Checking 15 bookmarks manually every morning,
-Fancy Pooh: RSS feed with everything in one place" style="max-width: 100%;" />
+Fancy Pooh: RSS feed with everything in one place" style="max-width: 100%;" loading="lazy" />
 </figure>
 
 ## Other sources to explore
@@ -91,7 +91,7 @@ Because that's the real issue. Sources aren't lacking. What's lacking is a metho
 <figure style="text-align: center;">
 <img src="/assets/images/posts/apprendre-tous-les-jours-la-veille-techno-sans-se-noyer/panik-kalm-panik.jpg"
   alt="Panik Kalm Panik meme - Panik: I'm massively behind on tech trends, Kalm: I set up an RSS reader and curated my
-sources, Panik: 847 unread articles" style="max-width: 100%;" />
+sources, Panik: 847 unread articles" style="max-width: 100%;" loading="lazy" />
 </figure>
 
 ### The 15-minute rule
@@ -108,7 +108,7 @@ The classic mistake is saving everything "for later" without ever coming back. I
 
 <p style="text-align: center;">
   <img src="/assets/images/posts/apprendre-tous-les-jours-la-veille-techno-sans-se-noyer/dette-betaseries.png"
-    alt="BetaSeries screenshot with a long list of episodes to watch" style="max-width: 100%;" />
+    alt="BetaSeries screenshot with a long list of episodes to watch" style="max-width: 100%;" loading="lazy" />
   <br/><small style="color:#888;">That's also a kind of organized guilt.</small>
 </p>
 
@@ -126,7 +126,7 @@ The two are complementary. The radar tells you "this thing exists". The sonar te
 
 <figure style="text-align: center;">
 <img src="/assets/images/posts/apprendre-tous-les-jours-la-veille-techno-sans-se-noyer/dilemma.jpg"
-  alt="Two buttons meme - Sweating guy choosing between: Skim 20 articles to stay broad, and: Deep dive into one topic for 3 hours" style="max-width: 100%;" />
+  alt="Two buttons meme - Sweating guy choosing between: Skim 20 articles to stay broad, and: Deep dive into one topic for 3 hours" style="max-width: 100%;" loading="lazy" />
 </figure>
 
 ## Tech watch as professional hygiene
@@ -141,7 +141,7 @@ That's what tech watch is. Not an encyclopedia in your head. A radar turned on.
 
 <figure style="text-align: center;">
 <img src="/assets/images/posts/apprendre-tous-les-jours-la-veille-techno-sans-se-noyer/gigachad.jpg"
-  alt="Gigachad meme - Reads 2 articles a day, mass-marks the rest as read" style="max-width: 100%;" />
+  alt="Gigachad meme - Reads 2 articles a day, mass-marks the rest as read" style="max-width: 100%;" loading="lazy" />
 </figure>
 
 Find your sources, set your pace, accept that you won't read everything. And if you're looking for a starting point, you're already in the right place. [Subscribe to this blog's RSS feed](/en/feed.xml) and start your list.

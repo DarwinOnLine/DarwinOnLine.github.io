@@ -4,7 +4,7 @@
 
 <figure style="text-align: center;">
   <img src="/assets/images/posts/stephen-king-et-le-debugging/king-matrix.jpg"
-  alt="King dans la matrice" style="max-width: 100%;" />
+  alt="King dans la matrice" style="max-width: 100%;" loading="eager" />
 </figure>
 
 Stephen King est un auteur important pour moi. Je l'ai découvert en 1<sup>ère</sup>S, en cours de français,
@@ -35,7 +35,7 @@ comme si le terminal allait finir par craquer et avouer.
 
 <figure style="text-align: center;">
   <img src="/assets/images/posts/stephen-king-et-le-debugging/pistolero-and-bugs.png"
-  alt="Roland Deschain face à la Tour Sombre entourée de bugs" style="max-width: 100%;" />
+  alt="Roland Deschain face à la Tour Sombre entourée de bugs" style="max-width: 100%;" loading="lazy" />
 <figcaption>Le dév, la Tour du code parfait, le debugging de seigneur.
 <br/>Roland Deschain, <em>La Tour Sombre</em></figcaption>
 </figure>
@@ -57,7 +57,7 @@ très humaine : il regarde ailleurs. « Le problème ne peut pas venir de là, 
 
 <p style="text-align: center;">
   <img src="/assets/images/posts/stephen-king-et-le-debugging/kill-your-darlings.jpg"
-    alt="Ben si." style="max-width: 300px;" />
+    alt="Ben si." style="max-width: 300px;" loading="lazy" />
 </p>
 
 Le [biais de confirmation](https://fr.wikipedia.org/wiki/Biais_de_confirmation) est le pire ennemi du développeur en debug. Vous cherchez des preuves que votre code est innocent,
@@ -104,7 +104,7 @@ n'est pas un aveu de faiblesse, c'est le processus.
 
 <figure style="text-align: center;">
   <img src="/assets/images/posts/stephen-king-et-le-debugging/dark-tower-door.jpg"
-  alt="Jake Chambers devant la porte" style="max-width: 300px;" />
+  alt="Jake Chambers devant la porte" style="max-width: 300px;" loading="lazy" />
 <figcaption>Parfois, la réponse est de l'autre côté de la porte.
 <br/>Jake Chambers, <em>La Tour Sombre</em></figcaption>
 </figure>
@@ -125,7 +125,7 @@ c'est votre Pennywise. Il est dans les égouts de votre codebase, et il attend.
 
 <figure style="text-align: center;">
   <img src="/assets/images/posts/stephen-king-et-le-debugging/pennywise.png"
-  alt="Pennywise / Grippe-Sou — Ça" style="max-width: 100%;" />
+  alt="Pennywise / Grippe-Sou — Ça" style="max-width: 100%;" loading="lazy" />
 <figcaption>Saleté.
 <br/>Pennywise / Grippe-Sou, <em>Ça</em></figcaption>
 </figure>
@@ -158,7 +158,7 @@ vous avez le commit fautif. Ensuite, il ne reste qu'à comprendre *pourquoi* ce 
 <figure style="text-align: center;">
 <figcaption>Dev : « Je vais juste réécrire tout le module, ça ira plus vite. »</figcaption>
   <img src="/assets/images/posts/stephen-king-et-le-debugging/pet-sematary.jpg"
-  alt="Sometimes, dead is better — Jud Crandall, Simetierre" style="max-width: 100%;" />
+  alt="Sometimes, dead is better — Jud Crandall, Simetierre" style="max-width: 100%;" loading="lazy" />
 <figcaption>Jud Crandall, <em>Simetierre</em>. Il savait.</figcaption>
 </figure>
 
@@ -175,7 +175,7 @@ Vous relisez le ticket en espérant que le sens caché va se révéler, comme un
 
 <figure style="text-align: center;">
   <img src="/assets/images/posts/stephen-king-et-le-debugging/all-work-no-play.png"
-  alt="All work and no play makes Jack a dull boy — Shining" style="max-width: 100%;" />
+  alt="All work and no play makes Jack a dull boy — Shining" style="max-width: 100%;" loading="lazy" />
 <figcaption>POV : vous relisez le ticket pour la 19<sup>ème</sup> fois.
 <br/>Jack Torrance, <em>Shining</em></figcaption>
 </figure>
@@ -213,7 +213,7 @@ Le premier jet du fix est rarement le bon. Retirez 10%.
 
 <figure style="text-align: center;">
   <img src="/assets/images/posts/stephen-king-et-le-debugging/annie-wilkes.jpg"
-  alt="Annie Wilkes lisant le manuscrit — Misery" style="max-width: 100%;" />
+  alt="Annie Wilkes lisant le manuscrit — Misery" style="max-width: 100%;" loading="lazy" />
 <figcaption>Votre reviewer quand le diff du bugfix fait 400 lignes.
 <br/>Annie Wilkes, <em>Misery</em></figcaption>
 </figure>
@@ -242,5 +242,5 @@ Et contrairement aux romans de King, le monstre à la fin... c'est toujours vous
 
 <figure style="text-align: center;">
   <img src="/assets/images/posts/stephen-king-et-le-debugging/boogeyman.jpg"
-  alt="Le Croque-Mitaine — The Boogeyman" style="max-width: 100%;" />
+  alt="Le Croque-Mitaine — The Boogeyman" style="max-width: 100%;" loading="lazy" />
 </figure>

@@ -59,7 +59,7 @@
     "date": "2026-03-22",
     "description": "Ou pourquoi « je fais des trucs avec des ordinateurs » ne suffit plus comme réponse.",
     "i18nSlugs": { "en": "my-job-explained-to-my-mom" },
-    "tags": ["Développement", "Carrière"],
-    "image": "assets/images/posts/mon-metier-explique-a-ma-mere/hero.png"
+    "tags": ["Développement", "Vulgarisation", "Personnel"],
+    "image": "assets/images/posts/mon-metier-explique-a-ma-mere/hero.webp"
   }
 ]

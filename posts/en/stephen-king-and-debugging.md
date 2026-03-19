@@ -4,7 +4,7 @@
 
 <figure style="text-align: center;">
   <img src="/assets/images/posts/stephen-king-et-le-debugging/king-matrix.jpg"
-  alt="King in the Matrix" style="max-width: 100%;" />
+  alt="King in the Matrix" style="max-width: 100%;" loading="eager" />
 </figure>
 
 Stephen King is an important author to me. I discovered him in high school, during a French class on the death penalty. The teacher had us read chapter 1 of [*The Green Mile*](https://en.wikipedia.org/wiki/The_Green_Mile_(novel)), I read the first chapter and devoured the rest of the book. Since then, I've gone through King after King, the classics, the obscure ones, I know what a Ka-Tet is and the number 19 always has a special resonance for me.
@@ -25,7 +25,7 @@ And I'm not talking about the surgical `printf`, placed at a precise spot to con
 
 <figure style="text-align: center;">
   <img src="/assets/images/posts/stephen-king-et-le-debugging/pistolero-and-bugs.png"
-  alt="Roland Deschain facing the Dark Tower surrounded by bugs" style="max-width: 100%;" />
+  alt="Roland Deschain facing the Dark Tower surrounded by bugs" style="max-width: 100%;" loading="lazy" />
 <figcaption>The dev, the Tower of perfect code, and lordly debugging.
 <br/>Roland Deschain, <em>The Dark Tower</em></figcaption>
 </figure>
@@ -42,7 +42,7 @@ are those pieces of code you're proud of. That elegant little algorithm. That ab
 
 <p style="text-align: center;">
   <img src="/assets/images/posts/stephen-king-et-le-debugging/kill-your-darlings.jpg"
-    alt="Oh yes it can." style="max-width: 300px;" />
+    alt="Oh yes it can." style="max-width: 300px;" loading="lazy" />
 </p>
 
 [Confirmation bias](https://en.wikipedia.org/wiki/Confirmation_bias) is the developer's worst enemy in debugging. You look for evidence that your code is innocent, not evidence that it's guilty. Result: you spend three hours suspecting a third-party library, a network issue, the lunar cycle, the government... before sheepishly returning to your beautiful abstraction and discovering it had been mishandling an edge case all along. Remember, [there are no coincidences](/en/blog/what-being-a-developer-has-taught-me#there-are-no-coincidences), and the random variable is usually you.
@@ -71,7 +71,7 @@ a shared debug PR with a colleague, a message on the team channel. Explaining th
 
 <figure style="text-align: center;">
   <img src="/assets/images/posts/stephen-king-et-le-debugging/dark-tower-door.jpg"
-  alt="Jake Chambers in front of the door" style="max-width: 300px;" />
+  alt="Jake Chambers in front of the door" style="max-width: 300px;" loading="lazy" />
 <figcaption>Sometimes, the answer is on the other side of the door.
 <br/>Jake Chambers, <em>The Dark Tower</em></figcaption>
 </figure>
@@ -88,7 +88,7 @@ But the silent bug — the one that throws no exception, crashes no test, that c
 
 <figure style="text-align: center;">
   <img src="/assets/images/posts/stephen-king-et-le-debugging/pennywise.png"
-  alt="Pennywise — It" style="max-width: 100%;" />
+  alt="Pennywise — It" style="max-width: 100%;" loading="lazy" />
 <figcaption>Filth.
 <br/>Pennywise, <em>It</em></figcaption>
 </figure>
@@ -111,7 +111,7 @@ I've seen (and done) this mistake too many times: faced with a bug, rewriting an
 <figure style="text-align: center;">
 <figcaption>Dev: "I'll just rewrite the whole module, it'll be faster."</figcaption>
   <img src="/assets/images/posts/stephen-king-et-le-debugging/pet-sematary.jpg"
-  alt="Sometimes, dead is better — Jud Crandall, Pet Sematary" style="max-width: 100%;" />
+  alt="Sometimes, dead is better — Jud Crandall, Pet Sematary" style="max-width: 100%;" loading="lazy" />
 <figcaption>Jud Crandall, <em>Pet Sematary</em>. He knew.</figcaption>
 </figure>
 
@@ -125,7 +125,7 @@ You stare at the ticket. You stare at the code. You stare at the ticket again. Y
 
 <figure style="text-align: center;">
   <img src="/assets/images/posts/stephen-king-et-le-debugging/all-work-no-play.png"
-  alt="All work and no play makes Jack a dull boy — The Shining" style="max-width: 100%;" />
+  alt="All work and no play makes Jack a dull boy — The Shining" style="max-width: 100%;" loading="lazy" />
 <figcaption>POV: you're re-reading the ticket for the 19<sup>th</sup> time.
 <br/>Jack Torrance, <em>The Shining</em></figcaption>
 </figure>
@@ -154,7 +154,7 @@ The first draft of the fix is rarely the right one. Remove 10%.
 
 <figure style="text-align: center;">
   <img src="/assets/images/posts/stephen-king-et-le-debugging/annie-wilkes.jpg"
-  alt="Annie Wilkes reading the manuscript — Misery" style="max-width: 100%;" />
+  alt="Annie Wilkes reading the manuscript — Misery" style="max-width: 100%;" loading="lazy" />
 <figcaption>Your reviewer when the bugfix diff is 400 lines long.
 <br/>Annie Wilkes, <em>Misery</em></figcaption>
 </figure>
@@ -173,5 +173,5 @@ Because every bug resolved is another chapter in your own *Memoir of the Craft*.
 
 <figure style="text-align: center;">
   <img src="/assets/images/posts/stephen-king-et-le-debugging/boogeyman.jpg"
-  alt="The Boogeyman" style="max-width: 100%;" />
+  alt="The Boogeyman" style="max-width: 100%;" loading="lazy" />
 </figure>

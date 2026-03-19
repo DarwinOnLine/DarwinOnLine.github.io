@@ -4,7 +4,7 @@
 
 <figure style="text-align: center;">
   <img src="/assets/images/posts/l-experience-mancolister/collection.jpg"
-  alt="My collection" style="max-width: 100%;" />
+  alt="My collection" style="max-width: 100%;" loading="eager" />
 <figcaption>Old people hobbies, I'm telling you</figcaption>
 </figure>
 
@@ -23,7 +23,7 @@ but overall, philatelic lists by year with valuations aren't easily available on
 
 <figure style="text-align: center;">
   <img src="/assets/images/posts/l-experience-mancolister/mancoliste.jpg"
-  alt="Mancoliste" style="max-width: 100%;" />
+  alt="Mancoliste" style="max-width: 100%;" loading="lazy" />
 <figcaption>There are hardcore versions too</figcaption>
 </figure>
 
@@ -70,7 +70,7 @@ to have stayed the same but keeps being updated
 
 <figure style="text-align: center;">
   <img src="/assets/images/posts/l-experience-mancolister/et-c-est-parti.jpg"
-  alt="Let's go" style="max-width: 100%;" />
+  alt="Let's go" style="max-width: 100%;" loading="lazy" />
 <figcaption>POV: You're diving into your philately project</figcaption>
 </figure>
 
@@ -89,7 +89,7 @@ Breaking down into epics and stories.
 
 <figure style="text-align: center;">
   <img src="/assets/images/posts/l-experience-mancolister/bmad.png"
-    alt="BMAD Workflow" style="max-width: 100%;" />
+    alt="BMAD Workflow" style="max-width: 100%;" loading="lazy" />
     <figcaption>Standard workflow (© <a href="https://www.sfeir.dev/ia/bmad-method-comment-revolutionner-le-developpement-avec-lia-agentique" target="_blank">sfeir.dev</a>)</figcaption>
 </figure>
 
@@ -125,7 +125,7 @@ Two sources, two different problems.
 
 <figure style="text-align: center;">
   <img src="/assets/images/posts/l-experience-mancolister/le-scraper.jpg"
-  alt="THE scraper" style="max-width: 100%;" />
+  alt="THE scraper" style="max-width: 100%;" loading="lazy" />
 </figure>
 
 ### timbres-de-france.com
@@ -226,7 +226,7 @@ despite the deployment target has been kept.
 
 <p style="text-align: center;">
   <img src="/assets/images/posts/l-experience-mancolister/mancolister.jpg"
-    alt="Mancolister" style="max-width: 100%;" />
+    alt="Mancolister" style="max-width: 100%;" loading="lazy" />
 </p>
 
 I use it. It does what I wanted it to do.

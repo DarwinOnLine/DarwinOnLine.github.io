@@ -65,9 +65,9 @@ Vous pouvez aussi mettre du texte avec une petite icône ![🎨](/assets/images
 ### Galerie d'images
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin: 2rem 0;">
-  <img src="/assets/images/banner-example.jpg" alt="Image 1" style="width: 100%; border-radius: 8px;" />
-  <img src="/assets/images/banner-example.jpg" alt="Image 2" style="width: 100%; border-radius: 8px;" />
-  <img src="/assets/images/banner-example.jpg" alt="Image 3" style="width: 100%; border-radius: 8px;" />
+  <img src="/assets/images/banner-example.jpg" alt="Image 1" style="width: 100%; border-radius: 8px;" loading="eager" />
+  <img src="/assets/images/banner-example.jpg" alt="Image 2" style="width: 100%; border-radius: 8px;" loading="lazy" />
+  <img src="/assets/images/banner-example.jpg" alt="Image 3" style="width: 100%; border-radius: 8px;" loading="lazy" />
 </div>
 
 ---

@@ -8,7 +8,7 @@ Years have passed, experiences have piled up, and I've ended up with my own conv
 
 <p style="text-align: center;">
   <img src="/assets/images/posts/ce-que-le-metier-de-developpeur-ma-appris/learn.jpg"
-    alt="When I was your age, I was your age" style="max-width: 100%;" />
+    alt="When I was your age, I was your age" style="max-width: 100%;" loading="eager" />
 </p>
 
 What follows is a blend of his ideas, my own, and everything the job has taught me in between.
@@ -17,7 +17,7 @@ What follows is a blend of his ideas, my own, and everything the job has taught 
 
 <p style="text-align: center;">
   <img src="/assets/images/posts/ce-que-le-metier-de-developpeur-ma-appris/simple-complex.jpg"
-    alt="" style="max-width: 100%;" />
+    alt="" style="max-width: 100%;" loading="lazy" />
 </p>
 
 When you start a new project, a new application, a website, or even add a feature to an existing
@@ -45,7 +45,7 @@ at each iteration, your machine will work and be capable of doing more.
 
 <p style="text-align: center;">
   <img src="/assets/images/posts/ce-que-le-metier-de-developpeur-ma-appris/one-thing.jpg"
-    alt="One thing at a time" style="max-width: 100%;" />
+    alt="One thing at a time" style="max-width: 100%;" loading="lazy" />
 </p>
 
 This principle applies to development, but first and foremost in general. If you encounter an
@@ -64,7 +64,7 @@ you are to introduce silent regressions.
 
 <p style="text-align: center;">
   <img src="/assets/images/posts/ce-que-le-metier-de-developpeur-ma-appris/quand-je-regarde-logs.webp"
-    alt="" style="max-width: 100%;" />
+    alt="" style="max-width: 100%;" loading="lazy" />
 </p>
 
 If not before anything else. It may seem trivial at the beginning of a project, but the first
@@ -78,7 +78,7 @@ And of course, even though most logging systems do it already, timestamp everyth
 
 <p style="text-align: center;">
   <img src="/assets/images/posts/ce-que-le-metier-de-developpeur-ma-appris/bug-plane.jpg"
-    alt="It only happens to others, y'know." style="max-width: 100%;" />
+    alt="It only happens to others, y'know." style="max-width: 100%;" loading="lazy" />
 </p>
 
 This seems like common sense. You might think that unit tests and integration tests are there to
@@ -104,7 +104,7 @@ factors and more are covered by
 
 <p style="text-align: center;">
   <img src="/assets/images/posts/ce-que-le-metier-de-developpeur-ma-appris/hofstader.jpg"
-    alt="Hofstadter" style="max-width: 100%;" />
+    alt="Hofstadter" style="max-width: 100%;" loading="lazy" />
 </p>
 
 ...and it's very hard to explain to your scrum master or your sales team without looking like a
@@ -132,7 +132,7 @@ A `TODO` in the code is an IOU. If nobody ever addresses it, that's bankruptcy i
 
 <figure style="text-align: center;">
 <img src="/assets/images/posts/ce-que-le-metier-de-developpeur-ma-appris/gaston-dette.jpg"
-  alt="Gaston Lagaffe — debt piling up" style="max-width: 100%;" />
+  alt="Gaston Lagaffe — debt piling up" style="max-width: 100%;" loading="lazy" />
 <figcaption>Gaston is drowning in debt too. © Franquin</figcaption>
 </figure>
 
@@ -153,7 +153,7 @@ deadlines or budget, quality is what suffers. And you're the one who'll carry it
 
 <figure style="text-align: center;">
 <img src="/assets/images/posts/ce-que-le-metier-de-developpeur-ma-appris/yes-man.jpg"
-  alt="Yes Man" style="max-width: 100%;" />
+  alt="Yes Man" style="max-width: 100%;" loading="lazy" />
 <figcaption>Don't be a Yes Man.</figcaption>
 </figure>
 
@@ -164,7 +164,7 @@ everything is, then nothing is.
 
 <p style="text-align: center;">
   <img src="/assets/images/posts/ce-que-le-metier-de-developpeur-ma-appris/getit.gif"
-    alt="Get it" style="max-width: 100%;" />
+    alt="Get it" style="max-width: 100%;" loading="lazy" />
 </p>
 
 Many of your projects will involve modifying or evolving existing code. So take the time to truly
@@ -197,7 +197,7 @@ you time; on an opaque one, it'll just reproduce the chaos.
 
 <p style="text-align: center;">
   <img src="/assets/images/posts/ce-que-le-metier-de-developpeur-ma-appris/bugs.jpg"
-    alt="" style="max-width: 100%;" />
+    alt="" style="max-width: 100%;" loading="lazy" />
 </p>
 
 And mark my words. This doesn't mean you're incompetent, just that you can't think of everything.
@@ -212,7 +212,7 @@ the end user encounters the issue.
 
 <p style="text-align: center;">
   <img src="/assets/images/posts/ce-que-le-metier-de-developpeur-ma-appris/multitask.gif"
-    alt="" style="max-width: 100%;" />
+    alt="" style="max-width: 100%;" loading="lazy" />
 </p>
 
 As a consequence of the previous point, take the time to solve problems — make it a recurring
@@ -247,7 +247,7 @@ break it up.
 
 <figure style="text-align: center;">
 <img src="/assets/images/posts/ce-que-le-metier-de-developpeur-ma-appris/naming.jpg"
-  alt="Naming things" style="max-width: 100%;" />
+  alt="Naming things" style="max-width: 100%;" loading="lazy" />
 <figcaption>But don't be dumb about it either.</figcaption>
 </figure>
 
@@ -260,7 +260,7 @@ they boil down to one sentence: only code what you need, and keep it simple.
 
 <p style="text-align: center;">
   <img src="/assets/images/posts/ce-que-le-metier-de-developpeur-ma-appris/kiss-yagni.jpg"
-    alt="If it works, it works." style="max-width: 100%;" />
+    alt="If it works, it works." style="max-width: 100%;" loading="lazy" />
 </p>
 
 It's tempting, a nice abstraction. A clean pattern "just in case." A factory of factories, because
@@ -273,7 +273,7 @@ real, you'll refactor. And it'll be easier, because the code stayed simple.
 
 <p style="text-align: center;">
   <img src="/assets/images/posts/ce-que-le-metier-de-developpeur-ma-appris/coincidence.webp"
-    alt="Coincidence" style="max-width: 100%;" />
+    alt="Coincidence" style="max-width: 100%;" loading="lazy" />
 </p>
 
 Never. The rule is simple: if you created feature A and now feature B is buggy — no coincidence.
@@ -311,7 +311,7 @@ than its stated duration. And remember:
 <p style="text-align: center;">
   <img src="/assets/images/posts/ce-que-le-metier-de-developpeur-ma-appris/meeting-email.jpg"
     alt="Tell me again why this meeting couldn't have been just an email?"
-    style="max-width: 100%;" />
+    style="max-width: 100%;" loading="lazy" />
 </p>
 
 ## Asking questions != being stupid
@@ -328,7 +328,7 @@ solution appears just by stating the problem out loud. Yes, like in 99% of House
 
 <figure style="text-align: center;">
 <img src="/assets/images/posts/ce-que-le-metier-de-developpeur-ma-appris/rubber-ducky.jpg"
-  alt="Rubber ducky" style="max-width: 100%;" />
+  alt="Rubber ducky" style="max-width: 100%;" loading="lazy" />
 <figcaption>Two excellent examples of rubber duckies.</figcaption>
 </figure>
 
@@ -352,7 +352,7 @@ who understands the problem. Delegating without understanding isn't efficiency, 
 
 <p style="text-align: center;">
   <img src="/assets/images/posts/ce-que-le-metier-de-developpeur-ma-appris/ai-learning.webp"
-    alt="Learn to code vs learn to write prompt" style="max-width: 100%;" />
+    alt="Learn to code vs learn to write prompt" style="max-width: 100%;" loading="lazy" />
 </p>
 
 That said, learning doesn't mean chasing everything. Every week a new JavaScript framework, every
@@ -373,7 +373,7 @@ save you from learning burnout.
 
 <p style="text-align: center;">
   <img src="/assets/images/posts/ce-que-le-metier-de-developpeur-ma-appris/relax.webp"
-    alt="David Good" style="max-width: 100%;" />
+    alt="David Good" style="max-width: 100%;" loading="lazy" />
   <br><em>Not too much though</em>
 </p>
 
