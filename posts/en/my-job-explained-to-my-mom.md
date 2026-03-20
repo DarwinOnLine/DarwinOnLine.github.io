@@ -141,6 +141,14 @@ Except for that door, you need to:
 A "simple button" on a website is exactly that. Behind the apparent simplicity lies a world
 of invisible constraints. And every forgotten constraint is a bug waiting to happen.
 
+And here's the most puzzling part for anyone watching me work: a good chunk of this job
+looks like doing nothing. If you walk behind me and see me staring at my screen without
+typing, arms crossed, eyes glazed over, or even closed, that's probably when I'm at my most
+productive. I'm turning the problem over in my head, mentally testing solutions, ruling out
+the ones that won't work before writing a single line. It's a bit like a chess player
+thinking about their next move: from the outside, nothing's happening. On the inside, the
+engine is running full throttle.
+
 ## Updates, or why nothing is ever "done"
 
 Grandma, you know when your phone asks you to update and you tap "Later" for three months
@@ -164,44 +172,6 @@ Updates are for:
 
 So no, Grandma, "Later" is not the right answer. Please do your updates.
 
-## "But is what you do actually useful?"
-
-Nobody always asks me that directly. But it floats in the air. I read it sometimes in a
-silence, in a nod that's a little too polite. And honestly, I ask myself that question too.
-
-Because if I disappeared tomorrow, nobody dies. It's not like being a nurse holding
-someone's hand at 3 AM, or a teacher showing a six-year-old how to read.
-[We're not under the same kind of pressure](/en/blog/what-being-a-developer-has-taught-me#relax),
-and it's important to keep that in mind. My job doesn't feed anyone in the literal sense.
-It doesn't build roads you can point at.
-
-It's something I took a long time to accept, and even longer to put into words: the meaning
-of what I do isn't always obvious, even to me.
-
-But it's there.
-
-<figure style="text-align: center;">
-  <img src="/assets/images/posts/mon-metier-explique-a-ma-mere/david-goodenough.webp"
-  alt="David Goodenough" style="max-width: 100%;" loading="lazy" />
-</figure>
-
-What I love about this job, what gets me out of bed in the morning, is this: **finding
-simple, smart solutions to problems that can be very complex**. Taking something that
-doesn't work, that's clunky, that drives people crazy, and turning it into something
-smooth, obvious, invisible. The kind of solution where the user doesn't even realize there
-was a problem, because everything just flows.
-
-It's a bit like the sound engineer at a concert: if all you're thinking about is the music,
-they've nailed it.
-
-So no, I don't save lives. But I simplify the lives of people who do. The software that
-lets a doctor pull up your file in two clicks instead of digging through a cabinet. The app
-that lets a teacher track their students without drowning in paperwork. The system that
-makes it so when Grandma orders her medication online, it arrives the next day.
-
-Behind every "it just works," there's someone who made it work. And sometimes, that someone
-is me.
-
 ## And what about AI?
 
 Ah, this one. Lately, everyone keeps asking me if "AI is going to replace me."
@@ -221,6 +191,38 @@ or that Grandma's oven trips the breaker above thermostat 7.
 My job is knowing **what to build**, **why**, and **making sure it works**. AI helps me
 go faster on some tasks. Let me say it again: an accountant doesn't feel threatened by a
 spreadsheet, they use it. Well, it's the same for me.
+
+## "But is what you do actually useful?"
+
+Nobody always asks me that directly. But it floats in the air. I read it sometimes in a
+silence, in a nod that's a little too polite. And honestly, I ask myself that question too.
+
+Not because the answer is no. But because what I build, nobody *sees* it. A carpenter can
+show you a table. A painter hangs their work on a wall. Me, the sign that I've done my job
+well is that nobody notices it. When you book a doctor's appointment in three clicks, when
+you order groceries from your couch, when Grandma gets her medication delivered the next
+day, nobody thinks about the person who made it work. And that's normal. That's actually
+the point.
+
+It's a strange job, one where success is invisible.
+
+And yet, what I love about this job, what gets me out of bed in the morning, is this:
+**making things and putting them out into the world**. Taking a messy problem, untangling
+it, building a solution, and setting it loose, alive, usable.
+
+It's something I've been doing since I was a kid. My first website was built in my student
+apartment, learning that an infinite loop in PHP doesn't produce refreshes (I was staring
+at a blank page expecting content, Mom), with HTML picked up from tutorials found on forums
+and Le Site du Zéro (if you know, you know). It was ugly, it half-worked, and the day I saw
+on my homemade visitor counter that a stranger had visited, and it wasn't a friend I'd sent
+there myself, I felt something I can only describe as: I *made a thing*, I *put it
+somewhere*, and *someone found it*. That feeling has never changed. Fifteen years later,
+the tools are better, the stakes are higher, but the engine is the same. When a solution
+runs smoothly, when a user says "it just works" without knowing what's behind it, it's
+the same satisfaction as that kid staring at his visitor counter.
+
+So yes, it's useful. Behind every "it just works," there's someone who made it work.
+And sometimes, that someone is me.
 
 ## The fridge-magnet summary
 

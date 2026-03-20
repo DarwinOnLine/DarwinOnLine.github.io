@@ -136,6 +136,13 @@ non ? » Sauf que pour cette porte, il faut :
 Un « simple bouton » sur un site web, c'est exactement ça. Derrière l'apparente simplicité, il y a souvent un monde
 de contraintes invisibles. Et chaque contrainte oubliée, c'est un bug en puissance.
 
+Et le plus déroutant pour ceux qui me regardent travailler : une bonne partie de ce travail ressemble à de l'inaction. 
+Si tu passes derrière moi et que tu me vois fixer mon écran sans taper, les bras croisés, l'air ailleurs, voire 
+les yeux fermés, c'est probablement le moment où je produis le plus. Je suis en train de retourner le problème dans 
+ma tête, de tester des solutions mentalement, d'éliminer celles qui ne marcheront pas avant d'écrire la moindre ligne.
+C'est un peu comme un joueur d'échecs qui réfléchit à son coup : de l'extérieur, il ne se passe rien.
+De l'intérieur, la turbine tourne pleine balle.
+
 ## Les mises à jour, ou pourquoi rien n'est jamais « fini »
 
 Mémé, tu sais quand ton PC te demande de faire une mise à jour et que tu cliques sur « Plus tard » pendant trois mois ?
@@ -159,42 +166,6 @@ Les mises à jour servent à :
 
 Donc non, Mémé, « Plus tard » n'est pas la bonne réponse. Fais tes mises à jour. S'il te plaît. Tu ne vas rien casser.
 
-## « Mais c'est utile, ce que tu fais ? »
-
-Celle-là, on ne me la pose pas toujours directement. Mais elle flotte. Je la lis parfois dans un silence, dans un
-hochement de tête un peu trop poli. Et honnêtement, il m'arrive de me la poser moi-même.
-
-Parce que si demain je disparais, personne ne meurt. Je ne suis pas un soignant qui tient une main à 3 heures du matin,
-ou un enseignant qui apprend à lire à un gamin de six ans.
-[On n'est pas soumis au même stress](/fr/blog/ce-que-le-metier-de-developpeur-ma-appris#detendez-vous),
-et c'est important de le garder en tête. Mon métier ne nourrit personne au sens propre.
-Il ne construit pas de routes qu'on peut montrer du doigt.
-
-C'est un truc que j'ai mis du temps à accepter, et encore plus à formuler : le sens de ce que je fais, il n'est pas
-toujours évident, même pour moi.
-
-Mais il est là.
-
-<figure style="text-align: center;">
-  <img src="/assets/images/posts/mon-metier-explique-a-ma-mere/david-goodenough.webp"
-  alt="David Goodenough" style="max-width: 100%;" loading="lazy" />
-</figure>
-
-Ce que j'aime dans ce métier, ce qui me fait me lever le matin, c'est ça : **trouver des solutions simples et
-intelligentes à des problèmes qui peuvent être très complexes**. Prendre un truc qui ne marche pas, qui est bancal,
-qui rend les gens fous, et le transformer en quelque chose de fluide, d'évident, de transparent. Le genre de solution
-où l'utilisateur ne se rend même pas compte qu'il y avait un problème, parce que tout coule de source.
-
-C'est un peu comme l'ingénieur du son à un concert : si tu ne penses qu'à la musique, c'est qu'il a réussi son taf.
-
-Alors non, je ne sauve pas des vies. Mais je simplifie celles des gens qui les sauvent. Le logiciel qui permet au
-médecin de consulter ton dossier en deux clics au lieu de fouiller dans un classeur. L'application qui permet à
-l'enseignant de suivre ses élèves sans crouler sous la paperasse. Le système qui fait que quand Mamie commande ses médicaments en ligne,
-ça arrive le lendemain.
-
-Derrière chaque « ça marche tout seul », il y a quelqu'un qui a fait en sorte que ça marche.
-Et parfois, ce quelqu'un, c'est moi.
-
 ## Et l'IA dans tout ça ?
 
 Ah, cette question. Depuis quelque temps, tout le monde me demande si « l'IA va me remplacer ».
@@ -214,6 +185,35 @@ au-delà du thermostat 7.
 Mon métier, c'est de savoir **quoi construire**, **pourquoi**, et de **vérifier que ça marche**.
 L'IA m'aide à aller plus vite sur certaines tâches. Je le redis : un comptable ne se sent pas menacé par un classeur
 Excel, il s'en sert. Eh bien c'est pareil pour moi.
+
+## « Mais c'est utile, ce que tu fais ? »
+
+Celle-là, on ne me la pose pas toujours directement. Mais elle flotte. Je la lis parfois dans un silence, dans un
+hochement de tête un peu trop poli. Et honnêtement, il m'arrive de me la poser moi-même.
+
+Pas parce que la réponse est non. Mais parce que ce que je construis, personne ne le *voit*. Un menuisier peut montrer
+une table. Un peintre accroche son tableau au mur. Moi, le signe que j'ai bien fait mon travail, c'est que personne ne
+le remarque. Quand tu prends rendez-vous chez le médecin en trois clics, quand tu commandes tes courses depuis ton
+canapé, quand Mémé reçoit ses médicaments le lendemain, personne ne pense au type qui a fait en sorte que ça marche.
+Et c'est normal. C'est même le but.
+
+C'est un drôle de métier, un métier dont la réussite est invisible.
+
+Et pourtant, ce que j'aime dans ce métier, ce qui me fait me lever le matin, c'est ça : **fabriquer des choses et les
+mettre au monde**. Prendre un problème tordu, le démêler, construire une solution, et la poser là, vivante, utilisable.
+
+C'est un truc que je fais depuis que je suis gamin. Mon premier site web, c'était dans mon studio étudiant, à apprendre
+qu'une boucle infinie en PHP ne fait pas des refresh (j'avais une page blanche en continu alors que j'attendais du
+contenu Maman), avec du HTML appris dans des tutos trouvés sur des forums et Le site du Zéro (et ouais). C'était moche,
+ça marchait à moitié, et le jour où j'ai vu dans mon compteur de visites fait maison qu'un inconnu y était passé, et
+que c'était pas un copain que j'avais envoyé sur mon site, j'ai ressenti quelque chose que je ne saurais pas expliquer
+autrement que par : j'ai *fabriqué un truc*, je l'ai *mis quelque part*, et *quelqu'un l'a trouvé*.
+Ce plaisir-là n'a jamais changé. Quinze ans plus tard, les outils sont meilleurs, les enjeux
+sont plus gros, mais le moteur est le même. Quand une solution tourne, quand un utilisateur dit « c'est fluide » sans
+savoir ce qu'il y a derrière, c'est la même satisfaction que le gamin devant son compteur de visites.
+
+Alors oui, c'est utile. Derrière chaque « ça marche tout seul », il y a quelqu'un qui a fait en sorte que ça marche.
+Et parfois, ce quelqu'un, c'est moi.
 
 ## En résumé (pour le frigo)
 
