@@ -4,7 +4,7 @@
 
 <figure style="text-align: center;">
 <img src="/assets/images/posts/developpeur-a-l-ere-de-l-ia-entre-vertige-et-lucidite/this-is-fine.jpg"
-  alt="This is fine" style="max-width: 100%;" />
+  alt="This is fine" style="max-width: 100%;" loading="eager" />
 <figcaption>"This is Fine" © K.C. Green, Gunshow #648 (2013)</figcaption>
 </figure>
 
@@ -32,7 +32,7 @@ the gut.
 
 <figure style="text-align: center;">
 <img src="/assets/images/posts/developpeur-a-l-ere-de-l-ia-entre-vertige-et-lucidite/fraction-of-our-power.jpg"
-  alt="Look what they need to mimic a fraction of our power" style="max-width: 100%;" />
+  alt="Look what they need to mimic a fraction of our power" style="max-width: 100%;" loading="lazy" />
 <figcaption>"Look what they need to mimic a fraction of our power" © Amazon / Invincible (2021)</figcaption>
 </figure>
 
@@ -53,7 +53,7 @@ measure your own incompetence.
 
 <figure style="text-align: center;">
 <img src="/assets/images/posts/developpeur-a-l-ere-de-l-ia-entre-vertige-et-lucidite/mcarthur-wheeler.jpg"
-  alt="McArthur Wheeler, captured by the surveillance cameras" style="max-width: 100%;" />
+  alt="McArthur Wheeler, captured by the surveillance cameras" style="max-width: 100%;" loading="lazy" />
 <figcaption>McArthur Wheeler, captured by the very cameras he thought he could fool with lemon juice.</figcaption>
 </figure>
 
@@ -91,7 +91,7 @@ cases, maintainability), that's still you.
 
 <figure style="text-align: center;">
 <img src="/assets/images/posts/developpeur-a-l-ere-de-l-ia-entre-vertige-et-lucidite/iceberg.jpg"
-  alt="Iceberg: AI-generated code vs everything else" style="max-width: 100%;" />
+  alt="Iceberg: AI-generated code vs everything else" style="max-width: 100%;" loading="lazy" />
 <figcaption>Now try explaining that in a 15-minute standup.</figcaption>
 </figure>
 
@@ -111,7 +111,7 @@ that confuses productivity with rushing.
 
 <figure style="text-align: center;">
 <img src="/assets/images/posts/developpeur-a-l-ere-de-l-ia-entre-vertige-et-lucidite/productivity-rushing.jpg"
-  alt="They're the same picture: Productivity vs Rushing" style="max-width: 100%;" />
+  alt="They're the same picture: Productivity vs Rushing" style="max-width: 100%;" loading="lazy" />
 <figcaption>"They're the same picture." © NBC / The Office (2005)</figcaption>
 </figure>
 
@@ -144,7 +144,7 @@ the line between productivity and compulsion fades.
 
 <p style="text-align: center;">
 <img src="/assets/images/posts/developpeur-a-l-ere-de-l-ia-entre-vertige-et-lucidite/im-in-this-photo.jpg"
-  alt="I'm in this photo and I don't like it" style="max-width: 100%;" />
+  alt="I'm in this photo and I don't like it" style="max-width: 100%;" loading="lazy" />
 </p>
 
 If you recognize yourself in one or more of these points: you're not alone. And you're not behind. The pace
@@ -169,7 +169,7 @@ Now that the discomfort is laid out, let's try to see clearly.
 
 <p style="text-align: center;">
 <img src="/assets/images/posts/developpeur-a-l-ere-de-l-ia-entre-vertige-et-lucidite/lucidity.jpg"
-  alt="Barney Stinson ignoring the noise, staying focused on fundamentals" style="max-width: 100%;" />
+  alt="Barney Stinson ignoring the noise, staying focused on fundamentals" style="max-width: 100%;" loading="lazy" />
 </p>
 
 The difference between noise and signal is the long term. Noise evaporates. Signal confirms itself over time.
@@ -188,7 +188,7 @@ it goes in circles. That crossroads is your job.
 
 <p style="text-align: center;">
 <img src="/assets/images/posts/developpeur-a-l-ere-de-l-ia-entre-vertige-et-lucidite/ai-generated-horse.jpg"
-  alt="AI-generated code in the demo vs in production" style="max-width: 100%;" />
+  alt="AI-generated code in the demo vs in production" style="max-width: 100%;" loading="lazy" />
 </p>
 
 **Easy code has become free. Correct code remains expensive.** Anyone can generate a CRUD in 30 seconds.
@@ -215,7 +215,7 @@ A few principles that help me navigate through this fog:
 <p style="text-align: center;">
 <img src="/assets/images/posts/developpeur-a-l-ere-de-l-ia-entre-vertige-et-lucidite/calm-cat.jpg"
   alt="Everyone's panicking about AI replacing devs. I'm here wondering if I should upgrade to Node 54."
-  style="max-width: 100%;" />
+  style="max-width: 100%;" loading="lazy" />
 </p>
 
 **Use AI as a tool, not as a judge.** If you find yourself measuring your worth against what an LLM can
@@ -242,7 +242,7 @@ The only truly dangerous thing would be pretending everything is fine. Or preten
 
 <figure style="text-align: center;">
 <img src="/assets/images/posts/developpeur-a-l-ere-de-l-ia-entre-vertige-et-lucidite/first-time.jpg"
-  alt="First time?" style="max-width: 100%;" />
+  alt="First time?" style="max-width: 100%;" loading="lazy" />
 <figcaption>"First time?" © Netflix / The Ballad of Buster Scruggs (2018)</figcaption>
 </figure>
 

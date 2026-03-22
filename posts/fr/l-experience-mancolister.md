@@ -4,7 +4,7 @@
 
 <figure style="text-align: center;">
   <img src="/assets/images/posts/l-experience-mancolister/collection.jpg"
-  alt="Ma collection" style="max-width: 100%;" />
+  alt="Ma collection" style="max-width: 100%;" loading="eager" />
 <figcaption>Des loisirs de vieux je vous dis</figcaption>
 </figure>
 
@@ -23,7 +23,7 @@ mais globalement, les listes philatéliques par année et avec cote ne sont pas 
 
 <figure style="text-align: center;">
   <img src="/assets/images/posts/l-experience-mancolister/mancoliste.jpg"
-  alt="Mancoliste" style="max-width: 100%;" />
+  alt="Mancoliste" style="max-width: 100%;" loading="lazy" />
 <figcaption>Il y a des versions hardcore aussi</figcaption>
 </figure>
 
@@ -70,7 +70,7 @@ PAGE à la main, c'était en tout cas le cas il y a quelques années quand j'ava
 
 <figure style="text-align: center;">
   <img src="/assets/images/posts/l-experience-mancolister/et-c-est-parti.jpg"
-  alt="Et c'est parti" style="max-width: 100%;" />
+  alt="Et c'est parti" style="max-width: 100%;" loading="lazy" />
 <figcaption>POV: Tu te lances sur ton projet de philatélie</figcaption>
 </figure>
 
@@ -89,7 +89,7 @@ Découpage en épics et stories.
 
 <figure style="text-align: center;">
   <img src="/assets/images/posts/l-experience-mancolister/bmad.png"
-    alt="Workflow BMAD" style="max-width: 100%;" />
+    alt="Workflow BMAD" style="max-width: 100%;" loading="lazy" />
     <figcaption>Workflow standard (© <a href="__PROT0__" target="_blank">sfeir.dev</a>)</figcaption>
 </figure>
 
@@ -125,7 +125,7 @@ Deux sources, deux problèmes différents.
 
 <figure style="text-align: center;">
   <img src="/assets/images/posts/l-experience-mancolister/le-scraper.jpg"
-  alt="LE scraper" style="max-width: 100%;" />
+  alt="LE scraper" style="max-width: 100%;" loading="lazy" />
 </figure>
 
 ### timbres-de-france.com
@@ -226,7 +226,7 @@ malgré la cible de déploiement est tenue.
 
 <p style="text-align: center;">
   <img src="/assets/images/posts/l-experience-mancolister/mancolister.jpg"
-    alt="One thing at a time" style="max-width: 100%;" />
+    alt="One thing at a time" style="max-width: 100%;" loading="lazy" />
 </p>
 
 Je l'utilise. Elle fait ce que je voulais qu'elle fasse.

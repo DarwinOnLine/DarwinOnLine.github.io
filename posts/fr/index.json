@@ -52,5 +52,14 @@
     "i18nSlugs": { "en": "the-real-cost-of-ai-when-the-bill-comes-due" },
     "tags": ["Développement", "IA", "Carrière"],
     "image": "assets/images/posts/le-vrai-cout-de-l-ia-quand-la-facture-arrivera/free-real-estate.jpg"
+  },
+  {
+    "slug": "mon-metier-explique-a-ma-mere",
+    "title": "Mon métier expliqué à ma mère",
+    "date": "2026-03-22",
+    "description": "Ou pourquoi « je fais des trucs avec des ordinateurs » ne suffit plus comme réponse.",
+    "i18nSlugs": { "en": "my-job-explained-to-my-mom" },
+    "tags": ["Développement", "Vulgarisation", "Personnel"],
+    "image": "assets/images/posts/mon-metier-explique-a-ma-mere/hero.webp"
   }
 ]

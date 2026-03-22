@@ -9,7 +9,7 @@ convictions à partager.
 
 <p style="text-align: center;">
   <img src="/assets/images/posts/ce-que-le-metier-de-developpeur-ma-appris/learn.jpg"
-    alt="When I was your age, I was your age" style="max-width: 100%;" />
+    alt="When I was your age, I was your age" style="max-width: 100%;" loading="eager" />
 </p>
 
 Ce qui suit est un mélange de ses idées, des miennes, et de tout ce que ce métier m'a appris
@@ -19,7 +19,7 @@ entre-temps.
 
 <p style="text-align: center;">
   <img src="/assets/images/posts/ce-que-le-metier-de-developpeur-ma-appris/simple-complex.jpg"
-    alt="" style="max-width: 100%;" />
+    alt="" style="max-width: 100%;" loading="lazy" />
 </p>
 
 Lorsque vous démarrez un nouveau projet, une nouvelle application, un site web, ou même que vous
@@ -51,7 +51,7 @@ complexifier, mais à chaque itération, votre machine fonctionnera, et sera cap
 
 <p style="text-align: center;">
   <img src="/assets/images/posts/ce-que-le-metier-de-developpeur-ma-appris/one-thing.jpg"
-    alt="One thing at a time" style="max-width: 100%;" />
+    alt="One thing at a time" style="max-width: 100%;" loading="lazy" />
 </p>
 
 Ce précepte vaut pour le développement, mais avant tout dans le cas général. Si vous rencontrez
@@ -71,7 +71,7 @@ review, et moins vous aurez de risques d'introduire des régressions silencieuse
 
 <p style="text-align: center;">
   <img src="/assets/images/posts/ce-que-le-metier-de-developpeur-ma-appris/quand-je-regarde-logs.webp"
-    alt="" style="max-width: 100%;" />
+    alt="" style="max-width: 100%;" loading="lazy" />
 </p>
 
 Pour ne pas dire avant toute chose. Cela peut paraître futile à la genèse du projet, mais les
@@ -86,7 +86,7 @@ Et bien évidemment, même si la plupart des systèmes de log le font, horodatez
 
 <p style="text-align: center;">
   <img src="/assets/images/posts/ce-que-le-metier-de-developpeur-ma-appris/bug-plane.jpg"
-    alt="Ça n'arrive qu'aux autres, m'voyez." style="max-width: 100%;" />
+    alt="Ça n'arrive qu'aux autres, m'voyez." style="max-width: 100%;" loading="lazy" />
 </p>
 
 Cela semble tomber sous le sens. On peut se dire que les tests unitaires et tests d'intégration
@@ -114,7 +114,7 @@ plus sont prévus dans la
 
 <p style="text-align: center;">
   <img src="/assets/images/posts/ce-que-le-metier-de-developpeur-ma-appris/hofstader.jpg"
-    alt="Hofstadter" style="max-width: 100%;" />
+    alt="Hofstadter" style="max-width: 100%;" loading="lazy" />
 </p>
 
 … et c'est très difficile à expliquer à votre scrum master, votre commercial, sans passer pour
@@ -144,7 +144,7 @@ jamais, c'est de la faillite qui s'organise.
 
 <figure style="text-align: center;">
 <img src="/assets/images/posts/ce-que-le-metier-de-developpeur-ma-appris/gaston-dette.jpg"
-  alt="Gaston Lagaffe, la dette qui s'accumule" style="max-width: 100%;" />
+  alt="Gaston Lagaffe, la dette qui s'accumule" style="max-width: 100%;" loading="lazy" />
 <figcaption>Gaston aussi croule sous la dette. © Franquin</figcaption>
 </figure>
 
@@ -166,7 +166,7 @@ qui trinque. Et c'est vous qui la porterez.
 
 <figure style="text-align: center;">
 <img src="/assets/images/posts/ce-que-le-metier-de-developpeur-ma-appris/yes-man.jpg"
-  alt="Yes Man" style="max-width: 100%;" />
+  alt="Yes Man" style="max-width: 100%;" loading="lazy" />
 <figcaption>Ne soyez pas un Yes Man.</figcaption>
 </figure>
 
@@ -177,7 +177,7 @@ alors rien ne l'est.
 
 <p style="text-align: center;">
   <img src="/assets/images/posts/ce-que-le-metier-de-developpeur-ma-appris/getit.gif"
-    alt="Get it" style="max-width: 100%;" />
+    alt="Get it" style="max-width: 100%;" loading="lazy" />
 </p>
 
 Beaucoup de vos projets vont consister à modifier ou faire évoluer un code existant. Alors prenez
@@ -213,7 +213,7 @@ projet opaque, elle ne fera que reproduire le chaos.
 
 <p style="text-align: center;">
   <img src="/assets/images/posts/ce-que-le-metier-de-developpeur-ma-appris/bugs.jpg"
-    alt="" style="max-width: 100%;" />
+    alt="" style="max-width: 100%;" loading="lazy" />
 </p>
 
 Et tenez-vous cela pour dit. Cela ne signifie pas que vous êtes une tanche, juste que vous ne
@@ -229,7 +229,7 @@ possible avant que l'utilisateur final ne rencontre le problème.
 
 <p style="text-align: center;">
   <img src="/assets/images/posts/ce-que-le-metier-de-developpeur-ma-appris/multitask.gif"
-    alt="" style="max-width: 100%;" />
+    alt="" style="max-width: 100%;" loading="lazy" />
 </p>
 
 Conséquence du point précédent, prenez le temps de résoudre les problèmes, faites-en une tâche
@@ -267,7 +267,7 @@ responsabilité unique. Si vous ne savez pas la nommer simplement, découpez-la.
 
 <figure style="text-align: center;">
 <img src="/assets/images/posts/ce-que-le-metier-de-developpeur-ma-appris/naming.jpg"
-  alt="Naming things" style="max-width: 100%;" />
+  alt="Naming things" style="max-width: 100%;" loading="lazy" />
 <figcaption>Soyez pas cons par contre.</figcaption>
 </figure>
 
@@ -280,7 +280,7 @@ phrase : ne codez que ce dont vous avez besoin, et faites-le simplement.
 
 <p style="text-align: center;">
   <img src="/assets/images/posts/ce-que-le-metier-de-developpeur-ma-appris/kiss-yagni.jpg"
-    alt="If it works, it works." style="max-width: 100%;" />
+    alt="If it works, it works." style="max-width: 100%;" loading="lazy" />
 </p>
 
 C'est tentant, une belle abstraction. Un pattern bien propre « au cas où ». Une factory de
@@ -294,7 +294,7 @@ facile, parce que le code sera resté simple.
 
 <p style="text-align: center;">
   <img src="/assets/images/posts/ce-que-le-metier-de-developpeur-ma-appris/coincidence.webp"
-    alt="Coincidence" style="max-width: 100%;" />
+    alt="Coincidence" style="max-width: 100%;" loading="lazy" />
 </p>
 
 Jamais. La règle est simple : si vous avez créé une fonctionnalité A et que désormais la
@@ -332,7 +332,7 @@ coûte bien plus que sa durée affichée. Et rappelez-vous :
 <p style="text-align: center;">
   <img src="/assets/images/posts/ce-que-le-metier-de-developpeur-ma-appris/meeting-email.jpg"
     alt="Tell me again why this meeting couldn't have been just an email?"
-    style="max-width: 100%;" />
+    style="max-width: 100%;" loading="lazy" />
 </p>
 
 ## Poser des questions != être con
@@ -350,7 +350,7 @@ dans 99% des épisodes de Docteur House.
 
 <figure style="text-align: center;">
 <img src="/assets/images/posts/ce-que-le-metier-de-developpeur-ma-appris/rubber-ducky.jpg"
-  alt="Rubber ducky" style="max-width: 100%;" />
+  alt="Rubber ducky" style="max-width: 100%;" loading="lazy" />
 <figcaption>Deux excellents exemples de rubber ducky.</figcaption>
 </figure>
 
@@ -377,7 +377,7 @@ Déléguer sans comprendre, ce n'est pas de l'efficacité, c'est de l'abandon.
 
 <p style="text-align: center;">
   <img src="/assets/images/posts/ce-que-le-metier-de-developpeur-ma-appris/ai-learning.webp"
-    alt="Learn to code vs learn to write prompt" style="max-width: 100%;" />
+    alt="Learn to code vs learn to write prompt" style="max-width: 100%;" loading="lazy" />
 </p>
 
 Cela dit, apprendre ne veut pas dire courir après tout. Chaque semaine un nouveau framework
@@ -398,7 +398,7 @@ s'apprend. Et elle vous évitera le burnout d'apprentissage.
 
 <p style="text-align: center;">
   <img src="/assets/images/posts/ce-que-le-metier-de-developpeur-ma-appris/relax.webp"
-    alt="David Good" style="max-width: 100%;" />
+    alt="David Good" style="max-width: 100%;" loading="lazy" />
   <br><em>Pas trop quand même</em>
 </p>
 
