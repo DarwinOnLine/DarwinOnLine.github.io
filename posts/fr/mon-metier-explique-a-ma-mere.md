@@ -3,7 +3,7 @@
 *Ou pourquoi « je fais des trucs avec des ordinateurs » ne suffit plus comme réponse*
 
 Ça commence toujours pareil. Une discussion informelle, quelqu'un me demande ce que je fais dans la vie,
-je réponds « développeur », et je vois le même enchaînement dans les yeux de mon interlocuteur : intérêt poli,
+je réponds « développeur », et je vois le même enchaînement dans les yeux de mon interlocuteur : intérêt poli,
 effort de concentration, puis ce léger voile qui tombe quand je sors un mot trop technique ou du jargon.
 
 Et à chaque fois, je me dis que ça devrait pas être si compliqué à expliquer. Que je devrais avoir une réponse simple,
@@ -17,7 +17,7 @@ limpide, prête à dégainer. Mais non. Quinze ans de métier et je bafouille en
 Alors voilà. Cet article, c'est ma tentative de réponse claire. Pour toi maman, pour toi mémé, pour vous les enfants,
 et tous ceux qui me voient taper sur un clavier toute la journée en se demandant si c'est vraiment *ça*, mon travail.
 
-Spoiler : oui. Et je vais vous expliquer pourquoi.
+Spoiler : oui. Et je vais vous expliquer pourquoi.
 
 ## Je suis un constructeur, mais sans le casque
 
@@ -40,7 +40,7 @@ Et comme un maçon a ses outils, moi j'ai les miens. Sauf que les miens sont inv
 ## Le code, c'est une recette de cuisine
 
 La meilleure analogie pour l'algorithmique, c'est la recette de cuisine. Quand je fais mon gratin à la lyonnaise 
-(j'aime cuisiner), je suis des étapes précises :
+(j'aime cuisiner), je suis des étapes précises :
 
 1. Éplucher les pommes de terre et les oignons
 2. Les couper en rondelles fines
@@ -79,7 +79,7 @@ téléphone dans un champ prévu pour sa date de naissance), et tout se casse la
   alt="Anakin Padmé meme: I fixed the bug / Without creating a new one right?" style="max-width: 100%;" loading="lazy" />
 </figure>
 
-Une bonne partie de mon temps, c'est traquer ces bugs. C'est un peu comme être détective : il faut trouver *où* ça a
+Une bonne partie de mon temps, c'est traquer ces bugs. C'est un peu comme être détective : il faut trouver *où* ça a
 déraillé, *pourquoi*, et *comment* réparer sans casser autre chose.
 Parce que oui, réparer un bug peut en créer un nouveau. C'est comme quand tu rebouches un trou dans un mur et que le 
 plâtre fait une bosse de l'autre côté.
@@ -110,7 +110,7 @@ proprement, et te les renvoie. Tout ça en moins d'une seconde (normalement).
 Mon travail, c'est de construire et d'entretenir ces tuyaux numériques. Que l'eau coule, qu'elle soit propre, et
 qu'elle arrive au bon endroit.
 
-## « Mais ça a l'air simple, pourquoi ça prend autant de temps ? »
+## « Mais ça a l'air simple, pourquoi ça prend autant de temps ? »
 
 Il m'arrive de passer une journée entière sur un bouton. Un seul bouton. Et non, je n'exagère pas. En fait je ne vous
 dis pas tout.
@@ -118,11 +118,11 @@ dis pas tout.
 <figure style="text-align: center;">
   <img src="/assets/images/posts/mon-metier-explique-a-ma-mere/roumanoff.webp"
   alt="On ne nous dit pas tout" style="max-width: 100%;" loading="lazy" />
-<figcaption>Vous avez vraiment besoin d'une légende ?</figcaption>
+<figcaption>Vous avez vraiment besoin d'une légende ?</figcaption>
 </figure>
 
 Imaginez que je vous demande de rajouter une porte à votre maison. « C'est juste une porte, ça devrait être rapide,
-non ? » Sauf que pour cette porte, il faut :
+non ? » Sauf que pour cette porte, il faut :
 
 - Vérifier que le mur n'est pas porteur si je perce (parole de daron)
 - Faire passer un électricien pour déplacer les fils qui sont dans le mur
@@ -131,29 +131,29 @@ non ? » Sauf que pour cette porte, il faut :
 - Qu'elle ne bloque pas une autre porte quand elle est ouverte
 - Qu'elle ferme correctement
 - Qu'elle soit assortie aux autres portes
-- Et la tester : est-ce qu'elle grince ? Est-ce qu'elle tient quand il y a du vent ?
+- Et la tester : est-ce qu'elle grince ? Est-ce qu'elle tient quand il y a du vent ?
 
 Un « simple bouton » sur un site web, c'est exactement ça. Derrière l'apparente simplicité, il y a souvent un monde
 de contraintes invisibles. Et chaque contrainte oubliée, c'est un bug en puissance.
 
-Et le plus déroutant pour ceux qui me regardent travailler : une bonne partie de ce travail ressemble à de l'inaction. 
+Et le plus déroutant pour ceux qui me regardent travailler : une bonne partie de ce travail ressemble à de l'inaction. 
 Si tu passes derrière moi et que tu me vois fixer mon écran sans taper, les bras croisés, l'air ailleurs, voire 
 les yeux fermés, c'est probablement le moment où je produis le plus. Je suis en train de retourner le problème dans 
 ma tête, de tester des solutions mentalement, d'éliminer celles qui ne marcheront pas avant d'écrire la moindre ligne.
-C'est un peu comme un joueur d'échecs qui réfléchit à son coup : de l'extérieur, il ne se passe rien.
+C'est un peu comme un joueur d'échecs qui réfléchit à son coup : de l'extérieur, il ne se passe rien.
 De l'intérieur, la turbine tourne pleine balle.
 
 ## Les mises à jour, ou pourquoi rien n'est jamais « fini »
 
-Mémé, tu sais quand ton PC te demande de faire une mise à jour et que tu cliques sur « Plus tard » pendant trois mois ?
+Mémé, tu sais quand ton PC te demande de faire une mise à jour et que tu cliques sur « Plus tard » pendant trois mois ?
 Eh bien, ces mises à jour, quelqu'un les a écrites. Parfois, ce quelqu'un c'est moi 
 (enfin, pas pour ton PC, mais tu vois l'idée).
 
-Un logiciel, ce n'est jamais fini. Jamais. C'est comme un jardin : même quand il est beau et bien entretenu,
+Un logiciel, ce n'est jamais fini. Jamais. C'est comme un jardin : même quand il est beau et bien entretenu,
 il faut continuer à tailler, arroser, désherber. Sinon les mauvaises herbes reviennent (les bugs), les plantes meurent
 (les fonctionnalités deviennent obsolètes) et les voisins se plaignent (les utilisateurs).
 
-Les mises à jour servent à :
+Les mises à jour servent à :
 - **Corriger des bugs** qu'on n'avait pas vus
 - **Ajouter des fonctionnalités** que les utilisateurs demandent
 - **Renforcer la sécurité** (parce que les « méchants » cherchent toujours de nouvelles failles, comme des cambrioleurs qui testent les serrures)
@@ -166,7 +166,7 @@ Les mises à jour servent à :
 
 Donc non, Mémé, « Plus tard » n'est pas la bonne réponse. Fais tes mises à jour. S'il te plaît. Tu ne vas rien casser.
 
-## Et l'IA dans tout ça ?
+## Et l'IA dans tout ça ?
 
 Ah, cette question. Depuis quelque temps, tout le monde me demande si « l'IA va me remplacer ».
 J'en ai [longuement parlé dans un précédent article](/fr/blog/developpeur-a-l-ere-de-l-ia-entre-vertige-et-lucidite),
@@ -183,10 +183,10 @@ au-delà du thermostat 7.
 </figure>
 
 Mon métier, c'est de savoir **quoi construire**, **pourquoi**, et de **vérifier que ça marche**.
-L'IA m'aide à aller plus vite sur certaines tâches. Je le redis : un comptable ne se sent pas menacé par un classeur
+L'IA m'aide à aller plus vite sur certaines tâches. Je le redis : un comptable ne se sent pas menacé par un classeur
 Excel, il s'en sert. Eh bien c'est pareil pour moi.
 
-## « Mais c'est utile, ce que tu fais ? »
+## « Mais c'est utile, ce que tu fais ? »
 
 Celle-là, on ne me la pose pas toujours directement. Mais elle flotte. Je la lis parfois dans un silence, dans un
 hochement de tête un peu trop poli. Et honnêtement, il m'arrive de me la poser moi-même.
@@ -199,7 +199,7 @@ Et c'est normal. C'est même le but.
 
 C'est un drôle de métier, un métier dont la réussite est invisible.
 
-Et pourtant, ce que j'aime dans ce métier, ce qui me fait me lever le matin, c'est ça : **fabriquer des choses et les
+Et pourtant, ce que j'aime dans ce métier, ce qui me fait me lever le matin, c'est ça : **fabriquer des choses et les
 mettre au monde**. Prendre un problème tordu, le démêler, construire une solution, et la poser là, vivante, utilisable.
 
 C'est un truc que je fais depuis que je suis gamin. Mon premier site web, c'était dans mon studio étudiant, à apprendre
@@ -207,7 +207,7 @@ qu'une boucle infinie en PHP ne fait pas des refresh (j'avais une page blanche e
 contenu Maman), avec du HTML appris dans des tutos trouvés sur des forums et Le site du Zéro (et ouais). C'était moche,
 ça marchait à moitié, et le jour où j'ai vu dans mon compteur de visites fait maison qu'un inconnu y était passé, et
 que c'était pas un copain que j'avais envoyé sur mon site, j'ai ressenti quelque chose que je ne saurais pas expliquer
-autrement que par : j'ai *fabriqué un truc*, je l'ai *mis quelque part*, et *quelqu'un l'a trouvé*.
+autrement que par : j'ai *fabriqué un truc*, je l'ai *mis quelque part*, et *quelqu'un l'a trouvé*.
 Ce plaisir-là n'a jamais changé. Quinze ans plus tard, les outils sont meilleurs, les enjeux
 sont plus gros, mais le moteur est le même. Quand une solution tourne, quand un utilisateur dit « c'est fluide » sans
 savoir ce qu'il y a derrière, c'est la même satisfaction que le gamin devant son compteur de visites.
@@ -217,19 +217,19 @@ Et parfois, ce quelqu'un, c'est moi.
 
 ## En résumé (pour le frigo)
 
-Si un jour quelqu'un vous demande ce que fait votre fils/petit-fils/père :
+Si un jour quelqu'un vous demande ce que fait votre fils/petit-fils/père :
 
 > Il écrit des instructions pour que les ordinateurs fassent des choses utiles.
 > C'est un peu comme écrire des recettes de cuisine, sauf que le cuisinier est un robot très obéissant mais complètement
 > dépourvu de bon sens. Alors il passe aussi beaucoup de temps à vérifier que le robot n'a pas mis le sel dans le café.
 
-Et si on vous demande si c'est compliqué, vous pouvez répondre :
+Et si on vous demande si c'est compliqué, vous pouvez répondre :
 
 > C'est comme construire une maison. Sauf que la maison est invisible, que les plans changent toutes les semaines,
 > et qu'un million de personnes essaient d'ouvrir toutes les portes en même temps.
 
-Voilà. Maintenant vous savez. Et la prochaine fois qu'on me demandera « Mais concrètement, tu fais *quoi* ? »,
-je pourrai juste dire : « Tiens, un gars bien a écrit un article, lis-le. »
+Voilà. Maintenant vous savez. Et la prochaine fois qu'on me demandera « Mais concrètement, tu fais *quoi* ? »,
+je pourrai juste dire : « Tiens, un gars bien a écrit un article, lis-le. »
 
 <figure style="text-align: center;">
   <img src="/assets/images/posts/mon-metier-explique-a-ma-mere/drop-mic.webp"

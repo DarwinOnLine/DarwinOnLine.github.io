@@ -9,7 +9,7 @@ Les blocs de code sont automatiquement colorés avec Highlight.js :
 ```javascript
 // JavaScript avec coloration syntaxique
 function greet(name) {
-  return `Bonjour, ${name} !`;
+  return `Bonjour, ${name} !`;
 }
 
 console.log(greet('le monde'));
