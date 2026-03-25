@@ -57,7 +57,7 @@ très humaine : il regarde ailleurs. « Le problème ne peut pas venir de là, 
 
 <p style="text-align: center;">
   <img src="/assets/images/posts/stephen-king-et-le-debugging/kill-your-darlings.jpg"
-    alt="Ben si." style="max-width: 300px;" loading="lazy" />
+    alt="Ben si." style="max-width: min(300px, 100%);" loading="lazy" />
 </p>
 
 Le [biais de confirmation](https://fr.wikipedia.org/wiki/Biais_de_confirmation) est le pire ennemi du développeur en debug. Vous cherchez des preuves que votre code est innocent,
@@ -104,7 +104,7 @@ n'est pas un aveu de faiblesse, c'est le processus.
 
 <figure style="text-align: center;">
   <img src="/assets/images/posts/stephen-king-et-le-debugging/dark-tower-door.jpg"
-  alt="Jake Chambers devant la porte" style="max-width: 300px;" loading="lazy" />
+  alt="Jake Chambers devant la porte" style="max-width: min(300px, 100%);" loading="lazy" />
 <figcaption>Parfois, la réponse est de l'autre côté de la porte.
 <br/>Jake Chambers, <em>La Tour Sombre</em></figcaption>
 </figure>

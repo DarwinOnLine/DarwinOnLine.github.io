@@ -37,7 +37,7 @@ Result:
 ```html
 <img src="/assets/images/banner-example.jpg"
      alt="Description"
-     style="max-width: 500px; border-radius: 8px;" />
+     style="max-width: min(500px, 100%); border-radius: 8px;" />
 ```
 
 ## Best Practices
