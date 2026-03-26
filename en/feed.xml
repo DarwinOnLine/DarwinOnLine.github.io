@@ -5,13 +5,24 @@
     <link>https://darwinonline.github.io/en</link>
     <description>Darwin&apos;s personal blog - Development, Tech and Thoughts</description>
     <language>en</language>
-    <lastBuildDate>Wed, 25 Mar 2026 18:16:47 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 26 Mar 2026 23:12:57 GMT</lastBuildDate>
     <atom:link href="https://darwinonline.github.io/en/feed.xml" rel="self" type="application/rss+xml" />
     <image>
       <url>https://darwinonline.github.io/assets/images/default-og.png</url>
       <title>Darwin On Line (EN)</title>
       <link>https://darwinonline.github.io/en</link>
     </image>
+    <item>
+      <title>When everyone thinks they can do your job</title>
+      <link>https://darwinonline.github.io/en/blog/when-everyone-thinks-they-can-do-your-job</link>
+      <guid isPermaLink="true">https://darwinonline.github.io/en/blog/when-everyone-thinks-they-can-do-your-job</guid>
+      <pubDate>Wed, 25 Mar 2026 12:00:00 GMT</pubDate>
+      <description>Or how to keep your eyes open when tools make expertise invisible.</description>
+      <category>Development</category>
+      <category>AI</category>
+      <category>Career</category>
+      <enclosure url="https://darwinonline.github.io/assets/images/posts/quand-tout-le-monde-sait-faire-ton-metier/how-to-draw-an-owl.webp" type="image/webp" length="0" />
+    </item>
     <item>
       <title>My job explained to my mom</title>
       <link>https://darwinonline.github.io/en/blog/my-job-explained-to-my-mom</link>

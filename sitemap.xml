@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://darwinonline.github.io/fr</loc>
-    <lastmod>2026-03-25</lastmod>
+    <lastmod>2026-03-26</lastmod>
     <priority>1.0</priority>
   </url>
   <url>
@@ -97,12 +97,12 @@
   </url>
   <url>
     <loc>https://darwinonline.github.io/en</loc>
-    <lastmod>2026-03-25</lastmod>
+    <lastmod>2026-03-26</lastmod>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://darwinonline.github.io/en/blog</loc>
-    <lastmod>2026-03-22</lastmod>
+    <lastmod>2026-03-25</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
@@ -141,13 +141,18 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://darwinonline.github.io/en/blog/when-everyone-thinks-they-can-do-your-job</loc>
+    <lastmod>2026-03-25</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://darwinonline.github.io/en/blog/tag/Development</loc>
-    <lastmod>2026-03-22</lastmod>
+    <lastmod>2026-03-25</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://darwinonline.github.io/en/blog/tag/Career</loc>
-    <lastmod>2026-03-15</lastmod>
+    <lastmod>2026-03-25</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -157,7 +162,7 @@
   </url>
   <url>
     <loc>https://darwinonline.github.io/en/blog/tag/AI</loc>
-    <lastmod>2026-03-15</lastmod>
+    <lastmod>2026-03-25</lastmod>
     <priority>0.5</priority>
   </url>
   <url>

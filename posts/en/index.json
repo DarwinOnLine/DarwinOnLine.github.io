@@ -61,5 +61,14 @@
     "i18nSlugs": { "fr": "mon-metier-explique-a-ma-mere" },
     "tags": ["Development", "Explainers", "Personal"],
     "image": "assets/images/posts/mon-metier-explique-a-ma-mere/hero.webp"
+  },
+  {
+    "slug": "when-everyone-thinks-they-can-do-your-job",
+    "title": "When everyone thinks they can do your job",
+    "date": "2026-03-25",
+    "description": "Or how to keep your eyes open when tools make expertise invisible.",
+    "i18nSlugs": { "fr": "quand-tout-le-monde-sait-faire-ton-metier" },
+    "tags": ["Development", "AI", "Career"],
+    "image": "assets/images/posts/quand-tout-le-monde-sait-faire-ton-metier/how-to-draw-an-owl.webp"
   }
 ]

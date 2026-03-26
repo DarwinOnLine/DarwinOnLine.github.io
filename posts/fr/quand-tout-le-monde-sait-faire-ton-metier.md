@@ -3,7 +3,7 @@
 *Ou comment garder les yeux ouverts quand les outils rendent l'expertise invisible.*
 
 <figure style="text-align: center;">
-  <img src="/assets/images/posts/quand-tout-le-monde-sait-faire-ton-metier/how-to-draw-an-owl.png"
+  <img src="/assets/images/posts/quand-tout-le-monde-sait-faire-ton-metier/how-to-draw-an-owl.webp"
   alt="How to draw an owl: Step 1, draw some circles. Step 2, draw the rest of the fucking owl." style="max-width: 100%;" loading="eager" />
   <figcaption>
     Étape 1 : utilise l'outil. Étape 2 : fais tout le reste (ce que l'outil ne sait pas faire).<br>
@@ -45,7 +45,7 @@ senti quelque chose vaciller. Quand la photographie numérique a remplacé l'arg
 n'exigeait plus des heures en chambre noire.
 
 <figure style="text-align: center;">
-  <img src="/assets/images/posts/quand-tout-le-monde-sait-faire-ton-metier/anyone-can-cook.jpg"
+  <img src="/assets/images/posts/quand-tout-le-monde-sait-faire-ton-metier/anyone-can-cook.webp"
   alt="Gusteau dans Ratatouille : Anyone can cook!" style="max-width: min(300px, 100%);" loading="lazy" />
   <figcaption>"Anyone can cook!" — Gusteau. Spoiler : la vraie morale du film, c'est que non.</figcaption>
 </figure>
@@ -76,7 +76,7 @@ mentales, pas de "on fait comme ça parce qu'on a toujours fait comme ça".
 C'est une piqûre d'ego. Désagréable, mais saine. Et si on met l'ego de côté deux minutes, c'est enrichissant.
 
 <figure style="text-align: center;">
-  <img src="/assets/images/posts/quand-tout-le-monde-sait-faire-ton-metier/two-buttons.jpg"
+  <img src="/assets/images/posts/quand-tout-le-monde-sait-faire-ton-metier/two-buttons.webp"
   alt="Meme Two Buttons : un homme transpire en hésitant entre 'Protect my ego' et 'Actually learn something'" style="max-width: min(300px, 100%);" loading="lazy" />
   <figcaption>Spoiler : le bouton de droite n'a presque jamais été pressé.</figcaption>
 </figure>
@@ -98,12 +98,12 @@ Et quand on ne fait pas le tri, quand on met le bricoleur inventif et le contrad
 Voici le paradoxe cruel de la démocratisation des outils : **plus un outil est bon, plus il rend invisible le
 travail de l'expert**.
 
-Quand le GPS te guide parfaitement, tu ne vois pas ce que savait le chauffeur de taxi. Quand DeepL traduit un
-texte correctement, tu ne vois pas ce que fait l'interprète dans une négociation tendue. Quand une IA génère une
-image époustouflante, tu ne vois pas toutes les décisions qu'un artiste prend pour créer la sienne.
+Quand DeepL traduit un texte correctement, tu ne vois pas ce que fait l'interprète dans une négociation tendue.
+Quand une IA génère une image époustouflante, tu ne vois pas toutes les décisions qu'un artiste prend pour créer
+la sienne.
 
 <figure style="text-align: center;">
-  <img src="/assets/images/posts/quand-tout-le-monde-sait-faire-ton-metier/behind-the-scene.jpg"
+  <img src="/assets/images/posts/quand-tout-le-monde-sait-faire-ton-metier/behind-the-scene.webp"
   alt="Tournage de Matrix : des techniciens en combinaison verte soutiennent les acteurs, invisibles à l'écran" style="max-width: 100%;" loading="lazy" />
   <figcaption>L'expertise, c'est la combinaison verte : indispensable au résultat, invisible dans le produit fini.</figcaption>
 </figure>
@@ -113,9 +113,8 @@ plus d'importance.
 
 Et soyons honnêtes : **pour une bonne partie des cas d'usage, c'est vrai**.
 
-Pour 95% des courses londoniennes, le GPS suffit. Le passager arrive à destination, à l'heure, sans avoir
-besoin de savoir qu'il existe une foultitude de pubs Red Lion dans le Grand Londres. Pour la majorité des traductions
-courantes, DeepL fait le taf. Pour un visuel de post LinkedIn inspirant, Midjourney fait largement l'affaire.
+Pour 95% des trajets, le GPS suffit. Pour la majorité des traductions courantes, DeepL fait le taf. Pour un
+visuel de post LinkedIn, Midjourney fait largement l'affaire.
 
 L'expertise, elle, se manifeste dans les 5% restants (OK cette statistique est le résultat d'un long processus appelé 
 "le doigt mouillé" <small>résultats garantis</small>, mais t'as l'idée). C'est quand le passager demande "un trajet 
@@ -142,7 +141,7 @@ différentes, et confondre les deux est une erreur que font beaucoup d'experts p
 Et t'étais peut-être venu pour que je te fasse un câlin sur ce sujet, mais je suis passé par là aussi, c'est 
 désagréable à accepter. Mais c'est nécessaire.
 
-## Deux murs, un seul biais
+## Le biais qui ne choisit pas son camp
 
 > L'outil saura toujours faire
 
@@ -158,7 +157,7 @@ où la même promesse a été faite et n'a pas été tenue, ils haussent les ép
 Ce n'est pas un débat. C'est encore un mur. Celui de la **croyance**.
 
 <figure style="text-align: center;">
-  <img src="/assets/images/posts/quand-tout-le-monde-sait-faire-ton-metier/npc.jpg"
+  <img src="/assets/images/posts/quand-tout-le-monde-sait-faire-ton-metier/npc.webp"
   alt="Meme NPC : 'The tool will improve' — 'Cool. Who fixes it when it breaks?' — NPC fronce les sourcils" style="max-width: min(400px, 100%);" loading="lazy" />
   <figcaption>Réponse pré-programmée détectée.</figcaption>
 </figure>
@@ -208,7 +207,7 @@ celui de l'expert qui commence à douter de son expertise, non pas parce qu'il a
 reconnaît sa réussite.
 
 <figure style="text-align: center;">
-  <img src="/assets/images/posts/quand-tout-le-monde-sait-faire-ton-metier/skinner-out-of-touch.jpg"
+  <img src="/assets/images/posts/quand-tout-le-monde-sait-faire-ton-metier/skinner-out-of-touch.webp"
   alt="Principal Skinner : Am I out of touch? No, it's the children who are wrong." style="max-width: min(300px, 100%);" loading="lazy" />
   <figcaption>La tentation est grande. Mais contrairement à Skinner, tu n'es pas sûr de la réponse.</figcaption>
 </figure>
@@ -231,11 +230,10 @@ au bon endroit ?"**
 
 ## Validation, légitimité, et le monde réel
 
-Quand quelqu'un nie ta compétence, l'instinct naturel c'est de vouloir prouver. De sortir les arguments, les
-exemples, les démonstrations. De faire *voir* ce que tu sais faire. Et quand la personne en face refuse de voir,
-tu as l'impression d'avoir échoué. Comme si sa compréhension était une condition nécessaire à ta légitimité.
+Quand quelqu'un nie ta compétence, tu veux prouver. Et quand l'autre refuse de voir, tu as l'impression
+d'avoir échoué, comme si sa compréhension était une condition nécessaire à ta légitimité.
 
-Elle ne l'est pas. Pas philosophiquement. Un chirurgien n'a pas besoin qu'un patient comprenne la difficulté
+Elle ne l'est pas. Un chirurgien n'a pas besoin qu'un patient comprenne la difficulté
 d'une opération pour être un bon chirurgien. Un pilote de ligne n'a pas besoin que les passagers sachent ce
 qu'il fait en cas de panne moteur pour être compétent.
 
@@ -268,7 +266,7 @@ C'est comme la différence entre conduire sur autoroute et conduire sur du vergl
 conduit correctement. Le verglas, c'est là que l'expertise du conducteur fait la différence.
 
 <figure style="text-align: center;">
-  <img src="/assets/images/posts/quand-tout-le-monde-sait-faire-ton-metier/im-in-danger.png"
+  <img src="/assets/images/posts/quand-tout-le-monde-sait-faire-ton-metier/im-in-danger.webp"
   alt="Ralph Wiggum dans le bus : (chuckles) I'm in danger" style="max-width: min(300px, 100%);" loading="lazy" />
   <figcaption>Quand tu réalises que le GPS ne connaît pas le mot "verglas".</figcaption>
 </figure>
@@ -294,27 +292,20 @@ prives d'un levier".
 Je n'ai pas de conclusion propre à te livrer. Pas de "5 étapes pour retrouver confiance en ton expertise" 
 (envoie "doute" et je t'envoie mon PDF en DM). Le doute ne se résout pas, il se transforme.
 
-Quelques choses qui m'aident, non pas comme méthode, mais comme boussole :
+Quelques choses qui m'aident, non pas comme méthode, mais comme boussole.
 
-**Accueille la première piqûre.** Celle qui t'apprend quelque chose. L'ego est un mauvais conseiller, et
-l'expert qui refuse d'apprendre d'un non-expert est exactement aussi fermé que le non-expert qui nie l'expertise.
-Ne deviens pas ce que tu reproches aux autres.
+Tu sais déjà faire la différence entre la piqûre qui t'apprend et celle qui te nie. La première mérite ton
+attention, la seconde ne mérite pas ton énergie. Ce tri-là, c'est le point de départ.
 
-**Identifie la seconde piqûre.** Celle qui te nie. Et cesse de dépenser ton énergie à convaincre quelqu'un dont
-la position n'est pas basée sur des faits. Tu n'as pas échoué parce que l'autre n'a pas compris. L'autre n'a pas
-compris parce qu'il ne veut pas comprendre. Ce n'est pas ton échec. Ce n'est pas ton problème.
-
-**Mais ne confonds pas le réconfort avec la lucidité.** Si tu passes plus de temps à expliquer pourquoi ton
-expertise est irremplaçable qu'à observer comment le terrain bouge sous tes pieds, tu es peut-être en train de
-protéger ton ego plutôt que ta carrière.
-
-**Adapte-toi.** Pas en renonçant à ce que tu sais. En trouvant où ce que tu sais a encore le plus de valeur, et
-en l'associant aux outils plutôt que de les traiter comme des adversaires. Les copistes qui sont devenus
+Après, c'est la lucidité qui coûte. Si tu passes plus de temps à expliquer pourquoi ton expertise est
+irremplaçable qu'à observer comment le terrain bouge sous tes pieds, tu protèges peut-être ton ego plutôt que
+ta carrière. Adapte-toi : pas en renonçant à ce que tu sais, mais en trouvant où ça a encore le plus de valeur,
+et en l'associant aux outils plutôt que de les traiter comme des adversaires. Les copistes qui sont devenus
 typographes n'ont pas trahi la calligraphie. Ils ont compris où le monde allait.
 
-**Parle.** Pas pour convaincre les sceptiques. Pour briser le silence avec ceux qui vivent la même chose. Le
-photographe qui doute, le traducteur qui doute, le développeur qui doute. On est dans la même team. Le syndrome de
-l'imposteur prospère dans l'isolement, mais en parler
+Et parle. Pas pour convaincre les sceptiques. Pour briser le silence avec ceux qui vivent la même chose. Le
+photographe qui doute, le traducteur qui doute, le développeur qui doute : on est dans la même team. Le syndrome
+de l'imposteur prospère dans l'isolement, mais en parler
 l'[érode](/fr/blog/developpeur-a-l-ere-de-l-ia-entre-vertige-et-lucidite).
 
 ---
@@ -326,7 +317,7 @@ Et si tu doutes encore : le doute n'est ni une preuve de compétence ni un sign
 Ce que tu en fais dépend de toi.
 
 <figure style="text-align: center;">
-  <img src="/assets/images/posts/quand-tout-le-monde-sait-faire-ton-metier/improvise-adapt-overcome.jpg"
+  <img src="/assets/images/posts/quand-tout-le-monde-sait-faire-ton-metier/improvise-adapt-overcome.webp"
   alt="Bear Grylls : Improvise. Adapt. Overcome." style="max-width: min(400px, 100%);" loading="lazy" />
   <figcaption>Mais mange pas des yeux d'oursin.</figcaption>
 </figure>
