@@ -374,7 +374,7 @@ Résultat : on dépense exponentiellement plus pour des gains de plus en plus m
 
 <p style="text-align: center;">
   <img src="/assets/images/posts/le-vrai-cout-de-l-ia-quand-la-facture-arrivera/trade-offer.jpg"
-    alt="Meme Trade offer - Je reçois : tes données + 200 $/mois, Tu reçois : une IA subventionnée (pour l'instant)" style="max-width: 100%;" loading="lazy" />
+    alt="Meme Trade offer - Je reçois : tes données + 200 $/mois, Tu reçois : une IA subventionnée (pour l'instant)" style="max-width: 100%;" loading="lazy" />
 </p>
 
 ## Ce que ça change pour nous, développeurs

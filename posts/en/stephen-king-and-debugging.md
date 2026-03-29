@@ -42,7 +42,7 @@ are those pieces of code you're proud of. That elegant little algorithm. That ab
 
 <p style="text-align: center;">
   <img src="/assets/images/posts/stephen-king-et-le-debugging/kill-your-darlings.jpg"
-    alt="Oh yes it can." style="max-width: 300px;" loading="lazy" />
+    alt="Oh yes it can." style="max-width: min(300px, 100%);" loading="lazy" />
 </p>
 
 [Confirmation bias](https://en.wikipedia.org/wiki/Confirmation_bias) is the developer's worst enemy in debugging. You look for evidence that your code is innocent, not evidence that it's guilty. Result: you spend three hours suspecting a third-party library, a network issue, the lunar cycle, the government... before sheepishly returning to your beautiful abstraction and discovering it had been mishandling an edge case all along. Remember, [there are no coincidences](/en/blog/what-being-a-developer-has-taught-me#there-are-no-coincidences), and the random variable is usually you.
@@ -71,7 +71,7 @@ a shared debug PR with a colleague, a message on the team channel. Explaining th
 
 <figure style="text-align: center;">
   <img src="/assets/images/posts/stephen-king-et-le-debugging/dark-tower-door.jpg"
-  alt="Jake Chambers in front of the door" style="max-width: 300px;" loading="lazy" />
+  alt="Jake Chambers in front of the door" style="max-width: min(300px, 100%);" loading="lazy" />
 <figcaption>Sometimes, the answer is on the other side of the door.
 <br/>Jake Chambers, <em>The Dark Tower</em></figcaption>
 </figure>

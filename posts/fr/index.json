@@ -61,5 +61,14 @@
     "i18nSlugs": { "en": "my-job-explained-to-my-mom" },
     "tags": ["Développement", "Vulgarisation", "Personnel"],
     "image": "assets/images/posts/mon-metier-explique-a-ma-mere/hero.webp"
+  },
+  {
+    "slug": "quand-tout-le-monde-sait-faire-ton-metier",
+    "title": "Quand tout le monde sait faire ton métier",
+    "date": "2026-03-25",
+    "description": "Ou comment garder confiance quand les outils rendent l'expertise invisible.",
+    "i18nSlugs": { "en": "when-everyone-thinks-they-can-do-your-job" },
+    "tags": ["Développement", "IA", "Carrière"],
+    "image": "assets/images/posts/quand-tout-le-monde-sait-faire-ton-metier/how-to-draw-an-owl.webp"
   }
 ]
