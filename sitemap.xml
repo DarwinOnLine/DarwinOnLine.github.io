@@ -51,18 +51,13 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://darwinonline.github.io/fr/blog/tag/D%C3%A9veloppement</loc>
-    <lastmod>2026-03-29</lastmod>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://darwinonline.github.io/fr/blog/tag/Carri%C3%A8re</loc>
     <lastmod>2026-03-29</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://darwinonline.github.io/fr/blog/tag/Philat%C3%A9lie</loc>
-    <lastmod>2026-02-20</lastmod>
+    <loc>https://darwinonline.github.io/fr/blog/tag/R%C3%A9flexions</loc>
+    <lastmod>2026-03-29</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -71,27 +66,22 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://darwinonline.github.io/fr/blog/tag/Debugging</loc>
-    <lastmod>2026-02-28</lastmod>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://darwinonline.github.io/fr/blog/tag/Stephen%20King</loc>
-    <lastmod>2026-02-28</lastmod>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://darwinonline.github.io/fr/blog/tag/Veille</loc>
-    <lastmod>2026-03-08</lastmod>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://darwinonline.github.io/fr/blog/tag/Vulgarisation</loc>
+    <loc>https://darwinonline.github.io/fr/blog/tag/Personnel</loc>
     <lastmod>2026-03-22</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://darwinonline.github.io/fr/blog/tag/Personnel</loc>
+    <loc>https://darwinonline.github.io/fr/blog/tag/Craft</loc>
+    <lastmod>2026-03-08</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://darwinonline.github.io/fr/blog/tag/Soci%C3%A9t%C3%A9</loc>
+    <lastmod>2026-03-15</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://darwinonline.github.io/fr/blog/tag/Vulgarisation</loc>
     <lastmod>2026-03-22</lastmod>
     <priority>0.5</priority>
   </url>
@@ -146,18 +136,13 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://darwinonline.github.io/en/blog/tag/Development</loc>
-    <lastmod>2026-03-29</lastmod>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://darwinonline.github.io/en/blog/tag/Career</loc>
     <lastmod>2026-03-29</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://darwinonline.github.io/en/blog/tag/Philately</loc>
-    <lastmod>2026-02-20</lastmod>
+    <loc>https://darwinonline.github.io/en/blog/tag/Reflections</loc>
+    <lastmod>2026-03-29</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -166,27 +151,22 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://darwinonline.github.io/en/blog/tag/Debugging</loc>
-    <lastmod>2026-02-28</lastmod>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://darwinonline.github.io/en/blog/tag/Stephen%20King</loc>
-    <lastmod>2026-02-28</lastmod>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://darwinonline.github.io/en/blog/tag/Tech%20Watch</loc>
-    <lastmod>2026-03-08</lastmod>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://darwinonline.github.io/en/blog/tag/Explainers</loc>
+    <loc>https://darwinonline.github.io/en/blog/tag/Personal</loc>
     <lastmod>2026-03-22</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://darwinonline.github.io/en/blog/tag/Personal</loc>
+    <loc>https://darwinonline.github.io/en/blog/tag/Craft</loc>
+    <lastmod>2026-03-08</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://darwinonline.github.io/en/blog/tag/Society</loc>
+    <lastmod>2026-03-15</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://darwinonline.github.io/en/blog/tag/Explainers</loc>
     <lastmod>2026-03-22</lastmod>
     <priority>0.5</priority>
   </url>

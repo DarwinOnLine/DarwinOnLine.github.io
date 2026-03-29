@@ -5,7 +5,7 @@
     <link>https://darwinonline.github.io/fr</link>
     <description>Blog personnel de Darwin - Développement, Tech et Réflexions</description>
     <language>fr</language>
-    <lastBuildDate>Sun, 29 Mar 2026 12:32:35 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 29 Mar 2026 12:41:01 GMT</lastBuildDate>
     <atom:link href="https://darwinonline.github.io/fr/feed.xml" rel="self" type="application/rss+xml" />
     <image>
       <url>https://darwinonline.github.io/assets/images/default-og.png</url>
@@ -18,9 +18,9 @@
       <guid isPermaLink="true">https://darwinonline.github.io/fr/blog/quand-tout-le-monde-sait-faire-ton-metier</guid>
       <pubDate>Sun, 29 Mar 2026 12:00:00 GMT</pubDate>
       <description>Ou comment garder confiance quand les outils rendent l&apos;expertise invisible.</description>
-      <category>Développement</category>
       <category>IA</category>
       <category>Carrière</category>
+      <category>Réflexions</category>
       <enclosure url="https://darwinonline.github.io/assets/images/posts/quand-tout-le-monde-sait-faire-ton-metier/how-to-draw-an-owl.webp" type="image/webp" length="0" />
     </item>
     <item>
@@ -29,7 +29,6 @@
       <guid isPermaLink="true">https://darwinonline.github.io/fr/blog/mon-metier-explique-a-ma-mere</guid>
       <pubDate>Sun, 22 Mar 2026 12:00:00 GMT</pubDate>
       <description>Ou pourquoi « je fais des trucs avec des ordinateurs » ne suffit plus comme réponse.</description>
-      <category>Développement</category>
       <category>Vulgarisation</category>
       <category>Personnel</category>
       <enclosure url="https://darwinonline.github.io/assets/images/posts/mon-metier-explique-a-ma-mere/hero.webp" type="image/webp" length="0" />
@@ -40,9 +39,8 @@
       <guid isPermaLink="true">https://darwinonline.github.io/fr/blog/le-vrai-cout-de-l-ia-quand-la-facture-arrivera</guid>
       <pubDate>Sun, 15 Mar 2026 12:00:00 GMT</pubDate>
       <description>$200 par mois, c&apos;est cher. Mais c&apos;est probablement pas assez.</description>
-      <category>Développement</category>
       <category>IA</category>
-      <category>Carrière</category>
+      <category>Société</category>
       <enclosure url="https://darwinonline.github.io/assets/images/posts/le-vrai-cout-de-l-ia-quand-la-facture-arrivera/free-real-estate.jpg" type="image/jpeg" length="0" />
     </item>
     <item>
@@ -51,9 +49,8 @@
       <guid isPermaLink="true">https://darwinonline.github.io/fr/blog/apprendre-tous-les-jours-la-veille-techno-sans-se-noyer</guid>
       <pubDate>Sun, 08 Mar 2026 12:00:00 GMT</pubDate>
       <description>Parce que dans ce métier, ce que tu sais aujourd&apos;hui sera périmé demain. Mes sources, mes méthodes, et pourquoi la veille est une compétence, pas un hobby.</description>
-      <category>Développement</category>
-      <category>Veille</category>
       <category>Carrière</category>
+      <category>Craft</category>
       <enclosure url="https://darwinonline.github.io/assets/images/posts/apprendre-tous-les-jours-la-veille-techno-sans-se-noyer/me-dette.jpg" type="image/jpeg" length="0" />
     </item>
     <item>
@@ -62,9 +59,9 @@
       <guid isPermaLink="true">https://darwinonline.github.io/fr/blog/developpeur-a-l-ere-de-l-ia-entre-vertige-et-lucidite</guid>
       <pubDate>Mon, 02 Mar 2026 12:00:00 GMT</pubDate>
       <description>Quand ton métier avance plus vite que ta capacité à le digérer.</description>
-      <category>Développement</category>
       <category>IA</category>
       <category>Carrière</category>
+      <category>Réflexions</category>
       <enclosure url="https://darwinonline.github.io/assets/images/posts/developpeur-a-l-ere-de-l-ia-entre-vertige-et-lucidite/this-is-fine.jpg" type="image/jpeg" length="0" />
     </item>
     <item>
@@ -73,9 +70,8 @@
       <guid isPermaLink="true">https://darwinonline.github.io/fr/blog/stephen-king-et-le-debugging</guid>
       <pubDate>Sat, 28 Feb 2026 12:00:00 GMT</pubDate>
       <description>Ou comment « Écriture : Mémoires d&apos;un métier » m&apos;a rendu meilleur chasseur de bugs</description>
-      <category>Développement</category>
-      <category>Debugging</category>
-      <category>Stephen King</category>
+      <category>Craft</category>
+      <category>Réflexions</category>
       <enclosure url="https://darwinonline.github.io/assets/images/posts/stephen-king-et-le-debugging/king-matrix.jpg" type="image/jpeg" length="0" />
     </item>
     <item>
@@ -84,9 +80,8 @@
       <guid isPermaLink="true">https://darwinonline.github.io/fr/blog/l-experience-mancolister</guid>
       <pubDate>Fri, 20 Feb 2026 12:00:00 GMT</pubDate>
       <description>Ou comment j&apos;ai laissé Claude écrire presque 20 000 lignes de code pendant que je jouais au client relou</description>
-      <category>Développement</category>
-      <category>Philatélie</category>
       <category>IA</category>
+      <category>Personnel</category>
       <enclosure url="https://darwinonline.github.io/assets/images/posts/l-experience-mancolister/collection.jpg" type="image/jpeg" length="0" />
     </item>
     <item>
@@ -95,8 +90,8 @@
       <guid isPermaLink="true">https://darwinonline.github.io/fr/blog/ce-que-le-metier-de-developpeur-ma-appris</guid>
       <pubDate>Fri, 13 Feb 2026 12:00:00 GMT</pubDate>
       <description>Cet article est né d&apos;une adaptation libre du post de Henrik Warne que j&apos;avais lu avec intérêt en 2015. Les années ont passé, les expériences se sont enchaînées, et j&apos;ai fini par avoir mes propres convictions à partager. Ce qui suit est un mélange de ses idées, des miennes, et de tout ce que ce métier m&apos;a appris entre-temps.</description>
-      <category>Développement</category>
       <category>Carrière</category>
+      <category>Réflexions</category>
       <enclosure url="https://darwinonline.github.io/assets/images/posts/ce-que-le-metier-de-developpeur-ma-appris/learn.jpg" type="image/jpeg" length="0" />
     </item>
   </channel>

@@ -5,7 +5,7 @@
     "date": "2026-02-13",
     "description": "Cet article est né d'une adaptation libre du post de Henrik Warne que j'avais lu avec intérêt en 2015. Les années ont passé, les expériences se sont enchaînées, et j'ai fini par avoir mes propres convictions à partager. Ce qui suit est un mélange de ses idées, des miennes, et de tout ce que ce métier m'a appris entre-temps.",
     "i18nSlugs": { "en": "what-being-a-developer-has-taught-me" },
-    "tags": ["Développement", "Carrière"],
+    "tags": ["Carrière", "Réflexions"],
     "image": "assets/images/posts/ce-que-le-metier-de-developpeur-ma-appris/learn.jpg"
   },
   {
@@ -14,7 +14,7 @@
     "date": "2026-02-20",
     "description": "Ou comment j'ai laissé Claude écrire presque 20 000 lignes de code pendant que je jouais au client relou",
     "i18nSlugs": { "en": "the-mancolister-experience" },
-    "tags": ["Développement", "Philatélie", "IA"],
+    "tags": ["IA", "Personnel"],
     "image": "assets/images/posts/l-experience-mancolister/collection.jpg"
   },
   {
@@ -22,7 +22,7 @@
     "title": "Stephen King et le debugging",
     "date": "2026-02-28",
     "description": "Ou comment « Écriture : Mémoires d'un métier » m'a rendu meilleur chasseur de bugs",
-    "tags": ["Développement", "Debugging", "Stephen King"],
+    "tags": ["Craft", "Réflexions"],
     "i18nSlugs": { "en": "stephen-king-and-debugging" },
     "image": "assets/images/posts/stephen-king-et-le-debugging/king-matrix.jpg"
   },
@@ -32,7 +32,7 @@
     "date": "2026-03-02",
     "description": "Quand ton métier avance plus vite que ta capacité à le digérer.",
     "i18nSlugs": { "en": "developer-in-the-age-of-ai-between-vertigo-and-lucidity" },
-    "tags": ["Développement", "IA", "Carrière"],
+    "tags": ["IA", "Carrière", "Réflexions"],
     "image": "assets/images/posts/developpeur-a-l-ere-de-l-ia-entre-vertige-et-lucidite/this-is-fine.jpg"
   },
   {
@@ -41,7 +41,7 @@
     "date": "2026-03-08",
     "description": "Parce que dans ce métier, ce que tu sais aujourd'hui sera périmé demain. Mes sources, mes méthodes, et pourquoi la veille est une compétence, pas un hobby.",
     "i18nSlugs": { "en": "learning-every-day-tech-watch-without-drowning" },
-    "tags": ["Développement", "Veille", "Carrière"],
+    "tags": ["Carrière", "Craft"],
     "image": "assets/images/posts/apprendre-tous-les-jours-la-veille-techno-sans-se-noyer/me-dette.jpg"
   },
   {
@@ -50,7 +50,7 @@
     "date": "2026-03-15",
     "description": "$200 par mois, c'est cher. Mais c'est probablement pas assez.",
     "i18nSlugs": { "en": "the-real-cost-of-ai-when-the-bill-comes-due" },
-    "tags": ["Développement", "IA", "Carrière"],
+    "tags": ["IA", "Société"],
     "image": "assets/images/posts/le-vrai-cout-de-l-ia-quand-la-facture-arrivera/free-real-estate.jpg"
   },
   {
@@ -59,7 +59,7 @@
     "date": "2026-03-22",
     "description": "Ou pourquoi « je fais des trucs avec des ordinateurs » ne suffit plus comme réponse.",
     "i18nSlugs": { "en": "my-job-explained-to-my-mom" },
-    "tags": ["Développement", "Vulgarisation", "Personnel"],
+    "tags": ["Vulgarisation", "Personnel"],
     "image": "assets/images/posts/mon-metier-explique-a-ma-mere/hero.webp"
   },
   {
@@ -68,7 +68,7 @@
     "date": "2026-03-29",
     "description": "Ou comment garder confiance quand les outils rendent l'expertise invisible.",
     "i18nSlugs": { "en": "when-everyone-thinks-they-can-do-your-job" },
-    "tags": ["Développement", "IA", "Carrière"],
+    "tags": ["IA", "Carrière", "Réflexions"],
     "image": "assets/images/posts/quand-tout-le-monde-sait-faire-ton-metier/how-to-draw-an-owl.webp"
   }
 ]
