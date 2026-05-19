@@ -2,12 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://darwinonline.github.io/fr</loc>
-    <lastmod>2026-03-29</lastmod>
+    <lastmod>2026-05-19</lastmod>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://darwinonline.github.io/fr/blog</loc>
-    <lastmod>2026-03-29</lastmod>
+    <lastmod>2026-05-18</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
@@ -51,13 +51,18 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://darwinonline.github.io/fr/blog/la-comedie-de-la-maitrise</loc>
+    <lastmod>2026-05-18</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://darwinonline.github.io/fr/blog/tag/Carri%C3%A8re</loc>
-    <lastmod>2026-03-29</lastmod>
+    <lastmod>2026-05-18</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://darwinonline.github.io/fr/blog/tag/R%C3%A9flexions</loc>
-    <lastmod>2026-03-29</lastmod>
+    <lastmod>2026-05-18</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -77,7 +82,7 @@
   </url>
   <url>
     <loc>https://darwinonline.github.io/fr/blog/tag/Soci%C3%A9t%C3%A9</loc>
-    <lastmod>2026-03-15</lastmod>
+    <lastmod>2026-05-18</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -87,12 +92,12 @@
   </url>
   <url>
     <loc>https://darwinonline.github.io/en</loc>
-    <lastmod>2026-03-29</lastmod>
+    <lastmod>2026-05-19</lastmod>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://darwinonline.github.io/en/blog</loc>
-    <lastmod>2026-03-29</lastmod>
+    <lastmod>2026-05-18</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
@@ -136,13 +141,18 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://darwinonline.github.io/en/blog/the-comedy-of-mastery</loc>
+    <lastmod>2026-05-18</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://darwinonline.github.io/en/blog/tag/Career</loc>
-    <lastmod>2026-03-29</lastmod>
+    <lastmod>2026-05-18</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://darwinonline.github.io/en/blog/tag/Reflections</loc>
-    <lastmod>2026-03-29</lastmod>
+    <lastmod>2026-05-18</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -162,7 +172,7 @@
   </url>
   <url>
     <loc>https://darwinonline.github.io/en/blog/tag/Society</loc>
-    <lastmod>2026-03-15</lastmod>
+    <lastmod>2026-05-18</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
