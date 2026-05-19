@@ -5,13 +5,24 @@
     <link>https://darwinonline.github.io/en</link>
     <description>Darwin&apos;s personal blog - Development, Tech and Thoughts</description>
     <language>en</language>
-    <lastBuildDate>Sun, 29 Mar 2026 12:41:01 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 19 May 2026 16:10:09 GMT</lastBuildDate>
     <atom:link href="https://darwinonline.github.io/en/feed.xml" rel="self" type="application/rss+xml" />
     <image>
       <url>https://darwinonline.github.io/assets/images/default-og.png</url>
       <title>Darwin On Line (EN)</title>
       <link>https://darwinonline.github.io/en</link>
     </image>
+    <item>
+      <title>The comedy of mastery</title>
+      <link>https://darwinonline.github.io/en/blog/the-comedy-of-mastery</link>
+      <guid isPermaLink="true">https://darwinonline.github.io/en/blog/the-comedy-of-mastery</guid>
+      <pubDate>Mon, 18 May 2026 12:00:00 GMT</pubDate>
+      <description>Don&apos;t mistake the craft for its theatre.</description>
+      <category>Career</category>
+      <category>Society</category>
+      <category>Reflections</category>
+      <enclosure url="https://darwinonline.github.io/assets/images/posts/la-comedie-de-la-maitrise/hero.webp" type="image/webp" length="0" />
+    </item>
     <item>
       <title>When everyone thinks they can do your job</title>
       <link>https://darwinonline.github.io/en/blog/when-everyone-thinks-they-can-do-your-job</link>

@@ -70,5 +70,14 @@
     "i18nSlugs": { "en": "when-everyone-thinks-they-can-do-your-job" },
     "tags": ["IA", "Carrière", "Réflexions"],
     "image": "assets/images/posts/quand-tout-le-monde-sait-faire-ton-metier/how-to-draw-an-owl.webp"
+  },
+  {
+    "slug": "la-comedie-de-la-maitrise",
+    "title": "La comédie de la maîtrise",
+    "date": "2026-05-18",
+    "description": "Ne pas confondre le métier et son théâtre.",
+    "i18nSlugs": { "en": "the-comedy-of-mastery" },
+    "tags": ["Carrière", "Société", "Réflexions"],
+    "image": "assets/images/posts/la-comedie-de-la-maitrise/hero.webp"
   }
 ]

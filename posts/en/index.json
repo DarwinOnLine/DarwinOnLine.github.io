@@ -70,5 +70,14 @@
     "i18nSlugs": { "fr": "quand-tout-le-monde-sait-faire-ton-metier" },
     "tags": ["AI", "Career", "Reflections"],
     "image": "assets/images/posts/quand-tout-le-monde-sait-faire-ton-metier/how-to-draw-an-owl.webp"
+  },
+  {
+    "slug": "the-comedy-of-mastery",
+    "title": "The comedy of mastery",
+    "date": "2026-05-18",
+    "description": "Don't mistake the craft for its theatre.",
+    "i18nSlugs": { "fr": "la-comedie-de-la-maitrise" },
+    "tags": ["Career", "Society", "Reflections"],
+    "image": "assets/images/posts/la-comedie-de-la-maitrise/hero.webp"
   }
 ]
