@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img"
+     aria-label="Triangle of DRY, KISS, YAGNI. DRY at the top, far from KISS and YAGNI which sit close together. Two long, hot edges (DRY-KISS, DRY-YAGNI), one short, cold edge between KISS and YAGNI.">
+  <style>
+    text            { font-family: "Segoe UI", system-ui, -apple-system, sans-serif; }
+    .bg             { fill: #111; }
+    .edge-hot-glow  { stroke: #ff3333; stroke-width: 10; opacity: 0.16; stroke-linecap: round; }
+    .edge-hot       { stroke: #ff3333; stroke-width: 3.5; stroke-linecap: round; }
+    .edge-cold      { stroke: #5b7fa6; stroke-width: 2.2; stroke-dasharray: 5 7; stroke-linecap: round; }
+    .node           { fill: #1a1a1a; stroke: #444; stroke-width: 1.5; }
+    .node-name      { fill: #fff;  font-weight: 700; font-size: 22px; text-anchor: middle; }
+    .node-pull      { fill: #888;  font-weight: 400; font-size: 11px; text-anchor: middle; }
+    .edge-label     { fill: #cfcfcf; font-weight: 600; font-size: 15px; text-anchor: middle; }
+    .edge-sub       { fill: #8a8a8a; font-weight: 400; font-size: 13px; text-anchor: middle; }
+    .edge-cold-lbl  { fill: #7fa8cf; font-weight: 600; font-size: 15px; text-anchor: middle; }
+    .legend-lbl     { fill: #999;  font-weight: 400; font-size: 13px; }
+  </style>
+
+  <rect class="bg" x="0" y="0" width="400" height="500" rx="14"/>
+
+  <!-- EDGES (drawn before the nodes) -->
+  <!-- DRY to KISS: hot, long -->
+  <line class="edge-hot-glow" x1="200" y1="70" x2="120" y2="350"/>
+  <line class="edge-hot"      x1="200" y1="70" x2="120" y2="350"/>
+  <!-- DRY to YAGNI: hot, long -->
+  <line class="edge-hot-glow" x1="200" y1="70" x2="280" y2="350"/>
+  <line class="edge-hot"      x1="200" y1="70" x2="280" y2="350"/>
+  <!-- KISS to YAGNI: cold, short -->
+  <line class="edge-cold"     x1="120" y1="350" x2="280" y2="350"/>
+
+  <!-- EDGE LABELS -->
+  <text class="edge-label" x="72" y="203">readability</text>
+  <text class="edge-sub"   x="72" y="221">of abstraction</text>
+
+  <text class="edge-label" x="328" y="203">abstracting</text>
+  <text class="edge-sub"   x="328" y="221">for the future</text>
+
+  <text class="edge-cold-lbl" x="200" y="432">allies, except on consistency</text>
+
+  <!-- NODES -->
+  <circle class="node" cx="200" cy="70"  r="44"/>
+  <text class="node-name" x="200" y="66">DRY</text>
+  <text class="node-pull" x="200" y="85">abstraction</text>
+
+  <circle class="node" cx="120" cy="350" r="44"/>
+  <text class="node-name" x="120" y="346">KISS</text>
+  <text class="node-pull" x="120" y="365">simplicity</text>
+
+  <circle class="node" cx="280" cy="350" r="44"/>
+  <text class="node-name" x="280" y="346">YAGNI</text>
+  <text class="node-pull" x="280" y="365">restraint</text>
+
+  <!-- LEGEND -->
+  <line class="edge-hot"  x1="120" y1="460" x2="150" y2="460"/>
+  <text class="legend-lbl" x="158" y="464">constant tension</text>
+
+  <line class="edge-cold" x1="120" y1="482" x2="150" y2="482"/>
+  <text class="legend-lbl" x="158" y="486">cold edge (allies)</text>
+</svg>
