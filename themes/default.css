@@ -839,6 +839,17 @@ body::before {
     color: #fff;
 }
 
+.post-content blockquote a {
+    color: #fff;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.6);
+}
+
+.post-content blockquote a:hover {
+    background: #fff;
+    color: var(--qd-accent);
+    border-bottom-color: #fff;
+}
+
 .post-content code {
     background: #1a1a1a;
     padding: 0.15rem 0.45rem;

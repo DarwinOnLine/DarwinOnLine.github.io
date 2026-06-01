@@ -79,5 +79,14 @@
     "i18nSlugs": { "fr": "la-comedie-de-la-maitrise" },
     "tags": ["Career", "Society", "Reflections"],
     "image": "assets/images/posts/la-comedie-de-la-maitrise/hero.webp"
+  },
+  {
+    "slug": "dry-kiss-yagni-three-acronyms-three-traps",
+    "title": "DRY, KISS, YAGNI: three acronyms, three traps",
+    "date": "2026-06-01",
+    "description": "Three maxims we recite. Three traps we mix up. How they shed light on one another.",
+    "i18nSlugs": { "fr": "dry-kiss-yagni-trois-acronymes-trois-pieges" },
+    "tags": ["Craft", "Explainers"],
+    "image": "assets/images/posts/dry-kiss-yagni-trois-acronymes-trois-pieges/hero.webp"
   }
 ]

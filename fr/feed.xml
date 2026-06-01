@@ -5,13 +5,23 @@
     <link>https://darwinonline.github.io/fr</link>
     <description>Blog personnel de Darwin - Développement, Tech et Réflexions</description>
     <language>fr</language>
-    <lastBuildDate>Wed, 20 May 2026 13:26:09 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 01 Jun 2026 16:25:03 GMT</lastBuildDate>
     <atom:link href="https://darwinonline.github.io/fr/feed.xml" rel="self" type="application/rss+xml" />
     <image>
       <url>https://darwinonline.github.io/assets/images/default-og.png</url>
       <title>Darwin On Line (FR)</title>
       <link>https://darwinonline.github.io/fr</link>
     </image>
+    <item>
+      <title>DRY, KISS, YAGNI : trois acronymes, trois pièges</title>
+      <link>https://darwinonline.github.io/fr/blog/dry-kiss-yagni-trois-acronymes-trois-pieges</link>
+      <guid isPermaLink="true">https://darwinonline.github.io/fr/blog/dry-kiss-yagni-trois-acronymes-trois-pieges</guid>
+      <pubDate>Mon, 01 Jun 2026 12:00:00 GMT</pubDate>
+      <description>Trois maximes qu&apos;on récite. Trois pièges qu&apos;on confond. Comment elles s&apos;éclairent l&apos;une l&apos;autre.</description>
+      <category>Craft</category>
+      <category>Vulgarisation</category>
+      <enclosure url="https://darwinonline.github.io/assets/images/posts/dry-kiss-yagni-trois-acronymes-trois-pieges/hero.webp" type="image/webp" length="0" />
+    </item>
     <item>
       <title>La comédie de la maîtrise</title>
       <link>https://darwinonline.github.io/fr/blog/la-comedie-de-la-maitrise</link>

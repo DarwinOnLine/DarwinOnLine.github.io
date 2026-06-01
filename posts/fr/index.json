@@ -79,5 +79,14 @@
     "i18nSlugs": { "en": "the-comedy-of-mastery" },
     "tags": ["Carrière", "Société", "Réflexions"],
     "image": "assets/images/posts/la-comedie-de-la-maitrise/hero.webp"
+  },
+  {
+    "slug": "dry-kiss-yagni-trois-acronymes-trois-pieges",
+    "title": "DRY, KISS, YAGNI : trois acronymes, trois pièges",
+    "date": "2026-06-01",
+    "description": "Trois maximes qu'on récite. Trois pièges qu'on confond. Comment elles s'éclairent l'une l'autre.",
+    "i18nSlugs": { "en": "dry-kiss-yagni-three-acronyms-three-traps" },
+    "tags": ["Craft", "Vulgarisation"],
+    "image": "assets/images/posts/dry-kiss-yagni-trois-acronymes-trois-pieges/hero.webp"
   }
 ]
