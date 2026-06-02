@@ -4,7 +4,7 @@
 
 <figure style="text-align: center;">
   <img src="/assets/images/posts/dry-kiss-yagni-trois-acronymes-trois-pieges/hero.webp"
-  alt="A three-headed Cerberus with heads labeled DRY, KISS and YAGNI, each barking in a different direction" style="max-width: 512px;" loading="eager" />
+  alt="A three-headed Cerberus with heads labeled DRY, KISS and YAGNI, each barking in a different direction" style="max-width: min(512px, 100%);" loading="eager" />
 </figure>
 
 You've already run into them: in a book, in class, somewhere in a code review. `DRY`, `KISS`, `YAGNI`, three acronyms
