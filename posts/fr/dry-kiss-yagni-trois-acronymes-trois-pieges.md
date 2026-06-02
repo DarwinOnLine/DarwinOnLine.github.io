@@ -4,7 +4,7 @@
 
 <figure style="text-align: center;">
   <img src="/assets/images/posts/dry-kiss-yagni-trois-acronymes-trois-pieges/hero.webp"
-  alt="Un cerbère à trois têtes nommées DRY, KISS et YAGNI, qui aboient chacune dans une direction différente" style="max-width: 512px;" loading="eager" />
+  alt="Un cerbère à trois têtes nommées DRY, KISS et YAGNI, qui aboient chacune dans une direction différente" style="max-width: min(512px, 100%);" loading="eager" />
 </figure>
 
 Tu les as déjà croisés : dans un bouquin, dans tes cours, au détour d'une revue de code. `DRY`, `KISS`, `YAGNI`, trois
