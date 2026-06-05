@@ -88,5 +88,14 @@
     "i18nSlugs": { "fr": "dry-kiss-yagni-trois-acronymes-trois-pieges" },
     "tags": ["Craft", "Explainers"],
     "image": "assets/images/posts/dry-kiss-yagni-trois-acronymes-trois-pieges/hero.webp"
+  },
+  {
+    "slug": "solid-autopsy-of-a-boy-band",
+    "title": "SOLID: autopsy of a boy band",
+    "date": "2026-06-08",
+    "description": "SOLID, the boy band of OOP: five letters we recite, five principles we mix up. What has aged, and what's really under the glitter.",
+    "i18nSlugs": { "fr": "solid-autopsie-d-un-boys-band" },
+    "tags": ["Craft", "Explainers"],
+    "image": "assets/images/posts/solid-autopsie-d-un-boys-band/hero.webp"
   }
 ]
