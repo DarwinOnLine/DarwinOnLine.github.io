@@ -88,5 +88,14 @@
     "i18nSlugs": { "en": "dry-kiss-yagni-three-acronyms-three-traps" },
     "tags": ["Craft", "Vulgarisation"],
     "image": "assets/images/posts/dry-kiss-yagni-trois-acronymes-trois-pieges/hero.webp"
+  },
+  {
+    "slug": "solid-autopsie-d-un-boys-band",
+    "title": "SOLID : autopsie d'un boys band",
+    "date": "2026-06-08",
+    "description": "SOLID, le boys band de la POO : cinq lettres qu'on récite, cinq principes qu'on confond. Ce qui a vieilli, et ce qu'il y a vraiment sous les paillettes.",
+    "i18nSlugs": { "en": "solid-autopsy-of-a-boy-band" },
+    "tags": ["Craft", "Vulgarisation"],
+    "image": "assets/images/posts/solid-autopsie-d-un-boys-band/hero.webp"
   }
 ]
