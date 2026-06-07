@@ -10,4 +10,5 @@ buildSitemap({
     postsDir: 'posts',
     rootDir: __dirname,
     sitemapFileName: 'sitemap.xml',
+    pages: ['cv'],
 });

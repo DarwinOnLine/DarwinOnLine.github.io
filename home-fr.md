@@ -8,6 +8,9 @@ Je suis développeur passionné par les technologies web, l'open source et le pa
 
 Sur ce site, je partage mes réflexions, projets et expériences à travers [mon blog](/fr/blog).
 
+Et si vous voulez savoir qui se cache derrière tout ça (ou si vous cherchez un développeur full stack
+qui a des choses à raconter), [mon CV est par ici](/fr/cv).
+
 ### Mes centres d'intérêt
 
 - 💻 Développement
