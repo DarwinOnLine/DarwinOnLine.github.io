@@ -48,6 +48,7 @@ autonomes, pipelines multi-modèles, outillage IA quotidien (Claude Code).
 
 - Conception et réalisation de SaaS complets en autonomie, du cadrage à la production
 - Architecture, dev back/front, infra Docker, CI/CD, gestion de projet et relation client
+- Évolution vers un rôle senior&nbsp;: encadrement technique et montée en compétence de l'équipe
 - Veille technologique&nbsp;: choix de stack, introduction de l'IA générative et des agents dans les produits
 
 ### Concepteur technique · Modis <span class="cv-period">2011 - février 2018</span>
@@ -55,17 +56,17 @@ autonomes, pipelines multi-modèles, outillage IA quotidien (Claude Code).
 - APIs REST (auth SSO / MFA / JWT), Symfony, Drupal, dossiers d'architecture
 - Mission longue chez Michelin&nbsp;: API Java / Groovy pour objets connectés (IoT)
 
-### Développeur web · Périscope <span class="cv-period">2010 - 2011</span>
+### Analyste-développeur · Périscope <span class="cv-period">2010 - 2011</span>
 
 - Site VVF Villages&nbsp;: PHP (Zend), eZ Publish
 
 ## Projets marquants
 
-- **Storytodoc** · SaaS de documentation utilisateur générée par IA&nbsp;: pipeline IA asynchrone (GPT-4o vision, CQRS, 9 files Redis), extension Chrome, vidéo automatisée (FFmpeg), TTS multi-providers, Stripe. 1 200+ commits
-- **DéguizFrance Tool** · automatisation e-commerce pilotée par IA&nbsp;: agent autonome (OpenAI Agents SDK), traitement automatique des emails, rapprochement de factures, multi-modèles (GPT-4o, Claude, Gemini, Ollama)
-- **COLT** · gestion de sinistres auto en recours direct&nbsp;: multi-tenant, CQRS / Event Sourcing, temps réel (Mercure), génération documentaire avancée. 2 400+ commits
+- **[Storytodoc](https://storytodoc.ai)** · SaaS de documentation utilisateur générée par IA&nbsp;: pipeline IA asynchrone (GPT-4o vision, CQRS, 9 files Redis), extension Chrome, vidéo automatisée (FFmpeg), Stripe. 10&nbsp;000 stories sur 600 projets clients
+- **[DéguizFrance Tool](https://deguizfrance-tools.pockost.dev)** · automatisation e-commerce pilotée par IA&nbsp;: agent autonome (OpenAI Agents SDK), 1&nbsp;500 emails automatisés par mois, 50-60 h de support économisées mensuellement, multi-modèles (GPT-4o, Claude, Gemini, Ollama)
+- **[COLT](https://colt.les-affranchis.eu)** · gestion de sinistres auto en recours direct&nbsp;: multi-tenant, CQRS / Event Sourcing, temps réel (Mercure), génération documentaire avancée. ~2&nbsp;000 dossiers traités depuis 2018
 - **IzzyConstat** · constat amiable dématérialisé (React, PWA offline-first)&nbsp;: chatbot décisionnel, constat PDF signé électroniquement
-- **MyNeyrial** · offres et contrats&nbsp;: signature électronique Yousign, génération PDF / Word, ERP Navision (SOAP / NTLM), CRM Pipedrive
+- **[MyNeyrial](https://myneyrial.fr)** · offres et contrats&nbsp;: signature électronique Yousign, génération PDF / Word, ERP Navision, CRM Pipedrive. 6&nbsp;500 projets, 4&nbsp;000 documents signés en 7 ans
 
 ## Compétences
 
@@ -103,7 +104,7 @@ autonomes, pipelines multi-modèles, outillage IA quotidien (Claude Code).
 ## Formation & langues
 
 - **Ingénieur en informatique**, ISIMA Clermont-Ferrand (2010) · **DUT Informatique** (2007) · **Bac S** mention bien (2005)
-- Français (natif) · Anglais (professionnel) · Espagnol (notions)
+- Français (natif) · Anglais (technique) · Espagnol (notions)
 
 <script>
 (function () {

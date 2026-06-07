@@ -53,8 +53,9 @@ acculturation à l'IA.
 
 - Conception et réalisation de SaaS complets en autonomie, du cadrage à la production
 - Profil multicasquettes au sein d'une équipe réduite&nbsp;: architecture, dev back/front, infra Docker, CI/CD
+- Évolution vers un rôle senior&nbsp;: encadrement technique de l'équipe, accompagnement et montée en compétence des développeurs
 - Gestion de projet et relation client au quotidien
-- Veille technologique pour la société&nbsp;: choix de stack, montée en compétence, introduction de l'IA générative et des agents dans les produits
+- Veille technologique pour la société&nbsp;: choix de stack, introduction de l'IA générative et des agents dans les produits
 
 Les projets détaillés dans la section suivante ont tous été réalisés dans ce cadre.
 
@@ -66,7 +67,7 @@ Les projets détaillés dans la section suivante ont tous été réalisés dans 
 - Développements PHP avec Symfony et Drupal
 - Mission longue chez Michelin&nbsp;: projet R&D puis développement pour la DGSI d'une API Java / Groovy à destination d'objets connectés (IoT) et d'applications web et mobiles
 
-### Développeur web · Périscope <span class="cv-period">2010 - 2011</span>
+### Analyste-développeur · Périscope <span class="cv-period">2010 - 2011</span>
 
 - Intégration à l'équipe permanente de développement du site VVF Villages
 - Développements PHP avec le framework Zend et le CMS eZ Publish
@@ -89,8 +90,10 @@ Cinq SaaS conçus et développés de bout en bout chez Highlight.
   <span class="cv-chip"><img src="https://cdn.simpleicons.org/googlechrome/4285F4" alt="" loading="lazy" onerror="this.remove()" />Extension Chrome</span>
 </p>
 
-Le produit de Highlight&nbsp;: capture d'un parcours dans une application web, transformé par l'IA en
-documentation illustrée, narrée et traduite. Six ans de développement actif, 1 200+ commits personnels.
+Le produit de Highlight ([storytodoc.ai](https://storytodoc.ai))&nbsp;: capture d'un parcours dans une
+application web, transformé par l'IA en documentation illustrée, narrée et traduite.
+**10&nbsp;000 stories capturées sur 600 projets clients.** Produit développé depuis 2023 sur un socle SaaS
+maison initié en 2020, 1&nbsp;200+ commits personnels.
 
 - Plateforme SaaS multi-tenant complète&nbsp;: workspaces, rôles, abonnements Stripe avec système de crédits, publication publique avec SSR pour le SEO
 - Extension Chrome (Manifest V3) de capture de parcours&nbsp;: DOM, screenshots, actions utilisateur, avec debouncing intelligent
@@ -113,7 +116,9 @@ documentation illustrée, narrée et traduite. Six ans de développement actif, 
 </p>
 
 Back-office e-commerce qui automatise le quotidien d'un marchand&nbsp;: stocks, commandes, catalogue, support
-client. Le projet où le management d'agents IA est le plus poussé.
+client ([deguizfrance-tools.pockost.dev](https://deguizfrance-tools.pockost.dev)). Le projet où le management
+d'agents IA est le plus poussé. **1&nbsp;500 emails traités par mois, 50 à 60 heures de support économisées
+mensuellement**, rapport de stock quotidien de plusieurs milliers de lignes agrégées depuis 15-20 fournisseurs.
 
 - Pipeline quotidien d'agrégation de stocks multi-fournisseurs, synchronisation bidirectionnelle PrestaShop / EKAN (OMS)
 - Traitement automatique des emails&nbsp;: qualification par IA, rapprochement de factures, génération de réponses client contextualisées (Crisp)
@@ -136,7 +141,9 @@ client. Le projet où le management d'agents IA est le plus poussé.
 </p>
 
 Pour Réflexe Accident&nbsp;: le back-office complet du recours direct, de la déclaration du sinistre au
-contentieux. Mon plus gros projet&nbsp;: 2 400+ commits personnels depuis 2018, 10+ conteneurs Docker orchestrés.
+contentieux ([colt.les-affranchis.eu](https://colt.les-affranchis.eu)). **~2&nbsp;000 dossiers de recours traités
+depuis 2018**, utilisé quotidiennement par l'équipe de gestion. Mon plus gros projet&nbsp;: 2&nbsp;400+ commits
+personnels, 10+ conteneurs Docker orchestrés.
 
 - Plateforme multi-tenant&nbsp;: isolation des données par environnement (filtres Doctrine), rôles granulaires (Voters), JWT + refresh tokens, SSO Auth0
 - Workflows métier riches&nbsp;: 4 types de sinistres, 40+ étapes (expertise, négociation, recouvrement, contentieux), provisionnement et suivi financier
@@ -178,7 +185,8 @@ même sans réseau.
 </p>
 
 De l'offre commerciale au contrat signé électroniquement, avec synchronisation de l'ERP et du CRM de
-l'entreprise.
+l'entreprise ([myneyrial.fr](https://myneyrial.fr)). Pilier du processus de vente&nbsp;: **6&nbsp;500 projets traités
+et 4&nbsp;000 documents signés (contrats, PV) en 7 ans**, des milliers d'éléments CRM synchronisés chaque jour.
 
 - Workflow complet&nbsp;: offres, devis, contrats, avenants, PV de livraison (13+ états de projet)
 - Signature électronique Yousign (API v3)&nbsp;: signataires multiples, 2FA SMS, webhooks, récupération automatique des documents signés
@@ -269,7 +277,7 @@ l'entreprise.
 
 <p class="cv-chips">
   <span class="cv-chip">🇫🇷 Français (langue maternelle)</span>
-  <span class="cv-chip">🇬🇧 Anglais (professionnel)</span>
+  <span class="cv-chip">🇬🇧 Anglais (technique)</span>
   <span class="cv-chip">🇪🇸 Espagnol (notions)</span>
 </p>
 

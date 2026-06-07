@@ -52,8 +52,9 @@ business applications), also supporting companies in growing their business and 
 
 - Design and delivery of complete SaaS products autonomously, from scoping to production
 - Multi-hat profile within a small team: architecture, back/front development, Docker infrastructure, CI/CD
+- Grew into a senior role: technical mentoring, support and upskilling of the development team
 - Day-to-day project management and client relationship
-- Technology watch for the company: stack choices, team upskilling, introduction of generative AI and agents into the products
+- Technology watch for the company: stack choices, introduction of generative AI and agents into the products
 
 All the projects detailed in the next section were carried out in this role.
 
@@ -65,7 +66,7 @@ All the projects detailed in the next section were carried out in this role.
 - PHP development with Symfony and Drupal
 - Long-term assignment at Michelin: R&D project then development for the DGSI of a Java / Groovy API serving IoT devices and web and mobile applications
 
-### Web developer · Périscope <span class="cv-period">2010 - 2011</span>
+### Analyst developer · Périscope <span class="cv-period">2010 - 2011</span>
 
 - Member of the permanent development team for the VVF Villages website
 - PHP development with the Zend framework and the eZ Publish CMS
@@ -88,8 +89,10 @@ Five SaaS products designed and built end to end at Highlight.
   <span class="cv-chip"><img src="https://cdn.simpleicons.org/googlechrome/4285F4" alt="" loading="lazy" onerror="this.remove()" />Chrome extension</span>
 </p>
 
-Highlight's product: capture a journey in any web application, and AI turns it into illustrated, narrated
-and translated documentation. Six years of active development, 1,200+ personal commits.
+Highlight's product ([storytodoc.ai](https://storytodoc.ai)): capture a journey in any web application,
+and AI turns it into illustrated, narrated and translated documentation. **10,000 stories captured across
+600 client projects.** Product developed since 2023 on an in-house SaaS foundation started in 2020,
+1,200+ personal commits.
 
 - Complete multi-tenant SaaS platform: workspaces, roles, Stripe subscriptions with a credit system, public publishing with SSR for SEO
 - Chrome extension (Manifest V3) capturing journeys: DOM, screenshots, user actions, with smart debouncing
@@ -112,7 +115,9 @@ and translated documentation. Six years of active development, 1,200+ personal c
 </p>
 
 E-commerce back office automating a merchant's daily operations: stock, orders, catalog, customer
-support. The project where AI agent management goes furthest.
+support ([deguizfrance-tools.pockost.dev](https://deguizfrance-tools.pockost.dev)). The project where AI agent
+management goes furthest. **1,500 emails processed per month, 50 to 60 hours of support work saved monthly**,
+daily stock report of several thousand lines aggregated from 15-20 suppliers.
 
 - Daily multi-supplier stock aggregation pipeline, bidirectional PrestaShop / EKAN (OMS) synchronisation
 - Automated email processing: AI qualification, invoice reconciliation, contextualised customer replies (Crisp)
@@ -134,8 +139,9 @@ support. The project where AI agent management goes furthest.
   <span class="cv-chip"><img src="https://cdn.simpleicons.org/auth0/EB5424" alt="" loading="lazy" onerror="this.remove()" />Auth0</span>
 </p>
 
-For Réflexe Accident: the complete direct-recourse back office, from claim declaration to litigation.
-My largest project: 2,400+ personal commits since 2018, 10+ orchestrated Docker containers.
+For Réflexe Accident: the complete direct-recourse back office, from claim declaration to litigation
+([colt.les-affranchis.eu](https://colt.les-affranchis.eu)). **~2,000 recourse cases handled since 2018**, used
+daily by the claims team. My largest project: 2,400+ personal commits, 10+ orchestrated Docker containers.
 
 - Multi-tenant platform: per-environment data isolation (Doctrine filters), granular roles (Voters), JWT + refresh tokens, Auth0 SSO
 - Rich business workflows: 4 claim types, 40+ steps (assessment, negotiation, recovery, litigation), provisioning and financial tracking
@@ -177,7 +183,9 @@ network coverage.
 </p>
 
 From commercial offer to electronically signed contract, with synchronisation of the company's ERP
-and CRM.
+and CRM ([myneyrial.fr](https://myneyrial.fr)). A pillar of the company's sales process: **6,500 projects
+handled and 4,000 signed documents (contracts, delivery reports) over 7 years**, thousands of CRM items
+synchronised daily.
 
 - Complete workflow: offers, quotes, contracts, amendments, delivery reports (13+ project states)
 - Yousign e-signature (API v3): multiple signers, SMS 2FA, webhooks, automatic retrieval of signed documents
@@ -268,7 +276,7 @@ and CRM.
 
 <p class="cv-chips">
   <span class="cv-chip">🇫🇷 French (native)</span>
-  <span class="cv-chip">🇬🇧 English (professional)</span>
+  <span class="cv-chip">🇬🇧 English (technical)</span>
   <span class="cv-chip">🇪🇸 Spanish (basics)</span>
 </p>
 

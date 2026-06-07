@@ -48,6 +48,7 @@ agents, multi-model pipelines, daily AI tooling (Claude Code).
 
 - Design and delivery of complete SaaS products autonomously, from scoping to production
 - Architecture, back/front development, Docker infrastructure, CI/CD, project management and client relationship
+- Grew into a senior role: technical mentoring and upskilling of the team
 - Technology watch: stack choices, introduction of generative AI and agents into the products
 
 ### Technical designer · Modis <span class="cv-period">2011 - February 2018</span>
@@ -55,17 +56,17 @@ agents, multi-model pipelines, daily AI tooling (Claude Code).
 - REST APIs (SSO / MFA / JWT auth), Symfony, Drupal, architecture documents
 - Long-term assignment at Michelin: Java / Groovy API for IoT devices
 
-### Web developer · Périscope <span class="cv-period">2010 - 2011</span>
+### Analyst developer · Périscope <span class="cv-period">2010 - 2011</span>
 
 - VVF Villages website: PHP (Zend), eZ Publish
 
 ## Key projects
 
-- **Storytodoc** · AI-generated user documentation SaaS: asynchronous AI pipeline (GPT-4o vision, CQRS, 9 Redis queues), Chrome extension, automated video (FFmpeg), multi-provider TTS, Stripe. 1,200+ commits
-- **DéguizFrance Tool** · AI-driven e-commerce automation: autonomous agent (OpenAI Agents SDK), automated email processing, invoice reconciliation, multi-model (GPT-4o, Claude, Gemini, Ollama)
-- **COLT** · direct-recourse car claim management: multi-tenant, CQRS / Event Sourcing, real time (Mercure), advanced document generation. 2,400+ commits
+- **[Storytodoc](https://storytodoc.ai)** · AI-generated user documentation SaaS: asynchronous AI pipeline (GPT-4o vision, CQRS, 9 Redis queues), Chrome extension, automated video (FFmpeg), Stripe. 10,000 stories across 600 client projects
+- **[DéguizFrance Tool](https://deguizfrance-tools.pockost.dev)** · AI-driven e-commerce automation: autonomous agent (OpenAI Agents SDK), 1,500 emails automated monthly, 50-60 hours of support saved per month, multi-model (GPT-4o, Claude, Gemini, Ollama)
+- **[COLT](https://colt.les-affranchis.eu)** · direct-recourse car claim management: multi-tenant, CQRS / Event Sourcing, real time (Mercure), advanced document generation. ~2,000 cases handled since 2018
 - **IzzyConstat** · digital car accident report (React, offline-first PWA): decision-tree chatbot, e-signed PDF report
-- **MyNeyrial** · offers and contracts: Yousign e-signature, PDF / Word generation, Navision ERP (SOAP / NTLM), Pipedrive CRM
+- **[MyNeyrial](https://myneyrial.fr)** · offers and contracts: Yousign e-signature, PDF / Word generation, Navision ERP, Pipedrive CRM. 6,500 projects, 4,000 signed documents over 7 years
 
 ## Skills
 
@@ -103,7 +104,7 @@ agents, multi-model pipelines, daily AI tooling (Claude Code).
 ## Education & languages
 
 - **Master's degree in computer science engineering**, ISIMA Clermont-Ferrand, France (2010) · **DUT in computer science** (2007) · **Scientific baccalaureate** with honours (2005)
-- French (native) · English (professional) · Spanish (basics)
+- French (native) · English (technical) · Spanish (basics)
 
 <script>
 (function () {
