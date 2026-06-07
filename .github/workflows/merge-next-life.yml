@@ -1,0 +1,37 @@
+name: Scheduled merge of next/life into main
+
+on:
+  schedule:
+    # 23:00 UTC on June 11 = 01:00 Europe/Paris (CEST) on June 12
+    - cron: '0 23 11 6 *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  merge:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Merge next/life into main
+        run: |
+          if ! git rev-parse --verify origin/next/life >/dev/null 2>&1; then
+            echo "Branch next/life not found, nothing to merge."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git merge --no-ff origin/next/life -m "Merge branch 'next/life'"
+
+      - name: Remove this one-shot workflow
+        run: |
+          git rm .github/workflows/merge-next-life.yml
+          git commit -m "🔧 Remove one-shot merge workflow"
+
+      - name: Push
+        run: git push origin main
