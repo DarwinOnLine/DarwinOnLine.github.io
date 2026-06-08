@@ -9,7 +9,7 @@
 </style>
 
 <div class="cv-header">
-  <img class="cv-photo" src="assets/images/cv/photo.jpg" alt="Matthieu Poignant" width="512" height="512" />
+  <img class="cv-photo" src="assets/images/cv/photo.webp" alt="Matthieu Poignant" width="512" height="512" />
   <div class="cv-identity">
     <h1>Matthieu Poignant</h1>
     <p class="cv-title">Senior Full Stack Developer · SaaS &amp; AI Agents</p>
@@ -47,6 +47,7 @@ agents, multi-model pipelines, daily AI tooling (Claude Code).
 ### Senior full stack developer · Highlight <span class="cv-period">February 2018 - June 2026</span>
 
 - Design and delivery of complete SaaS products autonomously, from scoping to production
+- Co-design of an in-house application foundation (CQRS / Event Sourcing) reused across several SaaS products
 - Architecture, back/front development, Docker infrastructure, CI/CD, project management and client relationship
 - Grew into a senior role: technical mentoring and upskilling of the team
 - Technology watch: stack choices, introduction of generative AI and agents into the products
@@ -62,11 +63,12 @@ agents, multi-model pipelines, daily AI tooling (Claude Code).
 
 ## Key projects
 
-- **[Storytodoc](https://storytodoc.ai)** · AI-generated user documentation SaaS: asynchronous AI pipeline (GPT-4o vision, CQRS, 9 Redis queues), Chrome extension, automated video (FFmpeg), Stripe. 10,000 stories across 600 client projects
-- **[DéguizFrance Tool](https://deguizfrance-tools.pockost.dev)** · AI-driven e-commerce automation: autonomous agent (OpenAI Agents SDK), 1,500 emails automated monthly, 50-60 hours of support saved per month, multi-model (GPT-4o, Claude, Gemini, Ollama)
-- **[COLT](https://colt.les-affranchis.eu)** · direct-recourse car claim management: multi-tenant, CQRS / Event Sourcing, real time (Mercure), advanced document generation. ~2,000 cases handled since 2018
-- **IzzyConstat** · digital car accident report (React, offline-first PWA): decision-tree chatbot, e-signed PDF report
+- **[Storytodoc](https://storytodoc.ai)** · AI-generated user documentation SaaS: asynchronous AI pipeline (GPT-4o vision, CQRS, 10 Redis queues), Chrome extension, automated video (FFmpeg), Stripe. 10,000 stories across 600 client projects
+- **[DéguizFrance Tool](https://deguizfrance-tools.pockost.dev)** · AI-driven e-commerce automation: autonomous agent (OpenAI Agents SDK), 1,500 emails automated monthly, 50-60 hours of support saved per month, pluggable multi-model (GPT-4o in production)
+- **[COLT](https://colt.les-affranchis.eu)** · direct-recourse car claim management: multi-tenant, rich business workflow (4 claim types, 40+ steps), JWT, document generation (mPDF). ~2,000 cases handled since 2018
+- **[IzzyConstat](https://app.izzyconstat.fr/)** · digital car accident report (React, offline-first PWA): decision-tree chatbot, e-signed PDF report
 - **[MyNeyrial](https://myneyrial.fr)** · offers and contracts: Yousign e-signature, PDF / Word generation, Navision ERP, Pipedrive CRM. 6,500 projects, 4,000 signed documents over 7 years
+- **AITestBench** · in-house AI testing and evaluation framework: LLM-as-judge (grades outputs against natural-language criteria), 6 providers, CLI + dashboard, integrated into DéguizFrance and Storytodoc
 
 ## Skills
 

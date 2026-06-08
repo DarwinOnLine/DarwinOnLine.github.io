@@ -331,7 +331,8 @@ p.cv-chips {
     white-space: nowrap;
 }
 
-.cv-chip img {
+.cv-chip img,
+.cv-chip svg {
     width: 14px;
     height: 14px;
     flex-shrink: 0;
@@ -681,7 +682,8 @@ p.cv-chips {
         color: #111;
     }
 
-    .cv-chip img {
+    .cv-chip img,
+    .cv-chip svg {
         width: 10px;
         height: 10px;
     }

@@ -9,7 +9,7 @@
 </style>
 
 <div class="cv-header">
-  <img class="cv-photo" src="assets/images/cv/photo.jpg" alt="Matthieu Poignant" width="512" height="512" />
+  <img class="cv-photo" src="assets/images/cv/photo.webp" alt="Matthieu Poignant" width="512" height="512" />
   <div class="cv-identity">
     <h1>Matthieu Poignant</h1>
     <p class="cv-title">Développeur Full Stack Senior · SaaS &amp; Agents IA</p>
@@ -47,6 +47,7 @@ autonomes, pipelines multi-modèles, outillage IA quotidien (Claude Code).
 ### Développeur full stack senior · Highlight <span class="cv-period">février 2018 - juin 2026</span>
 
 - Conception et réalisation de SaaS complets en autonomie, du cadrage à la production
+- Co-conception d'un socle applicatif maison (CQRS / Event Sourcing) réutilisé sur plusieurs SaaS
 - Architecture, dev back/front, infra Docker, CI/CD, gestion de projet et relation client
 - Évolution vers un rôle senior&nbsp;: encadrement technique et montée en compétence de l'équipe
 - Veille technologique&nbsp;: choix de stack, introduction de l'IA générative et des agents dans les produits
@@ -62,11 +63,12 @@ autonomes, pipelines multi-modèles, outillage IA quotidien (Claude Code).
 
 ## Projets marquants
 
-- **[Storytodoc](https://storytodoc.ai)** · SaaS de documentation utilisateur générée par IA&nbsp;: pipeline IA asynchrone (GPT-4o vision, CQRS, 9 files Redis), extension Chrome, vidéo automatisée (FFmpeg), Stripe. 10&nbsp;000 stories sur 600 projets clients
-- **[DéguizFrance Tool](https://deguizfrance-tools.pockost.dev)** · automatisation e-commerce pilotée par IA&nbsp;: agent autonome (OpenAI Agents SDK), 1&nbsp;500 emails automatisés par mois, 50-60 h de support économisées mensuellement, multi-modèles (GPT-4o, Claude, Gemini, Ollama)
-- **[COLT](https://colt.les-affranchis.eu)** · gestion de sinistres auto en recours direct&nbsp;: multi-tenant, CQRS / Event Sourcing, temps réel (Mercure), génération documentaire avancée. ~2&nbsp;000 dossiers traités depuis 2018
-- **IzzyConstat** · constat amiable dématérialisé (React, PWA offline-first)&nbsp;: chatbot décisionnel, constat PDF signé électroniquement
+- **[Storytodoc](https://storytodoc.ai)** · SaaS de documentation utilisateur générée par IA&nbsp;: pipeline IA asynchrone (GPT-4o vision, CQRS, 10 files Redis), extension Chrome, vidéo automatisée (FFmpeg), Stripe. 10&nbsp;000 stories sur 600 projets clients
+- **[DéguizFrance Tool](https://deguizfrance-tools.pockost.dev)** · automatisation e-commerce pilotée par IA&nbsp;: agent autonome (OpenAI Agents SDK), 1&nbsp;500 emails automatisés par mois, 50-60 h de support économisées mensuellement, multi-modèles pluggable (GPT-4o en production)
+- **[COLT](https://colt.les-affranchis.eu)** · gestion de sinistres auto en recours direct&nbsp;: multi-tenant, workflow métier riche (4 types de sinistres, 40+ étapes), JWT, génération documentaire (mPDF). ~2&nbsp;000 dossiers traités depuis 2018
+- **[IzzyConstat](https://app.izzyconstat.fr/)** · constat amiable dématérialisé (React, PWA offline-first)&nbsp;: chatbot décisionnel, constat PDF signé électroniquement
 - **[MyNeyrial](https://myneyrial.fr)** · offres et contrats&nbsp;: signature électronique Yousign, génération PDF / Word, ERP Navision, CRM Pipedrive. 6&nbsp;500 projets, 4&nbsp;000 documents signés en 7 ans
+- **AITestBench** · framework interne de test et d'évaluation d'IA&nbsp;: LLM-as-judge (notation des sorties sur critères en langage naturel), 6 providers, CLI + dashboard, intégré à DéguizFrance et Storytodoc
 
 ## Compétences
 
