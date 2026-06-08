@@ -44,7 +44,7 @@ autonomes, pipelines multi-modèles, outillage IA quotidien (Claude Code).
 
 ## Expérience
 
-### Développeur full stack senior · Highlight <span class="cv-period">février 2018 - juin 2026</span>
+### Développeur full stack senior · Highlight <span class="cv-period">février 2018 - juillet 2026</span>
 
 - Conception et réalisation de SaaS complets en autonomie, du cadrage à la production
 - Co-conception d'un socle applicatif maison (CQRS / Event Sourcing) réutilisé sur plusieurs SaaS
@@ -52,12 +52,12 @@ autonomes, pipelines multi-modèles, outillage IA quotidien (Claude Code).
 - Évolution vers un rôle senior&nbsp;: encadrement technique et montée en compétence de l'équipe
 - Veille technologique&nbsp;: choix de stack, introduction de l'IA générative et des agents dans les produits
 
-### Concepteur technique · Modis <span class="cv-period">2011 - février 2018</span>
+### Concepteur technique · Modis <span class="cv-period">novembre 2011 - février 2018</span>
 
 - APIs REST (auth SSO / MFA / JWT), Symfony, Drupal, dossiers d'architecture
 - Mission longue chez Michelin&nbsp;: API Java / Groovy pour objets connectés (IoT)
 
-### Analyste-développeur · Périscope <span class="cv-period">2010 - 2011</span>
+### Analyste-développeur · Périscope <span class="cv-period">septembre 2010 - novembre 2011</span>
 
 - Site VVF Villages&nbsp;: PHP (Zend), eZ Publish
 

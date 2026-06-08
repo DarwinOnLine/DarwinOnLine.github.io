@@ -44,7 +44,7 @@ agents, multi-model pipelines, daily AI tooling (Claude Code).
 
 ## Experience
 
-### Senior full stack developer · Highlight <span class="cv-period">February 2018 - June 2026</span>
+### Senior full stack developer · Highlight <span class="cv-period">February 2018 - July 2026</span>
 
 - Design and delivery of complete SaaS products autonomously, from scoping to production
 - Co-design of an in-house application foundation (CQRS / Event Sourcing) reused across several SaaS products
@@ -52,12 +52,12 @@ agents, multi-model pipelines, daily AI tooling (Claude Code).
 - Grew into a senior role: technical mentoring and upskilling of the team
 - Technology watch: stack choices, introduction of generative AI and agents into the products
 
-### Technical designer · Modis <span class="cv-period">2011 - February 2018</span>
+### Technical designer · Modis <span class="cv-period">November 2011 - February 2018</span>
 
 - REST APIs (SSO / MFA / JWT auth), Symfony, Drupal, architecture documents
 - Long-term assignment at Michelin: Java / Groovy API for IoT devices
 
-### Analyst developer · Périscope <span class="cv-period">2010 - 2011</span>
+### Analyst developer · Périscope <span class="cv-period">September 2010 - November 2011</span>
 
 - VVF Villages website: PHP (Zend), eZ Publish
 

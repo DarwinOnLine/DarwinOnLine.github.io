@@ -45,7 +45,7 @@ vite sans rogner sur la qualité.
 
 ## Expérience
 
-### Développeur full stack senior · Highlight <span class="cv-period">février 2018 - juin 2026</span>
+### Développeur full stack senior · Highlight <span class="cv-period">février 2018 - juillet 2026</span>
 
 [Éditeur clermontois de solutions SaaS](https://highlight.pro/) (produit Storytodoc et applications métier
 sur mesure), qui accompagne aussi les entreprises dans le développement de leur activité et leur
@@ -61,7 +61,7 @@ acculturation à l'IA.
 
 Les projets détaillés dans la section suivante ont tous été réalisés dans ce cadre.
 
-### Concepteur technique · Modis <span class="cv-period">2011 - février 2018</span>
+### Concepteur technique · Modis <span class="cv-period">novembre 2011 - février 2018</span>
 
 - Mise en œuvre de projets web depuis l'agence de Clermont-Ferrand
 - APIs REST riches pour applications web légères&nbsp;: authentifications variées (simple, SSO, MFA, forte), JWT, tests de non-régression poussés
@@ -69,7 +69,7 @@ Les projets détaillés dans la section suivante ont tous été réalisés dans 
 - Développements PHP avec Symfony et Drupal
 - Mission longue chez Michelin&nbsp;: projet R&D puis développement pour la DGSI d'une API Java / Groovy à destination d'objets connectés (IoT) et d'applications web et mobiles
 
-### Analyste-développeur · Périscope <span class="cv-period">2010 - 2011</span>
+### Analyste-développeur · Périscope <span class="cv-period">septembre 2010 - novembre 2011</span>
 
 - Intégration à l'équipe permanente de développement du site VVF Villages
 - Développements PHP avec le framework Zend et le CMS eZ Publish

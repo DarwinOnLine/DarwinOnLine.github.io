@@ -45,7 +45,7 @@ faster without compromising on quality.
 
 ## Experience
 
-### Senior full stack developer · Highlight <span class="cv-period">February 2018 - June 2026</span>
+### Senior full stack developer · Highlight <span class="cv-period">February 2018 - July 2026</span>
 
 [SaaS software company based in Clermont-Ferrand](https://highlight.pro/) (Storytodoc product and custom
 business applications), also supporting companies in growing their business and adopting AI.
@@ -60,7 +60,7 @@ business applications), also supporting companies in growing their business and 
 
 All the projects detailed in the next section were carried out in this role.
 
-### Technical designer · Modis <span class="cv-period">2011 - February 2018</span>
+### Technical designer · Modis <span class="cv-period">November 2011 - February 2018</span>
 
 - Web project delivery from the Clermont-Ferrand agency
 - Rich REST APIs for lightweight web applications: varied authentication schemes (simple, SSO, MFA, strong), JWT, extensive non-regression testing
@@ -68,7 +68,7 @@ All the projects detailed in the next section were carried out in this role.
 - PHP development with Symfony and Drupal
 - Long-term assignment at Michelin: R&D project then development for the DGSI of a Java / Groovy API serving IoT devices and web and mobile applications
 
-### Analyst developer · Périscope <span class="cv-period">2010 - 2011</span>
+### Analyst developer · Périscope <span class="cv-period">September 2010 - November 2011</span>
 
 - Member of the permanent development team for the VVF Villages website
 - PHP development with the Zend framework and the eZ Publish CMS
