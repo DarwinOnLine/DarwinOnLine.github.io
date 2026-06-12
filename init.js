@@ -13,6 +13,39 @@
         toc: true,
         search: true,
         themeToggle: true,
+        pages: {
+            cv: {
+                meta: {
+                    fr: {
+                        title: 'CV',
+                        description: 'Matthieu Poignant, développeur full stack senior : SaaS, PHP/Symfony, Angular, React et agents IA.',
+                        image: 'assets/images/cv/photo.jpg',
+                        navLabel: 'CV',
+                    },
+                    en: {
+                        title: 'Resume',
+                        description: 'Matthieu Poignant, senior full stack developer: SaaS, PHP/Symfony, Angular, React and AI agents.',
+                        image: 'assets/images/cv/photo.jpg',
+                        navLabel: 'Resume',
+                    },
+                },
+            },
+            'cv-onepage': {
+                nav: false,
+                meta: {
+                    fr: {
+                        title: 'CV (1 page)',
+                        description: 'Version condensée du CV de Matthieu Poignant, développeur full stack senior.',
+                        image: 'assets/images/cv/photo.jpg',
+                    },
+                    en: {
+                        title: 'Resume (one page)',
+                        description: 'Condensed resume of Matthieu Poignant, senior full stack developer.',
+                        image: 'assets/images/cv/photo.jpg',
+                    },
+                },
+            },
+        },
         translations: {
             en: {
                 nav: { home: 'Home', blog: 'Blog' },
@@ -59,6 +92,7 @@
                     <nav class="main-nav">
                         <div class="lang-switcher">${ctx.nav()}</div>
                         <a href="/${ctx.lang}/blog">${ctx.t('nav.blog')}</a>
+                        ${ctx.pagesNav()}
                     </nav>
                     <div class="home-header">
                         <h1>Darwin<br>On Line<span class="dot">.</span><span class="cursor"></span></h1>

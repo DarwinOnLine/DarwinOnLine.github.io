@@ -8,6 +8,9 @@ I'm a developer passionate about web technologies, open source, and sharing know
 
 On this site, I share my thoughts, projects, and experiences through [my blog](/en/blog).
 
+And if you want to know who's behind all this (or if you're looking for a full stack developer
+with stories to tell), [my resume is right here](/en/cv).
+
 ### My Interests
 
 - 💻 Development

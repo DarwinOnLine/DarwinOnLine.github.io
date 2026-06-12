@@ -185,3 +185,633 @@ th {
 tr:hover {
     background: rgba(255, 255, 255, 0.03);
 }
+
+/* ===================== CV PAGE (site-specific) ===================== */
+
+.cv-header {
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+    margin: 1.5rem 0 1rem;
+}
+
+.cv-photo {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    flex-shrink: 0;
+    border: 3px solid transparent;
+    background-image: linear-gradient(#111, #111), linear-gradient(135deg, #ff3333, #ff6600, #cc33ff, #3366ff, #ff3333);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    background-size: 100%, 300% 300%;
+    animation: avatarGradient 8s ease-in-out infinite;
+}
+
+.cv-identity h1 {
+    font-size: 2.6rem;
+    line-height: 1.1;
+    margin-bottom: 0.4rem;
+}
+
+p.cv-title {
+    color: var(--qd-accent);
+    font-weight: 700;
+    font-size: 1.15rem;
+    margin-bottom: 0.6rem;
+}
+
+p.cv-availability {
+    display: inline-block;
+    font-size: 0.8em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    color: #2ecc71;
+    border: 1px solid #2ecc71;
+    border-radius: 999px;
+    padding: 0.1rem 0.7rem;
+    margin-bottom: 0.6rem;
+}
+
+p.cv-availability::before {
+    content: '●';
+    margin-right: 0.5rem;
+    animation: blink 2s step-end infinite;
+}
+
+p.cv-location {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    color: var(--qd-text);
+    font-size: 0.95rem;
+}
+
+.cv-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin: 1.5rem 0;
+}
+
+.cv-links .social-link {
+    padding: 0.55rem 1.1rem;
+    font-size: 0.8rem;
+    cursor: pointer;
+    color: #fff;
+    border: 2px solid #fff;
+    background: transparent;
+}
+
+.cv-links .social-link:hover {
+    background: var(--qd-accent);
+    border-color: var(--qd-accent);
+    color: #fff;
+}
+
+p.cv-actions {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin: 1rem 0 2rem;
+}
+
+.cv-print-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-family: inherit;
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--qd-accent);
+    background: transparent;
+    border: 2px solid var(--qd-accent);
+    padding: 0.55rem 1.1rem;
+    cursor: pointer;
+}
+
+.cv-print-btn:hover {
+    background: var(--qd-accent);
+    color: #fff;
+    box-shadow: 0 0 15px #ff333344;
+}
+
+.cv-period {
+    float: right;
+    font-family: var(--qd-font-mono);
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: var(--qd-muted);
+    margin-top: 0.4rem;
+}
+
+/* Chips (skills & project stacks) */
+
+p.cv-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.45rem;
+    margin: 0.4rem 0 1rem;
+}
+
+.cv-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-family: var(--qd-font-mono);
+    font-size: 0.75rem;
+    color: var(--qd-heading);
+    border: 1px solid var(--qd-border);
+    background: var(--qd-code-bg);
+    border-radius: 999px;
+    padding: 0.25rem 0.7rem;
+    white-space: nowrap;
+}
+
+.cv-chip img,
+.cv-chip svg {
+    width: 14px;
+    height: 14px;
+    flex-shrink: 0;
+}
+
+/* Skills grid */
+
+.cv-skills {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.5rem 2rem;
+    margin: 1.5rem 0;
+}
+
+.cv-skill-group h3 {
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--qd-muted);
+    margin: 0.5rem 0 0.2rem;
+}
+
+/* Project accordions */
+
+.cv-project {
+    border: 1px solid var(--qd-border);
+    border-radius: 6px;
+    margin: 1rem 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.cv-project summary {
+    cursor: pointer;
+    padding: 1rem 1.2rem;
+    list-style: none;
+    display: flex;
+    align-items: baseline;
+    gap: 0.8rem;
+    flex-wrap: wrap;
+}
+
+.cv-project summary::-webkit-details-marker {
+    display: none;
+}
+
+.cv-project summary::before {
+    content: '+';
+    color: var(--qd-accent);
+    font-weight: 700;
+    font-family: var(--qd-font-mono);
+}
+
+.cv-project[open] summary::before {
+    content: '−';
+}
+
+.cv-project summary:hover {
+    background: rgba(255, 255, 255, 0.03);
+}
+
+.cv-project-name {
+    color: var(--qd-heading);
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+.cv-project-pitch {
+    color: var(--qd-text);
+    font-size: 0.95rem;
+}
+
+.cv-project > *:not(summary) {
+    margin-left: 1.2rem;
+    margin-right: 1.2rem;
+}
+
+.cv-project > .cv-chips {
+    margin-top: 0;
+}
+
+.cv-project > p:last-of-type,
+.cv-project > ul:last-of-type {
+    margin-bottom: 1.2rem;
+}
+
+/* Light theme adjustments */
+
+:root[data-theme="light"] .cv-photo {
+    background-image: linear-gradient(#f5f5f5, #f5f5f5), linear-gradient(135deg, #ff3333, #ff6600, #cc33ff, #3366ff, #ff3333);
+}
+
+:root[data-theme="light"] .cv-availability {
+    color: #1e8e4e;
+    border-color: #1e8e4e;
+}
+
+:root[data-theme="light"] .cv-project summary:hover {
+    background: rgba(0, 0, 0, 0.04);
+}
+
+:root[data-theme="light"] .cv-links .social-link {
+    border-color: #111;
+    color: #111;
+}
+
+:root[data-theme="light"] .cv-links .social-link:hover {
+    border-color: var(--qd-accent);
+    color: #fff;
+}
+
+/* CV responsive */
+
+@media screen and (max-width: 768px) {
+    .cv-header {
+        flex-direction: column;
+        text-align: center;
+        gap: 1.2rem;
+    }
+
+    .cv-identity h1 {
+        font-size: 2rem;
+    }
+
+    .cv-location,
+    .cv-links,
+    .cv-actions {
+        justify-content: center;
+    }
+
+    .cv-skills {
+        grid-template-columns: 1fr;
+    }
+
+    .cv-period {
+        float: none;
+        display: block;
+        margin-top: 0;
+    }
+}
+
+/* ===================== CV PRINT ===================== */
+
+@media print {
+    @page {
+        margin: 1.4cm 1.5cm;
+    }
+
+    :root, :root[data-theme="dark"], :root[data-theme="light"] {
+        --qd-bg: #fff;
+        --qd-text: #333;
+        --qd-heading: #111;
+        --qd-muted: #777;
+        --qd-border: #ddd;
+        --qd-code-bg: #f5f5f5;
+        --qd-accent: #b00000;
+    }
+
+    body::before,
+    .cursor-dot,
+    .main-nav,
+    .theme-toggle,
+    .toc-toggle,
+    .cv-actions,
+    .cv-screen-only {
+        display: none !important;
+    }
+
+    html, body {
+        background: #fff !important;
+    }
+
+    body {
+        font-size: 9.5pt;
+        line-height: 1.45;
+    }
+
+    #content {
+        max-width: 100%;
+        padding: 0;
+    }
+
+    .static-page {
+        padding: 0;
+    }
+
+    .static-page .page-content {
+        margin-top: 0;
+    }
+
+    /* Header: compact identity block */
+    .cv-header {
+        gap: 1.4rem;
+        margin: 0 0 0.4rem;
+        align-items: center;
+    }
+
+    .cv-photo {
+        animation: none;
+        background-image: none;
+        border: 3px solid #b00000;
+        width: 95px;
+        height: 95px;
+        padding: 0;
+    }
+
+    .cv-identity h1 {
+        font-size: 20pt;
+        margin-bottom: 0.2rem;
+        color: #111;
+    }
+
+    p.cv-title {
+        font-size: 12pt;
+        margin-bottom: 0.4rem;
+    }
+
+    p.cv-availability {
+        color: #1e8e4e;
+        border: 0.5pt solid #1e8e4e;
+        border-radius: 0;
+        font-size: 7pt;
+        letter-spacing: 1px;
+        padding: 0.05rem 0.5rem;
+        margin-bottom: 0.4rem;
+    }
+
+    p.cv-availability::before {
+        animation: none;
+    }
+
+    p.cv-location {
+        font-size: 9pt;
+    }
+
+    /* Links: plain text with URLs */
+    .cv-links {
+        margin: 0.2rem 0 0.6rem;
+        gap: 0.4rem 1.6rem;
+    }
+
+    .cv-links .social-link {
+        border: none;
+        padding: 0;
+        font-size: 8.5pt;
+        letter-spacing: 0;
+        text-transform: none;
+        font-weight: 400;
+        color: #333;
+    }
+
+    .cv-links .social-link svg {
+        width: 11px;
+        height: 11px;
+    }
+
+    .cv-links a.social-link[href^="https://github.com"]::after {
+        content: ' github.com/DarwinOnLine';
+        font-weight: 700;
+    }
+
+    .cv-links a.social-link[href^="https://www.linkedin.com"]::after {
+        content: ' linkedin.com/in/matthieu-poignant';
+        font-weight: 700;
+    }
+
+    .cv-links .cv-email-label {
+        font-weight: 700;
+    }
+
+    /* Layout: force desktop layout (print width triggers mobile breakpoints) */
+    .cv-header {
+        flex-direction: row;
+        text-align: left;
+    }
+
+    .cv-location,
+    .cv-links {
+        justify-content: flex-start;
+    }
+
+    .cv-skills {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* Sections */
+    .page-content h2 {
+        font-family: var(--qd-font);
+        color: #b00000;
+        font-size: 13pt;
+        border-left: none;
+        border-bottom: 2px solid #b00000;
+        padding-left: 0;
+        padding-bottom: 0.15rem;
+        margin: 1.1rem 0 0.5rem;
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
+    }
+
+    .page-content h2::before,
+    .page-content h3::before {
+        content: none;
+    }
+
+    .page-content h3 {
+        font-family: var(--qd-font);
+        font-size: 11pt;
+        color: #111;
+        margin: 0.7rem 0 0.25rem;
+        break-after: avoid;
+    }
+
+    .page-content p {
+        font-size: 9.5pt;
+        margin: 0.4rem 0;
+    }
+
+    .page-content ul {
+        margin: 0.25rem 0 0.5rem;
+        padding-left: 1.1rem;
+    }
+
+    .page-content li {
+        font-size: 9.5pt;
+        margin: 0.1rem 0;
+    }
+
+    .cv-period {
+        color: #777;
+        font-size: 8.5pt;
+        margin-top: 0.25rem;
+    }
+
+    /* Chips */
+    p.cv-chips {
+        gap: 0.3rem;
+        margin: 0.25rem 0 0.5rem;
+        break-inside: avoid;
+    }
+
+    .cv-chip {
+        font-size: 7.5pt;
+        padding: 0.1rem 0.55rem;
+        border: 0.5pt solid #bbb;
+        border-radius: 0;
+        background: #f5f5f5;
+        color: #111;
+    }
+
+    .cv-chip img,
+    .cv-chip svg {
+        width: 10px;
+        height: 10px;
+    }
+
+    .cv-skills {
+        gap: 0.2rem 1.5rem;
+        margin: 0.5rem 0;
+    }
+
+    .cv-skill-group h3 {
+        font-size: 8.5pt;
+        color: #777;
+        letter-spacing: 1px;
+        margin: 0.4rem 0 0.1rem;
+    }
+
+    .cv-skill-group .cv-chips {
+        margin-bottom: 0.3rem;
+    }
+
+    /* Projects: open blocks with accent edge */
+    .cv-project {
+        border: none;
+        border-left: 3px solid #b00000;
+        border-radius: 0;
+        margin: 0.7rem 0;
+    }
+
+    .cv-project summary {
+        padding: 0.1rem 0 0.2rem 0.9rem;
+        break-after: avoid;
+    }
+
+    .cv-project summary::before {
+        display: none;
+    }
+
+    .cv-project-name {
+        font-size: 11.5pt;
+    }
+
+    .cv-project-pitch {
+        font-size: 9.5pt;
+        color: #555;
+    }
+
+    .cv-project > *:not(summary) {
+        margin-left: 0.9rem;
+        margin-right: 0;
+    }
+
+    .cv-project > p:last-of-type,
+    .cv-project > ul:last-of-type {
+        margin-bottom: 0.4rem;
+    }
+
+    /* Links: keep readable, no decoration */
+    .page-content a {
+        color: #333;
+        text-decoration: none;
+        border-bottom: none;
+        font-weight: inherit;
+        background: none;
+    }
+
+    .page-content a:hover {
+        background: none;
+        color: #333;
+    }
+}
+
+/* ===================== ONE-PAGE CV PRINT ===================== */
+
+@media print {
+    .page-cv-onepage .cv-photo {
+        width: 75px;
+        height: 75px;
+    }
+
+    .page-cv-onepage .cv-identity h1 {
+        font-size: 17pt;
+    }
+
+    .page-cv-onepage p.cv-title {
+        font-size: 11pt;
+        margin-bottom: 0.25rem;
+    }
+
+    .page-cv-onepage p.cv-availability {
+        margin-bottom: 0.25rem;
+    }
+
+    .page-cv-onepage .cv-header {
+        gap: 1.1rem;
+        margin-bottom: 0.2rem;
+    }
+
+    .page-cv-onepage .cv-links {
+        margin: 0.1rem 0 0.3rem;
+    }
+
+    .page-cv-onepage .page-content h2 {
+        font-size: 11pt;
+        margin: 0.7rem 0 0.3rem;
+    }
+
+    .page-cv-onepage .page-content h3 {
+        font-size: 10pt;
+        margin: 0.45rem 0 0.1rem;
+    }
+
+    .page-cv-onepage .page-content p {
+        font-size: 8.5pt;
+        margin: 0.25rem 0;
+    }
+
+    .page-cv-onepage .page-content li {
+        font-size: 8.5pt;
+        margin: 0.05rem 0;
+    }
+
+    .page-cv-onepage .cv-period {
+        font-size: 8pt;
+        margin-top: 0.15rem;
+    }
+
+    .page-cv-onepage .cv-chip {
+        font-size: 7pt;
+        padding: 0.08rem 0.5rem;
+    }
+}
