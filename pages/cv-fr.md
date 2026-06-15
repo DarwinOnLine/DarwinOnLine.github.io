@@ -332,7 +332,6 @@ il note la pertinence des sorties selon des critères en langage naturel. Intég
 Auvergnat d'Origine Contrôlée.
 
 <p class="cv-chips">
-  <span class="cv-chip">💻 Développement</span>
   <span class="cv-chip">🌍 Open Source</span>
   <span class="cv-chip">📮 Philatélie</span>
   <span class="cv-chip">💬 Bande dessinée</span>

@@ -331,7 +331,6 @@ the relevance of outputs against natural-language criteria. Integrated into Dég
 Born and raised in Auvergne, France.
 
 <p class="cv-chips">
-  <span class="cv-chip">💻 Development</span>
   <span class="cv-chip">🌍 Open Source</span>
   <span class="cv-chip">📮 Philately</span>
   <span class="cv-chip">💬 Comics</span>

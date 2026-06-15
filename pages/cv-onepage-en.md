@@ -94,7 +94,6 @@ agents, multi-model pipelines, daily AI tooling (Claude Code).
 ## Beyond code
 
 <p class="cv-chips">
-  <span class="cv-chip">💻 Development</span>
   <span class="cv-chip">🌍 Open Source</span>
   <span class="cv-chip">📮 Philately</span>
   <span class="cv-chip">💬 Comics</span>

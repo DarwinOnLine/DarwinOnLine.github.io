@@ -94,7 +94,6 @@ autonomes, pipelines multi-modèles, outillage IA quotidien (Claude Code).
 ## À côté du code
 
 <p class="cv-chips">
-  <span class="cv-chip">💻 Développement</span>
   <span class="cv-chip">🌍 Open Source</span>
   <span class="cv-chip">📮 Philatélie</span>
   <span class="cv-chip">💬 Bande dessinée</span>
