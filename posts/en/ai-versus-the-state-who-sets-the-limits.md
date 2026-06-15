@@ -90,7 +90,7 @@ American company harder than an AI from Beijing. "National security," they tell 
 
 ## So, who sets the limits?
 
-So, who sets the limits? Can a private company impose a moral veto on what a sovereign state wants to do in matters of
+Can a private company impose a moral veto on what a sovereign state wants to do in matters of
 defense? On the red lines mentioned, it looks virtuous, but it becomes a lot less so when you imagine other vetoes and
 other decision-makers.
 

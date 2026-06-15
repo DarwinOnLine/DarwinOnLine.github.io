@@ -94,7 +94,7 @@ tape donc plus fort sur une boîte américaine que sur une IA de Pékin. De la "
 
 ## Alors, qui fixe les limites ?
 
-Alors, qui fixe les limites ? Une entreprise privée peut-elle opposer un véto moral à ce qu'un État souverain veut
+Une entreprise privée peut-elle opposer un véto moral à ce qu'un État souverain veut
 faire en matière de défense ? Sur les lignes rouges évoquées, ça paraît vertueux, mais ça le devient beaucoup moins
 quand on imagine d'autres vétos et d'autres décideurs.
 
