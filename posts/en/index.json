@@ -97,5 +97,14 @@
     "i18nSlugs": { "fr": "solid-autopsie-d-un-boys-band" },
     "tags": ["Craft", "Explainers"],
     "image": "assets/images/posts/solid-autopsie-d-un-boys-band/hero.webp"
+  },
+  {
+    "slug": "ai-versus-the-state-who-sets-the-limits",
+    "title": "Red Lines",
+    "date": "2026-06-15",
+    "description": "2018, Google backs down. 2026, Anthropic gets blacklisted. Spoiler: it was never a technical question.",
+    "i18nSlugs": { "fr": "ia-contre-etat-qui-fixe-les-limites" },
+    "tags": ["AI", "Society"],
+    "image": "assets/images/posts/ia-contre-etat-qui-fixe-les-limites/hero.webp"
   }
 ]
