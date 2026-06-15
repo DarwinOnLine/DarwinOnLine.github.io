@@ -60,7 +60,7 @@
     "description": "Ou pourquoi « je fais des trucs avec des ordinateurs » ne suffit plus comme réponse.",
     "i18nSlugs": { "en": "my-job-explained-to-my-mom" },
     "tags": ["Vulgarisation", "Personnel"],
-    "image": "assets/images/posts/mon-metier-explique-a-ma-mere/hero.webp"
+    "image": "assets/images/posts/mon-metier-explique-a-ma-mere/hero.jpg"
   },
   {
     "slug": "quand-tout-le-monde-sait-faire-ton-metier",
@@ -78,7 +78,7 @@
     "description": "Ne pas confondre le métier et son théâtre.",
     "i18nSlugs": { "en": "the-comedy-of-mastery" },
     "tags": ["Carrière", "Société", "Réflexions"],
-    "image": "assets/images/posts/la-comedie-de-la-maitrise/hero.webp"
+    "image": "assets/images/posts/la-comedie-de-la-maitrise/hero.jpg"
   },
   {
     "slug": "dry-kiss-yagni-trois-acronymes-trois-pieges",
@@ -87,7 +87,7 @@
     "description": "Trois maximes qu'on récite. Trois pièges qu'on confond. Comment elles s'éclairent l'une l'autre.",
     "i18nSlugs": { "en": "dry-kiss-yagni-three-acronyms-three-traps" },
     "tags": ["Craft", "Vulgarisation"],
-    "image": "assets/images/posts/dry-kiss-yagni-trois-acronymes-trois-pieges/hero.webp"
+    "image": "assets/images/posts/dry-kiss-yagni-trois-acronymes-trois-pieges/hero.jpg"
   },
   {
     "slug": "solid-autopsie-d-un-boys-band",
@@ -96,7 +96,7 @@
     "description": "SOLID, le boys band de la POO : cinq lettres qu'on récite, cinq principes qu'on confond. Ce qui a vieilli, et ce qu'il y a vraiment sous les paillettes.",
     "i18nSlugs": { "en": "solid-autopsy-of-a-boy-band" },
     "tags": ["Craft", "Vulgarisation"],
-    "image": "assets/images/posts/solid-autopsie-d-un-boys-band/hero.webp"
+    "image": "assets/images/posts/solid-autopsie-d-un-boys-band/hero.jpg"
   },
   {
     "slug": "ia-contre-etat-qui-fixe-les-limites",
@@ -105,6 +105,6 @@
     "description": "2018 Google se dégonfle, 2026 Anthropic se fait blacklister. Spoiler : ça n'a jamais été une question technique.",
     "i18nSlugs": { "en": "ai-versus-the-state-who-sets-the-limits" },
     "tags": ["IA", "Société"],
-    "image": "assets/images/posts/ia-contre-etat-qui-fixe-les-limites/hero.webp"
+    "image": "assets/images/posts/ia-contre-etat-qui-fixe-les-limites/hero.jpg"
   }
 ]

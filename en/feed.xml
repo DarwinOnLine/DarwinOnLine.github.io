@@ -5,7 +5,7 @@
     <link>https://darwinonline.github.io/en</link>
     <description>Darwin&apos;s personal blog - Development, Tech and Thoughts</description>
     <language>en</language>
-    <lastBuildDate>Mon, 15 Jun 2026 16:16:26 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 15 Jun 2026 16:23:33 GMT</lastBuildDate>
     <atom:link href="https://darwinonline.github.io/en/feed.xml" rel="self" type="application/rss+xml" />
     <image>
       <url>https://darwinonline.github.io/assets/images/default-og.png</url>
@@ -20,7 +20,7 @@
       <description>2018, Google backs down. 2026, Anthropic gets blacklisted. Spoiler: it was never a technical question.</description>
       <category>AI</category>
       <category>Society</category>
-      <enclosure url="https://darwinonline.github.io/assets/images/posts/ia-contre-etat-qui-fixe-les-limites/hero.webp" type="image/webp" length="0" />
+      <enclosure url="https://darwinonline.github.io/assets/images/posts/ia-contre-etat-qui-fixe-les-limites/hero.jpg" type="image/jpeg" length="0" />
     </item>
     <item>
       <title>SOLID: autopsy of a boy band</title>
@@ -30,7 +30,7 @@
       <description>SOLID, the boy band of OOP: five letters we recite, five principles we mix up. What has aged, and what&apos;s really under the glitter.</description>
       <category>Craft</category>
       <category>Explainers</category>
-      <enclosure url="https://darwinonline.github.io/assets/images/posts/solid-autopsie-d-un-boys-band/hero.webp" type="image/webp" length="0" />
+      <enclosure url="https://darwinonline.github.io/assets/images/posts/solid-autopsie-d-un-boys-band/hero.jpg" type="image/jpeg" length="0" />
     </item>
     <item>
       <title>DRY, KISS, YAGNI: three acronyms, three traps</title>
@@ -40,7 +40,7 @@
       <description>Three maxims we recite. Three traps we mix up. How they shed light on one another.</description>
       <category>Craft</category>
       <category>Explainers</category>
-      <enclosure url="https://darwinonline.github.io/assets/images/posts/dry-kiss-yagni-trois-acronymes-trois-pieges/hero.webp" type="image/webp" length="0" />
+      <enclosure url="https://darwinonline.github.io/assets/images/posts/dry-kiss-yagni-trois-acronymes-trois-pieges/hero.jpg" type="image/jpeg" length="0" />
     </item>
     <item>
       <title>The comedy of mastery</title>
@@ -51,7 +51,7 @@
       <category>Career</category>
       <category>Society</category>
       <category>Reflections</category>
-      <enclosure url="https://darwinonline.github.io/assets/images/posts/la-comedie-de-la-maitrise/hero.webp" type="image/webp" length="0" />
+      <enclosure url="https://darwinonline.github.io/assets/images/posts/la-comedie-de-la-maitrise/hero.jpg" type="image/jpeg" length="0" />
     </item>
     <item>
       <title>When everyone thinks they can do your job</title>
@@ -72,7 +72,7 @@
       <description>Or why &quot;I do stuff with computers&quot; doesn&apos;t cut it anymore.</description>
       <category>Explainers</category>
       <category>Personal</category>
-      <enclosure url="https://darwinonline.github.io/assets/images/posts/mon-metier-explique-a-ma-mere/hero.webp" type="image/webp" length="0" />
+      <enclosure url="https://darwinonline.github.io/assets/images/posts/mon-metier-explique-a-ma-mere/hero.jpg" type="image/jpeg" length="0" />
     </item>
     <item>
       <title>The real cost of AI: when the bill comes due</title>

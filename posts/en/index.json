@@ -60,7 +60,7 @@
     "description": "Or why \"I do stuff with computers\" doesn't cut it anymore.",
     "i18nSlugs": { "fr": "mon-metier-explique-a-ma-mere" },
     "tags": ["Explainers", "Personal"],
-    "image": "assets/images/posts/mon-metier-explique-a-ma-mere/hero.webp"
+    "image": "assets/images/posts/mon-metier-explique-a-ma-mere/hero.jpg"
   },
   {
     "slug": "when-everyone-thinks-they-can-do-your-job",
@@ -78,7 +78,7 @@
     "description": "Don't mistake the craft for its theatre.",
     "i18nSlugs": { "fr": "la-comedie-de-la-maitrise" },
     "tags": ["Career", "Society", "Reflections"],
-    "image": "assets/images/posts/la-comedie-de-la-maitrise/hero.webp"
+    "image": "assets/images/posts/la-comedie-de-la-maitrise/hero.jpg"
   },
   {
     "slug": "dry-kiss-yagni-three-acronyms-three-traps",
@@ -87,7 +87,7 @@
     "description": "Three maxims we recite. Three traps we mix up. How they shed light on one another.",
     "i18nSlugs": { "fr": "dry-kiss-yagni-trois-acronymes-trois-pieges" },
     "tags": ["Craft", "Explainers"],
-    "image": "assets/images/posts/dry-kiss-yagni-trois-acronymes-trois-pieges/hero.webp"
+    "image": "assets/images/posts/dry-kiss-yagni-trois-acronymes-trois-pieges/hero.jpg"
   },
   {
     "slug": "solid-autopsy-of-a-boy-band",
@@ -96,7 +96,7 @@
     "description": "SOLID, the boy band of OOP: five letters we recite, five principles we mix up. What has aged, and what's really under the glitter.",
     "i18nSlugs": { "fr": "solid-autopsie-d-un-boys-band" },
     "tags": ["Craft", "Explainers"],
-    "image": "assets/images/posts/solid-autopsie-d-un-boys-band/hero.webp"
+    "image": "assets/images/posts/solid-autopsie-d-un-boys-band/hero.jpg"
   },
   {
     "slug": "ai-versus-the-state-who-sets-the-limits",
@@ -105,6 +105,6 @@
     "description": "2018, Google backs down. 2026, Anthropic gets blacklisted. Spoiler: it was never a technical question.",
     "i18nSlugs": { "fr": "ia-contre-etat-qui-fixe-les-limites" },
     "tags": ["AI", "Society"],
-    "image": "assets/images/posts/ia-contre-etat-qui-fixe-les-limites/hero.webp"
+    "image": "assets/images/posts/ia-contre-etat-qui-fixe-les-limites/hero.jpg"
   }
 ]
