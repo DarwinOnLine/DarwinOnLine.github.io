@@ -13,6 +13,9 @@
         toc: true,
         search: true,
         themeToggle: true,
+        // Featured post spans 2 grid cells, so keep an odd count per page
+        // to avoid a lone card on the last row.
+        postsPerPage: 9,
         pages: {
             cv: {
                 meta: {
