@@ -40,7 +40,8 @@
 
 Fifteen years of web development, including eight designing and running SaaS products end to end
 (architecture, back, front, infra, client relationship), with generative AI in production: autonomous
-agents, multi-model pipelines, daily AI tooling (Claude Code).
+agents, multi-model pipelines, custom AI tooling (Claude Code skills, rules, workflows) and advisory on
+usage (cloud vs local/sovereign AI, Ollama).
 
 ## Experience
 
@@ -51,6 +52,8 @@ agents, multi-model pipelines, daily AI tooling (Claude Code).
 - Architecture, back/front development, Docker infrastructure, CI/CD, project management and client relationship
 - Grew into a senior role: technical mentoring and upskilling of the team
 - Technology watch: stack choices, introduction of generative AI and agents into the products
+- Custom AI tooling (Claude Code skills, rules, workflows) and internal team enablement
+- Advised a client (IPA Software) toward a fully local AI: dedicated machine, open-weight model selection
 
 ### Technical designer · Modis <span class="cv-period">November 2011 - February 2018</span>
 
@@ -87,7 +90,8 @@ agents, multi-model pipelines, daily AI tooling (Claude Code).
   <span class="cv-chip">CI/CD</span>
   <span class="cv-chip"><img src="https://cdn.simpleicons.org/linux/FCC624" alt="" loading="lazy" onerror="this.remove()" />Unix / Linux</span>
   <span class="cv-chip">OpenAI Agents SDK</span>
-  <span class="cv-chip"><img src="https://cdn.simpleicons.org/claude/D97757" alt="" loading="lazy" onerror="this.remove()" />Claude Code</span>
+  <span class="cv-chip"><img src="https://cdn.simpleicons.org/claude/D97757" alt="" loading="lazy" onerror="this.remove()" />Claude Code (skills, rules, MCP)</span>
+  <span class="cv-chip"><img src="https://cdn.simpleicons.org/ollama/888888" alt="" loading="lazy" onerror="this.remove()" />Local AI (Ollama)</span>
   <span class="cv-chip">Agile</span>
 </p>
 
