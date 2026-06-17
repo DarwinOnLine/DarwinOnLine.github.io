@@ -1,9 +1,15 @@
 <style>
 @media print {
-  /* Zero page margin removes the browser's printed headers and footers;
-     real margins are re-created with padding */
-  @page { margin: 0; }
-  .static-page { padding: 1.1cm 1.4cm !important; }
+  /* Real @page margins give clean top/bottom spacing on every page, including
+     the intermediate ones of this multi-page document. The browser's auto
+     header/footer then depends on the print dialog's "Headers and footers"
+     toggle (uncheck once, Chrome remembers; headless print-to-pdf never adds them). */
+  @page { margin: 1.1cm 1.4cm; }
+  .static-page { padding: 0 !important; }
+  /* Trailing <script> (display:none) is the last child; trim the real last
+     visible block too so nothing overflows onto an empty extra page. */
+  .page-content > :last-child,
+  .page-content > :nth-last-child(2) { margin-bottom: 0 !important; }
 }
 </style>
 

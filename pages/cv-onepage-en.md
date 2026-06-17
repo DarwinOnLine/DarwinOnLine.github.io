@@ -3,8 +3,11 @@
   /* Zero page margin removes the browser's printed headers and footers;
      real margins are re-created with padding (single-page document only) */
   @page { margin: 0; }
-  .static-page { padding: 1.1cm 1.4cm !important; }
-  .page-cv-onepage .page-content > :last-child { margin-bottom: 0 !important; }
+  .static-page { padding: 1.1cm 1.4cm 0 !important; }
+  /* The last child is the injected <script> (display:none); the real last
+     visible block sits just before it. Trim both to avoid a blank trailing page. */
+  .page-content > :last-child,
+  .page-content > :nth-last-child(2) { margin-bottom: 0 !important; }
 }
 </style>
 
