@@ -218,6 +218,14 @@ p.cv-title {
     color: var(--qd-accent);
     font-weight: 700;
     font-size: 1.15rem;
+    margin-bottom: 0.3rem;
+}
+
+p.cv-subtitle {
+    color: var(--qd-text);
+    font-weight: 500;
+    font-size: 0.95rem;
+    opacity: 0.85;
     margin-bottom: 0.6rem;
 }
 
@@ -769,6 +777,11 @@ p.cv-chips {
 
     .page-cv-onepage p.cv-title {
         font-size: 11pt;
+        margin-bottom: 0.15rem;
+    }
+
+    .page-cv-onepage p.cv-subtitle {
+        font-size: 8.5pt;
         margin-bottom: 0.25rem;
     }
 
@@ -787,22 +800,27 @@ p.cv-chips {
 
     .page-cv-onepage .page-content h2 {
         font-size: 11pt;
-        margin: 0.7rem 0 0.3rem;
+        margin: 0.5rem 0 0.25rem;
     }
 
     .page-cv-onepage .page-content h3 {
         font-size: 10pt;
-        margin: 0.45rem 0 0.1rem;
+        margin: 0.4rem 0 0.1rem;
     }
 
     .page-cv-onepage .page-content p {
         font-size: 8.5pt;
-        margin: 0.25rem 0;
+        margin: 0.2rem 0;
+    }
+
+    .page-cv-onepage .page-content ul {
+        margin: 0.2rem 0 0.35rem;
     }
 
     .page-cv-onepage .page-content li {
         font-size: 8.5pt;
         margin: 0.05rem 0;
+        line-height: 1.3;
     }
 
     .page-cv-onepage .cv-period {

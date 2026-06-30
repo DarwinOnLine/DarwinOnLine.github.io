@@ -16,6 +16,7 @@
   <div class="cv-identity">
     <h1>Matthieu Poignant</h1>
     <p class="cv-title">Senior Full Stack Developer · SaaS &amp; AI Agents</p>
+    <p class="cv-subtitle">From writing code to orchestrating AI · advisory &amp; enablement</p>
     <p class="cv-availability">Open to opportunities</p>
     <p class="cv-location"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> Clermont-Ferrand, France</p>
   </div>
@@ -41,21 +42,21 @@
   <a class="cv-onepage-link" href="/en/cv">Full resume</a>
 </p>
 
-Fifteen years of web development, including eight designing and running SaaS products end to end
-(architecture, back, front, infra, client relationship), with generative AI in production: autonomous
-agents, multi-model pipelines, custom AI tooling (Claude Code skills, rules, workflows) and advisory on
-usage (cloud vs local/sovereign AI, Ollama).
+Fifteen years of web development, including eight delivering SaaS products end to end (architecture, back,
+front, infra, client relationship). Today, my value lies less in typing code than in judgment: I design and
+steer an AI that produces, and I own the quality of what it ships. Generative AI in production, custom
+tooling (Claude Code skills, rules, workflows) and advisory on usage (cloud vs local/sovereign AI, Ollama,
+enablement).
 
 ## Experience
 
 ### Senior full stack developer · Highlight <span class="cv-period">February 2018 - July 2026</span>
 
-- Design and delivery of complete SaaS products autonomously, from scoping to production
-- Co-design of an in-house application foundation (CQRS / Event Sourcing) reused across several SaaS products
-- Architecture, back/front development, Docker infrastructure, CI/CD, project management and client relationship
 - Grew into a senior role: technical mentoring and upskilling of the team
-- Technology watch: stack choices, introduction of generative AI and agents into the products
-- Custom AI tooling (Claude Code skills, rules, workflows) and internal team enablement
+- Co-design of an in-house application foundation (CQRS / Event Sourcing) reused across several SaaS products
+- Design and delivery of complete SaaS products autonomously: architecture, back/front development, Docker infrastructure, CI/CD, project management and client relationship
+- Technology watch and stack choices: introduction of generative AI and agents into the products
+- Custom AI tooling (Claude Code skills, rules, workflows) to drive development, and internal team enablement
 - Advised a client (IPA Software) toward a fully local AI: dedicated machine, open-weight model selection
 
 ### Technical designer · Modis <span class="cv-period">November 2011 - February 2018</span>

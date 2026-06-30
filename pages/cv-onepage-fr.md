@@ -16,6 +16,7 @@
   <div class="cv-identity">
     <h1>Matthieu Poignant</h1>
     <p class="cv-title">Développeur Full Stack Senior · SaaS &amp; Agents IA</p>
+    <p class="cv-subtitle">Du code à l'orchestration d'IA · conseil &amp; acculturation</p>
     <p class="cv-availability">À l'écoute d'opportunités</p>
     <p class="cv-location"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> Clermont-Ferrand</p>
   </div>
@@ -41,21 +42,21 @@
   <a class="cv-onepage-link" href="/fr/cv">CV complet</a>
 </p>
 
-Quinze ans de développement web, dont huit à concevoir et faire vivre des SaaS de bout en bout
-(architecture, back, front, infra, relation client), avec l'IA générative en production&nbsp;: agents
-autonomes, pipelines multi-modèles, outillage IA sur-mesure (skills, rules, workflows Claude Code) et
-conseil sur les usages (cloud vs IA locale/souveraine, Ollama).
+Quinze ans de développement web, dont huit à livrer des SaaS de bout en bout (architecture, back, front,
+infra, relation client). Aujourd'hui, ma valeur tient moins à la frappe au clavier qu'au jugement&nbsp;: je
+conçois et j'oriente une IA qui produit, et j'en garantis la qualité. IA générative en production, outillage
+sur-mesure (skills, rules, workflows Claude Code) et conseil sur les usages (cloud vs IA locale/souveraine,
+Ollama, acculturation).
 
 ## Expérience
 
 ### Développeur full stack senior · Highlight <span class="cv-period">février 2018 - juillet 2026</span>
 
-- Conception et réalisation de SaaS complets en autonomie, du cadrage à la production
-- Co-conception d'un socle applicatif maison (CQRS / Event Sourcing) réutilisé sur plusieurs SaaS
-- Architecture, dev back/front, infra Docker, CI/CD, gestion de projet et relation client
 - Évolution vers un rôle senior&nbsp;: encadrement technique et montée en compétence de l'équipe
-- Veille technologique&nbsp;: choix de stack, introduction de l'IA générative et des agents dans les produits
-- Outillage IA sur-mesure (skills, rules, workflows Claude Code) et acculturation interne de l'équipe
+- Co-conception d'un socle applicatif maison (CQRS / Event Sourcing) réutilisé sur plusieurs SaaS
+- Conception et réalisation de SaaS complets en autonomie&nbsp;: architecture, dev back/front, infra Docker, CI/CD, gestion de projet et relation client
+- Veille technologique et choix de stack&nbsp;: introduction de l'IA générative et des agents dans les produits
+- Outillage IA sur-mesure (skills, rules, workflows Claude Code) pour piloter le développement, et acculturation interne de l'équipe
 - Conseil d'un client (IPA Software) vers une IA 100&nbsp;% locale&nbsp;: machine dédiée, choix de modèles open-weight
 
 ### Concepteur technique · Modis <span class="cv-period">novembre 2011 - février 2018</span>

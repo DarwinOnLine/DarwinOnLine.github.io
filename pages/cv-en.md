@@ -18,6 +18,7 @@
   <div class="cv-identity">
     <h1>Matthieu Poignant</h1>
     <p class="cv-title">Senior Full Stack Developer · SaaS &amp; AI Agents</p>
+    <p class="cv-subtitle">From writing code to orchestrating AI · advisory &amp; enablement</p>
     <p class="cv-availability">Open to opportunities</p>
     <p class="cv-location"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> Clermont-Ferrand, France</p>
   </div>
@@ -43,12 +44,14 @@
   <a class="cv-onepage-link" href="/en/cv-onepage">One-page version</a>
 </p>
 
-Fifteen years of web development, including eight spent designing, building and running SaaS products
-end to end: architecture, backend, frontend, infrastructure, client relationship. In recent years, I have
-brought generative AI to production: autonomous agents with tool-calling, multi-model pipelines, prompt
-and cost management. Beyond integration, I design my own agent tooling (Claude Code skills, rules and
-workflows) that I use daily, and I advise teams on their AI usage: trade-offs between cloud and
-local/sovereign AI (Ollama), upskilling.
+Fifteen years of web development, including eight spent designing and delivering SaaS products end to end
+(architecture, backend, frontend, infrastructure, client relationship). Today, my value lies less in typing
+code than in judgment: I design, I steer an AI that produces, and I own the quality of what it ships.
+Generative AI in production (autonomous agents with tool-calling, multi-model pipelines, prompt and cost
+management), custom agent tooling I use daily (Claude Code skills, rules and workflows), and advisory for
+teams and clients on their AI usage: trade-offs between cloud and local/sovereign AI (Ollama), enablement,
+upskilling. It is precisely those fifteen years of architecture that let me judge what the AI produces, and
+spot when it gets it wrong.
 
 ## Experience
 
@@ -57,15 +60,14 @@ local/sovereign AI (Ollama), upskilling.
 [SaaS software company based in Clermont-Ferrand](https://highlight.pro/) (Storytodoc product and custom
 business applications), also supporting companies in growing their business and adopting AI.
 
-- Design and delivery of complete SaaS products autonomously, from scoping to production
-- Co-design of the architecture of an in-house application foundation reused across several products: data model, multi-environment handling, access-key system, bounded-context isolation for projection partitioning (CQRS / Event Sourcing)
-- Multi-hat profile within a small team: architecture, back/front development, Docker infrastructure, CI/CD
 - Grew into a senior role: technical mentoring, support and upskilling of the development team
-- Day-to-day project management and client relationship
-- Technology watch for the company: stack choices, introduction of generative AI and agents into the products
-- In-house AI tooling design (Claude Code skills, rules and workflows) and team enablement: establishing practices, trade-offs between cloud and local/sovereign AI (Ollama)
+- Co-design of the architecture of an in-house application foundation reused across several products: data model, multi-environment handling, access-key system, bounded-context isolation for projection partitioning (CQRS / Event Sourcing)
+- Design and delivery of complete SaaS products autonomously, from scoping to production: architecture, back/front development, Docker infrastructure, CI/CD
+- Technology watch and stack choices for the company: introduction of generative AI and agents into the products
+- In-house AI tooling design (Claude Code skills, rules and workflows) to drive day-to-day development, and team enablement: establishing practices, trade-offs between cloud and local/sovereign AI (Ollama)
 - Advised a client (IPA Software, sports performance and athlete health monitoring) toward a fully local AI: no frontier models, guidance on purchasing a dedicated machine and selecting open-weight models
 - Design of an in-house framework for testing and evaluating AI services (LLM-as-judge, multi-provider), integrated into the products
+- Day-to-day project management and client relationship
 
 All the projects detailed in the next section were carried out in this role.
 
@@ -276,7 +278,7 @@ the relevance of outputs against natural-language criteria. Integrated into Dég
 </p>
 </div>
 <div class="cv-skill-group">
-<h3>AI, agents &amp; tooling</h3>
+<h3>AI orchestration &amp; advisory</h3>
 <p class="cv-chips">
   <span class="cv-chip"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 8V4H8"/><rect width="16" height="12" x="4" y="8" rx="2"/><path d="M2 14h2"/><path d="M20 14h2"/><path d="M15 13v2"/><path d="M9 13v2"/></svg>OpenAI Agents SDK</span>
   <span class="cv-chip"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>Tool-calling · SSE streaming</span>

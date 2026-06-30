@@ -18,6 +18,7 @@
   <div class="cv-identity">
     <h1>Matthieu Poignant</h1>
     <p class="cv-title">Développeur Full Stack Senior · SaaS &amp; Agents IA</p>
+    <p class="cv-subtitle">Du code à l'orchestration d'IA · conseil &amp; acculturation</p>
     <p class="cv-availability">À l'écoute d'opportunités</p>
     <p class="cv-location"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> Clermont-Ferrand</p>
   </div>
@@ -43,12 +44,14 @@
   <a class="cv-onepage-link" href="/fr/cv-onepage">Version 1 page</a>
 </p>
 
-Quinze ans de développement web, dont huit à concevoir, construire et faire vivre des SaaS de bout en bout&nbsp;:
-architecture, backend, frontend, infrastructure, relation client. Ces dernières années, j'ai mis l'IA générative
-en production&nbsp;: agents autonomes avec tool-calling, pipelines multi-modèles, maîtrise des prompts et des coûts.
-Au-delà de l'intégration, je conçois mon propre outillage d'agent (skills, rules et workflows Claude Code) que
-j'utilise au quotidien, et j'accompagne les équipes sur leurs usages IA&nbsp;: arbitrage entre cloud et IA
-locale/souveraine (Ollama), montée en compétence.
+Quinze ans de développement web, dont huit à concevoir et livrer des SaaS de bout en bout (architecture,
+backend, frontend, infrastructure, relation client). Aujourd'hui, ma valeur ne tient plus à la frappe au
+clavier mais au jugement&nbsp;: je conçois, j'oriente une IA qui produit, et je garantis la qualité de ce
+qu'elle sort. IA générative en production (agents autonomes avec tool-calling, pipelines multi-modèles,
+maîtrise des prompts et des coûts), outillage d'agent sur-mesure que j'utilise au quotidien (skills, rules
+et workflows Claude Code), et accompagnement des équipes et clients sur leurs usages&nbsp;: arbitrage entre
+IA cloud et locale/souveraine (Ollama), acculturation, montée en compétence. Ce sont précisément ces quinze
+ans d'architecture qui me permettent de juger ce que l'IA génère, et de repérer quand elle se trompe.
 
 ## Expérience
 
@@ -58,15 +61,14 @@ locale/souveraine (Ollama), montée en compétence.
 sur mesure), qui accompagne aussi les entreprises dans le développement de leur activité et leur
 acculturation à l'IA.
 
-- Conception et réalisation de SaaS complets en autonomie, du cadrage à la production
-- Co-conception de l'architecture d'un socle applicatif maison réutilisé sur plusieurs produits&nbsp;: modèle de données, multi-environnements, système d'access keys, isolation des bounded contexts pour le cloisonnement des projections (CQRS / Event Sourcing)
-- Profil multicasquettes au sein d'une équipe réduite&nbsp;: architecture, dev back/front, infra Docker, CI/CD
 - Évolution vers un rôle senior&nbsp;: encadrement technique de l'équipe, accompagnement et montée en compétence des développeurs
-- Gestion de projet et relation client au quotidien
-- Veille technologique pour la société&nbsp;: choix de stack, introduction de l'IA générative et des agents dans les produits
-- Conception d'outillage IA sur-mesure (skills, rules et workflows Claude Code) et acculturation de l'équipe&nbsp;: mise en place des pratiques, arbitrage entre IA cloud et locale/souveraine (Ollama)
-- Accompagnement d'un client (IPA Software, performance sportive et suivi médical des athlètes) vers une IA 100&nbsp;% locale&nbsp;: refus assumé des modèles frontier, conseil à l'achat d'une machine dédiée et au choix des modèles open-weight
+- Co-conception de l'architecture d'un socle applicatif maison réutilisé sur plusieurs produits&nbsp;: modèle de données, multi-environnements, système d'access keys, isolation des bounded contexts pour le cloisonnement des projections (CQRS / Event Sourcing)
+- Conception et réalisation de SaaS complets en autonomie, du cadrage à la production&nbsp;: architecture, dev back/front, infra Docker, CI/CD
+- Veille technologique et choix de stack pour la société&nbsp;: introduction de l'IA générative et des agents dans les produits
+- Conception d'outillage IA sur-mesure (skills, rules et workflows Claude Code) pour piloter le développement au quotidien, et acculturation de l'équipe&nbsp;: mise en place des pratiques, arbitrage entre IA cloud et locale/souveraine (Ollama)
+- Conseil d'un client (IPA Software, performance sportive et suivi médical des athlètes) vers une IA 100&nbsp;% locale&nbsp;: refus assumé des modèles frontier, conseil à l'achat d'une machine dédiée et au choix des modèles open-weight
 - Conception d'un framework interne de test et d'évaluation de services IA (LLM-as-judge, multi-provider), intégré aux produits
+- Gestion de projet et relation client au quotidien
 
 Les projets détaillés dans la section suivante ont tous été réalisés dans ce cadre.
 
@@ -277,7 +279,7 @@ il note la pertinence des sorties selon des critères en langage naturel. Intég
 </p>
 </div>
 <div class="cv-skill-group">
-<h3>IA, agents &amp; outillage</h3>
+<h3>Orchestration &amp; conseil IA</h3>
 <p class="cv-chips">
   <span class="cv-chip"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 8V4H8"/><rect width="16" height="12" x="4" y="8" rx="2"/><path d="M2 14h2"/><path d="M20 14h2"/><path d="M15 13v2"/><path d="M9 13v2"/></svg>OpenAI Agents SDK</span>
   <span class="cv-chip"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>Tool-calling · streaming SSE</span>
