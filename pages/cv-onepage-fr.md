@@ -15,7 +15,7 @@
   <img class="cv-photo" src="assets/images/cv/photo.webp" alt="Matthieu Poignant" width="512" height="512" />
   <div class="cv-identity">
     <h1>Matthieu Poignant</h1>
-    <p class="cv-title">Développeur Full Stack Senior · SaaS &amp; Agents IA</p>
+    <p class="cv-title">Développeur Senior IA &amp; Architecte des Fondations Techniques</p>
     <p class="cv-subtitle">Du code à l'orchestration d'IA · conseil &amp; acculturation</p>
     <p class="cv-availability status-employed">En poste actuellement</p>
     <p class="cv-location"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> Clermont-Ferrand</p>
@@ -49,6 +49,10 @@ sur-mesure (skills, rules, workflows Claude Code) et conseil sur les usages (clo
 Ollama, acculturation).
 
 ## Expérience
+
+### Développeur Senior IA & Architecte des Fondations Techniques · Behigh <span class="cv-period">depuis août 2026</span>
+
+- Travaille sur leur SaaS ([saas.behigh.fr](https://saas.behigh.fr))
 
 ### Développeur full stack senior · Highlight <span class="cv-period">février 2018 - juillet 2026</span>
 

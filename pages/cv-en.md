@@ -17,7 +17,7 @@
   <img class="cv-photo" src="assets/images/cv/photo.webp" alt="Matthieu Poignant" width="512" height="512" />
   <div class="cv-identity">
     <h1>Matthieu Poignant</h1>
-    <p class="cv-title">Senior Full Stack Developer · SaaS &amp; AI Agents</p>
+    <p class="cv-title">Senior AI Developer &amp; Technical Foundations Architect</p>
     <p class="cv-subtitle">From writing code to orchestrating AI · advisory &amp; enablement</p>
     <p class="cv-availability status-employed">Currently employed</p>
     <p class="cv-location"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> Clermont-Ferrand, France</p>
@@ -54,6 +54,10 @@ upskilling. It is precisely those fifteen years of architecture that let me judg
 spot when it gets it wrong.
 
 ## Experience
+
+### Senior AI Developer & Technical Foundations Architect · Behigh <span class="cv-period">since August 2026</span>
+
+Working on their SaaS ([saas.behigh.fr](https://saas.behigh.fr)).
 
 ### Senior full stack developer · Highlight <span class="cv-period">February 2018 - July 2026</span>
 
