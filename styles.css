@@ -230,22 +230,49 @@ p.cv-subtitle {
 }
 
 p.cv-availability {
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
     font-size: 0.8em;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 1.2px;
-    color: #2ecc71;
-    border: 1px solid #2ecc71;
+    border: 1px solid currentColor;
     border-radius: 999px;
     padding: 0.1rem 0.7rem;
     margin-bottom: 0.6rem;
 }
 
 p.cv-availability::before {
-    content: '●';
+    content: '';
+    flex-shrink: 0;
+    width: 0.5em;
+    height: 0.5em;
     margin-right: 0.5rem;
+    border-radius: 50%;
+    background: currentColor;
+}
+
+p.cv-availability.status-open {
+    color: #2ecc71;
+}
+
+p.cv-availability.status-open::before {
     animation: blink 2s step-end infinite;
+}
+
+p.cv-availability.status-employed {
+    color: #3b82f6;
+}
+
+p.cv-availability.status-employed::before {
+    box-shadow: 0 0 0 0 rgba(59, 130, 246, 0.6);
+    animation: pulse-ring 2s ease-out infinite;
+}
+
+@keyframes pulse-ring {
+    0% { box-shadow: 0 0 0 0 rgba(59, 130, 246, 0.6); }
+    70% { box-shadow: 0 0 0 6px rgba(59, 130, 246, 0); }
+    100% { box-shadow: 0 0 0 0 rgba(59, 130, 246, 0); }
 }
 
 p.cv-location {
@@ -433,9 +460,12 @@ p.cv-chips {
     background-image: linear-gradient(#f5f5f5, #f5f5f5), linear-gradient(135deg, #ff3333, #ff6600, #cc33ff, #3366ff, #ff3333);
 }
 
-:root[data-theme="light"] .cv-availability {
+:root[data-theme="light"] .cv-availability.status-open {
     color: #1e8e4e;
-    border-color: #1e8e4e;
+}
+
+:root[data-theme="light"] .cv-availability.status-employed {
+    color: #1d5fc4;
 }
 
 :root[data-theme="light"] .cv-project summary:hover {
@@ -559,8 +589,7 @@ p.cv-chips {
     }
 
     p.cv-availability {
-        color: #1e8e4e;
-        border: 0.5pt solid #1e8e4e;
+        border: 0.5pt solid currentColor;
         border-radius: 0;
         font-size: 7pt;
         letter-spacing: 1px;
@@ -568,8 +597,17 @@ p.cv-chips {
         margin-bottom: 0.4rem;
     }
 
+    p.cv-availability.status-open {
+        color: #1e8e4e;
+    }
+
+    p.cv-availability.status-employed {
+        color: #1d5fc4;
+    }
+
     p.cv-availability::before {
         animation: none;
+        box-shadow: none;
     }
 
     p.cv-location {
