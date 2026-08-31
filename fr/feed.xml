@@ -5,23 +5,13 @@
     <link>https://darwinonline.github.io/fr</link>
     <description>Blog personnel de Darwin - Développement, Tech et Réflexions</description>
     <language>fr</language>
-    <lastBuildDate>Tue, 18 Aug 2026 07:30:17 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 31 Aug 2026 14:37:20 GMT</lastBuildDate>
     <atom:link href="https://darwinonline.github.io/fr/feed.xml" rel="self" type="application/rss+xml" />
     <image>
       <url>https://darwinonline.github.io/assets/images/default-og.png</url>
       <title>Darwin On Line (FR)</title>
       <link>https://darwinonline.github.io/fr</link>
     </image>
-    <item>
-      <title>Les 3 lois de la productivité en développement</title>
-      <link>https://darwinonline.github.io/fr/blog/les-3-lois-de-la-productivite-en-developpement</link>
-      <guid isPermaLink="true">https://darwinonline.github.io/fr/blog/les-3-lois-de-la-productivite-en-developpement</guid>
-      <pubDate>Mon, 13 Jul 2026 12:00:00 GMT</pubDate>
-      <description>2018 Google se dégonfle, 2026 Anthropic se fait blacklister. Spoiler : ça n&apos;a jamais été une question technique.</description>
-      <category>Craft</category>
-      <category>Vulgarisation</category>
-      <enclosure url="https://darwinonline.github.io/assets/images/posts/ia-contre-etat-qui-fixe-les-limites/hero.jpg" type="image/jpeg" length="0" />
-    </item>
     <item>
       <title>Lignes rouges</title>
       <link>https://darwinonline.github.io/fr/blog/ia-contre-etat-qui-fixe-les-limites</link>
